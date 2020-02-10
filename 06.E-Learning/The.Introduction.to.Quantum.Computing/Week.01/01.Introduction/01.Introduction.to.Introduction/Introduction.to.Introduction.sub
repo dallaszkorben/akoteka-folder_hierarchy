@@ -1,0 +1,533 @@
+WEBVTT
+
+1
+00:00:12.380 --> 00:00:14.865
+Greetings everyone.
+
+2
+00:00:14.865 --> 00:00:16.575
+Welcome to the course,
+
+3
+00:00:16.575 --> 00:00:19.350
+The Introduction to
+Quantum Computing prepared for
+
+4
+00:00:19.350 --> 00:00:22.605
+you by the Saint Petersburg
+State University.
+
+5
+00:00:22.605 --> 00:00:25.545
+My name is Sergey Sysoev and
+
+6
+00:00:25.545 --> 00:00:28.905
+I want to teach all the
+modulus of this course.
+
+7
+00:00:28.905 --> 00:00:31.920
+So, prepare yourself
+to see and hear me
+
+8
+00:00:31.920 --> 00:00:35.825
+often during the
+following five weeks.
+
+9
+00:00:35.825 --> 00:00:37.400
+On this slide, you can see
+
+10
+00:00:37.400 --> 00:00:42.815
+the weeks plan which I call the
+introduction to introduction.
+
+11
+00:00:42.815 --> 00:00:44.450
+Since the course itself is
+
+12
+00:00:44.450 --> 00:00:46.865
+called The Introduction
+to Quantum Computing,
+
+13
+00:00:46.865 --> 00:00:52.070
+and theme of this modular is
+to introduce this course.
+
+14
+00:00:52.070 --> 00:00:57.775
+Let's do it, and the first question
+is what is this all about?
+
+15
+00:00:57.775 --> 00:00:59.715
+And to answer this question,
+
+16
+00:00:59.715 --> 00:01:03.150
+I'm going to answer
+first another question.
+
+17
+00:01:03.150 --> 00:01:08.510
+A negative one. I'm going to tell
+you not what this course is,
+
+18
+00:01:08.510 --> 00:01:10.770
+but what it is not.
+
+19
+00:01:10.970 --> 00:01:17.345
+So, first it is not a course on
+quantum mechanics. Not at all.
+
+20
+00:01:17.345 --> 00:01:20.390
+All the course material is based
+
+21
+00:01:20.390 --> 00:01:24.610
+on the mathematical model
+of quantum computing.
+
+22
+00:01:24.610 --> 00:01:27.980
+So, even the basic knowledge
+in quantum mechanics
+
+23
+00:01:27.980 --> 00:01:32.310
+is not necessary to understand
+the course material.
+
+24
+00:01:32.470 --> 00:01:37.000
+Second, it is not
+the software engineering course.
+
+25
+00:01:37.000 --> 00:01:40.050
+The word computing may mislead you.
+
+26
+00:01:40.050 --> 00:01:41.595
+So, here's your warning.
+
+27
+00:01:41.595 --> 00:01:45.000
+We are not going to learn
+computer languages,
+
+28
+00:01:45.000 --> 00:01:47.990
+programming languages,
+data structures et cetera.
+
+29
+00:01:47.990 --> 00:01:50.755
+Yes, we are going to
+design some algorithms.
+
+30
+00:01:50.755 --> 00:01:55.880
+But this course will not
+
+31
+00:01:55.880 --> 00:01:59.420
+probably improve
+your programming skills
+
+32
+00:01:59.420 --> 00:02:01.190
+in the way you might expect.
+
+33
+00:02:01.190 --> 00:02:03.680
+Now, when we know what
+
+34
+00:02:03.680 --> 00:02:07.080
+we're not going to know,
+let's see what's left.
+
+35
+00:02:07.080 --> 00:02:10.505
+First, we are going to learn
+
+36
+00:02:10.505 --> 00:02:13.905
+the mathematical model
+of quantum computing,
+
+37
+00:02:13.905 --> 00:02:21.155
+introduced by the quantum
+computing pioneer David Deutsch.
+
+38
+00:02:21.155 --> 00:02:23.765
+This model is a very powerful tool
+
+39
+00:02:23.765 --> 00:02:26.300
+for us because it
+allows us not to dig
+
+40
+00:02:26.300 --> 00:02:31.685
+in the physical nature of quantum
+computing of a quantum computer,
+
+41
+00:02:31.685 --> 00:02:34.519
+and to design quantum algorithms
+
+42
+00:02:34.519 --> 00:02:38.680
+without even understanding
+quantum mechanics.
+
+43
+00:02:39.130 --> 00:02:42.480
+We are going to design
+
+44
+00:02:43.010 --> 00:02:48.985
+this mathematical model
+some quantum algorithms.
+
+45
+00:02:48.985 --> 00:02:52.840
+So, learning objectives are
+
+46
+00:02:52.840 --> 00:02:59.390
+first to understand what these words
+quantum computing even mean.
+
+47
+00:02:59.390 --> 00:03:04.025
+Why there's so much talk
+about them these days?
+
+48
+00:03:04.025 --> 00:03:09.365
+Why exactly quantum computer
+is believed to be so powerful,
+
+49
+00:03:09.365 --> 00:03:14.050
+and is it our future or it's not?
+
+50
+00:03:14.050 --> 00:03:19.970
+I hope to clarify some of
+these things during this first week.
+
+51
+00:03:20.010 --> 00:03:25.105
+Second, we are going to learn
+some quantum algorithms,
+
+52
+00:03:25.105 --> 00:03:27.130
+but not just learn them.
+
+53
+00:03:27.130 --> 00:03:30.760
+We are going to understand
+the principles of their design.
+
+54
+00:03:30.760 --> 00:03:35.155
+So, this is why I write
+here the design skills.
+
+55
+00:03:35.155 --> 00:03:45.125
+The skills of a quantum computer
+programmer and quite briefly,
+
+56
+00:03:45.125 --> 00:03:48.220
+we are going to understand
+that quantum computers are
+
+57
+00:03:48.220 --> 00:03:54.315
+not really the next generation of
+computing in the common sense.
+
+58
+00:03:54.315 --> 00:03:56.415
+They are not going to substitute
+
+59
+00:03:56.415 --> 00:04:00.185
+the classical computers completely
+because there are tasks
+
+60
+00:04:00.185 --> 00:04:04.340
+that for which this quantum computers
+
+61
+00:04:04.340 --> 00:04:08.870
+perform the same as classical ones.
+
+62
+00:04:08.870 --> 00:04:13.295
+The prerequisites for this
+course are linear algebra.
+
+63
+00:04:13.295 --> 00:04:15.410
+You have to understand what it is
+
+64
+00:04:15.410 --> 00:04:18.140
+linear space or some scalar field,
+
+65
+00:04:18.140 --> 00:04:20.720
+what matrices are, what vectors are,
+
+66
+00:04:20.720 --> 00:04:24.030
+how matrix defines an operator,
+
+67
+00:04:24.030 --> 00:04:28.060
+and how to apply
+this operator to a vector,
+
+68
+00:04:28.060 --> 00:04:33.265
+and what other operations
+are there in these spaces.
+
+69
+00:04:33.265 --> 00:04:39.620
+The spaces we are going to discuss
+are field of complex numbers.
+
+70
+00:04:39.620 --> 00:04:42.650
+So they're Hilbert space
+is not Euclidean.
+
+71
+00:04:42.650 --> 00:04:47.405
+So, different notions of
+
+72
+00:04:47.405 --> 00:04:51.785
+slightly different functions of
+an angle and a scalar product.
+
+73
+00:04:51.785 --> 00:04:54.305
+And of course to understand why
+
+74
+00:04:54.305 --> 00:04:58.174
+the quantum computer are more
+powerful than classical,
+
+75
+00:04:58.174 --> 00:05:00.680
+you've got to understand
+what classical computing is,
+
+76
+00:05:00.680 --> 00:05:04.550
+you have to understand
+what is an algorithm
+
+77
+00:05:04.550 --> 00:05:09.200
+and what is the complexity
+of an algorithm et cetera.
+
+78
+00:05:09.200 --> 00:05:13.400
+Learning and understanding is
+impossible without exercises.
+
+79
+00:05:13.400 --> 00:05:17.185
+So, there are going to be
+exercises in this course.
+
+80
+00:05:17.185 --> 00:05:20.150
+We'll often have the
+in-video questions
+
+81
+00:05:20.150 --> 00:05:24.125
+placed there for you to
+reflect on the new material,
+
+82
+00:05:24.125 --> 00:05:27.800
+and the IQ tests which are
+
+83
+00:05:27.800 --> 00:05:31.580
+slightly more complicated
+than this in-video questions.
+
+84
+00:05:31.580 --> 00:05:35.435
+And sometimes they're designed
+not to test your knowledge,
+
+85
+00:05:35.435 --> 00:05:37.355
+but to extended it.
+
+86
+00:05:37.355 --> 00:05:41.420
+And of course, this week
+there is mandatory for
+
+87
+00:05:41.420 --> 00:05:45.330
+obtaining the course certificate
+for those who want to.
+
+88
+00:05:45.330 --> 00:05:49.540
+The course is called The Introduction
+to Quantum Computer which
+
+89
+00:05:49.540 --> 00:05:54.245
+means that there is very
+much more to learn,
+
+90
+00:05:54.245 --> 00:05:58.080
+and here are some places to start.
+
+91
+00:05:58.340 --> 00:06:02.525
+The most extensive course
+on the subject to
+
+92
+00:06:02.525 --> 00:06:05.450
+my knowledge is
+John Preskill's Schools
+
+93
+00:06:05.450 --> 00:06:07.370
+on Quantum Computing available
+
+94
+00:06:07.370 --> 00:06:10.380
+in form of lecture notes on
+
+95
+00:06:10.380 --> 00:06:16.785
+his site of his Internet page
+in Caltech University.
+
+96
+00:06:16.785 --> 00:06:23.515
+Umesh Vazirani once had a course
+on Quantum Computing on Coursera.
+
+97
+00:06:23.515 --> 00:06:26.405
+Unfortunately, I don't
+know what happened to
+
+98
+00:06:26.405 --> 00:06:29.920
+this course but if you
+would be able to find it,
+
+99
+00:06:29.920 --> 00:06:33.275
+consider yourself very
+lucky since the course was
+
+100
+00:06:33.275 --> 00:06:37.040
+very good and there
+are other lectures
+
+101
+00:06:37.040 --> 00:06:38.840
+of Dr Vazirani on
+
+102
+00:06:38.840 --> 00:06:45.335
+the internet and some other topics
+not from this course.
+
+103
+00:06:45.335 --> 00:06:48.440
+And I also would like
+to recommend you
+
+104
+00:06:48.440 --> 00:06:51.785
+some popular science books
+of computer science,
+
+105
+00:06:51.785 --> 00:06:53.600
+be [inaudible] computer science by
+
+106
+00:06:53.600 --> 00:06:59.210
+David Deutch the fabric of reality
+and the beginning of infinity,
+
+107
+00:06:59.210 --> 00:07:03.335
+and I understand that it's quite
+
+108
+00:07:03.335 --> 00:07:06.350
+uncommon to recommend
+the popular science books
+
+109
+00:07:06.350 --> 00:07:07.670
+in courses like this.
+
+110
+00:07:07.670 --> 00:07:10.330
+But still I would like to do it,
+
+111
+00:07:10.330 --> 00:07:13.295
+and I believe that these two books
+
+112
+00:07:13.295 --> 00:07:17.850
+can improve your understanding
+of the subject.
+
+113
+00:07:18.970 --> 00:07:23.585
+And according to this slide,
+
+114
+00:07:23.585 --> 00:07:29.295
+we have just finished the first step.
+
+115
+00:07:29.295 --> 00:07:31.870
+So, let's go further

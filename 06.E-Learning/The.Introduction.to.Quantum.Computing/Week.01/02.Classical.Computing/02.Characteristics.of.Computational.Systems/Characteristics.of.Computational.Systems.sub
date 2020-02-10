@@ -1,0 +1,702 @@
+WEBVTT
+
+1
+00:00:12.440 --> 00:00:14.220
+In the last lecture
+
+2
+00:00:14.220 --> 00:00:19.005
+I told you that the source engine
+was never implemented.
+
+3
+00:00:19.005 --> 00:00:23.460
+Why is that? Why
+our modern computers are
+
+4
+00:00:23.460 --> 00:00:27.975
+not implemented as
+numerous source engines?
+
+5
+00:00:27.975 --> 00:00:34.245
+Why we choose to implement our
+computers in a different way?
+
+6
+00:00:34.245 --> 00:00:36.195
+Here on the table I have
+
+7
+00:00:36.195 --> 00:00:45.105
+two different computational
+systems, this and this.
+
+8
+00:00:45.105 --> 00:00:46.410
+This you can still buy in
+
+9
+00:00:46.410 --> 00:00:50.920
+a general store and this
+is not produced anymore.
+
+10
+00:00:50.920 --> 00:00:56.050
+Why? It can store the same amount or
+
+11
+00:00:56.050 --> 00:00:58.494
+approximately the same
+amount of information
+
+12
+00:00:58.494 --> 00:01:03.025
+and I believe that this
+can store it better.
+
+13
+00:01:03.025 --> 00:01:06.699
+Doesn't need batteries or
+light or anything like this,
+
+14
+00:01:06.699 --> 00:01:09.070
+and you just to keep
+it from children.
+
+15
+00:01:09.070 --> 00:01:16.050
+So, why humanity
+prefers this over this?
+
+16
+00:01:16.050 --> 00:01:21.850
+It appears that computational
+processes are not all the same.
+
+17
+00:01:21.850 --> 00:01:24.580
+They have some characteristics
+
+18
+00:01:24.580 --> 00:01:27.735
+that differ from process to process,
+
+19
+00:01:27.735 --> 00:01:33.960
+and some of these characteristics
+matter more than others.
+
+20
+00:01:34.450 --> 00:01:41.625
+The most important characteristics
+are probably these.
+
+21
+00:01:41.625 --> 00:01:46.325
+First, the information
+capacity of the system.
+
+22
+00:01:46.325 --> 00:01:53.540
+How much states it has and
+how much information it can store.
+
+23
+00:01:53.540 --> 00:01:57.110
+So, the bigger is
+the information capacity,
+
+24
+00:01:57.110 --> 00:02:01.135
+the more significant tasks
+we can solve.
+
+25
+00:02:01.135 --> 00:02:06.830
+Second is speed or the frequency
+of state switching.
+
+26
+00:02:06.830 --> 00:02:09.350
+So, the faster we change the states,
+
+27
+00:02:09.350 --> 00:02:15.285
+the faster we compute and the
+faster we obtain the result.
+
+28
+00:02:15.285 --> 00:02:21.675
+The third but not the last and
+the least is universality.
+
+29
+00:02:21.675 --> 00:02:27.955
+So, which tasks can be solved
+with a computational system?
+
+30
+00:02:27.955 --> 00:02:30.770
+What repertoire does it have?
+
+31
+00:02:30.770 --> 00:02:35.470
+Let's talk about this last one,
+the universality.
+
+32
+00:02:35.470 --> 00:02:40.340
+I understand why I advise you to
+read some popular science books.
+
+33
+00:02:40.340 --> 00:02:43.235
+For example, in the book
+of David Deutsch,
+
+34
+00:02:43.235 --> 00:02:44.930
+The Beginning of Infinity,
+
+35
+00:02:44.930 --> 00:02:48.350
+there was an example of
+a computational device
+
+36
+00:02:48.350 --> 00:02:52.695
+which illustrates
+this notion very well.
+
+37
+00:02:52.695 --> 00:02:57.565
+I mentioned a shepherd which
+doesn't know how to count.
+
+38
+00:02:57.565 --> 00:03:01.340
+The main function of a
+shepherd is to maintain
+
+39
+00:03:01.340 --> 00:03:06.155
+the same amount of sheep in
+the herd during the day.
+
+40
+00:03:06.155 --> 00:03:10.535
+So, he invents very
+particular computing device
+
+41
+00:03:10.535 --> 00:03:13.390
+to maintain this number of sheep.
+
+42
+00:03:13.390 --> 00:03:19.025
+He uses a rope like this one.
+
+43
+00:03:19.025 --> 00:03:25.535
+So, each morning when
+sheep leaves the stall,
+
+44
+00:03:25.535 --> 00:03:29.050
+he unwinds the rope.
+
+45
+00:03:29.050 --> 00:03:32.310
+For example, one piece of
+
+46
+00:03:32.310 --> 00:03:38.205
+rope per sheep equal to
+the length of his hand.
+
+47
+00:03:38.205 --> 00:03:41.025
+So, this is one sheep,
+
+48
+00:03:41.025 --> 00:03:44.625
+this is the second sheep, et cetera.
+
+49
+00:03:44.625 --> 00:03:47.535
+When the sheep return in the evening,
+
+50
+00:03:47.535 --> 00:03:49.800
+he winds it back.
+
+51
+00:03:49.800 --> 00:03:56.910
+So, here he takes the length of
+the rope according to his hand per
+
+52
+00:03:56.910 --> 00:04:06.010
+each sheep and he winds
+up this piece of rope.
+
+53
+00:04:07.790 --> 00:04:12.920
+At the end of this process
+if he has some rope left,
+
+54
+00:04:12.920 --> 00:04:17.735
+he understands that he has to go
+and to search for the lost sheep.
+
+55
+00:04:17.735 --> 00:04:21.415
+Now, the word sheep is
+
+56
+00:04:21.415 --> 00:04:25.145
+very good choice for
+
+57
+00:04:25.145 --> 00:04:30.685
+this example because it
+doesn't have a plural form.
+
+58
+00:04:30.685 --> 00:04:36.030
+So, actually that means that in
+
+59
+00:04:36.030 --> 00:04:41.250
+this case when a shepherd goes for
+his search for the lost sheep,
+
+60
+00:04:41.250 --> 00:04:47.035
+he actually doesn't know
+how many sheep are lost.
+
+61
+00:04:47.035 --> 00:04:50.490
+Maybe one or maybe more.
+
+62
+00:04:50.770 --> 00:04:53.720
+Still this computing device,
+
+63
+00:04:53.720 --> 00:04:58.090
+this computing system
+which contains two parts,
+
+64
+00:04:58.090 --> 00:05:00.215
+the rope and the shepherd,
+
+65
+00:05:00.215 --> 00:05:05.750
+it works and it even
+has some advantages.
+
+66
+00:05:05.750 --> 00:05:12.335
+The main advantage is that
+the rope length is continuous.
+
+67
+00:05:12.335 --> 00:05:17.255
+So, if the number of
+sheep in the herd grow
+
+68
+00:05:17.255 --> 00:05:22.890
+dramatically and this length
+of the rope is not enough,
+
+69
+00:05:22.890 --> 00:05:25.320
+the shepherd can choose to use
+
+70
+00:05:25.320 --> 00:05:31.005
+the shorter pieces of rope per
+sheep when he counts them.
+
+71
+00:05:31.005 --> 00:05:35.270
+Here he has no limit in doing
+
+72
+00:05:35.270 --> 00:05:40.140
+this in the shortening the piece
+of rope per each sheep.
+
+73
+00:05:41.440 --> 00:05:48.050
+The system which have
+some parameter which is continuous,
+
+74
+00:05:48.050 --> 00:05:53.155
+I usually represent
+the analogous computing systems,
+
+75
+00:05:53.155 --> 00:05:58.785
+and they have
+two main drawbacks which
+
+76
+00:05:58.785 --> 00:06:05.055
+obscure this advantage
+of continuous parameter.
+
+77
+00:06:05.055 --> 00:06:07.950
+These two drawbacks are,
+
+78
+00:06:07.950 --> 00:06:10.470
+the first, error correction.
+
+79
+00:06:10.470 --> 00:06:14.385
+Each time shepherd unwinds the rope,
+
+80
+00:06:14.385 --> 00:06:20.160
+he makes a small mistake and
+it's a big number of sheep,
+
+81
+00:06:20.160 --> 00:06:26.805
+these mistakes
+accumulate and they can
+
+82
+00:06:26.805 --> 00:06:36.600
+produce one sheep either missing
+or extra erroneous sheep.
+
+83
+00:06:36.600 --> 00:06:40.190
+Hence, there is no way
+the shepherd can
+
+84
+00:06:40.190 --> 00:06:46.045
+fix his drawback to fix this error.
+
+85
+00:06:46.045 --> 00:06:50.855
+The second drawback is universality.
+
+86
+00:06:50.855 --> 00:06:55.730
+This rope for shepherd can maintain
+
+87
+00:06:55.730 --> 00:07:02.180
+the same amount of sheep but
+he cannot subtract numbers,
+
+88
+00:07:02.180 --> 00:07:05.000
+add numbers, multiply them.
+
+89
+00:07:05.000 --> 00:07:07.490
+He can do better.
+
+90
+00:07:07.490 --> 00:07:13.000
+He can make nodes on this rope,
+
+91
+00:07:13.460 --> 00:07:19.065
+and now it should not
+represent one sheep.
+
+92
+00:07:19.065 --> 00:07:23.010
+He loses the continuous parameter,
+
+93
+00:07:23.010 --> 00:07:26.355
+the length of the rope,
+he digitizes it.
+
+94
+00:07:26.355 --> 00:07:33.350
+Now, here all these drawbacks
+fade away because he does
+
+95
+00:07:33.350 --> 00:07:40.855
+not have anymore of this errors.
+
+96
+00:07:40.855 --> 00:07:43.820
+The small errors which accumulate
+
+97
+00:07:43.820 --> 00:07:47.260
+and with this rope he can do more.
+
+98
+00:07:47.260 --> 00:07:49.590
+He can add numbers, subtract numbers,
+
+99
+00:07:49.590 --> 00:07:54.820
+multiply numbers and
+do many other things.
+
+100
+00:07:56.210 --> 00:08:02.555
+This is actually the quality
+of digital systems.
+
+101
+00:08:02.555 --> 00:08:07.625
+They have bigger universality.
+
+102
+00:08:07.625 --> 00:08:10.835
+They have larger repertoires.
+
+103
+00:08:10.835 --> 00:08:14.000
+We are going to
+discuss this notion of
+
+104
+00:08:14.000 --> 00:08:17.435
+universality more formally later,
+
+105
+00:08:17.435 --> 00:08:21.110
+but now we can get back to
+
+106
+00:08:21.110 --> 00:08:27.300
+this two first characteristics
+we have not yet discussed.
+
+107
+00:08:27.300 --> 00:08:29.640
+Now, if we put away universality,
+
+108
+00:08:29.640 --> 00:08:33.480
+we have only two main characteristics
+
+109
+00:08:33.480 --> 00:08:35.060
+left and these are the number of
+
+110
+00:08:35.060 --> 00:08:37.475
+states which the system can
+
+111
+00:08:37.475 --> 00:08:42.260
+accommodate and the speed
+of the state is switching.
+
+112
+00:08:42.260 --> 00:08:46.795
+How fast the system
+can switch the states.
+
+113
+00:08:46.795 --> 00:08:50.660
+The bureaus that both these
+characteristics depend on
+
+114
+00:08:50.660 --> 00:08:52.865
+the base element that we choose
+
+115
+00:08:52.865 --> 00:08:55.970
+to build our computational system on.
+
+116
+00:08:55.970 --> 00:09:00.030
+If we take a look at
+the computer generations,
+
+117
+00:09:00.030 --> 00:09:04.850
+we can see the evolution
+of these base element.
+
+118
+00:09:04.850 --> 00:09:09.020
+For some reason engineers try to make
+
+119
+00:09:09.020 --> 00:09:13.710
+this base element as
+small as possible,
+
+120
+00:09:13.710 --> 00:09:16.750
+from vacuum tubes to transistors,
+
+121
+00:09:16.750 --> 00:09:18.980
+then to even smaller transistors
+
+122
+00:09:18.980 --> 00:09:22.195
+on an integrated circuits, et cetera.
+
+123
+00:09:22.195 --> 00:09:25.745
+Why is that? Why we try to
+
+124
+00:09:25.745 --> 00:09:28.715
+make the base element
+
+125
+00:09:28.715 --> 00:09:31.970
+of computational process
+as small as possible?
+
+126
+00:09:31.970 --> 00:09:37.120
+Well, the answer is obvious
+and there are three reasons.
+
+127
+00:09:37.120 --> 00:09:39.860
+First, with smaller elements,
+
+128
+00:09:39.860 --> 00:09:42.350
+we can pack them all
+in the same volume.
+
+129
+00:09:42.350 --> 00:09:49.040
+So, we can have the bigger number
+of states in the same volume.
+
+130
+00:09:49.040 --> 00:09:53.870
+The second, the smaller elements
+have smaller inertia.
+
+131
+00:09:53.870 --> 00:09:57.530
+This electronic devices,
+this inertia is
+
+132
+00:09:57.530 --> 00:10:01.680
+called inductance and the smaller,
+
+133
+00:10:01.680 --> 00:10:04.360
+is conductor of
+the smaller inductance it
+
+134
+00:10:04.360 --> 00:10:08.480
+has and the faster it
+can change the states,
+
+135
+00:10:08.480 --> 00:10:10.895
+so the faster we can compute.
+
+136
+00:10:10.895 --> 00:10:15.165
+Again, with smaller conductors,
+
+137
+00:10:15.165 --> 00:10:19.040
+with smaller inductances,
+we can dissipate
+
+138
+00:10:19.040 --> 00:10:23.605
+less energy which is
+also an important issue.
+
+139
+00:10:23.605 --> 00:10:29.460
+So, now computer devices
+reach this limit,
+
+140
+00:10:29.460 --> 00:10:34.240
+then nanometers base elements
+they're p-n junction
+
+141
+00:10:34.240 --> 00:10:39.860
+and this is only 200 times
+bigger than a hydrogen atom.
+
+142
+00:10:39.860 --> 00:10:44.375
+This means that this miniature
+organization has a limit.
+
+143
+00:10:44.375 --> 00:10:51.890
+We can't implement the p-n junction
+on one atom or molecular.
+
+144
+00:10:51.890 --> 00:10:54.875
+So, we have to choose something
+
+145
+00:10:54.875 --> 00:10:57.755
+else if you want to grow
+our computer power,
+
+146
+00:10:57.755 --> 00:11:00.455
+something else than a p-n junction,
+
+147
+00:11:00.455 --> 00:11:02.890
+something else than transistor.
+
+148
+00:11:02.890 --> 00:11:09.455
+This something else has to be as
+small as atom or even smaller,
+
+149
+00:11:09.455 --> 00:11:16.510
+but at least scales we can
+disregard this quantum effects,
+
+150
+00:11:16.510 --> 00:11:20.165
+which means that
+new generation computers
+
+151
+00:11:20.165 --> 00:11:23.330
+must employ their quantum effects.
+
+152
+00:11:23.330 --> 00:11:27.755
+It appears that the next generation
+
+153
+00:11:27.755 --> 00:11:32.400
+of computers has no way
+but to be quantum.

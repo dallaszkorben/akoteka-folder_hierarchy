@@ -1,0 +1,403 @@
+{1}{1}23.976
+{195}{280}South Park 907 - Erection Day
+{290}{365}--- Az erekció napja ---
+{380}{382}A
+{382}{384}A f
+{384}{386}A fe
+{386}{388}A fel
+{388}{390}A feli
+{390}{392}A felir
+{392}{394}A felira
+{394}{396}A felirat
+{396}{398}A felirato
+{398}{400}A feliratot
+{400}{402}A feliratot k
+{402}{404}A feliratot ké
+{404}{406}A feliratot kés
+{406}{408}A feliratot kész
+{408}{409}A feliratot készí
+{409}{411}A feliratot készít
+{411}{413}A feliratot készíte
+{413}{415}A feliratot készítet
+{415}{417}A feliratot készített
+{417}{419}A feliratot készítette
+{419}{432}A feliratot készítette:
+{435}{580}Zombee (szombinyul@freemail.hu);|Tadam; Szabolcs|Idõzítette: zsoltib
+{591}{593}J
+{593}{596}Ja
+{596}{599}Jav
+{599}{601}Javí
+{601}{604}Javít
+{604}{607}Javíto
+{607}{609}Javítot
+{609}{612}Javított
+{612}{615}Javította
+{615}{617}Javította:
+{617}{620}Javította: V
+{620}{622}Javította: Vi
+{622}{625}Javította: Vit
+{625}{693}Javította: Vito
+{816}{858}--- ÁLTALÁNOS ISKOLA ---
+{865}{916}Rendben, gyerekek,|mint a ti pszihomókusotok,
+{916}{1008}nagyon jól tudom, hogy néha milyen nehéz| beszélni olyan dolgokról, mint a drog,
+{1009}{1055}a szex és az alkohol, ééértem?
+{1056}{1120}Tehát, mint tudjátok, a múlt héten arra| kértelek benneteket,
+{1120}{1186}hogy írjátok le a problémáitokat,
+{1186}{1233}és névtelenül rakjátok|bele ebbe a dobozba,
+{1238}{1319}hogy megvitathassuk az órán, értem?
+{1321}{1406}Rengeteg kérdés érkezett,|olvassunk is fel párat.
+{1436}{1491}"Mr. Mackey egy buzi."
+{1551}{1611}Rendben, gyerekek,|ez nem vicces! Értem?!
+{1612}{1671}Ennek a doboznak az a célja,|hogy komoly kérdésekkel foglalkozzunk!
+{1671}{1730}Komoly témákkal! Értem?
+{1731}{1776}Jobb lesz, ha befejezitek|a hülyéskedést!
+{1781}{1826}Rendben, jöjjön egy igazi kérdés.
+{1831}{1858}"Kedves Mackey bácsi,
+{1868}{1898}...maga egy buzi."
+{1931}{1975}Na jó, most már|elég volt, gyerekek!
+{1976}{2031}Fejezzétek be, és próbáljatok|meg viselkedni, értem?
+{2036}{2066}Folytassuk. Értem?
+{2071}{2139}"Mr. Mackey, a szüleim|néha megvernek,
+{2143}{2178}és maga egy buzi."
+{2216}{2272}A fenébe, hát egyetlen értelmes|kérdés sincs benne?!
+{2278}{2338}"Mackey bácsi buzi"
+{2341}{2364}Na megvan.
+{2396}{2451}Egy kisfiú vagyok|a South Park-i suliban.
+{2451}{2580}Néha, amikor csak ülök az osztályban,| a fütyim elkezd duzzadni minden ok nélkül.
+{2580}{2612}Mit tegyek?
+{2776}{2826}Rendben van|gyerekek, elég lesz!
+{2906}{2954}Ha nem tudjátok komolyan venni|a problémadobozt,
+{2954}{3036}egész nap drog-feladatokat|fogtok megoldani, ÉRTEM?!
+{3076}{3169}Rendben, Jimmy, miért nem jössz ki,| és írod fel két drognak a nevét?
+{3178}{3220}Öhm, nem, nem köszönöm,|Mr. Mackey.
+{3220}{3273}Jimmy, ez nem kérés volt,|gyere ki!
+{3273}{3322}Öhm, én csak...|ez nem éppen a legjobb pillanat.
+{3333}{3366}Aztán mi a fenéért nem?
+{3551}{3571}Ööö... mivan?
+{3601}{3624}Oh, igen? Tényleg?
+{3646}{3691}Most is?
+{3706}{3756}Értem. Értem, ne aggódj, Jimmy.
+{3791}{3836}Értem, akkor talán|valaki más, öhm...
+{3836}{3871}Eric, miért nem te jössz ki ide?
+{3875}{3926}Hé, ez így nem frankó!| Jimmynek hogyhogy nem kell kimennie?
+{3928}{3951}Azért, mert... öhm...
+{3951}{3996}Éppen... sátrat épít.
+{4025}{4046}Mivan?!
+{4165}{4198}ISKOLAI TEHETSÉGKUTATÓ|VERSENY PÉNTEKEN!!!
+{4198}{4254}100 dolláros ajándékutalvány|a South Park-i Plazába!?
+{4255}{4290}Talán nekünk is fel kéne lépnünk.
+{4293}{4358}Mégis minek?| Mindig Jimmy nyeri ezeket a király ponéjaival.
+{4363}{4401}Hé, skacok!|Öcsém, láttad, Jimmy?
+{4401}{4456}100 dollár a jutalma az elsõ helyezettnek.
+{4456}{4538}Oh, naná, hogy láttam. Már dolgozom a| szok... szok... szokásos elõadásomon.
+{4538}{4567}Nem tudom, hogy csinálod, öregem.
+{4570}{4609}Hogy vagy képes|kiállni annyi ember elé?
+{4613}{4651}Hát, skacok,|a szórakoztatás az életem.
+{4653}{4689}Imádok kiállni a közönség elé.
+{4773}{4788}Mi a baj?
+{4798}{4840}Me-me-mennem kell!|Pá, skacok!
+{4863}{4918}El-elnézést! |Oh, hm... bocsika, elnézést!
+{4928}{4958}Engedj el, légyszíves!
+{5051}{5078}Foglalt!
+{5103}{5138}Számodra nincs hely, anyukám.
+{5313}{5348}Hello, Jimmy!
+{5493}{5578}Láttad, mit nyer a verseny gyõztese?!| Biztos izgatott vagy!
+{5578}{5628}Valószínûleg megint te nyered.
+{5632}{5723}Igen... Valóban izgatott vagyok.|  Kifejezetten izgatott... valami miatt...
+{5736}{5798}Ó, Jézusom! |Mi bajom van?
+{5836}{5913}Hé, ki szarik bombákat odabent?| Mi lenne, ha befejeznéd?!
+{5918}{5946}Kinyalhatod, Butters.
+{6073}{6112}Szia, Jimmy. Milyen volt a suli?
+{6113}{6132}Csak a szokásos, anya.
+{6133}{6223}Jimmy, tudunk az állandó erekciódról.
+{6238}{6280}Hogyan? Ki mondta el nektek?
+{6281}{6320}Mr. Mackey, a tanárod.
+{6321}{6375}Oh, J-j-j-j.. j-Jézusom!
+{6376}{6445}Nézd, Jimmy,|nem kell szégyellned magad.
+{6445}{6543}Tudjuk, hogy vannak olyan dolgok,| melyekrõl nehéz beszélni. Érted?
+{6543}{6573}Nagyon nehéz.
+{6593}{6716}Szóval, megfogadtuk a tanárod tanácsát,|és elhívtuk Dokitesót, hogy segítsen neked.
+{6718}{6743}Dokitesót?
+{6743}{6775}Hé, Jimmy, én Dokitesó vagyok!
+{6775}{6826}Igaz, hogy orvos vagyok, de egyben a haverod is.|Klassz, mi?
+{6842}{6862}Öhm, lehet.
+{6862}{6924}Nagyon sokszor hívnak a szülõk,|mert szót értek a gyerekekkel.
+{6924}{6971}Totál rajta vagyok, vágod?
+{6971}{7033}Nos, megértem, ha némi|problémád van az erekcióddal.
+{7033}{7113}Upsz, nem beszélhetek erekcióról|a szüleid elõtt. Istenem! Kicsit zavarban vagy, ugye?
+{7118}{7144}Hát, egy kicsit igen.
+{7148}{7198}Jimmy, az erekcióban|nincs semmi különös.
+{7198}{7290}Szinte minden kissrác átéli,| hogy a pénisze elkezd duzzadni minden ok nélkül.
+{7293}{7321}Ez a nagykorúvá válás része.
+{7324}{7377}"Felnõni!?|Inkább kinõni szeretnék ebbõl!"
+{7398}{7468}De ennek véget kell vetnem!| A tehetségesek napja most pénteken lesz.
+{7469}{7515}Mondok valamit, kedves szülõk.| Miért nem szívnak egy kis friss levegõt,
+{7516}{7553}amíg mi dumcsizunk egy kicsit?
+{7560}{7610}Rendben. Gyere, szívem.
+{7626}{7696}Jimmy, ahogy idõsebb leszel,| a tested rengeteg változáson megy keresztül.
+{7696}{7790}Bizonyos hormonok révén a szervezeted|képess válik a szaporodásra,
+{7790}{7853}szóval, ha szeretnéd,|levetkõzhetünk és csókolózhatunk.
+{7904}{7938}Tes... tessék?
+{7938}{7991}Ugyan, semmi. Tudod, ha más szemszögbõl|nézed a dolgokat,
+{7991}{8058}az segít másképp gondolnod rájuk.|A Dokitesó éppen ezért van itt.
+{8058}{8128}Persze, ha gondolod,| le is vetkõzhetünk és csókolózhatunk.
+{8128}{8174}N-nem, én nem akarok levetkõzni,| sem pedig smárolni!
+{8178}{8238}Akkor az ördög vigyen el téged, kölyök!| Segíts magadon, ahogy tudsz.
+{8418}{8548}Tapsoljuk meg a következõ versenyzõt,| a hihetetlenül tehetséges Jimmy Valmert!
+{8610}{8648}WoW, micsoda remek közönség!
+{8657}{8691}Martha Stewart nemrég szabadult a börtönbõl.
+{8698}{8738}Hallottak róla? Ismerik?
+{8746}{8818}Nagyon izgatott a készülõ új mûsora miatt:|"Martha Stewart élete
+{8821}{8863}és a nagyfeszültségû bokalánc"
+{8916}{8993}Úgy néz ki, a Vatikán végre| megválasztotta az új pápát.
+{9001}{9032}Hallottak róla? Ismerik?
+{9131}{9230}Úgy tûnik, "Új Pápának" fogják hívni,|míg János Pál neve "Klasszikus Pápa" lesz.
+{9270}{9348}Oh... úgy tûnik, Michael Jacksonnak| hátfájása van a bíróságon.
+{9353}{9424}Tudják... öhm... tudják..., miért hívják| há-há-há-hátfájásnak?
+{9526}{9608}Oh, hm, milyen nagyszerû közönség...| Micsoda remek közönség...
+{9623}{9714}Semmi baj, Jimmy!| Nem veled nevetünk, hanem RAJTAD!
+{9948}{9998}Lu-lu-lu, van egy pár almám,
+{9998}{10044}Lu-lu-lu, neked is van pár,
+{10044}{10096}Lu-lu-lu, jöjjünk hát össze,
+{10096}{10143}Tudom, mit tegyünk, lu-lu-lu.
+{10153}{10183}Oh! Szia, Jimmy.
+{10198}{10238}Éppen gyakorolgatok a versenyre.
+{10239}{10283}Butters, szükségem van valakire,
+{10283}{10342}akivel beszélhetek, és úgy gondolom, te vagy| az egyetlen, aki nem nevet ki engem.
+{10343}{10410}Oh, Istenkém, én soha nem|viccelõdnék egy barátomon!
+{10410}{10498}Butters, tudod, mit kell csinálni akkor,| amikor egy fiú fütyije elkezd duzzadni?
+{10538}{10573}Naná, hogy tudom.
+{10573}{10598}Tényleg?
+{10598}{10663}Igen, nos, Jimmy, ülj csak le,|és beszélgessünk kicsit.
+{10681}{10744}Tudod, Jimmy, amikor|a bácsik kukija megduzzad,
+{10745}{10833}beteszik a nénikbe.| A "puncijukba".
+{10834}{10926}Aztán a kuki tejed köp ki magából,|bele a néni pocijába,
+{10927}{10970}és ha ez megvan,
+{10971}{11063}a kuki már nem fog duzzadni,| és a bácsit nem érdekli többet a néni.
+{11094}{11198}Vagyis, ha a fütykös bekeményedik,| bele kell dugni egy néni puncijába.
+{11199}{11238}És utána már nem fog duzzadni?
+{11238}{11268}Nem bizony, Jimmy.
+{11268}{11313}De hol találok egy olyan nõt,| aki hagyja, hogy belerakjam a fütyköst?
+{11313}{11358}A verseny most pénteken lesz!
+{11366}{11398}--- ÁLTALÁNOS ISKOLA ---
+{11434}{11458}Majd találkozunk, Bertha!
+{11458}{11504}Oké, szia, Jessie.
+{11538}{11563}Szia, Bertha.
+{11563}{11614}Oh, szia Jimmy. Mi a helyzet?
+{11614}{11712}Hát, Bertha, azon tûnõdtem, mi| lenne, ha beraknám a kukim a puncidba?
+{11718}{11754}Mivan? Tudod, mikor!
+{11754}{11795}De a verseny holnap lesz!
+{11808}{11828}Csökött!
+{11838}{11884}Jimmy, Jimmy,|mi az ördögöt mûvelsz, ember?
+{11884}{11923}Dugni próbálok.|Miért, minek tûnik?
+{11924}{12004}Haver, nem mondhatod egy lánynak azt,| hogy be akarod tenni a bránert a puncijába!
+{12004}{12068}El kell hívnod randizni,| megízleltetni vele az olasz konyhát.
+{12069}{12143}Oh, Eric, nem is tudtam, hogy ennyire| vágod a témát. Sok dolgod volt nõkkel ezelõtt?
+{12144}{12222}Persze, sokszor.|Legalább ötezret fektettem meg.
+{12223}{12250}Nos, akkor mit tegyek?
+{12250}{12293}Mondom: egy randi olasz konyhával.
+{12294}{12333}Aztán elhiteted vele,|mennyire megértõ vagy.
+{12333}{12423}Eric, nem tudom, miért, de nagyon fontos,|hogy még ma este csáringó legyen.
+{12424}{12498}El tudsz jönni a randira, és segíteni?| Olyan vagy, mint egy Randi... Guru.
+{12499}{12533}Miért is ne, állandóan ezt|csinálják a filmekben,
+{12534}{12618}és a TV mûsorokban. Elmész a randira,| kapsz egy füllhallgatót, a közelben leszek,
+{12619}{12668}közben pedig a füledbe súgom| azokat a dolgokat, amit mondanod kell.
+{12669}{12708}WoW! Kösz, Eric.
+{12775}{12843}Shawna, kicsim, azt hiszem,|itt a kis hódolód.
+{12844}{12882}Oké, mama.
+{12923}{12953}Szia Shawna!
+{12956}{12981}Szia Jimmy.
+{12983}{13043}Rendben, Jimmy! Elõször is:| Mondd el neki, mennyire jól néz ki!
+{13048}{13092}Hû, Shawna, fantasztikusan nézel ki!
+{13093}{13142}Köszi, Jimmy. Hova is megyünk?
+{13143}{13234} Egy eredeti olasz étterembe.|A Buca de Fagghecini-be.
+{13314}{13410}Isten hozta Önöket a Buca de Fagghecini-ben,|az igazi olasz ételek otthonában.
+{13411}{13511}A nevem Roma. Ajánlhatom Önöknek|pasta macaroninkat kezdésnek?
+{13514}{13582}Inkább kipróbálnánk |a pizzareli casseronájukat.
+{13583}{13611}Máris hozom!
+{13625}{13717}Ismered Sally Rauman-t| a sulinkban? Ki nem állhatom!
+{13723}{13803}Jimmy! Jimmy! Jimmy, annak|ellenére, hogy amit mond,
+{13804}{13888}kész dögunalom, mondd azt:| "Hû, ez nagyon érdekes. Kérlek, folytasd!"
+{13898}{13948}Hû, ez nagyon érdekes.|Kérlek, folytasd!
+{13948}{14023}Tényleg? Nos, Kelligan ugyanazt a tárcát| vette meg, amit én is kinéztem magamnak,
+{14023}{14108}De én már nem akarom, hisz ki akar egy olyan tárcát,| ami a barátainak is van, nem igaz? És így...
+{14110}{14163}Rendben, amikor befejezte|a nyávogást, mondd ezt:
+{14164}{14211}"Tyû, még nem is gondoltam erre,|de igazad van."
+{14214}{14276}Pont ezért mondtam magamban: |"Ki akar egy ilyen barátot?"
+{14277}{14340}Tyû, még nem is gondoltam erre,|de igazad van.
+{14341}{14405}Ez olyan, mint amit Debbie-nek mondtam:| "Ha el akarsz menni a barátaimmal..."
+{14407}{14441}Okés, Jimmy, amikor végre |befogta a nagy száját,
+{14442}{14547}minden szót ismételj meg,| és tedd hozzá: "Hû, de rálátó vagy."
+{14554}{14611}És ha így gondolod,| akkor többé nem vagyunk barátok.
+{14612}{14664}"És ha így gondolod,| akkor többé nem vagyunk barátok."
+{14667}{14698}Hû, de rálátó vagy!
+{14700}{14759}Tudod, Jimmy, te igazán megértõ vagy.
+{14760}{14784}Tényleg?
+{14785}{14870}Igen. Komolyan, nem ismerek más fiút,|akivel úgy lehetne beszélgetni, mint veled.
+{14871}{14909}Oh, nagyon örülök,|hogy így gondolod, Shawna,
+{14910}{14965}mert komolyan be szeretném|dugni a péniszemet a vaginádba!
+{14966}{14995}Ez az, Jimmy, nagyon ügyes.
+{15028}{15063}...TESSÉK?! Na azt nem fogod!
+{15064}{15114}De a verseny holnap este lesz!
+{15126}{15151}Korcs!
+{15230}{15317}TEHETSÉGKUTATÓ VERSENY |MA ESTE!!
+{15362}{15475}Üdvözöljük a diákokat és szülõket|az idei Tehetségkutató Versenyen!
+{15535}{15597}Nagyon sok kis tehetséges| fellépõnk lesz ma este,
+{15598}{15664}szóval minél elõbb elkussolnak, |annál hamarabb ér véget az egész!
+{15717}{15767}Rendben, elõször is lássuk|a kis Billy Turner-t
+{15768}{15866}a 3. osztályból, aki egy szaxofonszólót|fog bemutatni.
+{16388}{16442}Jimmy? Jimmy Valmer?
+{16442}{16522}Ó, jó estét,|Barbrady r-r-rendõr.
+{16523}{16612}Jimmy, mit csinálsz te idekinn?|A verseny odabé van.
+{16613}{16672}Én... én nem fogok|fellépni a versenyen.
+{16706}{16827}Nem fogsz? De Jimmy, te imádod az ilyen| show-kat. Mindenki tudja ezt a városban.
+{16828}{16907}Én csak... egyszerûen nem bírnék|kiállni a nagyközönség elé.
+{16908}{16991}-Miért nem?| -Folytonos erekcióm van, és nem tudom mitõl. Érti?
+{16992}{17072}Egyszerûen nem találok| egy olyan lányt, aki segíteni tudna nekem.
+{17073}{17149}Naná, hogy nem. A kislányok|nem akarnak még szexelni.
+{17150}{17192}Akkor Isten miért akarja, hogy a farkam
+{17193}{17262}csak duzzadjon, de nem engedi,|hogy lányokba rakhassam?
+{17263}{17368}-Ez olyan, mint egy durva vicc.| -Nos, Jimmy, a lányok fiatalok és szüzek.
+{17369}{17446}Nem olyanok, mint a nõk|a Colfax Negyedben.
+{17466}{17506}...Colfax Negyed?
+{17507}{17632}-Persze, azok a nõk bárkivel lefekszenek.| -Komolyan? Talán még elérem a buszt...
+{17633}{17708}...és odaérek, mielõtt a versenynek vége lenne!| Kö-köszönöm, Barbrady õrmester!
+{17709}{17751}Nagyon szívesen, Jim.
+{17824}{17842}Várjunk csak...
+{17868}{18009}Colfax Negyed...|Stricik, kurvák, cselszövés mindenütt,
+{18010}{18201}Tyúkszemes lábú nõk járják az utcát,|Az álmok, s a jégkrém ideje lejárt...
+{18212}{18242}Hancúrozásra vágysz?
+{18267}{18358}Hello! Hello!|Be kell tennem a fütyköst valaki puncijábal!
+{18359}{18423}Valaki? Bocsásson meg, hölgyem.|Megmondaná a nevét?
+{18424}{18512}-Itt mindenki BüntiNõvérnek hív.| -Nos, BüntiNõvér, le kell feküdnöm magával.
+{18537}{18562}Tessék?
+{18567}{18654}Állandó erekcióm van, ami egyszerûen| nem múlik el, és a verseny már rég elkezdõdött.
+{18672}{18745}-Zsaru vagy?| -Nem. Én komikus vagyok.
+{18746}{18804}-Van pénzed?| -Naná!
+{18805}{18854}Rendben, tudsz valami helyet?
+{18855}{18912}Persze. Ismerem a tökéletes helyet.
+{18926}{19012}Isten hozta Önöket a Buca de Fagghecini-ben,| az igazi olasz ételek otthonában.
+{19013}{19093}Az én nevem Roma, és öööö, nagyon| örülök, hogy újra láthatom önt, Mr. Valmer.
+{19094}{19117}Hé, seggfej!
+{19118}{19155}Nem szeretném, ha tudnák,| hogy voltam már itt egy másik csajjal!
+{19156}{19192}Rendben és elnézést, signore!
+{19193}{19257}Azonnal visszajövök egy kis|mediterrán fokhagymás kenyérrel.
+{19278}{19320}Egyáltalán mit csinálunk itt?
+{19321}{19375}Ez valódi olasz kaja|egyenesen Szi-szicíliából.
+{19376}{19413}Muszáj megkóstolnod| a Lotsa Mozzarella Pizzatekercset!
+{19414}{19505}Nem ehetek túl sokat, egy fertõzõ|ágyékgyulladásom van.
+{19506}{19547}Egész héten vért pisáltam.
+{19548}{19620}Uh, hát ez nagyon érdekes,|kérlek, folytasd!
+{19622}{19707}He?! Annyi, hogy vért pisáltam,
+{19708}{19767}ezért fel kellett dugnom egy tampont.
+{19802}{19862}Hû, tudod, még soha nem gondoltam| erre ilyen formában, de igazad van.
+{19863}{19917}Ha vért pisálsz, akkor tampont|nyomhatsz a pisilõdbe.
+{19918}{19963}Rendkívül rálátó vagy,|kérlek, folytasd.
+{19964}{20024}Na idefigyelj, kölyök, |akkor most akarsz dugni vagy sem?
+{20025}{20072}Naná, hogy akarok!| Épp ezért hoztalak el ebbe a
+{20073}{20122}puccos étterembe, és tettetem azt,|hogy érdekel, amit mondasz.
+{20123}{20211}Kisöcsi, én prosti vagyok, engem| nem kell elvinned ebédelni vagy dédelgetned!
+{20212}{20249}Mi? Ez ko-komoly?
+{20250}{20320}Azért fizettél, hogy megkapj,|ez ilyen egyszerû.
+{20321}{20372}Az isten szerelmére, akkor minek|pocsékoljuk itt az idõnket?
+{20373}{20440}A verseny javában tart!|Essünk túl r-r-rajta!
+{20442}{20523}Mit mûvelsz itt, he?! Vacsorázgatsz?!| Nekem kéne dolgoznod!
+{20524}{20584}Az ügyfél akart idejönni, te paraszt!
+{20585}{20662}Az ügyfél?! Ne nézz már madárnak, picsa!|Ki visz kurvát étterembe!?
+{20663}{20755}Ez a köcsög strici el akar lopni tõlem!|Ez az én ribancom!
+{20756}{20792}Ellent kell önnek mondanom, uram.
+{20793}{20846}Fizettem neki, és elhoztam az étterembe:|õ az én ribim!
+{20847}{20879}Ó, Jézusom!
+{20880}{20957}-Valami bajod van, buzikám?!|-Ha már így rákérdezett, igen, bajom van!
+{20958}{21020}Az összes pénzem a ribinek adtam,|most már csak õt csáringózhatom meg,
+{21021}{21067}a verseny pedig pár óra múlva véget ér.
+{21068}{21166}-Most azonnal jössz velem!| -Ereszd el a hajam, kurvaanyád!
+{21167}{21236}-Uram, õ az én ribim!| -Szétrúgom a picsád, szajha!
+{21237}{21270}Uram!
+{21632}{21659}A picsába!
+{21684}{21703}Taxi!
+{21745}{21785}Kövesse azt a stricit |meg a kurvát!
+{21872}{21932}-Hova viszel?!| -Megöllek, ribanc!
+{21933}{21985}Ne! Kérlek!! Fekakirály!! Sajnálom!
+{21986}{22030}Máris halott vagy, picsa!
+{22063}{22114}Uram! Fizettem a néninek,|és ha maga elviszi õt,
+{22115}{22159}azzal lopást követ el!
+{22160}{22199}B*szódnál meg gecó!
+{22322}{22377}Büntinõvér! Kapaszkodj a mankómba!
+{22466}{22504}Told vissza a segged, ribi!
+{22532}{22566}Foglak, Büntinõvér!
+{22682}{22788}Nem nem nem nem nem!|Nem lépek fel a versenyen...
+{22789}{22917}Ó nem nem nem nem nem!| Sosem lépek fel ilyen buzi versenyen.
+{22962}{23067}Oké, õk voltak a "Darkos Kölykök",| a "Tehetség Show-k buziknak valók"-kal.
+{23070}{23147}-Atomállat volt. Megmutattuk nekik!| -Persze, remélem nyerünk!.
+{23225}{23248}Gyere, ribi!
+{23362}{23382}Vigyázz!
+{23413}{23422}HOPPÁ!
+{23773}{23841}Kövesse! |Nem adom fel!
+{24014}{24082}Oké, nagyon ügyes, Clark és Laura,|nagyon ügyes!
+{24096}{24187}A következõ fellépõnk Butters,| aki egy dalt fog elénekelni.
+{24204}{24233}A mi fiunk jön!
+{24343}{24392}Lu-lu-lu, van egy pár...
+{24417}{24515} pár... öö, pár ööö...
+{24570}{24672}Jaj, ne! |Nem, nem, ne-he-neem!
+{24688}{24752}Oké, köszönjük Butters,| nagyon ügyes, rövid és aranyos...
+{24827}{24887}Picsába, ez a strici nem adja fel!
+{24888}{24912}Menjen még közelebb!
+{25084}{25176}-Mennyivel tartozom?| -Hat dollár, 24 cent.
+{25226}{25260}Nyolcból kérek!
+{25262}{25345}Köszönöm!| Ez pedig az öné! Isten áldja!
+{25355}{25378}Köszönöm!
+{25603}{25647}Ezért megfizetsz, szajha!
+{25648}{25693}Neee! Segítség!
+{25823}{25867}Ne aggódj, Büntinõvér, máris jövök!
+{25952}{26037}Jézusom, ne már!|Ó anyám! De kínos!
+{26062}{26207}És most Eric Cartman következik, válogatott| pofákkal a "Sebhelyesarcú" címû filmbõl.
+{26318}{26398}Tudjátok, mik vagytok?|Egy rakás kib*szott csótány vagytok!
+{26402}{26476}Olyan ember kell nektek, mint én!| Olyan ember kell nektek, mint én,
+{26477}{26548}hogy a kib*szott ujjatokkal mutogathassatok,| és mondjátok: "Ez a rosszfiú!"
+{26549}{26590}Üdvözöljétek a rosszfiút!!
+{26611}{26642}Õ az én kicsi fiam!
+{26679}{26762}-Kérlek, Fekakirály! Ne tedd ezt!| -Megmondtam, hogy ne húzz fel, picsa!
+{26778}{26826}Hé, s- s- s- seggarc!!
+{26867}{26947}Sajnálom, hogy leseggfejeztem,|de nagyon kihozott a sodromból!
+{26948}{26988}És mit fogsz tenni, he?!
+{26990}{27040}Egy méterrel, és egy pisztollyal |vagyok több nálad!
+{27043}{27064}Neked mid van?!
+{27067}{27124}Hogy mim van?|A humor fegyvere.
+{27132}{27192}Úgy tûnik, a kínaiak és a japánok|újabban kijönnek egymással.
+{27193}{27227}Hallott róla? Ismeri?
+{27246}{27276}-Mivan?!| - Egyet mondok:
+{27277}{27339}a kajájuk biztos, hogy nem|jön ki az én gyomrommal.
+{27388}{27410}Nem is rossz.
+{27411}{27468}Martha Stewart kiszabadult a börtönbõl.|Hallott róla? Ismeri?
+{27516}{27557}Ó, ja. Igen, kiszabadult.
+{27558}{27615}Nagyon megtanulta,|hogy kell tortát sütni kulccsal a közepében.
+{27694}{27736}Megérdemelted, rohadék!
+{27737}{27775}Szép volt, BüntiNõvér!
+{27776}{27895}El se hiszem, hogy végig követtél.| Te, te tényleg törõdsz velem.
+{27897}{27947}Nem igazán. Te csak egy| kurva vagy, és nekem dugnom kell.
+{27948}{27984}A versenynek bármelyik|pillanatban vége lehet.
+{27990}{28014}Ez nekem épp elég.
+{28039}{28077}Vigyél ágyba.
+{28905}{29072}{Y:i}Van egy Yankee Doodle-szeretõm,| Õ az én Yankee Doodle-csajom.
+{29074}{29172}{Y:i}'Ankee Doodle Londonba jött,|hogy a pónin lovagoljon,
+{29173}{29264}{Y:i}Én vagyok a Yankee Doodle
+{29264}{29332}{Y:i} Én vagyok a Yankee Doodle-fiú.
+{29454}{29526}Oké, nagyon szép, Ike, köszönjük.
+{29542}{29593}Rendben, kis pöcsök,| úgy tûnik, hogy nincs több versenyzõ,
+{29594}{29663}ami azt jelenti, hogy a versenynek vége!
+{29719}{29786}- Mr. Mackey, vége van.| - Hmmm? Öööö, éértem.
+{29789}{29898}Most pedig vessünk egy pillantást a bírók pontszámaira,| hogy megtudjuk, kit utáltak legkevésbé!
+{29901}{29940}Megállni!
+{30202}{30220}Garrison néni,
+{30220}{30269}ha nem bánja,|elkérném a mikrofont.
+{30271}{30357}Oké, tapsoljuk meg|Jimmy Valmer-t!
+{30431}{30462}Hû, de nagyszerû közönség!
+{30463}{30524}Épp két év telt el Bagdad eleste óta...
+{30525}{30554}Hallottak róla? Ismerik?
+{30555}{30638}Épp, ahogy B-Bush jósolta,| Bagdad elesett, Irak elesett, Szaddam elesett.
+{30639}{30697}Az egyetlen dolog, ami nem|esett... az az olaj ára.
+{30746}{30791}Nemrég olvastam az újságban,| hogy a kínaiak tiltakoznak Japán ellen.
+{30792}{30827}Hallottak róla? Ismerik?
+{30828}{30862}Hát szerintem Kínában nem kell...
+{30949}{30982}Nem cseszhetsz ki velem...!

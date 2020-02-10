@@ -1,0 +1,1052 @@
+WEBVTT
+
+1
+00:00:12.290 --> 00:00:14.835
+It's time for us to go on,
+
+2
+00:00:14.835 --> 00:00:19.775
+and we are going to examine
+the name of the course, the words.
+
+3
+00:00:19.775 --> 00:00:23.595
+Here, The Introduction
+to Quantum Computing.
+
+4
+00:00:23.595 --> 00:00:25.455
+I believe there is no problem with
+
+5
+00:00:25.455 --> 00:00:27.480
+understanding the words introduction,
+
+6
+00:00:27.480 --> 00:00:30.015
+and the, and to.
+
+7
+00:00:30.015 --> 00:00:35.970
+But the words quantum
+computing may be unclear.
+
+8
+00:00:35.970 --> 00:00:41.775
+So, let's explain them and we start
+with computation or computer.
+
+9
+00:00:41.775 --> 00:00:46.270
+How would you define
+this term, this word?
+
+10
+00:00:46.490 --> 00:00:51.045
+If you reflect a bit on this notion,
+
+11
+00:00:51.045 --> 00:00:54.230
+you may find it difficult to define.
+
+12
+00:00:54.230 --> 00:00:58.415
+What does it mean to compute?
+
+13
+00:00:58.415 --> 00:01:01.980
+It is among those words
+which we take for granted,
+
+14
+00:01:01.980 --> 00:01:05.780
+but if a child asks us to define it,
+
+15
+00:01:05.780 --> 00:01:08.710
+we have problems with that.
+
+16
+00:01:08.710 --> 00:01:11.690
+Actually with children
+it is easier we
+
+17
+00:01:11.690 --> 00:01:14.720
+can instead of an explanation
+or a definition,
+
+18
+00:01:14.720 --> 00:01:17.225
+we can provide some examples.
+
+19
+00:01:17.225 --> 00:01:21.889
+But here, it doesn't work
+because to generalize
+
+20
+00:01:21.889 --> 00:01:23.330
+all these examples into
+
+21
+00:01:23.330 --> 00:01:29.095
+some short and simple
+definition like this one.
+
+22
+00:01:29.095 --> 00:01:32.445
+The computation is
+a physical process,
+
+23
+00:01:32.445 --> 00:01:38.405
+finite in time with fixed and
+distinguishable set of states.
+
+24
+00:01:38.405 --> 00:01:42.000
+A set of distinguishable states.
+
+25
+00:01:42.290 --> 00:01:46.565
+Now you understand that there are
+
+26
+00:01:46.565 --> 00:01:51.650
+many other definitions of this term
+or this word, computation.
+
+27
+00:01:51.650 --> 00:01:55.270
+Why I do like this the most,
+
+28
+00:01:55.270 --> 00:01:58.350
+and why I choose this
+for this course?
+
+29
+00:01:58.350 --> 00:02:04.070
+Because first it amplifies
+the notion of a physical process.
+
+30
+00:02:04.070 --> 00:02:06.860
+We often forget this
+that the things that
+
+31
+00:02:06.860 --> 00:02:11.375
+compute often and usually rattle,
+
+32
+00:02:11.375 --> 00:02:16.170
+clique, and make
+different noise like this.
+
+33
+00:02:22.540 --> 00:02:26.375
+They usually, not usually,
+
+34
+00:02:26.375 --> 00:02:29.030
+always they consume or transform,
+
+35
+00:02:29.030 --> 00:02:30.890
+if you want, energy.
+
+36
+00:02:30.890 --> 00:02:33.660
+Now, this notion of states,
+
+37
+00:02:33.660 --> 00:02:36.350
+there are many process in
+the world which rattle
+
+38
+00:02:36.350 --> 00:02:39.380
+and consume energy but if
+
+39
+00:02:39.380 --> 00:02:45.125
+they don't have this distinguishable
+states which again identify,
+
+40
+00:02:45.125 --> 00:02:50.000
+then we don't call them a computer.
+
+41
+00:02:50.000 --> 00:02:51.995
+It is often told that
+
+42
+00:02:51.995 --> 00:02:55.400
+computations transform
+or process information.
+
+43
+00:02:55.400 --> 00:02:56.840
+To agree with that,
+
+44
+00:02:56.840 --> 00:03:03.510
+we have to think again and to
+define this word, information.
+
+45
+00:03:04.510 --> 00:03:07.850
+I choose to connect this definition
+
+46
+00:03:07.850 --> 00:03:13.385
+with that of computational system of
+
+47
+00:03:13.385 --> 00:03:18.830
+computations since
+computational process
+
+48
+00:03:18.830 --> 00:03:22.735
+has a fixed state set of
+distinguishable states.
+
+49
+00:03:22.735 --> 00:03:26.150
+I choose the current state of
+
+50
+00:03:26.150 --> 00:03:30.215
+the system to be
+the information it presents.
+
+51
+00:03:30.215 --> 00:03:33.880
+I choose the word interpretation
+here for a reason.
+
+52
+00:03:33.880 --> 00:03:36.980
+Because you see on this slide
+two different systems,
+
+53
+00:03:36.980 --> 00:03:39.965
+both can store some information.
+
+54
+00:03:39.965 --> 00:03:42.265
+In some cases, we can say that
+
+55
+00:03:42.265 --> 00:03:46.600
+these two systems store
+the same information.
+
+56
+00:03:46.600 --> 00:03:48.690
+But how can we do that?
+
+57
+00:03:48.690 --> 00:03:51.205
+These are very different systems,
+
+58
+00:03:51.205 --> 00:03:55.615
+they have very different
+sets of states.
+
+59
+00:03:55.615 --> 00:04:00.290
+How can we say that they
+store the same information?
+
+60
+00:04:00.290 --> 00:04:02.915
+To do that, we have to define,
+
+61
+00:04:02.915 --> 00:04:06.175
+to invent some conventions
+
+62
+00:04:06.175 --> 00:04:10.495
+about how we would interpret
+this system states,
+
+63
+00:04:10.495 --> 00:04:13.600
+how would we read
+information from them.
+
+64
+00:04:13.600 --> 00:04:16.460
+To do that, we first have
+
+65
+00:04:16.460 --> 00:04:20.705
+to define the notion of
+quantity of information.
+
+66
+00:04:20.705 --> 00:04:26.045
+Because, for example, we might
+need to establish the fact
+
+67
+00:04:26.045 --> 00:04:28.130
+that one system can store
+
+68
+00:04:28.130 --> 00:04:31.810
+the information stored
+now by another system.
+
+69
+00:04:31.810 --> 00:04:37.220
+We may already feel that
+this notion of quantity is somehow
+
+70
+00:04:37.220 --> 00:04:42.740
+connected with the number of
+states available for this system.
+
+71
+00:04:42.740 --> 00:04:45.845
+The first mathematical
+description of this notion
+
+72
+00:04:45.845 --> 00:04:49.430
+of quantity of information
+was introduced
+
+73
+00:04:49.430 --> 00:04:56.645
+in 1948 by an American Mathematician
+
+74
+00:04:56.645 --> 00:04:59.270
+and Crypto Analyst, Claude Shannon.
+
+75
+00:04:59.270 --> 00:05:03.980
+The amount of information
+that can be stored by
+
+76
+00:05:03.980 --> 00:05:08.840
+a system with N states was
+defined by his famous formula,
+
+77
+00:05:08.840 --> 00:05:11.170
+the Shannon's formula here.
+
+78
+00:05:11.170 --> 00:05:18.450
+Here, you can see the sum over
+all states of the probabilities of
+
+79
+00:05:18.450 --> 00:05:22.230
+each state multiplied by
+
+80
+00:05:22.230 --> 00:05:26.740
+the logarithm sum base B
+of this probability.
+
+81
+00:05:26.810 --> 00:05:30.975
+We want this value to be positive,
+
+82
+00:05:30.975 --> 00:05:34.070
+so this is why there's
+minus here because
+
+83
+00:05:34.070 --> 00:05:37.625
+all the logarithms here are negative.
+
+84
+00:05:37.625 --> 00:05:41.110
+Now, the probabilities
+come from Physics.
+
+85
+00:05:41.110 --> 00:05:44.230
+This formula was
+introduced by Boltzmann
+
+86
+00:05:44.230 --> 00:05:48.675
+to define the entropy of a system.
+
+87
+00:05:48.675 --> 00:05:51.235
+The physicists are interested in
+
+88
+00:05:51.235 --> 00:05:54.535
+much more general set
+of physical processes.
+
+89
+00:05:54.535 --> 00:05:59.535
+But for computational processes
+at least designed by human,
+
+90
+00:05:59.535 --> 00:06:02.920
+all this probabilities usually
+are equal to each other.
+
+91
+00:06:02.920 --> 00:06:08.985
+So, for any I and J
+probability of the state
+
+92
+00:06:08.985 --> 00:06:12.880
+I equals to the probability
+of state J and everything
+
+93
+00:06:12.880 --> 00:06:16.830
+is equal to one divided
+by the number of states,
+
+94
+00:06:16.830 --> 00:06:20.555
+by N. In this case,
+
+95
+00:06:20.555 --> 00:06:24.215
+for the case of equiprobable states,
+
+96
+00:06:24.215 --> 00:06:29.290
+we have simplification
+of this formula.
+
+97
+00:06:29.600 --> 00:06:34.625
+Instead of PI, we just
+write one divided by N,
+
+98
+00:06:34.625 --> 00:06:39.870
+and logarithm base B
+of Y one divided by N,
+
+99
+00:06:39.870 --> 00:06:47.180
+and we can invert this logarithm
+like this and remove this minus.
+
+100
+00:06:47.180 --> 00:06:52.589
+Now, we have this sum
+of equal elements,
+
+101
+00:06:52.589 --> 00:06:55.030
+there are N elements.
+
+102
+00:06:56.090 --> 00:07:01.210
+So, we can write it like this
+
+103
+00:07:01.340 --> 00:07:08.015
+and we can now erase this
+and we have this logarithm.
+
+104
+00:07:08.015 --> 00:07:12.890
+So, the amount of information
+stored by a system with
+
+105
+00:07:12.890 --> 00:07:15.470
+N equiprobable states is
+
+106
+00:07:15.470 --> 00:07:20.790
+just the logarithm base B
+of the number of states.
+
+107
+00:07:20.790 --> 00:07:26.120
+Now, let's take a closer look
+at this value B here.
+
+108
+00:07:26.120 --> 00:07:28.654
+Actually it is a matter
+of convention,
+
+109
+00:07:28.654 --> 00:07:34.750
+and the smallest natural base
+for the logarithm is two.
+
+110
+00:07:34.750 --> 00:07:40.050
+If I take a system
+with only one state,
+
+111
+00:07:44.120 --> 00:07:46.290
+you see it is zero.
+
+112
+00:07:46.290 --> 00:07:51.845
+So, a system with only one
+state stores no information.
+
+113
+00:07:51.845 --> 00:07:53.630
+The next number is two.
+
+114
+00:07:53.630 --> 00:07:58.705
+So, logarithm two, two equals to one.
+
+115
+00:07:58.705 --> 00:08:01.920
+This is the amount of information,
+
+116
+00:08:01.920 --> 00:08:04.700
+the smallest amount
+of information that
+
+117
+00:08:04.700 --> 00:08:08.120
+can be stored by a physical system.
+
+118
+00:08:08.120 --> 00:08:11.600
+Claude Shannon called
+this smallest amount
+
+119
+00:08:11.600 --> 00:08:16.740
+of information whose logarithm
+is the smallest base,
+
+120
+00:08:16.740 --> 00:08:19.560
+he named it bit,
+
+121
+00:08:19.560 --> 00:08:23.130
+as a small piece of
+something in English.
+
+122
+00:08:23.130 --> 00:08:27.460
+Now, we can measure
+information in bits.
+
+123
+00:08:28.990 --> 00:08:33.695
+Imagine a system which stores n bits.
+
+124
+00:08:33.695 --> 00:08:41.215
+That means that this system has
+two in the power of N states.
+
+125
+00:08:41.215 --> 00:08:45.005
+It is the same amount
+as the amount of
+
+126
+00:08:45.005 --> 00:08:50.360
+integer numbers which can be
+represented by N binary digits.
+
+127
+00:08:50.360 --> 00:08:54.130
+So, we can now enumerate the states.
+
+128
+00:08:54.130 --> 00:08:59.035
+We can assign each state its number.
+
+129
+00:08:59.035 --> 00:09:01.675
+If you have two systems,
+
+130
+00:09:01.675 --> 00:09:05.480
+each of them which can store n bits,
+
+131
+00:09:05.480 --> 00:09:09.860
+and the states of these systems
+are enumerated like this,
+
+132
+00:09:09.860 --> 00:09:18.780
+then we can map the states
+of different systems.
+
+133
+00:09:18.780 --> 00:09:21.275
+We can now say that
+
+134
+00:09:21.275 --> 00:09:25.070
+these different systems
+store the same information.
+
+135
+00:09:25.070 --> 00:09:27.650
+Let's consider an example.
+
+136
+00:09:27.650 --> 00:09:32.630
+The system depicted here was
+never implemented physically,
+
+137
+00:09:32.630 --> 00:09:37.205
+it was designed as a thought
+experiment by a Hungarian physicist,
+
+138
+00:09:37.205 --> 00:09:48.540
+Leo Szilard, in 1929.
+
+139
+00:09:48.540 --> 00:09:50.330
+So, the system is like this.
+
+140
+00:09:50.330 --> 00:09:52.620
+It is an empty camera.
+
+141
+00:09:52.720 --> 00:09:58.780
+It is partitioned,
+removable partition here.
+
+142
+00:10:02.040 --> 00:10:06.430
+Which divides the camera
+in two parts.
+
+143
+00:10:06.430 --> 00:10:11.695
+There is one particle
+of gas in the camera
+
+144
+00:10:11.695 --> 00:10:17.050
+of the temperature T. By
+the size of the camera,
+
+145
+00:10:17.050 --> 00:10:23.755
+there are pistons which can
+be moved inside the camera,
+
+146
+00:10:23.755 --> 00:10:29.330
+but they can't be moved outside
+because of these stoppers here.
+
+147
+00:10:32.520 --> 00:10:37.270
+We will distinguish
+two states for this system.
+
+148
+00:10:37.270 --> 00:10:45.205
+The particle stays somewhere here
+in the left part of the camera.
+
+149
+00:10:45.205 --> 00:10:48.340
+We'll call this state zero.
+
+150
+00:10:48.340 --> 00:10:52.330
+If the particle stays in
+the right part of the camera,
+
+151
+00:10:52.330 --> 00:10:55.660
+we'll call this, one.
+
+152
+00:10:55.660 --> 00:11:01.580
+So, this system can store
+one bit of information.
+
+153
+00:11:01.620 --> 00:11:05.935
+Okay. When the partition is removed,
+
+154
+00:11:05.935 --> 00:11:10.480
+it is not actually a computational
+system, computational process,
+
+155
+00:11:10.480 --> 00:11:15.010
+because we can't distinguish
+these two different states.
+
+156
+00:11:15.010 --> 00:11:19.750
+We can say in which part
+of the camera,
+
+157
+00:11:19.750 --> 00:11:22.615
+now we can find the particle.
+
+158
+00:11:22.615 --> 00:11:24.250
+But we can do this,
+
+159
+00:11:24.250 --> 00:11:29.030
+we can assign this system
+a particular value.
+
+160
+00:11:30.180 --> 00:11:32.800
+To do that, we have to
+
+161
+00:11:32.800 --> 00:11:37.330
+remove this partition if
+it's not yet removed,
+
+162
+00:11:37.330 --> 00:11:43.225
+and then we are going
+to compress the gas.
+
+163
+00:11:43.225 --> 00:11:48.550
+For example, we want the system
+to represent the value zero.
+
+164
+00:11:48.550 --> 00:11:55.615
+So, we fix this piston,
+
+165
+00:11:55.615 --> 00:12:02.330
+and we move the right
+piston on the left.
+
+166
+00:12:03.480 --> 00:12:08.110
+So, we compress our one particle gas,
+
+167
+00:12:08.110 --> 00:12:11.920
+and we stop when
+
+168
+00:12:11.920 --> 00:12:17.200
+this right piston reaches
+the middle of the camera,
+
+169
+00:12:17.200 --> 00:12:22.370
+and replace the moveable partition.
+
+170
+00:12:23.010 --> 00:12:27.340
+Then, we can move
+our right piston back.
+
+171
+00:12:27.340 --> 00:12:30.865
+Now, we are sure that the particle
+
+172
+00:12:30.865 --> 00:12:34.195
+stays here in the left
+part of the camera,
+
+173
+00:12:34.195 --> 00:12:38.450
+and this process took
+some effort from us,
+
+174
+00:12:38.700 --> 00:12:45.985
+which equals to a constant,
+the Boltzmann's constant,
+
+175
+00:12:45.985 --> 00:12:49.825
+the temperature of
+the gas and the logarithm
+
+176
+00:12:49.825 --> 00:12:55.040
+of the fraction of volumes.
+
+177
+00:12:57.660 --> 00:13:00.910
+We decreased the volume two times,
+
+178
+00:13:00.910 --> 00:13:04.250
+so this equals to two.
+
+179
+00:13:05.370 --> 00:13:10.720
+This is how much work we
+
+180
+00:13:10.720 --> 00:13:18.160
+need to assign a value,
+
+181
+00:13:18.160 --> 00:13:22.700
+and this is a very interesting fact.
+
+182
+00:13:22.740 --> 00:13:25.570
+To assign a value,
+
+183
+00:13:25.570 --> 00:13:30.530
+we have to dissipate some energy.
+
+184
+00:13:31.560 --> 00:13:35.200
+Let's do something else.
+
+185
+00:13:35.200 --> 00:13:40.435
+For example, we now have this value
+or this bit equal to zero,
+
+186
+00:13:40.435 --> 00:13:46.360
+let's apply the NOT gate
+which maps zero to one.
+
+187
+00:13:46.360 --> 00:13:48.920
+How can we do this?
+
+188
+00:13:50.010 --> 00:13:54.230
+We now have this state.
+
+189
+00:13:59.610 --> 00:14:09.860
+Now, we can move this right piston
+here to the partition,
+
+190
+00:14:09.900 --> 00:14:12.790
+and this doesn't take
+
+191
+00:14:12.790 --> 00:14:15.775
+any effort because we
+don't compress the gas,
+
+192
+00:14:15.775 --> 00:14:18.520
+there's no gas on the right side.
+
+193
+00:14:18.520 --> 00:14:23.299
+Then, we remove the partition,
+
+194
+00:14:23.430 --> 00:14:33.380
+and then we move both pistons
+to the right like this.
+
+195
+00:14:43.410 --> 00:14:47.080
+The volume of the gas does not change
+
+196
+00:14:47.080 --> 00:14:56.150
+when we place this volume on
+the right part of the camera.
+
+197
+00:15:01.520 --> 00:15:05.865
+We place the partition
+again and then we
+
+198
+00:15:05.865 --> 00:15:10.630
+remove or move back the left piston.
+
+199
+00:15:11.400 --> 00:15:14.350
+Well, we applied to the gate NOT,
+
+200
+00:15:14.350 --> 00:15:15.805
+we're now pretty sure that
+
+201
+00:15:15.805 --> 00:15:18.610
+the particle stays in
+the right part of the camera,
+
+202
+00:15:18.610 --> 00:15:24.450
+so this system stores the bit one.
+
+203
+00:15:24.450 --> 00:15:28.900
+We did not dissipate any energy.
+
+204
+00:15:28.900 --> 00:15:31.000
+It didn't do any work.
+
+205
+00:15:31.000 --> 00:15:33.025
+So, our gate NOT,
+
+206
+00:15:33.025 --> 00:15:39.025
+the reversible gate
+doesn't take any energy,
+
+207
+00:15:39.025 --> 00:15:43.730
+and this system doesn't
+need any energy.
+
+208
+00:15:44.730 --> 00:15:48.190
+Now, assume that we don't
+
+209
+00:15:48.190 --> 00:15:52.360
+need to store these bits
+anymore, what can we do?
+
+210
+00:15:52.360 --> 00:15:55.915
+We, just like in this case here,
+
+211
+00:15:55.915 --> 00:15:58.315
+we can just remove
+
+212
+00:15:58.315 --> 00:16:05.185
+the partition and let this particle
+fly all around the camera.
+
+213
+00:16:05.185 --> 00:16:10.435
+But we can do something more
+clever or something more smart.
+
+214
+00:16:10.435 --> 00:16:19.160
+We can put this piston back
+here with again no work,
+
+215
+00:16:23.280 --> 00:16:27.190
+and then remove the partition and let
+
+216
+00:16:27.190 --> 00:16:34.420
+this particle to push
+this piston back.
+
+217
+00:16:34.420 --> 00:16:42.565
+So, this compressed gas will give
+us this amount of energy back,
+
+218
+00:16:42.565 --> 00:16:45.770
+and this operation is called erase.
+
+219
+00:16:47.430 --> 00:16:52.225
+Now, what does it mean?
+It means that if we know
+
+220
+00:16:52.225 --> 00:16:57.820
+in which part of this camera
+we now have a particle,
+
+221
+00:16:57.820 --> 00:17:02.215
+we can transform
+this knowledge into energy.
+
+222
+00:17:02.215 --> 00:17:08.095
+So, the information in
+some sense equals to energy.
+
+223
+00:17:08.095 --> 00:17:10.825
+Imagine that we didn't
+have this partition,
+
+224
+00:17:10.825 --> 00:17:13.135
+and at each point of time,
+
+225
+00:17:13.135 --> 00:17:22.690
+we can find out where
+this particle is.
+
+226
+00:17:22.690 --> 00:17:31.900
+So, we can place the partition and
+move the piston of our choice.
+
+227
+00:17:31.900 --> 00:17:34.345
+So, we can extract some work,
+
+228
+00:17:34.345 --> 00:17:37.610
+some energy of this system.
+
+229
+00:17:38.340 --> 00:17:43.915
+So, the information in
+some sense equals to energy,
+
+230
+00:17:43.915 --> 00:17:50.155
+and this is why it's often said
+that information is power.
+
+231
+00:17:50.155 --> 00:17:55.520
+Bad news for Plato
+and Socrates, though.
