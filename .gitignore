@@ -1,8 +1,26 @@
 **/*.mkv
 **/*.avi
+**/*.AVI
 **/*.mp4
+**/*.mov
+**/*.mpg
 **/*.divx
 **/*.mp3
 **/*.ac3
 **/*.webm
+
+**/*.pdf
+**/*.odt
+**/*.rtf
+**/*.epub
+**/*.doc
+
+**/*.jpg
+**/*.JPG
+**/*.jpeg
+**/*.JPEG
+
+**/*.sh
+
+!**/image.jpeg
 
