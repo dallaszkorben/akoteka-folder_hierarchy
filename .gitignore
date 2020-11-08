@@ -8,12 +8,15 @@
 **/*.mp3
 **/*.ac3
 **/*.webm
+**/*.wmv
+**/*.flv
 
 **/*.pdf
 **/*.odt
 **/*.rtf
 **/*.epub
 **/*.doc
+**/*.mobi
 
 **/*.jpg
 **/*.JPG

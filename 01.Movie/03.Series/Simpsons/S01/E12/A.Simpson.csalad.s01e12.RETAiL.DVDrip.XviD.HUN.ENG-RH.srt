@@ -1,0 +1,9 @@
+{1}{1}25.000
+{24235}{24334}Búcsúzáskor mindig
+{24336}{24389}Meghalok egy kicsit
+{24392}{24480}Búcsúzáskor mindig
+{24483}{24545}Nem tudom miért, egy kicsit
+{24547}{24617}Mikor kimondjuk
+{24619}{24710}Viszlát| Viszlát.
+{31895}{32075}Fordította: gocsa|(silent-bob@freemail.hu)
+{32076}{32176}http://the-simpsons.extra.hu

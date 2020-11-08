@@ -1,0 +1,1023 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:11.504 --> 00:00:14.635
+Module 1, Lesson 1,
+Lecture Lecture 1.2, Design Process.
+
+3
+00:00:14.635 --> 00:00:18.435
+So we'll start talking about
+the overall design process,
+
+4
+00:00:18.435 --> 00:00:21.335
+a very generic form of design process.
+
+5
+00:00:21.335 --> 00:00:25.785
+Because a lot of this project, this
+capstone project, what you'll have to turn
+
+6
+00:00:25.785 --> 00:00:30.505
+in is evidence that you have a design
+process and what your design process was.
+
+7
+00:00:30.505 --> 00:00:32.225
+So we'll talk about
+the design process right now.
+
+8
+00:00:32.225 --> 00:00:35.740
+[COUGH] So, the design process.
+
+9
+00:00:35.740 --> 00:00:39.280
+Here's a very generic
+view of a design process.
+
+10
+00:00:39.280 --> 00:00:43.650
+By the way, when you talk about design
+processes, there's a lot of work, and
+
+11
+00:00:43.650 --> 00:00:46.470
+different processes that can be used.
+
+12
+00:00:46.470 --> 00:00:49.420
+Especially in software engineering,
+I do software engineering too.
+
+13
+00:00:49.420 --> 00:00:51.280
+There are lots of different methodologies.
+
+14
+00:00:51.280 --> 00:00:54.360
+You can have a course just on processes
+and different design processes and
+
+15
+00:00:54.360 --> 00:00:55.360
+what are used in all this.
+
+16
+00:00:56.720 --> 00:00:59.010
+What I'm showing you
+here is very generic but
+
+17
+00:00:59.010 --> 00:01:02.990
+it gets across the key elements
+you're going to find in any process.
+
+18
+00:01:02.990 --> 00:01:03.560
+Okay.
+
+19
+00:01:03.560 --> 00:01:06.510
+So this is a safe bet,
+what I'm showing here.
+
+20
+00:01:06.510 --> 00:01:09.380
+There's no everything
+sort of fits into this.
+
+21
+00:01:09.380 --> 00:01:13.400
+So the process starts off,
+you make a requirement specification.
+
+22
+00:01:13.400 --> 00:01:16.160
+So right there you're writing
+a document that defines what you
+
+23
+00:01:16.160 --> 00:01:18.540
+want out of this system,
+what it's supposed to do.
+
+24
+00:01:18.540 --> 00:01:20.550
+You need to start off with
+something like that and
+
+25
+00:01:20.550 --> 00:01:23.480
+it is best if you formalize that in some
+type of a natural language document, or
+
+26
+00:01:23.480 --> 00:01:27.770
+rather specifically English document,
+because that's all that,
+
+27
+00:01:27.770 --> 00:01:30.770
+I would say English only just for
+grading purposes.
+
+28
+00:01:30.770 --> 00:01:32.130
+I don't care if it's English but
+
+29
+00:01:32.130 --> 00:01:34.110
+you know other people
+are going to have to grade this.
+
+30
+00:01:34.110 --> 00:01:38.120
+English is the langue we're
+using in the class, so.
+
+31
+00:01:39.360 --> 00:01:40.980
+Now once you have
+the requirement specification,
+
+32
+00:01:40.980 --> 00:01:45.280
+you know what you want to build,
+then you going to synthesize alternatives.
+
+33
+00:01:45.280 --> 00:01:47.960
+So there's this design space
+exploration that goes on,
+
+34
+00:01:47.960 --> 00:01:51.240
+where you think of different
+alternatives and you synthesize them.
+
+35
+00:01:51.240 --> 00:01:54.500
+Now when I say synthesize, that doesn't
+mean completely finish the design but
+
+36
+00:01:54.500 --> 00:01:56.740
+you at least partially synthesize them.
+
+37
+00:01:56.740 --> 00:02:00.110
+So you can get some notion
+of how well they work.
+
+38
+00:02:00.110 --> 00:02:02.550
+Then with these design
+alternatives that you synthesize,
+
+39
+00:02:02.550 --> 00:02:05.490
+or partially synthesize,
+you analyze those alternatives.
+
+40
+00:02:05.490 --> 00:02:09.420
+So you have all these options, you analyze
+which ones best, which ones worse.
+
+41
+00:02:09.420 --> 00:02:12.080
+And then eventually,
+you choose one of these alternatives.
+
+42
+00:02:12.080 --> 00:02:13.560
+And then you finish the design, right.
+
+43
+00:02:13.560 --> 00:02:15.770
+So you complete it.
+
+44
+00:02:15.770 --> 00:02:19.430
+What this is really getting
+across is there has to be this
+
+45
+00:02:19.430 --> 00:02:22.990
+design space exploration,
+where there are alternatives, and
+
+46
+00:02:22.990 --> 00:02:25.770
+you are synthesizing them and
+evaluating those alternatives.
+
+47
+00:02:25.770 --> 00:02:27.760
+And then you're going to
+choose alternatives, and
+
+48
+00:02:27.760 --> 00:02:29.550
+then complete your design, okay.
+
+49
+00:02:29.550 --> 00:02:32.830
+So that's all I'm trying to say
+in this very generic picture.
+
+50
+00:02:32.830 --> 00:02:35.270
+But that's gotta be going
+on in your process.
+
+51
+00:02:35.270 --> 00:02:38.370
+And it starts of with this requirements
+specifications document that we
+
+52
+00:02:38.370 --> 00:02:38.990
+got at the beginning.
+
+53
+00:02:40.660 --> 00:02:42.420
+So, let's talk about
+requirements specification.
+
+54
+00:02:44.200 --> 00:02:47.140
+It needs to define
+the behavior of the system.
+
+55
+00:02:47.140 --> 00:02:48.840
+How the system acts.
+
+56
+00:02:48.840 --> 00:02:51.610
+How a user interacts with the system.
+
+57
+00:02:51.610 --> 00:02:52.920
+Not the implementation, so
+
+58
+00:02:52.920 --> 00:02:55.950
+you don't want to be talking
+about how it's going to be built.
+
+59
+00:02:55.950 --> 00:03:00.810
+You just want talk that separates behavior
+for it's implementation, at this stage.
+
+60
+00:03:00.810 --> 00:03:04.500
+Eventually when you start getting
+more into design you will.
+
+61
+00:03:04.500 --> 00:03:06.220
+Think about how to implement it right?
+
+62
+00:03:06.220 --> 00:03:08.780
+But right now when you're making
+the specification implementation
+
+63
+00:03:08.780 --> 00:03:10.320
+is not part of it just the behavior.
+
+64
+00:03:12.380 --> 00:03:18.310
+Now specifications generally need to be
+understood by multiple constituents okay?
+
+65
+00:03:18.310 --> 00:03:21.920
+We're going to talk really
+about two sets of constituents.
+
+66
+00:03:21.920 --> 00:03:23.340
+First the user right?
+
+67
+00:03:23.340 --> 00:03:26.190
+So somebody who is using this
+device they need to be able to
+
+68
+00:03:26.190 --> 00:03:29.530
+look at this specification and
+understand what it's supposed to do and
+
+69
+00:03:29.530 --> 00:03:31.360
+how they're supposed to use it.
+
+70
+00:03:31.360 --> 00:03:34.830
+So, that should be a goal when you're
+writing a specification that a user,
+
+71
+00:03:34.830 --> 00:03:39.770
+somebody who is not an expert in design,
+that user could look at this and
+
+72
+00:03:39.770 --> 00:03:43.650
+say okay I see what this is supposed to
+do and I like it or I don't like it, so
+
+73
+00:03:43.650 --> 00:03:44.290
+that's one goal.
+
+74
+00:03:44.290 --> 00:03:48.310
+Somebody who from the outside should be
+able to look at this and understand it.
+
+75
+00:03:48.310 --> 00:03:50.280
+Now another thing is that,
+
+76
+00:03:50.280 --> 00:03:53.220
+another goal here is that a designer
+should be able to understand it.
+
+77
+00:03:53.220 --> 00:03:57.280
+So in some sense the user is
+looking top down, from the outside,
+
+78
+00:03:57.280 --> 00:04:00.240
+the users looking saying,
+what is this going to do for me?
+
+79
+00:04:00.240 --> 00:04:01.030
+Right?
+
+80
+00:04:01.030 --> 00:04:03.790
+But on the other hand This
+design specification,
+
+81
+00:04:03.790 --> 00:04:08.070
+requirement specification will be used
+by designers to actually design and
+
+82
+00:04:08.070 --> 00:04:10.790
+implement the rest of the system.
+
+83
+00:04:10.790 --> 00:04:15.100
+Now a designer is somebody who is
+clearly knowledgeable in design,
+
+84
+00:04:15.100 --> 00:04:17.420
+is going to actually perform the design,
+right.
+
+85
+00:04:17.420 --> 00:04:20.280
+Now in our example,
+this is going to be you.
+
+86
+00:04:20.280 --> 00:04:23.540
+In general, when you write
+a specification, these specifications get
+
+87
+00:04:23.540 --> 00:04:27.110
+handed off to another design group,
+who goes off and designs it.
+
+88
+00:04:27.110 --> 00:04:30.370
+So, it's got to be useful to a designer,
+
+89
+00:04:30.370 --> 00:04:34.600
+when they're making their design, and
+choosing different design options.
+
+90
+00:04:34.600 --> 00:04:36.920
+They have to be able to say,
+look, does this option.
+
+91
+00:04:36.920 --> 00:04:40.590
+Does this satisfy the goal
+stated in the specification.
+
+92
+00:04:40.590 --> 00:04:42.500
+Does it do what the specification does.
+
+93
+00:04:42.500 --> 00:04:45.860
+So they have to be able to evaluate their
+design options by comparing it to what
+
+94
+00:04:45.860 --> 00:04:48.100
+is stated in that specification.
+
+95
+00:04:48.100 --> 00:04:52.010
+So in order to make it
+useful to the designer,
+
+96
+00:04:52.010 --> 00:04:54.240
+it's got to completely
+describe the behavior.
+
+97
+00:04:54.240 --> 00:04:58.140
+So if the specification has parts of
+the behavior that are not described,
+
+98
+00:04:58.140 --> 00:04:59.960
+then the designer doesn't know what to do.
+
+99
+00:04:59.960 --> 00:05:01.700
+Right?
+The designer might say well what do I do
+
+100
+00:05:01.700 --> 00:05:02.300
+in this case?
+
+101
+00:05:02.300 --> 00:05:05.700
+If somebody presses button X instead
+of button Y, what happens right?
+
+102
+00:05:05.700 --> 00:05:09.720
+So this the specification needs to
+specify it the behavior fully so
+
+103
+00:05:09.720 --> 00:05:12.090
+the designer can know what
+they're they need to implement.
+
+104
+00:05:13.140 --> 00:05:15.290
+Also look for rare cases.
+
+105
+00:05:15.290 --> 00:05:18.770
+You know uncommon cases need to
+be stated in the specification.
+
+106
+00:05:18.770 --> 00:05:23.270
+Now you know these systems, these kinds
+of designs, won't be that complicated so
+
+107
+00:05:23.270 --> 00:05:25.100
+there shouldn't be really weird cases but
+
+108
+00:05:25.100 --> 00:05:28.340
+in general when you're making
+specifications from say more complicated
+
+109
+00:05:28.340 --> 00:05:32.070
+systems you got to completely specify the
+behavior you don't want to leave things
+
+110
+00:05:33.190 --> 00:05:37.670
+out if you do now sometimes I
+should mention sometimes when you
+
+111
+00:05:37.670 --> 00:05:42.160
+write a specification you do
+intentionally leave things vague.
+
+112
+00:05:43.270 --> 00:05:45.520
+But that's because you don't
+want to over specify design.
+
+113
+00:05:45.520 --> 00:05:48.440
+So basically you might leave
+vagueness if you don't care what
+
+114
+00:05:48.440 --> 00:05:49.780
+happens in those cases.
+
+115
+00:05:49.780 --> 00:05:50.490
+But in that case,
+
+116
+00:05:50.490 --> 00:05:53.400
+when you're being vague you should
+state that in the specification.
+
+117
+00:05:53.400 --> 00:05:57.380
+Say, it is not important what
+happens when X is pressed after Y.
+
+118
+00:05:57.380 --> 00:05:59.450
+That is not a part of this specification.
+
+119
+00:05:59.450 --> 00:06:01.860
+So we know that is
+an intentional vagueness,
+
+120
+00:06:01.860 --> 00:06:04.760
+something that is intentionally left
+out as opposed to something that you
+
+121
+00:06:04.760 --> 00:06:06.800
+accidentally forgot to
+put into the document.
+
+122
+00:06:06.800 --> 00:06:07.530
+Right?
+
+123
+00:06:07.530 --> 00:06:09.340
+So you should specify everything.
+
+124
+00:06:09.340 --> 00:06:11.140
+And if there's something
+you don't want to specify,
+
+125
+00:06:11.140 --> 00:06:13.890
+because you don't care about that
+behavior, then you should say that.
+
+126
+00:06:13.890 --> 00:06:17.545
+Just so that the designer knows,
+okay, it doesn't matter what I do.
+
+127
+00:06:19.546 --> 00:06:22.708
+Now another thing that you need to put
+into the, you need to consider when you're
+
+128
+00:06:22.708 --> 00:06:25.760
+writing the specification,
+are the real world constraints.
+
+129
+00:06:25.760 --> 00:06:29.630
+So I'm referring to these as
+a non-engineering constraints.
+
+130
+00:06:29.630 --> 00:06:31.220
+I don't know what a good term is but
+
+131
+00:06:31.220 --> 00:06:36.270
+these are constraints that I see as
+the business constraints, okay?.
+
+132
+00:06:36.270 --> 00:06:38.280
+As an engineer, so
+I'm the engineer, right?
+
+133
+00:06:38.280 --> 00:06:42.090
+If I'm working at a company,
+they give me a design, and
+
+134
+00:06:42.090 --> 00:06:45.170
+maybe I negotiate on the details of
+the spec and stuff like this, but
+
+135
+00:06:45.170 --> 00:06:46.649
+basically my job is to design this.
+
+136
+00:06:47.690 --> 00:06:49.530
+I'm not really telling them.
+
+137
+00:06:49.530 --> 00:06:54.910
+There are certain higher level ideals
+that I'm less involved in, okay?
+
+138
+00:06:54.910 --> 00:06:57.120
+Engineers have to consider
+some of these things, so
+
+139
+00:06:57.120 --> 00:06:59.810
+let's go through some of these things.
+
+140
+00:06:59.810 --> 00:07:01.260
+One is existing expertise
+
+141
+00:07:02.650 --> 00:07:06.480
+now actually this is a really important
+thing in practice in a company setting.
+
+142
+00:07:06.480 --> 00:07:08.650
+When you're trying to figure
+out what design option to use.
+
+143
+00:07:08.650 --> 00:07:11.470
+Should I design it using this board or
+that board.
+
+144
+00:07:11.470 --> 00:07:14.220
+Do we know our Raspberry Pi or
+some other board.
+
+145
+00:07:14.220 --> 00:07:18.950
+I could use Arduino as my control I can
+use Raspberry Pi or I can use board X.
+
+146
+00:07:18.950 --> 00:07:22.910
+Board X might be cheaper and
+better than Arduino and Raspberry Pi,
+
+147
+00:07:22.910 --> 00:07:26.620
+but since Arduino and Raspberry Pi
+are what we covered in this class,
+
+148
+00:07:26.620 --> 00:07:30.325
+it would probably be a lot easier here for
+you to use Arduino and Raspberry Pi.
+
+149
+00:07:30.325 --> 00:07:33.255
+So there is a very good chance that
+because your existing expertise is
+
+150
+00:07:33.255 --> 00:07:35.785
+Arduino and Raspberry Pi,
+you will use Arduino and
+
+151
+00:07:35.785 --> 00:07:39.575
+Raspberry Pi because you know you can
+meet your deadlines that way, right?
+
+152
+00:07:39.575 --> 00:07:43.975
+Where if you go to Board X, it's cheaper,
+looks nice, but you don't know for sure if
+
+153
+00:07:43.975 --> 00:07:47.750
+you'll be able to complete the design
+because it's a risk, it's something new.
+
+154
+00:07:47.750 --> 00:07:52.080
+So existing expertise is a serious
+consideration because companies
+
+155
+00:07:52.080 --> 00:07:55.530
+always need to meet these deadlines for
+completing their design.
+
+156
+00:07:55.530 --> 00:07:58.650
+It's always safer if they do
+what they already done, right?
+
+157
+00:07:58.650 --> 00:08:02.690
+If they use their existing expertise
+rather than try to do something new.
+
+158
+00:08:02.690 --> 00:08:04.980
+Now, that's how it is in
+practise in companies.
+
+159
+00:08:04.980 --> 00:08:07.340
+For you, you are students right?
+
+160
+00:08:07.340 --> 00:08:08.510
+This is a class.
+
+161
+00:08:08.510 --> 00:08:12.350
+So usually when I'm telling students
+how to make these projects.
+
+162
+00:08:12.350 --> 00:08:13.730
+I'm more free with this, right?
+
+163
+00:08:13.730 --> 00:08:14.850
+Because in school,
+
+164
+00:08:14.850 --> 00:08:17.690
+generally you don't want to be
+locked into your existing expertise.
+
+165
+00:08:17.690 --> 00:08:21.790
+In fact, the point of school is so
+that you gain new expertise, right?
+
+166
+00:08:21.790 --> 00:08:25.990
+So often, I will tell students
+look try something new,
+
+167
+00:08:25.990 --> 00:08:28.470
+it might be better, so
+you can learn about this.
+
+168
+00:08:28.470 --> 00:08:31.200
+Now once you get a company than,
+you know, then you're stuck.
+
+169
+00:08:31.200 --> 00:08:35.440
+You gotta meet those deadlines and maybe
+you don't have time to learn new things.
+
+170
+00:08:35.440 --> 00:08:37.600
+Of course, I would say in the long term,
+
+171
+00:08:37.600 --> 00:08:41.280
+you want to learn new things anyway
+because the market changes all the time.
+
+172
+00:08:41.280 --> 00:08:42.770
+You need to be more learning all the time.
+
+173
+00:08:42.770 --> 00:08:46.720
+So don't necessarily limit yourself
+into existing expertise, but
+
+174
+00:08:46.720 --> 00:08:49.180
+it definitely has to be considered
+because you have to meet deadlines.
+
+175
+00:08:51.400 --> 00:08:52.510
+Competing designs and
+
+176
+00:08:52.510 --> 00:08:56.150
+patents, now of course we are not
+going to worry about that here.
+
+177
+00:08:56.150 --> 00:08:57.460
+But if you're a company,
+
+178
+00:08:57.460 --> 00:09:00.240
+you don't want to put out a product
+that already exists, right?
+
+179
+00:09:00.240 --> 00:09:02.750
+Or you don't want to put out
+a product that uses some
+
+180
+00:09:02.750 --> 00:09:07.170
+feature that's already patented because
+then you have to pay for the patent.
+
+181
+00:09:07.170 --> 00:09:09.780
+Or if you are going to use that
+feature then you better know it so
+
+182
+00:09:09.780 --> 00:09:11.340
+you can pay for the patent.
+
+183
+00:09:11.340 --> 00:09:15.100
+So okay, the financial limitations, and
+actually, this is important to you,
+
+184
+00:09:15.100 --> 00:09:17.710
+too, how much money do you have, right?
+
+185
+00:09:17.710 --> 00:09:19.640
+If, especially if you're
+going to implement this,
+
+186
+00:09:19.640 --> 00:09:22.580
+you need to have a money limit,
+I'm only going to spend this much money.
+
+187
+00:09:22.580 --> 00:09:24.760
+And that is a tight limit, okay.
+
+188
+00:09:24.760 --> 00:09:26.200
+That's a constraint that you always have.
+
+189
+00:09:26.200 --> 00:09:28.020
+And you have to consider that
+in the specification, too.
+
+190
+00:09:28.020 --> 00:09:31.130
+So all these issues have to be,
+if they exist, if there are issues,
+
+191
+00:09:31.130 --> 00:09:34.970
+they have to be brought up in
+the specification, or should be.
+
+192
+00:09:34.970 --> 00:09:38.500
+Legal restrictions, there are legal
+restrictions on some devices so
+
+193
+00:09:38.500 --> 00:09:42.240
+for instance Quadcopters now as of
+very recently they need to be licensed
+
+194
+00:09:42.240 --> 00:09:46.410
+in order to be flown so
+in the US anyway so you need to go and
+
+195
+00:09:46.410 --> 00:09:51.330
+pay it's not expensive as an individual
+it doesn't cost much five bucks but
+
+196
+00:09:51.330 --> 00:09:54.370
+it needs to be done and so you have to
+talk about these types of restrictions.
+
+197
+00:09:54.370 --> 00:09:56.880
+And there are restrictions
+on different devices.
+
+198
+00:09:56.880 --> 00:10:01.160
+Maybe you're making a high-powered device
+and you don't want it to be dangerous.
+
+199
+00:10:01.160 --> 00:10:06.420
+It shouldn't violate whatever restrictions
+that whatever regulating agency has,
+
+200
+00:10:06.420 --> 00:10:07.480
+so you need to be aware of those.
+
+201
+00:10:09.070 --> 00:10:10.730
+About I don't expect that
+to be much of an issue for
+
+202
+00:10:10.730 --> 00:10:13.730
+your carson design projects
+in practice though.
+
+203
+00:10:13.730 --> 00:10:15.470
+Existing design and
+manufacturing processes and
+
+204
+00:10:15.470 --> 00:10:19.340
+actually this goes to existing
+expertise this is a similar thing.
+
+205
+00:10:19.340 --> 00:10:25.150
+Sometimes you know there are manufacturing
+processes that you are stuck with.
+
+206
+00:10:25.150 --> 00:10:26.940
+It's the same as the existing expertise.
+
+207
+00:10:26.940 --> 00:10:28.450
+You can change your design process but
+
+208
+00:10:28.450 --> 00:10:34.340
+if everybody at your company is using
+Agile for agile design process for
+
+209
+00:10:34.340 --> 00:10:37.810
+the software that probably you need to use
+the same thing, your boss is going to want
+
+210
+00:10:37.810 --> 00:10:43.090
+to use the same thing, to make everything
+more easy to work with together.
+
+211
+00:10:43.090 --> 00:10:46.340
+So if there's an existing design
+process you may have to adhere to that.
+
+212
+00:10:46.340 --> 00:10:48.440
+That isn't so much of an issue for
+this project right?
+
+213
+00:10:48.440 --> 00:10:50.230
+Because you're making this up as you go.
+
+214
+00:10:50.230 --> 00:10:56.137
+And the manufacturing process
+is whatever you can afford,
+
+215
+00:10:56.137 --> 00:11:03.004
+right so this is less of a limitation
+with your projects, thank you.
+
+216
+00:11:03.004 --> 00:11:06.919
+[MUSIC]

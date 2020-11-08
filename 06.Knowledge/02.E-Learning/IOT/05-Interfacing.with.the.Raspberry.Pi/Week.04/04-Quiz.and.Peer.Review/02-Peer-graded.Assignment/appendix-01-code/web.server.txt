@@ -1,0 +1,30 @@
+import time
+import RPi.GPIO as GPIO
+
+STEPS = 5000                    # graduity
+MAX_DUTY = 10                   # max duty cycle in [%]
+MIN_DUTY = 0                    # min duty cycle in [%]
+HALF_CYCLE_TIME = 1             # half cycle time in [sec]
+
+def get_duty_cycle(level):
+    return (MIN_DUTY + (MAX_DUTY-MIN_DUTY))*i/STEPS
+
+GPIO.setwarnings(False)         # do not warn if the GPIO is occupied
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(12, GPIO.OUT)
+
+pwm = GPIO.PWM(12, 100)         # Output GPIO with 100Hz
+pwm.start(0)
+
+while True:
+    time.sleep(0.2)
+    for i in range(0, STEPS+1):
+        dc = get_duty_cycle(i)
+        pwm.ChangeDutyCycle(dc)
+        time.sleep(HALF_CYCLE_TIME/STEPS)
+
+    for i in range(STEPS, -1, -1):
+        dc = get_duty_cycle(i)
+        pwm.ChangeDutyCycle(dc)
+        time.sleep(HALF_CYCLE_TIME/STEPS)

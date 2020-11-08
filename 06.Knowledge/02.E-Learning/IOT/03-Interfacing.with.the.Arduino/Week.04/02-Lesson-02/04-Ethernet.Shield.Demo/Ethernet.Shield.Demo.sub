@@ -1,0 +1,883 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.592
+[MUSIC].
+
+2
+00:00:01.592 --> 00:00:10.552
+[SOUND] So
+
+3
+00:00:10.552 --> 00:00:15.340
+today we're going to look at
+the Ethernet shield on the Arduino.
+
+4
+00:00:15.340 --> 00:00:19.350
+And we'll go through an example,
+an Ethernet web server example.
+
+5
+00:00:19.350 --> 00:00:24.050
+So first of all, we'll just look through
+the code, see what the code's going to do.
+
+6
+00:00:24.050 --> 00:00:26.900
+And then we'll actually try it out and
+see how it works.
+
+7
+00:00:28.080 --> 00:00:29.010
+So let's first look at the code.
+
+8
+00:00:29.010 --> 00:00:31.620
+We're going to look at a sketch,
+on one of the example sketches.
+
+9
+00:00:31.620 --> 00:00:36.740
+So go to file, examples, Ethernet two,
+
+10
+00:00:36.740 --> 00:00:39.150
+because my shield is
+an Ethernet two shield.
+
+11
+00:00:39.150 --> 00:00:40.840
+Ethernet two.
+
+12
+00:00:40.840 --> 00:00:42.170
+And Web server.
+
+13
+00:00:42.170 --> 00:00:44.070
+So, that's the example we'll look at.
+
+14
+00:00:44.070 --> 00:00:45.760
+Let's look at that.
+
+15
+00:00:45.760 --> 00:00:48.230
+Now, I've already gotten that open, so
+let me just pull that up, yeah here we go.
+
+16
+00:00:48.230 --> 00:00:51.280
+All right, so let me close that other one.
+
+17
+00:00:51.280 --> 00:00:52.230
+Here we are.
+
+18
+00:00:52.230 --> 00:00:53.090
+So, this is the web server,
+
+19
+00:00:53.090 --> 00:00:56.100
+this is the beginning of it,
+I have a nice big bold font.
+
+20
+00:00:56.100 --> 00:01:00.870
+So this web server, what it's supposed to
+do, is it's supposed to have the Ethernet
+
+21
+00:01:00.870 --> 00:01:04.190
+shield and
+the Arduino act like a web server.
+
+22
+00:01:04.190 --> 00:01:08.480
+So I should be able to take a web client,
+basically a web browser, and
+
+23
+00:01:08.480 --> 00:01:11.180
+point it to the IP address on my shield.
+
+24
+00:01:12.240 --> 00:01:17.660
+And I should see a webpage, and
+in this case the webpage will contain
+
+25
+00:01:17.660 --> 00:01:22.650
+six numbers that are the readings,
+the analog readings on
+
+26
+00:01:22.650 --> 00:01:27.520
+the analog inputs, A0 through A5 That's
+not particularly of interest to us,
+
+27
+00:01:27.520 --> 00:01:31.200
+but that's what you will see on
+the web site when you go to it.
+
+28
+00:01:32.390 --> 00:01:35.920
+So our Arduino should
+act like a web server.
+
+29
+00:01:35.920 --> 00:01:38.730
+So let's go through the code and
+see how that's coded.
+
+30
+00:01:38.730 --> 00:01:40.444
+Skip the comments.
+
+31
+00:01:40.444 --> 00:01:44.169
+Okay.
+So we start with our includes right here,
+
+32
+00:01:44.169 --> 00:01:46.097
+spi.h and ethernet2.h.
+
+33
+00:01:46.097 --> 00:01:48.477
+Then go down.
+
+34
+00:01:48.477 --> 00:01:51.613
+Now, note that we have a Mac address and
+IP address.
+
+35
+00:01:51.613 --> 00:01:53.150
+So here's the Mac address.
+
+36
+00:01:54.320 --> 00:01:55.910
+Now where I got that Mac address from.
+
+37
+00:01:55.910 --> 00:01:58.410
+Actually, I got that Mac
+address from a sticker
+
+38
+00:01:58.410 --> 00:02:00.540
+on the back of the Ethernet shield.
+
+39
+00:02:00.540 --> 00:02:03.630
+So I just copied that.
+
+40
+00:02:03.630 --> 00:02:08.896
+Then the IP address that I used,
+I used a local address.
+
+41
+00:02:08.896 --> 00:02:14.090
+So if you look at this address,
+128.195.54.255,
+
+42
+00:02:14.090 --> 00:02:19.760
+the first three numbers, those
+are the three numbers of my local network.
+
+43
+00:02:19.760 --> 00:02:23.380
+Then, the last number there,
+I just made up.
+
+44
+00:02:23.380 --> 00:02:26.090
+I chose one that I was pretty sure
+wasn't being used by anything on my
+
+45
+00:02:26.090 --> 00:02:26.689
+local network.
+
+46
+00:02:28.150 --> 00:02:29.750
+So then I got my IP address.
+
+47
+00:02:29.750 --> 00:02:31.140
+Now let's go down to the code.
+
+48
+00:02:32.390 --> 00:02:34.230
+EthernetServer, I create a server.
+
+49
+00:02:35.260 --> 00:02:38.390
+I create a server, and
+it's reading on port 80,
+
+50
+00:02:38.390 --> 00:02:42.520
+because that's where web traffic goes,
+where ATTP traffic goes.
+
+51
+00:02:42.520 --> 00:02:44.340
+So I create the server.
+
+52
+00:02:44.340 --> 00:02:48.350
+Then in the setup I start serial.begin.
+
+53
+00:02:48.350 --> 00:02:54.000
+The reason why I do that is because,
+that's just for information sake.
+
+54
+00:02:54.000 --> 00:02:56.550
+That doesn't control, that's just
+showing how the server is operate.
+
+55
+00:02:56.550 --> 00:03:00.070
+So the server's going to appear actively
+print stuff to the serial monitor just so
+
+56
+00:03:00.070 --> 00:03:01.570
+I can see it's progress.
+
+57
+00:03:01.570 --> 00:03:05.670
+But even without the serial it would work,
+it's just if I want to see the progress I
+
+58
+00:03:05.670 --> 00:03:09.090
+can see some intermediates and
+debugging data, essentially.
+
+59
+00:03:09.090 --> 00:03:10.416
+So I set up the serial connection.
+
+60
+00:03:10.416 --> 00:03:17.930
+Then we say, Ethernet.begin,
+starting the Ethernet adapter.
+
+61
+00:03:17.930 --> 00:03:19.950
+Give it the Mac address and
+
+62
+00:03:19.950 --> 00:03:24.410
+the IP address that I set, then you
+start the server with server.begin.
+
+63
+00:03:24.410 --> 00:03:28.460
+Then to the serial monitor it's gonna
+print the server and its address.
+
+64
+00:03:28.460 --> 00:03:30.975
+So, server is at, and
+it'll give the IP address.
+
+65
+00:03:30.975 --> 00:03:31.720
+Whoops.
+
+66
+00:03:31.720 --> 00:03:35.070
+And the IP address, sorry about that,
+
+67
+00:03:35.070 --> 00:03:39.280
+that it prints should basically match
+the IP address that I chose up there.
+
+68
+00:03:40.380 --> 00:03:42.370
+So that's just for diagnostics.
+
+69
+00:03:42.370 --> 00:03:43.220
+So that's the setup.
+
+70
+00:03:43.220 --> 00:03:46.610
+It starts the server with that
+server.begin, and that's the setup.
+
+71
+00:03:46.610 --> 00:03:50.460
+Now at that point,
+what the Arduino does, it enters a loop.
+
+72
+00:03:51.870 --> 00:03:54.887
+So first thing it does is,
+it calls server.available().
+
+73
+00:03:54.887 --> 00:03:58.860
+So server.available() right here,
+returns false if
+
+74
+00:04:00.730 --> 00:04:03.930
+there's no client trying
+to talk to the server.
+
+75
+00:04:03.930 --> 00:04:07.220
+And by client, I mean, essentially,
+a web browser or something like that.
+
+76
+00:04:07.220 --> 00:04:10.155
+So web browser, there's no web
+browser trying to talk to the server.
+
+77
+00:04:10.155 --> 00:04:13.210
+Server.available returns nothing,
+which is false.
+
+78
+00:04:13.210 --> 00:04:18.170
+But if there is a client trying to talk
+to the server, then it returns a client.
+
+79
+00:04:18.170 --> 00:04:21.480
+So, the next line, it says if client, so,
+if there is a client listening, then it
+
+80
+00:04:21.480 --> 00:04:26.670
+prints new client to the serial monitor
+and it tries to connect to the client.
+
+81
+00:04:27.710 --> 00:04:34.570
+That's right here, while, sorry,
+selecting things incorrectly.
+
+82
+00:04:34.570 --> 00:04:38.300
+So it tries to connect the client with
+this while connected, while .connected.
+
+83
+00:04:38.300 --> 00:04:42.968
+So if it connects to the client,
+then it calls if client available, right?
+
+84
+00:04:42.968 --> 00:04:47.165
+So if client.available is true that means
+that there is actually data waiting from
+
+85
+00:04:47.165 --> 00:04:50.605
+the client, because it's waiting for
+the client to actually send it a message.
+
+86
+00:04:50.605 --> 00:04:54.765
+So, if there is data waiting from
+a client then it reads that.
+
+87
+00:04:54.765 --> 00:04:59.317
+Called client.read and reads that data,
+whatever the character is, and
+
+88
+00:04:59.317 --> 00:05:02.055
+it's reading just a single
+character at this point.
+
+89
+00:05:02.055 --> 00:05:07.120
+And then it calls serial.write to
+write that to the serial monitor, so
+
+90
+00:05:07.120 --> 00:05:08.140
+it prints that to a serial monitor.
+
+91
+00:05:09.300 --> 00:05:13.000
+Now in addition to that,
+what it does it, so
+
+92
+00:05:13.000 --> 00:05:18.270
+it expects that whatever is coming
+from the client has gotta be an HTTP
+
+93
+00:05:18.270 --> 00:05:21.620
+request right because it's expecting
+that this is a web client.
+
+94
+00:05:21.620 --> 00:05:26.880
+And it would be making a request typically
+for a webpage, for the data webpage.
+
+95
+00:05:26.880 --> 00:05:30.760
+So, it waits until it sees a blank line.
+
+96
+00:05:30.760 --> 00:05:35.140
+So, it says if the characters equal
+the slash n, meaning that a character and
+
+97
+00:05:35.140 --> 00:05:36.720
+the current line is blank.
+
+98
+00:05:36.720 --> 00:05:38.050
+If that's the case, then it says,
+
+99
+00:05:38.050 --> 00:05:40.680
+okay, that means that the request is done,
+right?
+
+100
+00:05:40.680 --> 00:05:44.870
+This client has finished sending
+it's request for a webpage.
+
+101
+00:05:44.870 --> 00:05:47.660
+So now, it's the job of
+the server to send a response.
+
+102
+00:05:48.860 --> 00:05:52.980
+Now this response is going to
+be an HTTP 200 OK response.
+
+103
+00:05:52.980 --> 00:05:55.372
+And so that's what the first line is.
+
+104
+00:05:55.372 --> 00:05:56.505
+It started sending that information,
+
+105
+00:05:56.505 --> 00:06:00.110
+client.print line is
+the standard 200 OK response.
+
+106
+00:06:00.110 --> 00:06:01.880
+And it sends some header lines.
+
+107
+00:06:01.880 --> 00:06:03.100
+Now after it sends the header lines,
+
+108
+00:06:03.100 --> 00:06:06.330
+it actually has to send,
+it starts sending some HTML.
+
+109
+00:06:06.330 --> 00:06:08.870
+HTML is how a web page is described.
+
+110
+00:06:08.870 --> 00:06:12.640
+So it has to send the web page information
+so that the client can render it,
+
+111
+00:06:12.640 --> 00:06:14.620
+can draw that on the screen.
+
+112
+00:06:14.620 --> 00:06:18.430
+So you can see here
+client.print line HTML.
+
+113
+00:06:18.430 --> 00:06:22.670
+So that's the beginning of the HTML.
+
+114
+00:06:22.670 --> 00:06:25.460
+And then it gets into a for
+loop right here.
+
+115
+00:06:26.770 --> 00:06:27.700
+Right here, it starts a for
+
+116
+00:06:27.700 --> 00:06:30.620
+loop where it starts sending you
+the data about each analog channel.
+
+117
+00:06:30.620 --> 00:06:33.800
+So, notice that it's calling
+analog read for each channel.
+
+118
+00:06:33.800 --> 00:06:36.544
+It's iterating through channel
+zero through five, and for
+
+119
+00:06:36.544 --> 00:06:38.220
+each channel it does an analog read.
+
+120
+00:06:38.220 --> 00:06:43.666
+And then it prints out, or, rather, sends
+to the client analog input for the channel
+
+121
+00:06:43.666 --> 00:06:49.620
+is its in sensorReading, which is what it
+read with whatever the sensor value was.
+
+122
+00:06:49.620 --> 00:06:54.450
+So that sensor value is
+printed on the screen, or
+
+123
+00:06:54.450 --> 00:06:57.730
+rather it will be printed on the screen
+by the client when the client renders it.
+
+124
+00:06:57.730 --> 00:06:58.810
+And at the end of all this,
+
+125
+00:06:58.810 --> 00:07:05.390
+it sends a /html to indicate that that's
+the end of the HTML end of the web page.
+
+126
+00:07:05.390 --> 00:07:06.500
+So that's the response message,
+
+127
+00:07:06.500 --> 00:07:09.440
+that's the whole response message and
+it's looking for a character turn, but
+
+128
+00:07:09.440 --> 00:07:14.760
+the end eventually it reaches
+it's clients stop, down here.
+
+129
+00:07:14.760 --> 00:07:19.370
+When the client stops being connected it
+sends the clients stop message to end
+
+130
+00:07:19.370 --> 00:07:23.240
+the connection, and then prints out
+client disconnected, and that's it.
+
+131
+00:07:23.240 --> 00:07:25.380
+So, what we expect to
+see when we run this,
+
+132
+00:07:25.380 --> 00:07:28.870
+if this is all working,
+is we expect to see a web page.
+
+133
+00:07:28.870 --> 00:07:32.120
+We expect to see our client,
+our web browser, and
+
+134
+00:07:32.120 --> 00:07:35.290
+go to the web page to the IP
+address that I've chosen.
+
+135
+00:07:35.290 --> 00:07:38.430
+And what we should see is
+a web page that basically
+
+136
+00:07:38.430 --> 00:07:43.470
+prints out six statements which
+tell you the analog values.
+
+137
+00:07:43.470 --> 00:07:47.200
+And these sensor values, I haven't hooked
+up anything to these analog inputs.
+
+138
+00:07:47.200 --> 00:07:51.240
+So you'll just get random
+numbers between 0 and 255,
+
+139
+00:07:51.240 --> 00:07:55.280
+but that's what we expect to see and
+it should update periodically.
+
+140
+00:07:56.340 --> 00:08:04.280
+Okay, so I have already taken the liberty
+of uploading this code to my Arduino.
+
+141
+00:08:04.280 --> 00:08:09.010
+So my Arduino, I have the Arduino sitting,
+it's sitting here connected to my laptop.
+
+142
+00:08:09.010 --> 00:08:13.260
+And on top of that I have
+stacked the Ethernet shield.
+
+143
+00:08:13.260 --> 00:08:16.940
+Now this Ethernet shield,
+I have taken Ethernet cable and
+
+144
+00:08:16.940 --> 00:08:21.230
+connected it from the Ethernet shield
+to the switch that I have on my desk.
+
+145
+00:08:21.230 --> 00:08:22.280
+So I have a switch, but
+
+146
+00:08:22.280 --> 00:08:25.480
+this could just as well be a router if
+you have some router in your house.
+
+147
+00:08:25.480 --> 00:08:28.010
+This could be a router too,
+but I connect to a switch.
+
+148
+00:08:28.010 --> 00:08:32.250
+So the Arduino is right
+now running a server.
+
+149
+00:08:32.250 --> 00:08:36.310
+Cuz I have it connected,
+I have a wire connection to the switch.
+
+150
+00:08:36.310 --> 00:08:42.205
+All right so let us start looking at this.
+
+151
+00:08:42.205 --> 00:08:43.360
+[COUGH] Actually let's upload it again for
+fun.
+
+152
+00:08:43.360 --> 00:08:47.820
+Let's upload it one more time.
+
+153
+00:08:47.820 --> 00:08:49.880
+It's compiling it and uploading it.
+
+154
+00:08:49.880 --> 00:08:55.465
+And actually, we'll start the serial
+monitor to see the responses on sketch.
+
+155
+00:08:55.465 --> 00:08:57.921
+So soon as it uploads the sketch,
+
+156
+00:08:57.921 --> 00:09:03.380
+we will take a look at the serial
+monitor to see what it shows, uploading.
+
+157
+00:09:06.100 --> 00:09:08.710
+Give it just a few seconds.
+
+158
+00:09:08.710 --> 00:09:10.560
+Done uploading, so
+okay let's start the serial monitor.
+
+159
+00:09:10.560 --> 00:09:11.830
+Now here's the serial monitor.
+
+160
+00:09:13.750 --> 00:09:16.780
+There it is, server's at, and
+it gives me the IP address.
+
+161
+00:09:16.780 --> 00:09:18.820
+So the server is now waiting.
+
+162
+00:09:18.820 --> 00:09:20.820
+That was in the setup,
+if you remember in the setup code,
+
+163
+00:09:20.820 --> 00:09:22.690
+it was supposed to print that, so it does.
+
+164
+00:09:22.690 --> 00:09:24.150
+So let's close this.
+
+165
+00:09:24.150 --> 00:09:27.880
+Now we see the serial monitor,
+and the server is up and running.
+
+166
+00:09:27.880 --> 00:09:29.820
+So now we need to get that
+server to do something.
+
+167
+00:09:29.820 --> 00:09:31.720
+So let's open up a browser.
+
+168
+00:09:31.720 --> 00:09:37.480
+So I'll open up my Mozilla Firefox, but
+it does not matter which browser you use.
+
+169
+00:09:37.480 --> 00:09:40.030
+And it's at my default page /..org.
+
+170
+00:09:40.030 --> 00:09:42.390
+So now I'm going to go
+into the address and
+
+171
+00:09:42.390 --> 00:09:45.568
+I'm going to type in the IP
+address of my Arduino.
+
+172
+00:09:45.568 --> 00:09:47.860
+So that was 128.195.54.255.
+
+173
+00:09:47.860 --> 00:09:52.040
+And when I do that, hit Return, there.
+
+174
+00:09:52.040 --> 00:10:00.059
+Now you can see,
+let's move this over a little bit.
+
+175
+00:10:01.220 --> 00:10:04.460
+First, if you look in the browser you
+can see the numbers I was talking about.
+
+176
+00:10:04.460 --> 00:10:05.970
+Actually I was wrong about the range.
+
+177
+00:10:05.970 --> 00:10:10.650
+It's from zero to 1023 because these
+numbers are all in the range zero to 1023.
+
+178
+00:10:10.650 --> 00:10:14.174
+It's just reading off whatever analog
+voltage it reads off of those analog pans
+
+179
+00:10:14.174 --> 00:10:16.800
+and converting them to
+a number from zero to 1023
+
+180
+00:10:16.800 --> 00:10:19.725
+because that's what analog read does,
+and it's printing them.
+
+181
+00:10:19.725 --> 00:10:23.210
+And it's updating periodically because
+this browser is periodically sending new
+
+182
+00:10:23.210 --> 00:10:26.008
+request messages to the server.
+
+183
+00:10:26.008 --> 00:10:30.740
+Now over here, inside the serial monitor,
+you can see what it's receiving,
+
+184
+00:10:30.740 --> 00:10:35.020
+what the Arduino is receiving from
+the client, from the browser.
+
+185
+00:10:35.020 --> 00:10:37.610
+And it's updating periodically,
+but notice, it's a get.
+
+186
+00:10:37.610 --> 00:10:40.924
+If it's in standard message,
+standard request message and
+
+187
+00:10:40.924 --> 00:10:45.860
+as soon as the server receives that
+it sends back its response which is
+
+188
+00:10:45.860 --> 00:10:50.970
+rendered as you can see over here in
+the client which is the web browser.
+
+189
+00:10:52.040 --> 00:11:01.929
+So that's it.
+>> [MUSIC]

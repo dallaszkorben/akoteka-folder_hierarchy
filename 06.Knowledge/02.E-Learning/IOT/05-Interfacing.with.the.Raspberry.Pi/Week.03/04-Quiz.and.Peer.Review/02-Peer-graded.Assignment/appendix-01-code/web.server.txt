@@ -1,0 +1,7 @@
+import http.client
+
+conn = http.client.HTTPSConnection("www.uci.edu")
+conn.request("GET", "/")
+data = conn.getresponse().read()
+
+print(str(data, "utf-8"))

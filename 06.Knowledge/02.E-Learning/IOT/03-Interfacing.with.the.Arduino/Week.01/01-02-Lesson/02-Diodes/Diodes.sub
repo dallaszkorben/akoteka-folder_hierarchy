@@ -1,0 +1,437 @@
+WEBVTT
+
+1
+00:00:00.044 --> 00:00:10.044
+[MUSIC]
+
+2
+00:00:11.306 --> 00:00:14.550
+So another important component are diodes.
+
+3
+00:00:14.550 --> 00:00:17.340
+We're gonna talk about two
+different types of diodes.
+
+4
+00:00:17.340 --> 00:00:19.650
+Just general diodes,
+there are several varieties, but
+
+5
+00:00:19.650 --> 00:00:21.300
+we'll just talk about general diodes.
+
+6
+00:00:21.300 --> 00:00:24.693
+Plus LEDs, which LEDs stands for
+light emitting diode.
+
+7
+00:00:24.693 --> 00:00:29.540
+So that's also a diode, it just emits
+a light when current flows through it.
+
+8
+00:00:29.540 --> 00:00:34.120
+So the schematic symbols for diodes and
+light emitting diodes is shown up there.
+
+9
+00:00:34.120 --> 00:00:38.300
+On the left side of the slide
+you see the regular diode.
+
+10
+00:00:38.300 --> 00:00:40.160
+And then next to it you see
+the light emitting diode.
+
+11
+00:00:40.160 --> 00:00:41.130
+It looks like a regular diode,
+
+12
+00:00:41.130 --> 00:00:45.150
+it just has two little arrows going
+out to show that light being emitted.
+
+13
+00:00:45.150 --> 00:00:47.810
+And then actually next to that I have
+a little picture of an LED, right?
+
+14
+00:00:47.810 --> 00:00:51.040
+It's just a typical LED,
+standard looking LED.
+
+15
+00:00:51.040 --> 00:00:54.203
+And diodes can look lots
+of different ways, but
+
+16
+00:00:54.203 --> 00:00:58.092
+in an LED typically looks like
+what we're showing there.
+
+17
+00:00:58.092 --> 00:01:01.824
+Now, an LED or any diode at all, LED or
+
+18
+00:01:01.824 --> 00:01:06.741
+not, has two terminals,
+an anode and a cathode.
+
+19
+00:01:06.741 --> 00:01:11.474
+So the thing about diodes,
+the unique think about diodes is that they
+
+20
+00:01:11.474 --> 00:01:17.710
+are semiconductors and current can only
+flow one direction through a diode.
+
+21
+00:01:17.710 --> 00:01:20.900
+So it's got to go from
+the anode to the cathode,
+
+22
+00:01:20.900 --> 00:01:23.250
+it can't flow from
+the cathode to the anode.
+
+23
+00:01:23.250 --> 00:01:26.350
+Now even that said, it can flow
+from the cathode to the anode, but
+
+24
+00:01:26.350 --> 00:01:28.410
+only if you drive it
+with a lot of voltage.
+
+25
+00:01:28.410 --> 00:01:29.055
+Okay?
+
+26
+00:01:29.055 --> 00:01:31.360
+At the levels that we're using,
+
+27
+00:01:31.360 --> 00:01:34.880
+current is only going to flow in one
+direction from the anode to the cathode.
+
+28
+00:01:36.690 --> 00:01:39.060
+So it's like a one way valve
+in terms of water, right?
+
+29
+00:01:39.060 --> 00:01:40.086
+It goes one way,
+it doesn't go the other way.
+
+30
+00:01:42.095 --> 00:01:43.670
+So, if it's an LED,
+
+31
+00:01:43.670 --> 00:01:48.400
+a light-emitting diode, then when current
+flows the light emits, and it gets bright.
+
+32
+00:01:48.400 --> 00:01:49.260
+Otherwise it's dark.
+
+33
+00:01:50.900 --> 00:01:55.070
+Now, every diode has what's
+called a threshold voltage.
+
+34
+00:01:55.070 --> 00:01:59.294
+So, let's take the picture
+on the left side.
+
+35
+00:01:59.294 --> 00:02:01.910
+The forward bias,
+the one that's labeled forward bias.
+
+36
+00:02:01.910 --> 00:02:04.920
+So notice that the anode is
+labeled with a plus sign and
+
+37
+00:02:04.920 --> 00:02:06.900
+the cathode is labeled with a minus sign.
+
+38
+00:02:06.900 --> 00:02:10.720
+So what that's saying is that in order for
+this diode to be forward biased,
+
+39
+00:02:10.720 --> 00:02:14.800
+meaning a forward bias is when
+current is flowing through it.
+
+40
+00:02:14.800 --> 00:02:19.903
+The anode has to have positive
+voltage with respect to the cathode.
+
+41
+00:02:19.903 --> 00:02:23.850
+So the anode-cathode voltage must
+be above a certain threshold.
+
+42
+00:02:23.850 --> 00:02:27.120
+So not only does the anode have to be
+positive with respect to the cathode,
+
+43
+00:02:27.120 --> 00:02:30.228
+the difference between the voltages at
+those two ends has to be a threshold.
+
+44
+00:02:30.228 --> 00:02:33.170
+Let's say 1.7 volts, but
+this is going to depend on the diode.
+
+45
+00:02:34.410 --> 00:02:36.590
+So you'll have this threshold and
+
+46
+00:02:36.590 --> 00:02:39.190
+if the voltage is below that threshold,
+then current will not flow.
+
+47
+00:02:39.190 --> 00:02:42.312
+But once it gets above that threshold,
+then current flows and
+
+48
+00:02:42.312 --> 00:02:43.945
+it's very little resistance.
+
+49
+00:02:43.945 --> 00:02:47.906
+Now reverse, so you see on
+the left side we got forward bias,
+
+50
+00:02:47.906 --> 00:02:50.400
+on the right we've got reverse bias.
+
+51
+00:02:50.400 --> 00:02:55.050
+Reverse bias, we took the anode and made
+it negative with respect to the cathode.
+
+52
+00:02:55.050 --> 00:02:59.100
+In reverse biasing,
+we will get no current flow, typically,
+
+53
+00:02:59.100 --> 00:03:02.460
+until the difference in voltage is so
+
+54
+00:03:02.460 --> 00:03:07.620
+large that it overcomes the reverse bias.
+
+55
+00:03:07.620 --> 00:03:11.444
+So eventually, if you drive enough
+current, if you push out voltage that if
+
+56
+00:03:11.444 --> 00:03:14.316
+there's enough voltage that's
+between the cathode and
+
+57
+00:03:14.316 --> 00:03:18.587
+the anode you will get current flow, but
+not at the levels that we're dealing with.
+
+58
+00:03:18.587 --> 00:03:20.500
+You'd have to have a lot and
+we're not gonna do that.
+
+59
+00:03:20.500 --> 00:03:24.660
+So reverse biasing it, for
+us would be no current flow.
+
+60
+00:03:24.660 --> 00:03:29.100
+Only in forward bias condition when the
+anode is positive with respect to cathode,
+
+61
+00:03:29.100 --> 00:03:34.370
+and the anode-cathode voltage
+difference is above the threshold,
+
+62
+00:03:34.370 --> 00:03:38.220
+only then will current flow for us.
+
+63
+00:03:38.220 --> 00:03:41.160
+So yes, reverse bias when the anode is
+negative with respect to the cathode.
+
+64
+00:03:42.360 --> 00:03:45.730
+Another thing about, another property of
+diodes is that they have a current limit.
+
+65
+00:03:45.730 --> 00:03:48.460
+So it's a maximum current, and
+
+66
+00:03:48.460 --> 00:03:51.320
+you should not drive them
+with more than that current.
+
+67
+00:03:51.320 --> 00:03:55.747
+You can probably push it a little bit,
+but it will wear down more quickly.
+
+68
+00:03:55.747 --> 00:03:58.990
+And if you drive too much current it'll
+just blow up and it'll never work again.
+
+69
+00:03:58.990 --> 00:04:02.589
+When I say blow up, it might pop and
+you just will never see it work again.
+
+70
+00:04:03.830 --> 00:04:09.560
+So, like typical LEDs that I use,
+20 milliamps is the current limit.
+
+71
+00:04:09.560 --> 00:04:15.540
+And actually, this is also the limit for
+the LEDs in your kit, if you got the kit.
+
+72
+00:04:15.540 --> 00:04:18.210
+The LEDs in your kit,
+typical current limit is 20 milliamps.
+
+73
+00:04:18.210 --> 00:04:21.850
+If you drive it with more, you push
+more than 20 milliamps through it,
+
+74
+00:04:21.850 --> 00:04:23.409
+it will die pretty quickly.
+
+75
+00:04:25.110 --> 00:04:28.960
+So, do not connect an LED directly
+across a five volt supply.
+
+76
+00:04:28.960 --> 00:04:31.950
+So what I mean by that is there's
+the anode and the cathode.
+
+77
+00:04:31.950 --> 00:04:34.780
+If you take the anode wired
+directly to five volts,
+
+78
+00:04:34.780 --> 00:04:38.870
+the cathode wired directly to ground, you
+will have a circuit and current will flow.
+
+79
+00:04:38.870 --> 00:04:40.130
+But a lot of current will flow,
+
+80
+00:04:40.130 --> 00:04:43.870
+because that LED has very little
+resistance when it's on, right?
+
+81
+00:04:43.870 --> 00:04:45.060
+Very little resistance.
+
+82
+00:04:45.060 --> 00:04:46.790
+And remember V equals IR, right?
+
+83
+00:04:46.790 --> 00:04:51.905
+So I equals V over R, and the resistance
+is low, so I will be very high.
+
+84
+00:04:51.905 --> 00:04:56.970
+So that's the type of situation if
+you want to figure out the type
+
+85
+00:04:56.970 --> 00:05:01.040
+of resistor that you want to put in there,
+in series with the diode, you have to
+
+86
+00:05:01.040 --> 00:05:04.580
+figure out what the on resistance of the
+diode is, which should be in a data sheet.
+
+87
+00:05:04.580 --> 00:05:05.782
+And then you say okay,
+
+88
+00:05:05.782 --> 00:05:10.100
+that plus what size resistance would
+keep the current less than 20 milliamps?
+
+89
+00:05:10.100 --> 00:05:11.800
+And you can solve for
+that, using Ohm's Law.
+
+90
+00:05:14.695 --> 00:05:17.479
+Yeah, and you'll get too much
+current without a resistor at all.
+
+91
+00:05:17.479 --> 00:05:19.407
+Thank you.
+
+92
+00:05:19.407 --> 00:05:23.459
+[MUSIC]

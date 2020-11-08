@@ -1,0 +1,797 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:09.046
+[MUSIC]
+
+2
+00:00:09.046 --> 00:00:13.464
+[SOUND] So we're still talking
+about electrical circuits,
+
+3
+00:00:13.464 --> 00:00:16.921
+about the hardware side
+of these IOT devices.
+
+4
+00:00:16.921 --> 00:00:22.930
+Now, you know, we understand V equals IR,
+Ohm's law and so forth, that relationship.
+
+5
+00:00:22.930 --> 00:00:25.550
+But you're eventually gonna have to
+actually build these things physically.
+
+6
+00:00:25.550 --> 00:00:27.290
+You're gonna have to
+take these components.
+
+7
+00:00:27.290 --> 00:00:32.250
+And we saw a battery, some kind
+of power source, wires, resistor.
+
+8
+00:00:32.250 --> 00:00:34.460
+There are lots of different components.
+
+9
+00:00:34.460 --> 00:00:37.940
+Eventually you're gonna have to take
+these and actually plug them together and
+
+10
+00:00:37.940 --> 00:00:38.990
+make a circuit out of them.
+
+11
+00:00:38.990 --> 00:00:39.870
+Okay?
+
+12
+00:00:39.870 --> 00:00:44.796
+Now, typically, when you do that, you also
+have what's called a schematic diagram.
+
+13
+00:00:44.796 --> 00:00:46.712
+And we're gonna show some of these.
+
+14
+00:00:46.712 --> 00:00:49.070
+But, so you start off.
+
+15
+00:00:49.070 --> 00:00:51.640
+Usually when,
+say you're thinking of a new design.
+
+16
+00:00:51.640 --> 00:00:54.430
+What you do is you write,
+you draw out a schematic.
+
+17
+00:00:54.430 --> 00:00:57.260
+A drawing of what should
+be connected to what.
+
+18
+00:00:57.260 --> 00:01:01.120
+Now this schematic drawing, typically, it
+shows what components connected to what,
+
+19
+00:01:01.120 --> 00:01:02.640
+what terminals connect to what.
+
+20
+00:01:02.640 --> 00:01:04.140
+But it doesn't show exact placement.
+
+21
+00:01:04.140 --> 00:01:06.350
+It doesn't show how it will
+physically look in the real world.
+
+22
+00:01:06.350 --> 00:01:09.800
+It shows, though, how you would expect
+it to be connected electrically.
+
+23
+00:01:09.800 --> 00:01:13.810
+So these schematics, we're going to have
+to get used to reading these schematics.
+
+24
+00:01:13.810 --> 00:01:14.622
+And given a schematic,
+
+25
+00:01:14.622 --> 00:01:17.440
+you're going to have to get used to taking
+that schematic and implementing it.
+
+26
+00:01:17.440 --> 00:01:22.030
+Meaning wiring some components together
+according to the schematic, okay.
+
+27
+00:01:22.030 --> 00:01:23.790
+So that's the type of stuff
+we're gonna cover right now.
+
+28
+00:01:23.790 --> 00:01:26.410
+And so we're gonna go through some
+of these electrical components
+
+29
+00:01:26.410 --> 00:01:29.570
+that you commonly see, just so
+you know what they look like and
+
+30
+00:01:29.570 --> 00:01:31.610
+what their schematic symbols look like.
+
+31
+00:01:31.610 --> 00:01:35.570
+So that you can understand what
+a schematic diagram looks like, and
+
+32
+00:01:35.570 --> 00:01:38.630
+then you can understand how that matches
+the actual physical implementation that
+
+33
+00:01:38.630 --> 00:01:40.070
+you're gonna work on.
+
+34
+00:01:40.070 --> 00:01:42.600
+So up here we have resistors.
+
+35
+00:01:42.600 --> 00:01:46.200
+So on the left you see
+a batch of resistors so those
+
+36
+00:01:46.200 --> 00:01:50.110
+are your standard resistors and they can
+look different but that is a common look.
+
+37
+00:01:50.110 --> 00:01:51.800
+So if you look at those resistors and
+
+38
+00:01:51.800 --> 00:01:54.790
+you can see next to it there's
+a schematic symbol that little
+
+39
+00:01:54.790 --> 00:01:58.900
+saw tooth type of diagram saw tooth thing
+that's a resistors schematic symbol.
+
+40
+00:01:58.900 --> 00:02:02.260
+Now a resistor, it provides
+resistance to the current flow.
+
+41
+00:02:02.260 --> 00:02:05.380
+So we already talked about what
+a resistor's supposed to do.
+
+42
+00:02:05.380 --> 00:02:09.630
+A resistor has two terminals, two leads,
+right, two wires coming out of it.
+
+43
+00:02:09.630 --> 00:02:13.150
+If you look at any one of those resistors
+there's two wires, one on each side.
+
+44
+00:02:13.150 --> 00:02:17.190
+And it doesn't matter which one, they're
+equivalent, so current could flow either
+
+45
+00:02:17.190 --> 00:02:19.759
+direction through there, it doesn't matter
+which one is which, which side is which.
+
+46
+00:02:20.810 --> 00:02:25.470
+Now, each resistor has a certain
+resistance value associated with it.
+
+47
+00:02:25.470 --> 00:02:28.570
+Maybe this resistor is 10 ohms,
+maybe this is 10 k ohms,
+
+48
+00:02:28.570 --> 00:02:31.680
+meaning ten kilohms,
+maybe this is 100 ohms, and so on.
+
+49
+00:02:31.680 --> 00:02:33.870
+So every resistor has a resistance, and
+
+50
+00:02:33.870 --> 00:02:37.790
+that resistance is encoded in
+the bands on the resistor.
+
+51
+00:02:37.790 --> 00:02:41.330
+Now I'm not actually gonna go
+through the band coloring but
+
+52
+00:02:41.330 --> 00:02:43.400
+let me tell you how it basically works.
+
+53
+00:02:43.400 --> 00:02:48.550
+These resisters generally have either four
+bands or five bands of different colors.
+
+54
+00:02:48.550 --> 00:02:51.080
+I think the ones on the screen, hard for
+me to see at this distance, but
+
+55
+00:02:51.080 --> 00:02:54.100
+they have four,
+maybe it's four, four or five.
+
+56
+00:02:54.100 --> 00:02:58.460
+So one of the bands, at one end is always
+
+57
+00:02:58.460 --> 00:03:03.107
+the accuracy of the resistor value.
+
+58
+00:03:03.107 --> 00:03:07.360
+So say I got a resistor and
+I say, oh it's 100 ohm resistor.
+
+59
+00:03:07.360 --> 00:03:11.320
+It might not actually be exactly 100 ohms,
+that's plus or minus 5%, or plus or
+
+60
+00:03:11.320 --> 00:03:13.240
+minus 10%, or something like that.
+
+61
+00:03:13.240 --> 00:03:16.860
+So that plus or minus percent,
+that's represented in the last band.
+
+62
+00:03:16.860 --> 00:03:18.670
+So typically resistors we have,
+
+63
+00:03:18.670 --> 00:03:21.910
+they have a gold band as the last band,
+which means pretty good.
+
+64
+00:03:21.910 --> 00:03:23.040
+I forget what that means.
+
+65
+00:03:23.040 --> 00:03:24.629
+I think it's 5%, plus or minus.
+
+66
+00:03:24.629 --> 00:03:27.754
+And then silver I think is 10%,
+something like that.
+
+67
+00:03:27.754 --> 00:03:35.700
+So there's one band at one end that is how
+accurate the value is on the resistor.
+
+68
+00:03:35.700 --> 00:03:37.796
+The other bands,
+each band represents a digit.
+
+69
+00:03:37.796 --> 00:03:42.462
+So if you were to Google
+resistor color codes.
+
+70
+00:03:42.462 --> 00:03:47.105
+You'd see these tables where they'd show
+black, I believe black is like a zero or
+
+71
+00:03:47.105 --> 00:03:49.680
+something and brown is a one.
+
+72
+00:03:49.680 --> 00:03:53.210
+Every color is a digit, and these bands.
+
+73
+00:03:53.210 --> 00:03:55.200
+So say you got a four band resistor.
+
+74
+00:03:55.200 --> 00:03:59.480
+One band is the accuracy, but the other
+three bands they represent three digits.
+
+75
+00:03:59.480 --> 00:04:01.160
+It's basically scientific notation.
+
+76
+00:04:01.160 --> 00:04:04.120
+So the first two digits are just
+two digits of a number.
+
+77
+00:04:04.120 --> 00:04:05.190
+So let's say it's a two and a two.
+
+78
+00:04:05.190 --> 00:04:06.090
+So two two.
+
+79
+00:04:06.090 --> 00:04:08.600
+And the last digit is the exponent of ten.
+
+80
+00:04:08.600 --> 00:04:10.440
+So let's say I had two two three.
+
+81
+00:04:10.440 --> 00:04:12.790
+That would mean 22 times ten to the third.
+
+82
+00:04:12.790 --> 00:04:16.420
+That's how many ohms
+resistance the resistor is.
+
+83
+00:04:16.420 --> 00:04:20.070
+So that's how you read them, so you need
+to have the color code sheet in front you,
+
+84
+00:04:20.070 --> 00:04:22.100
+it's sort of a tedious thing.
+
+85
+00:04:22.100 --> 00:04:26.350
+You can read the colors off of the band
+and figure out the size of your resistor.
+
+86
+00:04:26.350 --> 00:04:28.810
+It's tedious also because the coloring.
+
+87
+00:04:29.920 --> 00:04:31.470
+How good is your estimation of color?
+
+88
+00:04:31.470 --> 00:04:35.180
+Meaning they all have, there are kind of
+shades of colors that look kinda similar.
+
+89
+00:04:35.180 --> 00:04:37.900
+Like the orange sometimes looks
+like the red, things like this.
+
+90
+00:04:37.900 --> 00:04:40.180
+It is awkward to read these bands.
+
+91
+00:04:40.180 --> 00:04:41.680
+But that's what you have to do.
+
+92
+00:04:41.680 --> 00:04:43.610
+So now, what I actually do.
+
+93
+00:04:43.610 --> 00:04:45.430
+Tell you the truth,
+I have tons of resistors.
+
+94
+00:04:45.430 --> 00:04:49.140
+I basically, when I get them, they come in
+a bag that says what resistance they are.
+
+95
+00:04:49.140 --> 00:04:50.860
+I just keep them in that bag.
+
+96
+00:04:50.860 --> 00:04:52.740
+So I never have to read the bands again.
+
+97
+00:04:52.740 --> 00:04:55.640
+But you can always resort to
+reading the bands if you have to.
+
+98
+00:04:55.640 --> 00:04:58.670
+So just Google it and you can find
+the color codes and that's that.
+
+99
+00:04:59.710 --> 00:05:02.090
+So those are resistors and
+that's their schematic symbol.
+
+100
+00:05:04.810 --> 00:05:09.590
+Okay, here are some more schematic symbols
+for some common components that you get.
+
+101
+00:05:09.590 --> 00:05:11.410
+First, we got the battery.
+
+102
+00:05:11.410 --> 00:05:15.100
+Now, notice the battery has, basically,
+it's a long bar and a short bar.
+
+103
+00:05:15.100 --> 00:05:16.880
+The long bar is the positive terminal.
+
+104
+00:05:16.880 --> 00:05:19.836
+The short bar is the negative terminal.
+
+105
+00:05:19.836 --> 00:05:22.403
+Now, sometimes,
+you're driving something with a battery,
+
+106
+00:05:22.403 --> 00:05:24.590
+but sometimes you're driving
+it without a battery.
+
+107
+00:05:24.590 --> 00:05:27.920
+You just have a power source, maybe from
+the wall, or some arbitrary power source.
+
+108
+00:05:27.920 --> 00:05:29.830
+So, for instance,
+actually, in our examples,
+
+109
+00:05:29.830 --> 00:05:31.860
+all of our examples,
+we're not using a battery.
+
+110
+00:05:31.860 --> 00:05:34.040
+We're using the Arduino itself, right.
+
+111
+00:05:34.040 --> 00:05:38.990
+The Arduino, we're gonna pull five volts
+and ground from the Arduino itself.
+
+112
+00:05:38.990 --> 00:05:40.390
+So we won't use a battery.
+
+113
+00:05:40.390 --> 00:05:45.730
+Instead we'll just have a power symbol and
+a ground symbol on our diagram.
+
+114
+00:05:45.730 --> 00:05:48.550
+Power is actually drawn
+several different ways but
+
+115
+00:05:48.550 --> 00:05:51.850
+we're gonna use a little triangle
+that points up like that.
+
+116
+00:05:51.850 --> 00:05:52.960
+That's usually power.
+
+117
+00:05:52.960 --> 00:05:55.360
+And next to it you'd have
+the power of the voltage value.
+
+118
+00:05:55.360 --> 00:05:58.160
+So for instance, if it was a five
+volt source, you'd take power,
+
+119
+00:05:58.160 --> 00:05:59.360
+you'd have the little triangle.
+
+120
+00:05:59.360 --> 00:06:00.770
+And next to it you write five V.
+
+121
+00:06:00.770 --> 00:06:01.510
+Plus five V.
+
+122
+00:06:01.510 --> 00:06:02.900
+Something like that.
+
+123
+00:06:02.900 --> 00:06:06.530
+Now ground is actually always drawn,
+almost always drawn exactly like that.
+
+124
+00:06:06.530 --> 00:06:10.639
+Ground is just, it goes down and it says
+three bars, smaller one after the other.
+
+125
+00:06:11.660 --> 00:06:15.390
+So those are some common symbols,
+you see those in schematics all the time.
+
+126
+00:06:15.390 --> 00:06:16.610
+DC power.
+
+127
+00:06:16.610 --> 00:06:19.830
+So, this is all direct current, DC.
+
+128
+00:06:19.830 --> 00:06:22.820
+Just to note this,
+we're dealing only with direct current.
+
+129
+00:06:22.820 --> 00:06:25.440
+So, to tell you what direct current is,
+
+130
+00:06:25.440 --> 00:06:28.110
+there's direct current
+versus alternating current.
+
+131
+00:06:28.110 --> 00:06:31.290
+Alternating current is when
+current goes back and forth.
+
+132
+00:06:31.290 --> 00:06:32.922
+The electrons move back and forth.
+
+133
+00:06:32.922 --> 00:06:36.011
+Like coming out of the wall
+I believe we got 60 hertz.
+
+134
+00:06:36.011 --> 00:06:38.120
+Yeah, I think its 60 hertz
+coming out of the wall.
+
+135
+00:06:38.120 --> 00:06:41.123
+Which means 60 cycles a second,
+so the current goes back and
+
+136
+00:06:41.123 --> 00:06:42.780
+forth 60 times every second.
+
+137
+00:06:42.780 --> 00:06:46.640
+That's alternating current, alternating
+current is good for transmission.
+
+138
+00:06:46.640 --> 00:06:49.840
+Meaning it loses less power in
+long distance transmission.
+
+139
+00:06:49.840 --> 00:06:51.710
+Okay?
+That's why we have alternating current
+
+140
+00:06:51.710 --> 00:06:54.360
+in our houses and things like
+that because you gotta transmit
+
+141
+00:06:54.360 --> 00:06:58.250
+it from wherever the power station is,
+and it transmits there.
+
+142
+00:06:58.250 --> 00:07:01.510
+But direct current is what we use
+in our devices in our houses.
+
+143
+00:07:01.510 --> 00:07:04.973
+So there's always this
+conversion from AC to DC, to DC,
+
+144
+00:07:04.973 --> 00:07:07.220
+direct current, into our devices.
+
+145
+00:07:07.220 --> 00:07:10.650
+Like a TV or something like that,
+that runs off a DC.
+
+146
+00:07:10.650 --> 00:07:14.410
+All of our circuit boards, Arduinos,
+all that junk, that runs off of DC.
+
+147
+00:07:15.590 --> 00:07:18.875
+One other note,
+never create a short circuit.
+
+148
+00:07:18.875 --> 00:07:21.900
+So short circuit, actually specifically
+a short circuit between power and
+
+149
+00:07:21.900 --> 00:07:26.030
+ground, short circuit is when you
+accidentally connect two wires together.
+
+150
+00:07:26.030 --> 00:07:29.930
+If you were to short power to ground,
+so if you took power and
+
+151
+00:07:29.930 --> 00:07:33.240
+ground and wired them together
+by accident then power,
+
+152
+00:07:33.240 --> 00:07:37.510
+what happens is between those two points,
+you got, let's say power is five volts.
+
+153
+00:07:37.510 --> 00:07:39.830
+So you've got a five volt
+difference between ground and
+
+154
+00:07:39.830 --> 00:07:43.650
+power, but their resistance is zero.
+
+155
+00:07:43.650 --> 00:07:45.190
+If you have a conductor,
+if you've run a wire,
+
+156
+00:07:45.190 --> 00:07:47.650
+you've got effectively no resistance.
+
+157
+00:07:47.650 --> 00:07:50.924
+Now if we were to go back to
+Ohm's law V equals IR, right so
+
+158
+00:07:50.924 --> 00:07:52.650
+I the current equals V over R.
+
+159
+00:07:52.650 --> 00:07:53.790
+V divided by R.
+
+160
+00:07:53.790 --> 00:07:59.440
+If R is close to zero then I is
+infinite or approaching infinity right.
+
+161
+00:07:59.440 --> 00:08:03.680
+So what that means is if you short power
+and ground you get a rush of current and
+
+162
+00:08:03.680 --> 00:08:04.600
+something smokes.
+
+163
+00:08:04.600 --> 00:08:07.070
+Literally smokes, I mean you'll
+see something on your boards.
+
+164
+00:08:07.070 --> 00:08:09.890
+Smoke coming at you, you'll smell it,
+it'll be extremely hot.
+
+165
+00:08:09.890 --> 00:08:13.440
+It's not overly dangerous because we're
+dealing with low current levels, right?
+
+166
+00:08:13.440 --> 00:08:14.690
+But you don't wanna do that.
+
+167
+00:08:14.690 --> 00:08:17.905
+And you can mess up your bread board too,
+it'll brown out a hole and
+
+168
+00:08:17.905 --> 00:08:19.290
+it might hurt in the future.
+
+169
+00:08:19.290 --> 00:08:20.879
+So you don't wanna do that.
+
+170
+00:08:20.879 --> 00:08:24.629
+So never put a short between power and
+ground.
+
+171
+00:08:24.629 --> 00:08:26.422
+Thank you.
+
+172
+00:08:26.422 --> 00:08:34.949
+[MUSIC]

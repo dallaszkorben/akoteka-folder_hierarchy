@@ -1,0 +1,504 @@
+WEBVTT
+
+1
+00:00:00.549 --> 00:00:03.174
+[MUSIC]
+
+2
+00:00:03.174 --> 00:00:09.569
+[SOUND] So, a shield, an Arduino Shield,
+
+3
+00:00:09.569 --> 00:00:15.615
+is basically a printed circuit board.
+
+4
+00:00:15.615 --> 00:00:16.891
+An extra board,
+
+5
+00:00:16.891 --> 00:00:22.560
+that you connect to your Arduino to
+extend its functionality in some way.
+
+6
+00:00:22.560 --> 00:00:26.780
+So, the Arduino if you look at it all by
+itself without the shield the hardware is
+
+7
+00:00:26.780 --> 00:00:32.500
+pretty limited, its got a microcontroller,
+its got pins, holes that you
+
+8
+00:00:32.500 --> 00:00:38.150
+can connect to the microcontroller,
+its got an LED on there Right?
+
+9
+00:00:38.150 --> 00:00:41.640
+And then, there's a USB port that's
+used to communicate with the computer.
+
+10
+00:00:41.640 --> 00:00:48.120
+But besides that, it doesn't have
+much in the way of interface.
+
+11
+00:00:48.120 --> 00:00:53.100
+It is necessary in a more complicated
+system to extend it to do
+
+12
+00:00:53.100 --> 00:00:57.519
+certain things that you can't just
+do with the microcontroller alone.
+
+13
+00:00:58.642 --> 00:01:04.030
+So a shield makes that easy for you,
+a shield is basically two things really.
+
+14
+00:01:04.030 --> 00:01:08.440
+Its hardware, which is that little board,
+printed circuit board, which is basically
+
+15
+00:01:08.440 --> 00:01:13.430
+the same size of the Arduino and
+fits right on top of the Arduino.
+
+16
+00:01:13.430 --> 00:01:18.792
+Its sold as pre-wired, pre-manufactured
+board, and you can buy it manufactured.
+
+17
+00:01:18.792 --> 00:01:21.730
+There are also shields
+that are not manufactured,
+
+18
+00:01:21.730 --> 00:01:24.990
+where you can just buy the design, it's
+open source, you can buy the design and
+
+19
+00:01:24.990 --> 00:01:26.080
+you can manufacture it yourself.
+
+20
+00:01:26.080 --> 00:01:29.510
+But generally, you're gonna buy it
+pre-manufactured, so there's the hardware
+
+21
+00:01:29.510 --> 00:01:33.935
+side of the shield, but there's also
+the software side, the library.
+
+22
+00:01:33.935 --> 00:01:36.055
+The library that's
+associated with the Shield.
+
+23
+00:01:36.055 --> 00:01:38.815
+So to make it easy,
+we talked about libraries.
+
+24
+00:01:38.815 --> 00:01:40.775
+To make it easy to use these Shields,
+
+25
+00:01:40.775 --> 00:01:43.405
+that you're provided with some kind of
+a library with a set of functions that do
+
+26
+00:01:43.405 --> 00:01:45.975
+all of the interesting things
+that the Shield can do.
+
+27
+00:01:48.360 --> 00:01:49.180
+Benefits of Shields.
+
+28
+00:01:49.180 --> 00:01:50.370
+So, why do you use a shield?
+
+29
+00:01:50.370 --> 00:01:53.080
+No wiring is needed, right?
+
+30
+00:01:53.080 --> 00:01:54.460
+There's a picture of a shield.
+
+31
+00:01:54.460 --> 00:01:55.760
+That's an Ethernet Shield right there,
+
+32
+00:01:55.760 --> 00:01:57.940
+which actually we'll use
+that in a future lecture.
+
+33
+00:01:58.960 --> 00:02:01.440
+The circuit on that shield is pre-wired.
+
+34
+00:02:01.440 --> 00:02:05.050
+So, if you look at that shield, it's got
+several components on there, chips and
+
+35
+00:02:05.050 --> 00:02:07.240
+things like this, all wired together.
+
+36
+00:02:07.240 --> 00:02:10.780
+That wiring you, as a user,
+you did not have to do.
+
+37
+00:02:10.780 --> 00:02:11.920
+That wiring is given to you.
+
+38
+00:02:11.920 --> 00:02:13.270
+It's all pre-wired, so
+
+39
+00:02:13.270 --> 00:02:17.020
+you don't have to worry about the details
+of the wiring which can be hard.
+
+40
+00:02:17.020 --> 00:02:21.810
+Also, the wiring that connects the shield,
+all the shield pins, to the actual
+
+41
+00:02:21.810 --> 00:02:24.950
+Arduino pins, you don't have to worry
+about that either, because that's done for
+
+42
+00:02:24.950 --> 00:02:29.510
+you automatically by stacking
+the shield on top of the Arduino.
+
+43
+00:02:29.510 --> 00:02:32.810
+So, if you look at the shield,
+it's got pins underneath it,
+
+44
+00:02:32.810 --> 00:02:35.390
+which fit into the holes of the Arduino.
+
+45
+00:02:35.390 --> 00:02:37.030
+So, you don't have to
+do any kind of wiring.
+
+46
+00:02:37.030 --> 00:02:40.640
+You just take board,
+stack it right on top of the Arduino and
+
+47
+00:02:40.640 --> 00:02:42.870
+all the wiring is done for you.
+
+48
+00:02:42.870 --> 00:02:44.730
+So, that's a great thing, right?
+
+49
+00:02:44.730 --> 00:02:46.700
+You don't have to design the hardware
+side of the circuit at all.
+
+50
+00:02:47.720 --> 00:02:51.200
+Simple to use because the library
+functions take care of the complicated
+
+51
+00:02:51.200 --> 00:02:52.960
+details of how to use the device.
+
+52
+00:02:52.960 --> 00:02:57.010
+Like in this one this is
+an ethernet controller.
+
+53
+00:02:57.010 --> 00:02:58.920
+And there's a chip in there that's says,
+
+54
+00:02:58.920 --> 00:03:01.980
+wiznet ethernet controller
+chip if I remember the name.
+
+55
+00:03:01.980 --> 00:03:03.780
+And that's kind of
+a complicated chip to use.
+
+56
+00:03:03.780 --> 00:03:07.520
+I've used that chip separately,
+and there's a data sheet,
+
+57
+00:03:07.520 --> 00:03:09.920
+a thick data sheet, and
+you have to understand it.
+
+58
+00:03:09.920 --> 00:03:12.810
+With these library functions,
+you don't have to understand any of that.
+
+59
+00:03:12.810 --> 00:03:15.780
+You just call them and
+you've got an Ethernet connection.
+
+60
+00:03:18.070 --> 00:03:23.770
+Pins, so the picture is actually
+a shield without the pins attached.
+
+61
+00:03:23.770 --> 00:03:27.420
+Okay, so the pins on the bottom,
+so if you look a the Arduino,
+
+62
+00:03:27.420 --> 00:03:31.340
+he's got a set of holes,
+rows of holes on the top or bottom,
+
+63
+00:03:31.340 --> 00:03:36.060
+or left to right depending on
+your orientation that with pins.
+
+64
+00:03:36.060 --> 00:03:39.575
+So, these Shield have pins
+underneath them, that go right in so
+
+65
+00:03:39.575 --> 00:03:42.880
+they line up with the holes
+on top of the Arduino.
+
+66
+00:03:42.880 --> 00:03:45.910
+So, you can take the shield, and
+stack it right in there, and
+
+67
+00:03:45.910 --> 00:03:47.690
+the wiring is automatically done.
+
+68
+00:03:47.690 --> 00:03:50.610
+So most shields only use a small
+subset of the pins, even though,
+
+69
+00:03:50.610 --> 00:03:54.640
+all the pins are wired, so you stack and
+you connect all the pins, most of
+
+70
+00:03:54.640 --> 00:03:59.050
+the pins are not used to communicate
+between the Arduino and the Shield.
+
+71
+00:03:59.050 --> 00:04:02.520
+And this is important because,
+If you have multiple shields,
+
+72
+00:04:02.520 --> 00:04:05.110
+say I'm using two shields,
+I'm stacking two.
+
+73
+00:04:05.110 --> 00:04:06.980
+If they're using the same pins for
+
+74
+00:04:06.980 --> 00:04:09.842
+two different purposes,
+then the communication will fail.
+
+75
+00:04:09.842 --> 00:04:15.210
+So say, one shield, your using digital
+input one, ditto pin one for an input,
+
+76
+00:04:15.210 --> 00:04:20.080
+the other shield is using digital pin one
+for an output, then you got a problem.
+
+77
+00:04:20.080 --> 00:04:23.530
+So, when you're using multiple
+shields together you need to be aware
+
+78
+00:04:23.530 --> 00:04:28.580
+of what pins are being used for
+what shield, and how their being used.
+
+79
+00:04:28.580 --> 00:04:30.110
+Now, a common way for
+
+80
+00:04:30.110 --> 00:04:33.660
+shields to communicate with
+the Arduino is through I-2-C.
+
+81
+00:04:33.660 --> 00:04:36.160
+Which we learned about using
+the wire library right,
+
+82
+00:04:36.160 --> 00:04:39.460
+we can use the wire
+library to access that.
+
+83
+00:04:39.460 --> 00:04:40.700
+That sharing is fine, right?,
+
+84
+00:04:40.700 --> 00:04:44.380
+if you've got three shields and they
+all communicate through the Trough I2C.
+
+85
+00:04:44.380 --> 00:04:47.430
+They can share exactly the same pins,
+the SDA and SDL pins,
+
+86
+00:04:47.430 --> 00:04:48.850
+and there's no conflict, right?
+
+87
+00:04:48.850 --> 00:04:52.960
+As long as shield has a different address,
+and different slave address, no conflict.
+
+88
+00:04:52.960 --> 00:04:54.780
+You can stack as many as you want.
+
+89
+00:04:54.780 --> 00:04:57.650
+As we just learned about when
+we were talking about I2C.
+
+90
+00:04:57.650 --> 00:05:01.570
+But other times they use, the two
+different shields can use the same pin for
+
+91
+00:05:01.570 --> 00:05:03.370
+different purposes and
+there can be a conflict.
+
+92
+00:05:04.640 --> 00:05:08.100
+So, shield headers may not be soldered in.
+
+93
+00:05:08.100 --> 00:05:11.230
+So sometimes when you a shield,
+it's not fully manufactured.
+
+94
+00:05:11.230 --> 00:05:14.750
+Like in the one we see in this picture
+right here, you got the shield, but
+
+95
+00:05:14.750 --> 00:05:16.855
+it doesn't have its
+header pins soldered in.
+
+96
+00:05:16.855 --> 00:05:19.005
+So, you'll see on one of
+the sides it has holes.
+
+97
+00:05:19.005 --> 00:05:20.535
+It does not have actual pins underneath.
+
+98
+00:05:21.605 --> 00:05:24.955
+Just next to the shield are the headers,
+what are called the headers.
+
+99
+00:05:24.955 --> 00:05:26.825
+Those are the pins that
+you're gonna solder in.
+
+100
+00:05:26.825 --> 00:05:28.075
+So, you would have to solder those in.
+
+101
+00:05:28.075 --> 00:05:30.305
+You have to stick them through the holes,
+and then solder them in.
+
+102
+00:05:30.305 --> 00:05:33.875
+We're not going to actually cover that in
+this class, so I would recommend that you
+
+103
+00:05:33.875 --> 00:05:37.465
+buy shields that are pre-manufactured
+fully and you don't have to do soldering.
+
+104
+00:05:37.465 --> 00:05:39.914
+Although, soldering is a useful thing,
+but we're not covering it.
+
+105
+00:05:39.914 --> 00:05:40.586
+Thank you.
+
+106
+00:05:40.586 --> 00:05:44.883
+[MUSIC]
+
+107
+00:05:52.360 --> 00:05:59.425
+[MUSIC]

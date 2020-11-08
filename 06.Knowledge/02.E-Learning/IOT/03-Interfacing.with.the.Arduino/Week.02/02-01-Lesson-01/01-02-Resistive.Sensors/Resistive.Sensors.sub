@@ -1,0 +1,1139 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:11.121 --> 00:00:13.072
+There are several
+different types of sensors.
+
+3
+00:00:13.072 --> 00:00:17.360
+Right now we'll talk about
+some simple sensors.
+
+4
+00:00:17.360 --> 00:00:21.080
+And a lot of simple sensors
+we'll call Resistive Sensors.
+
+5
+00:00:21.080 --> 00:00:25.450
+What they do is they change resistance,
+so they act like resistors.
+
+6
+00:00:25.450 --> 00:00:25.950
+Okay, but
+
+7
+00:00:25.950 --> 00:00:31.540
+they are resistors who resist changes
+according to some environmental effect.
+
+8
+00:00:31.540 --> 00:00:35.590
+So, I got, you can see on the right
+side of the slide, I got pictures of
+
+9
+00:00:35.590 --> 00:00:39.900
+three different resistors, or
+rather sensors which act as resistors.
+
+10
+00:00:39.900 --> 00:00:42.970
+And actually,
+you should have some of these in your kit.
+
+11
+00:00:42.970 --> 00:00:46.890
+That first one, the one all the way
+on the left, that's a Photoresistor.
+
+12
+00:00:46.890 --> 00:00:47.750
+So it just,
+
+13
+00:00:47.750 --> 00:00:52.280
+its resistance changes according to
+the brightness, okay, in the room.
+
+14
+00:00:52.280 --> 00:00:55.040
+The next one is the Thermistor, so
+
+15
+00:00:55.040 --> 00:00:57.840
+its resistance changes
+according to the temperature.
+
+16
+00:00:57.840 --> 00:01:01.470
+And the next one is Flex Resistor and
+it bends and
+
+17
+00:01:01.470 --> 00:01:03.610
+its resistance changes according
+to how much it's bent.
+
+18
+00:01:03.610 --> 00:01:06.850
+If it's bent a lot then it has a different
+resistance than if it's straight.
+
+19
+00:01:06.850 --> 00:01:08.280
+So these are all three sensors.
+
+20
+00:01:08.280 --> 00:01:11.314
+They sense things about the environment,
+and the way sense,
+
+21
+00:01:11.314 --> 00:01:15.440
+the way they transmit information
+is by changing a resistance.
+
+22
+00:01:15.440 --> 00:01:20.310
+So remember that our microcontroller,
+it doesn't sense resistance directly,
+
+23
+00:01:20.310 --> 00:01:21.255
+it senses voltage.
+
+24
+00:01:21.255 --> 00:01:25.560
+So we've got to make this,
+put a circuit around this thing.
+
+25
+00:01:25.560 --> 00:01:27.480
+Put this thing inside a circuit.
+
+26
+00:01:27.480 --> 00:01:31.650
+And in that circuit there has to be a
+voltage which changes when the resistance
+
+27
+00:01:31.650 --> 00:01:33.730
+of this sensor changes.
+
+28
+00:01:33.730 --> 00:01:36.095
+So that circuit it is
+what I'm showing there.
+
+29
+00:01:36.095 --> 00:01:40.205
+You can see the circuit up
+there in the top middle.
+
+30
+00:01:40.205 --> 00:01:43.765
+And the circuit has got,
+it's basically a voltage divider.
+
+31
+00:01:43.765 --> 00:01:46.625
+So at the bottom its got
+a resistor going to ground.
+
+32
+00:01:46.625 --> 00:01:48.362
+At the top it has this blue box.
+
+33
+00:01:48.362 --> 00:01:51.055
+Right?
+This blue box is gonna be a sensor,
+
+34
+00:01:51.055 --> 00:01:52.295
+one of these resistive sensors.
+
+35
+00:01:52.295 --> 00:01:55.210
+So it could be a photoresistor,
+it could be a thermistor,
+
+36
+00:01:55.210 --> 00:01:57.700
+it could be a flex resistor,
+it could be any of those.
+
+37
+00:01:57.700 --> 00:02:00.382
+As long as they are,
+they basically act as resistors up there.
+
+38
+00:02:00.382 --> 00:02:05.173
+And the resistances changes according to
+the environmental effect that you wanna
+
+39
+00:02:05.173 --> 00:02:05.804
+observe.
+
+40
+00:02:05.804 --> 00:02:08.810
+Now, [COUGH] you'll remember
+several lectures ago,
+
+41
+00:02:08.810 --> 00:02:13.685
+I talked about a voltage divider, actually
+when I was talking about potentiometers,
+
+42
+00:02:13.685 --> 00:02:15.303
+I showed a voltage divider.
+
+43
+00:02:15.303 --> 00:02:17.463
+And that circuit is
+exactly a voltage divider.
+
+44
+00:02:17.463 --> 00:02:21.525
+Okay, it's a voltage divider,
+if you remember a potentiometer.
+
+45
+00:02:21.525 --> 00:02:22.085
+Right?
+
+46
+00:02:22.085 --> 00:02:24.214
+It's got two terminals on the top and
+the bottom,
+
+47
+00:02:24.214 --> 00:02:27.130
+then it's got this middle
+terminal between two resistors.
+
+48
+00:02:27.130 --> 00:02:30.140
+And these resistors, their ratio,
+the ratio of their resistance,
+
+49
+00:02:30.140 --> 00:02:31.860
+can change in a potentiometer.
+
+50
+00:02:31.860 --> 00:02:32.909
+So similar things happening here.
+
+51
+00:02:32.909 --> 00:02:35.787
+The bottom resistor is
+just gonna be constant.
+
+52
+00:02:35.787 --> 00:02:37.831
+Okay, but
+the bottom resistor is this sensor.
+
+53
+00:02:37.831 --> 00:02:42.740
+And that changes according to the
+brightness, lets say of the photoresistor.
+
+54
+00:02:42.740 --> 00:02:44.800
+Or the temperature of the thermistor.
+
+55
+00:02:44.800 --> 00:02:49.620
+And so you see between the two
+resistors you got that point there
+
+56
+00:02:49.620 --> 00:02:52.970
+that we're observing, that's connected to,
+say, and Arduino pin.
+
+57
+00:02:52.970 --> 00:02:55.220
+We're gonna observe
+the voltage at that point.
+
+58
+00:02:55.220 --> 00:02:56.750
+And that voltage will go up and
+
+59
+00:02:56.750 --> 00:02:59.440
+down according to the resistance
+on that resistor.
+
+60
+00:02:59.440 --> 00:03:02.292
+So as the resistance changes on that
+resistor, the voltage will go up and
+
+61
+00:03:02.292 --> 00:03:03.433
+down and we can detect that.
+
+62
+00:03:03.433 --> 00:03:07.964
+And we'll have to take that pin,
+take that observation voltage and
+
+63
+00:03:07.964 --> 00:03:13.626
+wire that into an analogue pin, one of
+the analogue pins, A0 through A5 lets say.
+
+64
+00:03:13.626 --> 00:03:17.108
+And then we will have to call
+analogue read to read the voltage.
+
+65
+00:03:17.108 --> 00:03:20.535
+And based on the voltage value that we
+get, we can tell how bright it is or
+
+66
+00:03:20.535 --> 00:03:23.135
+how hot it is or something like that.
+
+67
+00:03:23.135 --> 00:03:23.897
+So that's the idea.
+
+68
+00:03:23.897 --> 00:03:26.396
+So that's the circuit
+that we are gonna try and
+
+69
+00:03:26.396 --> 00:03:29.997
+build around this resistive sensor
+to be able to read it properly.
+
+70
+00:03:29.997 --> 00:03:33.503
+So your connecting sensor in a voltage
+divider, which is that circuit there.
+
+71
+00:03:33.503 --> 00:03:34.665
+And the sensor itself,
+
+72
+00:03:34.665 --> 00:03:38.093
+since it's a resistive sensor it is
+the top resistor in this voltage,
+
+73
+00:03:38.093 --> 00:03:42.480
+or you can make it the bottom resistor
+too, it doesn't actually matter.
+
+74
+00:03:42.480 --> 00:03:45.109
+As the resistance changes the voltage
+changes according to Ohm's Law.
+
+75
+00:03:46.920 --> 00:03:51.790
+So, [COUGH] here's an example, you might
+have a photoresistor, so you can see,
+
+76
+00:03:51.790 --> 00:03:52.730
+that's the voltage divider.
+
+77
+00:03:52.730 --> 00:03:55.810
+The bottom resistor, I've made 10
+kilo ohms, and the top resistor,
+
+78
+00:03:55.810 --> 00:03:57.510
+I have made a photoresistor.
+
+79
+00:03:57.510 --> 00:03:58.806
+That's the symbol for photoresistor.
+
+80
+00:03:58.806 --> 00:04:02.004
+It's basically a resistor with a circle
+around it, got some arrows coming in,
+
+81
+00:04:02.004 --> 00:04:03.160
+cuz it's detecting light.
+
+82
+00:04:03.160 --> 00:04:05.786
+And so, it's a voltage divider, and
+
+83
+00:04:05.786 --> 00:04:10.055
+let's say that this voltage divider,
+this photoresistor,
+
+84
+00:04:10.055 --> 00:04:14.830
+its resistance changes within
+a range depending on the brightness.
+
+85
+00:04:14.830 --> 00:04:18.650
+So, as brightness increases, the
+resistance of the photoresistor decreases.
+
+86
+00:04:18.650 --> 00:04:20.418
+That's generally how they work.
+
+87
+00:04:20.418 --> 00:04:23.412
+So, I'm making up some numbers here, but
+
+88
+00:04:23.412 --> 00:04:28.581
+let's say its resistance is 10 K Ohms
+at a certain level of brightness.
+
+89
+00:04:28.581 --> 00:04:32.782
+Okay, so at 10 K Ohms then that means if
+we look at our volts divider we've got
+
+90
+00:04:32.782 --> 00:04:36.855
+a 10 K Ohms resistance on the top and
+a 10 K Ohms resistance on the bottom,
+
+91
+00:04:36.855 --> 00:04:39.740
+which means that the voltage
+will be divided in half.
+
+92
+00:04:39.740 --> 00:04:43.740
+So since you've got five volts going from
+top to bottom, five volts on the top,
+
+93
+00:04:43.740 --> 00:04:47.800
+zero on the bottom that middle point
+that we're measuring will be 2.5 volts,
+
+94
+00:04:47.800 --> 00:04:49.550
+because the resistance are even.
+
+95
+00:04:49.550 --> 00:04:54.175
+So if it's at ten 10 K Ohms, if the
+photoresistor has 10 K Ohms of resistance,
+
+96
+00:04:54.175 --> 00:04:55.993
+then you'll get 2.5 volts.
+
+97
+00:04:55.993 --> 00:04:57.572
+But let's say the brightness changes.
+
+98
+00:04:57.572 --> 00:04:59.738
+Right?
+Let's say it gets more bright,
+
+99
+00:04:59.738 --> 00:05:01.496
+then the resistance goes down.
+
+100
+00:05:01.496 --> 00:05:04.886
+So now the resistance of
+the photoresistor is only 5 K Ohms.
+
+101
+00:05:04.886 --> 00:05:08.207
+Now when that happens,
+you've got a smaller resistor on top and
+
+102
+00:05:08.207 --> 00:05:10.864
+still got the big 10 K Ohm
+resistor on the bottom.
+
+103
+00:05:10.864 --> 00:05:11.422
+Right?
+
+104
+00:05:11.422 --> 00:05:14.285
+So now, what happens is since
+there's less resistance on top,
+
+105
+00:05:14.285 --> 00:05:17.147
+there's gonna be less voltage,
+what's called voltage drop,
+
+106
+00:05:17.147 --> 00:05:19.231
+voltage difference
+across the top resistor.
+
+107
+00:05:19.231 --> 00:05:23.937
+So now, the resistance that we measure,
+the voltage that we measure in between
+
+108
+00:05:23.937 --> 00:05:27.252
+those two resistors is gonna be higher,
+3.3 volts.
+
+109
+00:05:27.252 --> 00:05:27.833
+Right?
+
+110
+00:05:27.833 --> 00:05:31.481
+Because the voltage is disproportionately
+across the bottom resistor,
+
+111
+00:05:31.481 --> 00:05:34.300
+since it's bigger, relative to the top.
+
+112
+00:05:34.300 --> 00:05:40.670
+So the point there is, that as the outside
+environmental, environment changes.
+
+113
+00:05:40.670 --> 00:05:43.820
+So, in this case, if it's a photoresistor,
+the brightness changes.
+
+114
+00:05:43.820 --> 00:05:46.370
+The resistance changes in this circuit,
+and
+
+115
+00:05:46.370 --> 00:05:50.760
+as the resistance changes the voltage
+changes on that pin that we're measuring.
+
+116
+00:05:50.760 --> 00:05:54.090
+And that pin that's going into one
+of the analog inputs of the arduino.
+
+117
+00:05:54.090 --> 00:05:56.150
+And we can measure that
+with an analog read.
+
+118
+00:05:56.150 --> 00:05:59.380
+So by calling analog read we
+can see the voltage value, and
+
+119
+00:05:59.380 --> 00:06:01.260
+we can detect the change.
+
+120
+00:06:01.260 --> 00:06:05.400
+And we can make something, some code that
+does something activates some device when
+
+121
+00:06:05.400 --> 00:06:07.950
+the light level goes above
+a certain threshold.
+
+122
+00:06:07.950 --> 00:06:11.620
+If the voltage that we measure is
+higher than X then we can do something.
+
+123
+00:06:11.620 --> 00:06:12.790
+So we can respond.
+
+124
+00:06:12.790 --> 00:06:14.590
+We can write code that
+reacts to the environment.
+
+125
+00:06:17.845 --> 00:06:21.320
+Okay, so those are resistive sensors,
+the ones I just described.
+
+126
+00:06:21.320 --> 00:06:25.960
+But then there are some other sensors that
+are a little bit more complicated, but
+
+127
+00:06:25.960 --> 00:06:29.180
+actually easier to use
+from our perspective.
+
+128
+00:06:29.180 --> 00:06:31.010
+Voltage-Controlling Sensors.
+
+129
+00:06:31.010 --> 00:06:33.480
+So the first sensors we
+looked at they're resistive.
+
+130
+00:06:33.480 --> 00:06:39.900
+When the environment changes,
+the resistance of the sensor changes.
+
+131
+00:06:39.900 --> 00:06:43.250
+In these devices,
+they don't output resistance.
+
+132
+00:06:43.250 --> 00:06:44.960
+They don't have a resistance.
+
+133
+00:06:44.960 --> 00:06:47.380
+They do have resistance, but
+that's not what you're measuring.
+
+134
+00:06:47.380 --> 00:06:50.482
+Instead they have a pin which
+outputs a certain voltage directly.
+
+135
+00:06:50.482 --> 00:06:54.905
+And this is good for us because Arduino,
+it directly senses voltage.
+
+136
+00:06:54.905 --> 00:06:56.542
+Right?
+So these type of sensors,
+
+137
+00:06:56.542 --> 00:07:00.450
+these voltage controlling sensors,
+they output voltage directly.
+
+138
+00:07:00.450 --> 00:07:02.180
+And so that's even easier for us.
+
+139
+00:07:02.180 --> 00:07:05.830
+We can just take their voltage out, put
+it right straight into one of the analog
+
+140
+00:07:05.830 --> 00:07:08.650
+inputs of the Arduino and
+measure its voltage.
+
+141
+00:07:08.650 --> 00:07:10.690
+Now to give you an example
+of one of this sensor,
+
+142
+00:07:10.690 --> 00:07:13.555
+of one of these sensors,
+a PIR motion sensor.
+
+143
+00:07:13.555 --> 00:07:17.280
+PIR standing for
+Passive Infrared motion sensor.
+
+144
+00:07:17.280 --> 00:07:19.760
+So that's what I have
+over there in the left.
+
+145
+00:07:19.760 --> 00:07:21.380
+You see that passive
+infrared motion sensor.
+
+146
+00:07:21.380 --> 00:07:24.280
+And yeah, actually, you've probably
+seen these things like this.
+
+147
+00:07:24.280 --> 00:07:27.080
+This is what you would have,
+like we have in this room actually, and
+
+148
+00:07:27.080 --> 00:07:28.000
+in a room in my office.
+
+149
+00:07:28.000 --> 00:07:28.920
+This is a motion sensor so
+
+150
+00:07:28.920 --> 00:07:31.660
+when you come in the room the lights
+go on, something like that.
+
+151
+00:07:31.660 --> 00:07:33.059
+So, they're using PIR motion sensors.
+
+152
+00:07:33.059 --> 00:07:37.561
+So, PIR motion sensor has three leads,
+three wires, three terminals,
+
+153
+00:07:37.561 --> 00:07:39.095
+whatever you call them.
+
+154
+00:07:39.095 --> 00:07:42.276
+One is connected to power,
+one is connected to ground, and
+
+155
+00:07:42.276 --> 00:07:47.410
+one is the signal that you're interested
+in, the voltage that you're interested in.
+
+156
+00:07:47.410 --> 00:07:51.390
+So, if we look at our motion sensor block
+over there, it's got one pin on the top,
+
+157
+00:07:52.790 --> 00:07:56.190
+one pin on the bottom and
+one pin on the right side.
+
+158
+00:07:56.190 --> 00:07:58.060
+So the pin on the bottom that's
+wired straight to ground.
+
+159
+00:07:58.060 --> 00:08:00.521
+The pin on the right that's
+wired straight to power.
+
+160
+00:08:00.521 --> 00:08:03.075
+Okay, the pin on the top is
+the one that you can see.
+
+161
+00:08:03.075 --> 00:08:05.594
+If you follow the pin on
+the top that goes to the left,
+
+162
+00:08:05.594 --> 00:08:07.663
+which is presumably going to our Arduino.
+
+163
+00:08:07.663 --> 00:08:09.483
+Right?
+Some analog input into our Arduino.
+
+164
+00:08:09.483 --> 00:08:12.952
+So the pin on the top is the one of
+interest, the signal of interest.
+
+165
+00:08:12.952 --> 00:08:17.760
+All right, and that pin is gonna have
+a voltage assigned by the motion sensor.
+
+166
+00:08:17.760 --> 00:08:22.846
+And the way this motion sensor works,
+is if, actually this particular
+
+167
+00:08:22.846 --> 00:08:28.722
+motion sensor, what it does is, it pulls
+the signal low when motion is detected.
+
+168
+00:08:28.722 --> 00:08:32.961
+So when it senses motion,
+it sets that voltage on top to zero volts.
+
+169
+00:08:32.961 --> 00:08:35.745
+Okay, so that's what's gonna happen.
+
+170
+00:08:35.745 --> 00:08:39.542
+Now, when it doesn't sense motion, it
+doesn't do anything to that wire on top.
+
+171
+00:08:39.542 --> 00:08:40.204
+Right?
+
+172
+00:08:40.204 --> 00:08:43.257
+So that wire, the voltage on
+that wire would be floating.
+
+173
+00:08:43.257 --> 00:08:46.318
+So that's why we need a 10
+K Ohm resistor to power,
+
+174
+00:08:46.318 --> 00:08:49.311
+because if there's no
+motion then we don't want,
+
+175
+00:08:49.311 --> 00:08:53.785
+one thing that we'd never want to input
+to our server is a floating voltage.
+
+176
+00:08:53.785 --> 00:08:55.922
+A voltage that we can't
+tell if it's high or low.
+
+177
+00:08:55.922 --> 00:08:56.444
+Right?
+
+178
+00:08:56.444 --> 00:09:00.474
+We don't want a floating voltage, so
+we wanna make sure that, if there's no
+
+179
+00:09:00.474 --> 00:09:04.504
+motion, even though the motion sensor
+isn't assigning a value to this pin,
+
+180
+00:09:04.504 --> 00:09:05.940
+this wire gets some value.
+
+181
+00:09:05.940 --> 00:09:06.520
+Right?
+
+182
+00:09:06.520 --> 00:09:09.840
+And that value that it gets in this case
+should be a one, should be a high voltage.
+
+183
+00:09:09.840 --> 00:09:10.375
+Right?
+
+184
+00:09:10.375 --> 00:09:14.152
+Because the low is what happens
+when there's motion, so
+
+185
+00:09:14.152 --> 00:09:17.720
+we want high to be
+associated with no motion.
+
+186
+00:09:17.720 --> 00:09:20.810
+So, when there's no motion,
+the motion sensor doesn't do anything but
+
+187
+00:09:20.810 --> 00:09:26.400
+that pin is connected to power, to plus
+five through the 10 K Ohm resistor.
+
+188
+00:09:26.400 --> 00:09:29.500
+So that's why we need that 10 K Ohm
+resistor connecting it to power,
+
+189
+00:09:29.500 --> 00:09:30.750
+it's called a Pull Up Path.
+
+190
+00:09:30.750 --> 00:09:33.820
+We need that pull up path, so that even
+though the motion sensor isn't forcing
+
+191
+00:09:33.820 --> 00:09:37.085
+that pin to have any value,
+if there's no motion it'll just go high,
+
+192
+00:09:37.085 --> 00:09:38.909
+because it's connected to
+power through the resistor.
+
+193
+00:09:40.230 --> 00:09:43.490
+So this is a common type of sensor.
+
+194
+00:09:43.490 --> 00:09:46.324
+This is one type of sensor,
+it's a voltage-controlling sensor.
+
+195
+00:09:46.324 --> 00:09:47.160
+They're useful.
+
+196
+00:09:47.160 --> 00:09:48.925
+They're nice to use.
+
+197
+00:09:48.925 --> 00:09:52.400
+They're pretty easy to make
+the circuit to use them.
+
+198
+00:09:52.400 --> 00:09:53.847
+This is just one.
+There are several,
+
+199
+00:09:53.847 --> 00:09:55.540
+it's called Open-Collector.
+
+200
+00:09:55.540 --> 00:10:01.780
+So when you have a pin like that you pull
+low and it floats when there's no motion.
+
+201
+00:10:01.780 --> 00:10:03.160
+They call that open-collector,
+
+202
+00:10:03.160 --> 00:10:05.870
+so we have to pull it high it
+needs it's pull up resistor.
+
+203
+00:10:05.870 --> 00:10:10.110
+So that when there's no motion it
+goes to high it has a known value.
+
+204
+00:10:11.760 --> 00:10:15.260
+Okay, so there are lots of different type
+of sensors that are voltage controlling,
+
+205
+00:10:15.260 --> 00:10:15.960
+and here's a couple.
+
+206
+00:10:18.020 --> 00:10:18.757
+The first one,
+
+207
+00:10:18.757 --> 00:10:22.281
+the one over there on the left is
+the Triple Access Analog Accelerometer.
+
+208
+00:10:22.281 --> 00:10:27.108
+So, an accelerometer basically senses
+acceleration in three dimensions, so X, Y,
+
+209
+00:10:27.108 --> 00:10:29.299
+Z, it'll tell you the acceleration.
+
+210
+00:10:29.299 --> 00:10:31.238
+So this is useful for
+telling your orientation.
+
+211
+00:10:31.238 --> 00:10:32.324
+Right?
+Because there's always
+
+212
+00:10:32.324 --> 00:10:33.154
+the acceleration of gravity.
+
+213
+00:10:33.154 --> 00:10:37.265
+So you can tell the orientation of
+your device based on what this,
+
+214
+00:10:37.265 --> 00:10:38.924
+this thing reports back.
+
+215
+00:10:38.924 --> 00:10:43.006
+If it reports basically, and you know what
+gravitational pull is supposed to be,
+
+216
+00:10:43.006 --> 00:10:44.496
+what it's acceleration is.
+
+217
+00:10:44.496 --> 00:10:47.170
+So you can measure your
+acceleration in each axis and
+
+218
+00:10:47.170 --> 00:10:48.884
+tell what it's orientation is.
+
+219
+00:10:48.884 --> 00:10:51.762
+So that is a Voltage-Controlling Sensor,
+so
+
+220
+00:10:51.762 --> 00:10:55.430
+it has those holes on the side
+of that little board.
+
+221
+00:10:55.430 --> 00:10:59.980
+You generally solder pins onto those,
+it was called a Breakaway board.
+
+222
+00:10:59.980 --> 00:11:03.200
+And you solder those pins on there and
+then you can
+
+223
+00:11:03.200 --> 00:11:06.700
+wire those pins into the Arduino and
+sense the voltage on those pins.
+
+224
+00:11:06.700 --> 00:11:10.370
+And there are several of them,
+but one is X, one is Y, one is Z.
+
+225
+00:11:10.370 --> 00:11:11.368
+Those are the signals of interest.
+
+226
+00:11:11.368 --> 00:11:14.583
+And you can wire those into
+the analog input of the Arduino and
+
+227
+00:11:14.583 --> 00:11:16.929
+tell what the acceleration
+is in each axis.
+
+228
+00:11:16.929 --> 00:11:22.530
+[COUGH] The next one is
+the Dual Axis Gyroscope.
+
+229
+00:11:22.530 --> 00:11:25.630
+So a gyroscope actually
+reports angular velocity.
+
+230
+00:11:25.630 --> 00:11:27.150
+In only two dimensions this time.
+
+231
+00:11:27.150 --> 00:11:30.300
+But again, there are two signals
+in there that you can read and
+
+232
+00:11:30.300 --> 00:11:32.720
+see what the angular velocity is.
+
+233
+00:11:32.720 --> 00:11:34.010
+Now both of these type of things,
+
+234
+00:11:34.010 --> 00:11:37.820
+these are used in any kind of device
+that needs to sense orientation.
+
+235
+00:11:37.820 --> 00:11:40.060
+The two of them are used together,
+actually.
+
+236
+00:11:40.060 --> 00:11:42.260
+So, for instance, my quadcopters.
+
+237
+00:11:42.260 --> 00:11:44.110
+They all have these built into them.
+
+238
+00:11:44.110 --> 00:11:47.000
+Accelerometers and
+Gyroscopes are essential,
+
+239
+00:11:47.000 --> 00:11:50.570
+because it needs to know its
+orientation so it can stay level.
+
+240
+00:11:50.570 --> 00:11:54.035
+So, these type of devices are commonly
+used for that type of application.
+
+241
+00:11:54.035 --> 00:11:55.068
+Thank you.
+
+242
+00:11:55.068 --> 00:12:00.095
+[MUSIC]

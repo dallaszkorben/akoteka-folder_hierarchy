@@ -1,0 +1,321 @@
+WEBVTT
+
+1
+00:00:00.079 --> 00:00:10.079
+[MUSIC]
+
+2
+00:00:12.385 --> 00:00:16.495
+In this experiment we are going to
+see pulse with modulation in action.
+
+3
+00:00:16.495 --> 00:00:20.650
+We're going to use the the example
+sketch called fade.
+
+4
+00:00:20.650 --> 00:00:24.820
+So if you're looking in your Arduino IDE.,
+you look under examples,
+
+5
+00:00:24.820 --> 00:00:29.260
+the subcategory basics and
+then there's one sketch called fade.
+
+6
+00:00:29.260 --> 00:00:29.960
+So pull that up.
+
+7
+00:00:31.050 --> 00:00:35.440
+And we can see a short version of it on
+the screen, but if you wanna try this,
+
+8
+00:00:35.440 --> 00:00:36.810
+you'll go to that.
+
+9
+00:00:36.810 --> 00:00:38.970
+Now fade is supposed to
+fade in LED off and on.
+
+10
+00:00:38.970 --> 00:00:41.190
+So we can see in our circuit
+we start with an LED.
+
+11
+00:00:42.400 --> 00:00:45.960
+And this LED has got an anode and
+a cathode, this top guy is the anode,
+
+12
+00:00:45.960 --> 00:00:47.060
+the shorter one's a cathode.
+
+13
+00:00:47.060 --> 00:00:52.110
+We've got a resistor, for
+a resistor we're using 220 ohms.
+
+14
+00:00:52.110 --> 00:00:55.480
+You can vary that, go a little higher if
+you want, whatever you have available, but
+
+15
+00:00:55.480 --> 00:00:56.760
+that's what I'm using.
+
+16
+00:00:56.760 --> 00:01:02.350
+A couple of wires, my Arduino, and
+a red board to connect everything up.
+
+17
+00:01:03.410 --> 00:01:08.180
+So, for the fade program to work,
+fade manipulates pin 9,
+
+18
+00:01:08.180 --> 00:01:10.850
+it puts pulse with
+modulate signal on pin 9.
+
+19
+00:01:10.850 --> 00:01:14.227
+So we are going to connect this LED,
+its anode, up to pin 9.
+
+20
+00:01:14.227 --> 00:01:18.685
+So put it in the board.
+
+21
+00:01:18.685 --> 00:01:19.568
+Okay.
+
+22
+00:01:19.568 --> 00:01:24.104
+So now we're gonna have to connect
+the cathode to the resistor, so
+
+23
+00:01:24.104 --> 00:01:26.380
+put the resistor in the same row.
+
+24
+00:01:28.110 --> 00:01:29.410
+So they're connected through that row.
+
+25
+00:01:30.480 --> 00:01:34.339
+Now, the cathode, actually,
+let's do the resistor first.
+
+26
+00:01:34.339 --> 00:01:38.402
+The resistor is supposed to be
+connected to ground on this end.
+
+27
+00:01:38.402 --> 00:01:40.150
+So we'll connect it to ground.
+
+28
+00:01:40.150 --> 00:01:41.370
+Arduino's ground over here.
+
+29
+00:01:42.500 --> 00:01:50.811
+Then the cathode is supposed
+to be connected to pin 9.
+
+30
+00:01:50.811 --> 00:01:54.274
+So we'll take that and wire it to pin 9.
+
+31
+00:01:54.274 --> 00:01:55.319
+There we go.
+
+32
+00:01:55.319 --> 00:01:57.362
+Okay, looks good.
+
+33
+00:01:57.362 --> 00:01:59.093
+Now I've already uploaded,
+
+34
+00:01:59.093 --> 00:02:02.633
+taken the liberty of uploading
+the sketch onto the Arduino.
+
+35
+00:02:02.633 --> 00:02:06.975
+So all I need to do is power
+the Arduino and it should work.
+
+36
+00:02:06.975 --> 00:02:12.085
+All right, and there it is.
+
+37
+00:02:12.085 --> 00:02:13.731
+Getting brighter and dimmer,
+brighter and dimmer.
+
+38
+00:02:13.731 --> 00:02:14.428
+Okay.
+
+39
+00:02:14.428 --> 00:02:18.540
+So let's go through the code and
+just get an idea of what's going on here.
+
+40
+00:02:18.540 --> 00:02:21.500
+You can look at the code.
+
+41
+00:02:21.500 --> 00:02:23.675
+There's brightness is set
+equal to 0 to start with.
+
+42
+00:02:23.675 --> 00:02:26.690
+Brightness is actually
+indication of the pulse width.
+
+43
+00:02:26.690 --> 00:02:28.430
+So we're setting the pulse
+width equal to 0.
+
+44
+00:02:28.430 --> 00:02:30.970
+That means it's low all the time.
+
+45
+00:02:30.970 --> 00:02:32.690
+It starts off, off.
+
+46
+00:02:32.690 --> 00:02:35.600
+The LED start off, begins off.
+
+47
+00:02:35.600 --> 00:02:38.640
+Then the setup,
+it just sets pin LED to output.
+
+48
+00:02:38.640 --> 00:02:41.530
+Now LED in this case, I don't have the
+line of code here cuz it wouldn't fit on
+
+49
+00:02:41.530 --> 00:02:44.150
+the screen, but Pin mode LED.
+
+50
+00:02:44.150 --> 00:02:45.720
+LED is set to 9.
+
+51
+00:02:45.720 --> 00:02:48.025
+So that's why we've attached this
+thing to pin 9 on the Arduino.
+
+52
+00:02:49.210 --> 00:02:53.008
+So we set that to be an output, because we
+need to drive the LED with the voltage.
+
+53
+00:02:53.008 --> 00:02:57.904
+Now when in loop, first thing we do
+is analog right, LED brightness.
+
+54
+00:02:57.904 --> 00:03:00.570
+LED is pin 9, right brightness.
+
+55
+00:03:00.570 --> 00:03:03.940
+Now at first that brightness will be 0,
+so that would be turning the LED off.
+
+56
+00:03:05.320 --> 00:03:07.550
+Then brightness equals
+brightness plus fade amount.
+
+57
+00:03:07.550 --> 00:03:10.880
+So every pass through this
+loop you get brighter and
+
+58
+00:03:10.880 --> 00:03:12.340
+that's where the fading comes in.
+
+59
+00:03:12.340 --> 00:03:14.120
+Becomes a little brighter.
+
+60
+00:03:14.120 --> 00:03:18.610
+Now, then that if condition, if
+brightness is equal to 0 or equal to 25,
+
+61
+00:03:18.610 --> 00:03:22.320
+it negates fade amount, so
+that changes the direction of the fade.
+
+62
+00:03:22.320 --> 00:03:22.840
+Right?
+
+63
+00:03:22.840 --> 00:03:25.755
+Because these brightness values,
+pulse widths,
+
+64
+00:03:25.755 --> 00:03:29.901
+are supposed to go from 0 to 255,
+can't go above 255 or below 0.
+
+65
+00:03:29.901 --> 00:03:32.896
+So when they reach 0 or 255,
+you want it to change direction.
+
+66
+00:03:32.896 --> 00:03:35.800
+So, they negate fade amount.
+
+67
+00:03:35.800 --> 00:03:38.610
+And then they delay 30,
+just to slow things down enough so
+
+68
+00:03:38.610 --> 00:03:43.332
+we can see the fading and
+this is what happens.
+
+69
+00:03:43.332 --> 00:03:43.968
+Thank you.
+
+70
+00:03:43.968 --> 00:03:48.682
+[MUSIC]

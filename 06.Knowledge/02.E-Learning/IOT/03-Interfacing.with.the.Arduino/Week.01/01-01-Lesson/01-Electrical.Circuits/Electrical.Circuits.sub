@@ -1,0 +1,365 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.405
+[MUSIC]
+
+2
+00:00:11.260 --> 00:00:17.545
+So, in a thing's components are designed
+from hardware and software combined.
+
+3
+00:00:17.545 --> 00:00:20.675
+So you don't just have the software
+that you write, just have the code,
+
+4
+00:00:20.675 --> 00:00:23.545
+it's always wired to some kind of
+different hardware components to make
+
+5
+00:00:23.545 --> 00:00:27.655
+something happen in the real world or to
+receive information from the real world.
+
+6
+00:00:27.655 --> 00:00:29.905
+So a combination of hardware and
+software, and
+
+7
+00:00:29.905 --> 00:00:33.915
+this is part of what makes them harder
+to design than traditional systems.
+
+8
+00:00:33.915 --> 00:00:37.760
+So, it's not just a traditional software
+system like desktop software and
+
+9
+00:00:37.760 --> 00:00:41.340
+all you think about is the code and then
+you make it run on an arbitrary desktop.
+
+10
+00:00:41.340 --> 00:00:45.480
+In this case, you're writing software but
+for a specific hardware platform.
+
+11
+00:00:45.480 --> 00:00:48.750
+And a hardware platform that may
+not be developed yet, right?
+
+12
+00:00:48.750 --> 00:00:51.685
+Actually in big companies
+this is a big issue, right?
+
+13
+00:00:51.685 --> 00:00:55.530
+You wanna start writing your software and
+designing the hardware at the same time.
+
+14
+00:00:55.530 --> 00:00:58.030
+But how do you write your software when
+you don't even know what the hardware is
+
+15
+00:00:58.030 --> 00:00:59.150
+that it's going to be running on.
+
+16
+00:00:59.150 --> 00:01:02.280
+So, there are lots of different
+techniques that people use to do that.
+
+17
+00:01:02.280 --> 00:01:07.271
+In our case though, a little bit simpler,
+we know that we're using our platform,
+
+18
+00:01:07.271 --> 00:01:10.580
+but we may not know
+the details of the circuit.
+
+19
+00:01:10.580 --> 00:01:17.640
+But still in the end you have to design
+both sides and they have to work together.
+
+20
+00:01:17.640 --> 00:01:20.047
+So, the hardware is what really
+interacts with the physical world.
+
+21
+00:01:20.047 --> 00:01:20.740
+It does everything.
+
+22
+00:01:20.740 --> 00:01:23.520
+It receives input from the outside.
+
+23
+00:01:23.520 --> 00:01:26.120
+It actuates, so
+it does things on the outside world.
+
+24
+00:01:26.120 --> 00:01:29.500
+So maybe is has a microphone
+that picks up sound.
+
+25
+00:01:29.500 --> 00:01:31.950
+It has a speaker that outputs sounds,
+something like that.
+
+26
+00:01:31.950 --> 00:01:36.140
+So, it's the hardware that's actually
+interacting with the outside world.
+
+27
+00:01:36.140 --> 00:01:38.290
+But it's actually the software,
+
+28
+00:01:38.290 --> 00:01:41.080
+usually the software that acts
+as the intelligence let's say.
+
+29
+00:01:41.080 --> 00:01:44.720
+So the software takes the data
+received from the hardware,
+
+30
+00:01:44.720 --> 00:01:48.690
+interprets it in some way, and
+then causes the hardware to do something,
+
+31
+00:01:48.690 --> 00:01:49.720
+orders the hardware to do something.
+
+32
+00:01:49.720 --> 00:01:53.440
+So for instance, say you've got
+some kind of sound going on.
+
+33
+00:01:53.440 --> 00:01:56.750
+The sound and
+your system's supposed to hear the sound.
+
+34
+00:01:56.750 --> 00:01:59.710
+And if somebody says a word,
+then it should trigger a behavior.
+
+35
+00:01:59.710 --> 00:02:03.540
+So let's say when somebody says,
+turn on TV, the TV should turn on.
+
+36
+00:02:03.540 --> 00:02:06.350
+So you'll have a microphone
+that's receiving the information,
+
+37
+00:02:06.350 --> 00:02:08.370
+receiving the sound,
+the words, turn on the TV.
+
+38
+00:02:08.370 --> 00:02:12.630
+Then, the software will process that
+information, realize what the words are,
+
+39
+00:02:12.630 --> 00:02:13.200
+turn on TV.
+
+40
+00:02:13.200 --> 00:02:18.120
+And then it'll say, whenever I see
+that I want to turn on the TV.
+
+41
+00:02:18.120 --> 00:02:19.620
+So, then, it'll have an actuator.
+
+42
+00:02:19.620 --> 00:02:23.590
+That drives some hardware that actually
+activates the TV turning it on.
+
+43
+00:02:23.590 --> 00:02:27.490
+So, that's the way I think about it, the
+software is the intelligence inside, but
+
+44
+00:02:27.490 --> 00:02:30.240
+the hardware is actually doing
+all the work, so you need both.
+
+45
+00:02:31.400 --> 00:02:35.970
+So because of that we need to know
+a little bit about electrical circuits
+
+46
+00:02:35.970 --> 00:02:39.140
+right, we gonna be building
+some small circuits.
+
+47
+00:02:39.140 --> 00:02:43.900
+Now, I don't want this class to be
+heavily an electrical engineering class
+
+48
+00:02:43.900 --> 00:02:46.750
+circuit design is a hard thing, but
+
+49
+00:02:46.750 --> 00:02:50.290
+when you're doing this type of IoT
+design you need to know a little bit.
+
+50
+00:02:50.290 --> 00:02:51.490
+Not much, but a little bit.
+
+51
+00:02:51.490 --> 00:02:54.330
+Most of this, in the class,
+we are focusing on software.
+
+52
+00:02:54.330 --> 00:02:57.950
+But there is this hardware side and
+we need to know a little bit.
+
+53
+00:02:57.950 --> 00:03:01.080
+So, we're gonna talk a little
+bit about electricity and
+
+54
+00:03:01.080 --> 00:03:02.810
+we'll start with some real basics.
+
+55
+00:03:02.810 --> 00:03:05.059
+We're gonna talk about current
+going through a circuit.
+
+56
+00:03:06.080 --> 00:03:09.230
+And we're going to compare that to
+water going through some kind of water
+
+57
+00:03:09.230 --> 00:03:10.440
+pumping system.
+
+58
+00:03:10.440 --> 00:03:11.530
+It's a very similar analogy.
+
+59
+00:03:11.530 --> 00:03:14.320
+It's a common analogy for
+explaining electronics.
+
+60
+00:03:14.320 --> 00:03:17.880
+So, you see on the left
+side of the screen,
+
+61
+00:03:17.880 --> 00:03:19.860
+you got electrical current
+flowing through a wire.
+
+62
+00:03:19.860 --> 00:03:20.930
+So, you got a battery over there.
+
+63
+00:03:20.930 --> 00:03:23.550
+It's got a plus terminal,
+minus terminal and current
+
+64
+00:03:23.550 --> 00:03:26.900
+flows through that wire that connects
+the plus terminal to the minus terminal.
+
+65
+00:03:26.900 --> 00:03:30.160
+It goes from the plus to
+the minus through the wire.
+
+66
+00:03:30.160 --> 00:03:33.584
+Now that is similar to
+a water pump system.
+
+67
+00:03:33.584 --> 00:03:36.115
+So you got some pipes, right?
+
+68
+00:03:36.115 --> 00:03:38.000
+And there's a pump that you see there.
+
+69
+00:03:38.000 --> 00:03:40.320
+And this pump is pumping
+the water through the circuit.
+
+70
+00:03:40.320 --> 00:03:42.300
+And it's a very similar idea and so
+
+71
+00:03:42.300 --> 00:03:48.000
+that's the analogy that we're gonna
+be talking about for a few slides.
+
+72
+00:03:48.000 --> 00:03:50.150
+And note that in the electrical circuit,
+
+73
+00:03:50.150 --> 00:03:56.170
+the battery is pushing the current,
+providing the power it needs.
+
+74
+00:03:56.170 --> 00:04:00.130
+In the water system, the water pump
+is pushing the current through.
+
+75
+00:04:00.130 --> 00:04:02.594
+But they are performing similar functions.
+
+76
+00:04:02.594 --> 00:04:03.384
+Thank you.
+
+77
+00:04:03.384 --> 00:04:10.503
+[MUSIC]

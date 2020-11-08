@@ -1,0 +1,639 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:11.977 --> 00:00:15.184
+So we're gonna talk about a few more
+components that you commonly see in
+
+3
+00:00:15.184 --> 00:00:19.280
+circuits that we have in our kits
+actually, switches and potentiometers.
+
+4
+00:00:19.280 --> 00:00:21.310
+Right here we've switches.
+
+5
+00:00:21.310 --> 00:00:22.770
+Push buttons and switches.
+
+6
+00:00:22.770 --> 00:00:25.130
+They're basically serving
+the same purpose.
+
+7
+00:00:25.130 --> 00:00:28.260
+Now, on the left side of the screen,
+you see a switch.
+
+8
+00:00:28.260 --> 00:00:30.440
+There are many different
+types of switches, okay?
+
+9
+00:00:30.440 --> 00:00:32.410
+Many different looks, but
+that's one right there.
+
+10
+00:00:32.410 --> 00:00:37.170
+That's called a rocker switch, but
+there it is and you can see below it,
+
+11
+00:00:37.170 --> 00:00:39.700
+you can see what its symbol looks like.
+
+12
+00:00:39.700 --> 00:00:43.770
+It's basically just a little, I don't
+know, a door on the circuit, right?
+
+13
+00:00:43.770 --> 00:00:45.160
+And then,
+next what you see is a push button,
+
+14
+00:00:45.160 --> 00:00:48.290
+which, you actually should have
+a push button like that in your kit.
+
+15
+00:00:48.290 --> 00:00:51.530
+Push button serves a similar purpose and
+its symbol is below.
+
+16
+00:00:51.530 --> 00:00:52.890
+Now the point of a switch and
+
+17
+00:00:52.890 --> 00:00:57.440
+a push button, both of them, is really to
+complete a circuit, to close a circuit.
+
+18
+00:00:57.440 --> 00:00:59.870
+So understand that if you've
+got a battery, let's say,
+
+19
+00:00:59.870 --> 00:01:02.470
+and you got wires coming out of
+the positive and negative side.
+
+20
+00:01:02.470 --> 00:01:05.130
+If those two wires are not connected,
+you don't have a circuit.
+
+21
+00:01:05.130 --> 00:01:06.780
+No flow, no current flow.
+
+22
+00:01:06.780 --> 00:01:09.472
+You gotta have a full path
+from positive to negative.
+
+23
+00:01:09.472 --> 00:01:13.853
+So if you put a switch in between
+that path, if that switch is open,
+
+24
+00:01:13.853 --> 00:01:15.672
+meaning it is off, right?
+
+25
+00:01:15.672 --> 00:01:18.563
+Then the switch is open and
+the circuit is not connected.
+
+26
+00:01:18.563 --> 00:01:21.381
+But if you close that switch or
+if you push that button,
+
+27
+00:01:21.381 --> 00:01:24.217
+which is doing a similar thing,
+you push that button.
+
+28
+00:01:24.217 --> 00:01:26.872
+Then that connects the two
+ends of the circuit, and
+
+29
+00:01:26.872 --> 00:01:30.591
+it makes a complete path from positive
+to negative and you can get flow.
+
+30
+00:01:30.591 --> 00:01:33.134
+So this is how pushbutton and
+switches are used, right?
+
+31
+00:01:33.134 --> 00:01:34.306
+They're used to close circuits.
+
+32
+00:01:34.306 --> 00:01:38.010
+So basically if the circuit is open, no
+current will flow, nothing's gonna happen.
+
+33
+00:01:38.010 --> 00:01:40.847
+You close the circuit by flicking
+a switch or pushing a button, and
+
+34
+00:01:40.847 --> 00:01:44.810
+then current flows and something happens,
+whatever you want to have happen.
+
+35
+00:01:44.810 --> 00:01:48.900
+So those are switches and
+push buttons, they close the circuit.
+
+36
+00:01:48.900 --> 00:01:52.930
+Note that these switches
+that we're showing.
+
+37
+00:01:52.930 --> 00:01:56.340
+Okay, so let's look at this
+switch on the top left, right?
+
+38
+00:01:56.340 --> 00:01:58.860
+That switch has got two terminals, right?
+
+39
+00:01:58.860 --> 00:02:01.130
+One left, one right.
+
+40
+00:02:01.130 --> 00:02:04.830
+And when you flick that switch,
+those two terminals are connected.
+
+41
+00:02:04.830 --> 00:02:07.920
+So when the switch is off,
+the two terminals are not connected.
+
+42
+00:02:07.920 --> 00:02:11.170
+When it's on,
+then the terminals are connected.
+
+43
+00:02:11.170 --> 00:02:14.720
+When those two terminals are connected,
+their voltage is exactly the same, right?
+
+44
+00:02:14.720 --> 00:02:16.750
+It's a consequence of Ohm's Law, right?
+
+45
+00:02:16.750 --> 00:02:18.631
+If there's no resistance
+between two points.
+
+46
+00:02:18.631 --> 00:02:20.094
+Or actually, not Ohm's Law.
+
+47
+00:02:20.094 --> 00:02:21.719
+It's Kirchhoff's voltage law.
+
+48
+00:02:21.719 --> 00:02:23.370
+[LAUGH] Different law.
+
+49
+00:02:23.370 --> 00:02:26.880
+But if you've got two points and they're
+connected with no resistance in between
+
+50
+00:02:26.880 --> 00:02:30.110
+through a switch like this,
+then they will have the same voltage.
+
+51
+00:02:30.110 --> 00:02:32.800
+Where if they are not connected,
+then they can have different voltages.
+
+52
+00:02:33.950 --> 00:02:37.630
+Oh and one note I should just bring up
+right now, the push button that we have
+
+53
+00:02:37.630 --> 00:02:40.620
+there, that actually is very similar
+to the one you have in your kit.
+
+54
+00:02:40.620 --> 00:02:42.745
+That thing has got four legs on it.
+
+55
+00:02:42.745 --> 00:02:43.385
+It's hard to see.
+
+56
+00:02:43.385 --> 00:02:46.735
+You can only see maybe three of them here,
+but there are four legs.
+
+57
+00:02:46.735 --> 00:02:48.295
+So it doesn't really
+just have two terminals.
+
+58
+00:02:48.295 --> 00:02:49.345
+This one has four.
+
+59
+00:02:49.345 --> 00:02:51.985
+But two of the terminals
+are connected to each other.
+
+60
+00:02:51.985 --> 00:02:54.025
+So the two on the left
+are connected to each other, and
+
+61
+00:02:54.025 --> 00:02:55.785
+the two on the right
+are connected to each other.
+
+62
+00:02:55.785 --> 00:02:56.895
+So when you press the button,
+
+63
+00:02:56.895 --> 00:02:58.855
+the two on the left become
+connected to the two on the right.
+
+64
+00:03:01.860 --> 00:03:05.070
+But there are many different varieties
+of switches and push buttons, but now,
+
+65
+00:03:05.070 --> 00:03:05.800
+potentiometer.
+
+66
+00:03:05.800 --> 00:03:06.980
+Now this is an interesting component.
+
+67
+00:03:06.980 --> 00:03:09.830
+We've got one, there are many
+different looks for potentiometers.
+
+68
+00:03:09.830 --> 00:03:11.090
+I believe yours looks like this one.
+
+69
+00:03:12.110 --> 00:03:18.000
+Now, this potentiometer, hard to see,
+but it has three leads in it.
+
+70
+00:03:18.000 --> 00:03:20.760
+Now, the blue thing,
+that's the potentiometer.
+
+71
+00:03:20.760 --> 00:03:24.020
+And notice it has a knob, hard to see,
+but it has a little knob that you rotate.
+
+72
+00:03:24.020 --> 00:03:27.005
+All these potentiometers,
+they have something that you move,
+
+73
+00:03:27.005 --> 00:03:30.799
+either like a rotary potentiometer,
+like this one, has a knob that you rotate.
+
+74
+00:03:30.799 --> 00:03:34.980
+You can have sliders that go back and
+forth that do the same thing, right?
+
+75
+00:03:36.180 --> 00:03:40.770
+Now, it has a schematic symbol and
+you see that in the middle there.
+
+76
+00:03:40.770 --> 00:03:44.610
+So it's like basically a resistor,
+with a little arrow in the middle, right?
+
+77
+00:03:44.610 --> 00:03:47.390
+That's a potentiometer,
+that's its schematic symbol.
+
+78
+00:03:47.390 --> 00:03:50.970
+And notice that schematic
+symbol has three leads also.
+
+79
+00:03:50.970 --> 00:03:54.289
+The resistor has a top lead, a bottom
+lead, and then there's that arrow,
+
+80
+00:03:54.289 --> 00:03:55.671
+which is a third lead, right?
+
+81
+00:03:55.671 --> 00:04:00.444
+So the three leads in that potentiometer
+correspond to those three leads in
+
+82
+00:04:00.444 --> 00:04:02.045
+that schematic symbol.
+
+83
+00:04:02.045 --> 00:04:06.997
+Now then, over on the right, that circuit
+that we have there with the two resistors
+
+84
+00:04:06.997 --> 00:04:10.730
+and with the voltage in and
+the voltage out and all that.
+
+85
+00:04:10.730 --> 00:04:14.404
+That is the circuit that I'm going
+to use to describe the behavior of
+
+86
+00:04:14.404 --> 00:04:15.440
+a potentiometer.
+
+87
+00:04:16.935 --> 00:04:20.020
+Cuz a potentiometer
+acts like that circuit.
+
+88
+00:04:20.020 --> 00:04:22.790
+That's what I'm telling you.
+
+89
+00:04:22.790 --> 00:04:25.070
+That circuit is called a voltage divider.
+
+90
+00:04:26.240 --> 00:04:29.609
+So, remember the potentiometer
+has three terminals.
+
+91
+00:04:30.680 --> 00:04:33.581
+And that circuit's called
+a voltage divider.
+
+92
+00:04:33.581 --> 00:04:37.970
+Now if you look at that circuit,
+at the top, there's this V in, okay?
+
+93
+00:04:37.970 --> 00:04:40.200
+And at the bottom there's ground.
+
+94
+00:04:40.200 --> 00:04:44.420
+So those two, a V in and ground, those
+are two of the leads on a potentiometer.
+
+95
+00:04:44.420 --> 00:04:48.370
+The top lead and the bottom lead in the
+potentiometer are the V in and the ground.
+
+96
+00:04:48.370 --> 00:04:48.900
+And then the middle,
+
+97
+00:04:48.900 --> 00:04:52.990
+that little arrow in the schematic,
+that is that V out right there.
+
+98
+00:04:52.990 --> 00:04:56.960
+That's what you're actually
+measuring typically, okay?
+
+99
+00:04:56.960 --> 00:05:01.770
+So the resistance from the top to the
+bottom, from one side of the potentiometer
+
+100
+00:05:01.770 --> 00:05:06.090
+to the other, so from V in to ground, that
+resistance is constant no matter what.
+
+101
+00:05:06.090 --> 00:05:07.130
+You've turned the knob.
+
+102
+00:05:07.130 --> 00:05:10.130
+The total resistance from the left side
+of the potentiometer to the right side of
+
+103
+00:05:10.130 --> 00:05:12.960
+the potentiometer, or
+top to bottom is gonna be constant.
+
+104
+00:05:12.960 --> 00:05:16.445
+Now the total resistance from V in to
+the ground is gonna be R1 plus R2,
+
+105
+00:05:16.445 --> 00:05:18.900
+those two resistors add together.
+
+106
+00:05:18.900 --> 00:05:20.710
+That sum is constant.
+
+107
+00:05:20.710 --> 00:05:24.520
+So for instance, if you've got a
+potentiometer, it is a 10k potentiometer,
+
+108
+00:05:24.520 --> 00:05:26.530
+10 kiloohm potentiometer.
+
+109
+00:05:26.530 --> 00:05:31.975
+Then the sum of those two resistances from
+one lead to another is always 10 kilohms,
+
+110
+00:05:31.975 --> 00:05:35.006
+but what changes is
+that V out right there.
+
+111
+00:05:35.006 --> 00:05:39.680
+Cuz what changes is as you turn that knob,
+the ratio between those two resistors,
+
+112
+00:05:39.680 --> 00:05:42.620
+R1 and R2,
+the ratio of their resistance changes.
+
+113
+00:05:42.620 --> 00:05:45.370
+So if you turn the knob one way,
+R1 gets smaller and
+
+114
+00:05:45.370 --> 00:05:47.880
+R2 gets bigger,
+even though the sum stays the same.
+
+115
+00:05:49.120 --> 00:05:53.450
+So and you could turn the knob
+other way and the reverse happens,
+
+116
+00:05:53.450 --> 00:05:55.920
+R2 can get smaller, R1 can get bigger.
+
+117
+00:05:55.920 --> 00:05:58.470
+But the sum stays the same.
+
+118
+00:05:58.470 --> 00:06:00.020
+So as you turn this knob,
+
+119
+00:06:00.020 --> 00:06:05.690
+the voltage that's observed at V
+out changes as you turn the knob.
+
+120
+00:06:05.690 --> 00:06:08.500
+Because what happens is,
+that voltage, okay,
+
+121
+00:06:08.500 --> 00:06:10.500
+let's go back to our Ohm's law, right?
+
+122
+00:06:10.500 --> 00:06:12.180
+V equals IR.
+
+123
+00:06:12.180 --> 00:06:17.800
+So we wanna measure V at V out, that point
+V out in between those two resistors.
+
+124
+00:06:17.800 --> 00:06:21.115
+That V goes I times R,
+now I is the same for both resistors,
+
+125
+00:06:21.115 --> 00:06:26.012
+cuz there is only one wire that everything
+has gone through but the R changes, right?
+
+126
+00:06:26.012 --> 00:06:29.216
+If you could make R get bigger and
+smaller, R2 specifically.
+
+127
+00:06:29.216 --> 00:06:35.010
+The R2 is the resistor between V out and
+the ground, okay?
+
+128
+00:06:35.010 --> 00:06:38.940
+That R is changing as you turn the knob.
+
+129
+00:06:38.940 --> 00:06:41.580
+And since V equals IR,
+if R is changing and
+
+130
+00:06:41.580 --> 00:06:43.960
+current is constant, then V is changing.
+
+131
+00:06:43.960 --> 00:06:47.066
+So as you turn this knob,
+you're changing resistance,
+
+132
+00:06:47.066 --> 00:06:50.054
+which changes the voltage
+that's perceived at V out.
+
+133
+00:06:50.054 --> 00:06:53.640
+So that's how we're gonna end up
+using potentiometers in general, and
+
+134
+00:06:53.640 --> 00:06:55.418
+I'll show you a circuit like that.
+
+135
+00:06:55.418 --> 00:06:55.964
+Thank you.
+
+136
+00:06:55.964 --> 00:07:00.631
+[MUSIC]

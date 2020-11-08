@@ -1,0 +1,373 @@
+WEBVTT
+
+1
+00:00:00.031 --> 00:00:06.639
+[MUSIC]
+
+2
+00:00:06.639 --> 00:00:12.633
+[SOUND] So
+let's show a little bit of code that
+
+3
+00:00:12.633 --> 00:00:17.820
+uses the ethernet shield as a client.
+
+4
+00:00:17.820 --> 00:00:20.480
+Just show how some of these
+functions would be used.
+
+5
+00:00:20.480 --> 00:00:21.340
+So if we look at the code,
+
+6
+00:00:21.340 --> 00:00:25.710
+the top, first thing we're doing
+is defining a MAC address.
+
+7
+00:00:25.710 --> 00:00:28.230
+Remember a MAC address is six bytes,
+right?
+
+8
+00:00:28.230 --> 00:00:30.330
+And these bytes are specified
+in hexadecimal.
+
+9
+00:00:30.330 --> 00:00:32.890
+They don't have to be, but
+that is extremely common and
+
+10
+00:00:32.890 --> 00:00:35.070
+it's always done for MAC addresses.
+
+11
+00:00:35.070 --> 00:00:37.620
+Notice that each byte
+starts off with an 0x.
+
+12
+00:00:37.620 --> 00:00:39.563
+0x this, 0x, 0x, 0x.
+
+13
+00:00:39.563 --> 00:00:41.290
+So 0x stands for hexadecimal in C.
+
+14
+00:00:42.350 --> 00:00:45.990
+So 0xde, that's a hexadecimal byte.
+
+15
+00:00:45.990 --> 00:00:50.680
+Cuz each bit, each hexadecimal digit is
+four bits, so de, that's four and four,
+
+16
+00:00:50.680 --> 00:00:52.110
+eight bits all together.
+
+17
+00:00:52.110 --> 00:00:53.650
+So that's a MAC address
+that we've made up.
+
+18
+00:00:54.930 --> 00:00:58.588
+Then, next we're naming the server,
+char server we're naming a string,
+
+19
+00:00:58.588 --> 00:01:00.143
+making a string called server.
+
+20
+00:01:00.143 --> 00:01:04.135
+Which is gonna be the domain name of
+the server that we wanna communicate
+
+21
+00:01:04.135 --> 00:01:04.941
+with, okay?
+
+22
+00:01:04.941 --> 00:01:08.209
+So we'll just call that server,
+testdomain.edu,
+
+23
+00:01:08.209 --> 00:01:12.070
+which as far as I know is not
+a real domain but we're using that.
+
+24
+00:01:12.070 --> 00:01:15.674
+Okay, so then, this ethernet,
+we wanna act as a client, so
+
+25
+00:01:15.674 --> 00:01:18.870
+we create a client object,
+EthernetClient client.
+
+26
+00:01:18.870 --> 00:01:20.159
+So we've made our client object.
+
+27
+00:01:21.210 --> 00:01:24.609
+Then inside our set-up,
+this is still doing our sketch, so
+
+28
+00:01:24.609 --> 00:01:25.884
+it's set up in a loop.
+
+29
+00:01:25.884 --> 00:01:31.828
+In our set-up, we say Ethernet.begin
+to initialize the ethernet shield.
+
+30
+00:01:31.828 --> 00:01:35.417
+Ethernet.begin(mac), we have to pass
+it the MAC address, that's required,
+
+31
+00:01:35.417 --> 00:01:37.250
+which we define up at the top.
+
+32
+00:01:37.250 --> 00:01:39.170
+We don't pass an IP address.
+
+33
+00:01:39.170 --> 00:01:42.880
+So what that means is we're assuming
+DHCP is working in our network and
+
+34
+00:01:42.880 --> 00:01:45.470
+DHCP is used to generate an IP address.
+
+35
+00:01:45.470 --> 00:01:49.346
+So we get an IP address, but
+we don't explicitly give one in our code.
+
+36
+00:01:49.346 --> 00:01:53.507
+Then, if client.connect, so now we're
+trying to make the connection from
+
+37
+00:01:53.507 --> 00:01:56.075
+the client to that server, testdomain.edu.
+
+38
+00:01:56.075 --> 00:02:00.747
+If client.connect(server, 80), so
+server is the name of the server and
+
+39
+00:02:00.747 --> 00:02:03.020
+80 is the port we're talking on.
+
+40
+00:02:03.020 --> 00:02:07.180
+Now port 80 is devoted to HTTP traffic,
+meaning web traffic.
+
+41
+00:02:07.180 --> 00:02:09.410
+So we're trying to talk
+to a web server clearly.
+
+42
+00:02:10.550 --> 00:02:13.550
+So we try to connect and
+the client.connect returns a 1 or
+
+43
+00:02:13.550 --> 00:02:15.740
+returns a true if it makes the connection.
+
+44
+00:02:15.740 --> 00:02:19.176
+So if it does make the connection,
+then it goes into the if statement,
+
+45
+00:02:19.176 --> 00:02:21.405
+client.println and it sends that message.
+
+46
+00:02:21.405 --> 00:02:24.941
+Get index.html HTTP/1.1.
+
+47
+00:02:24.941 --> 00:02:32.240
+Now it turns out that message is
+the HTTP format for a GET message.
+
+48
+00:02:32.240 --> 00:02:35.050
+So what that does is,
+it request of a web server
+
+49
+00:02:35.050 --> 00:02:39.450
+that's saying give me this index.html,
+give me this file.
+
+50
+00:02:40.730 --> 00:02:43.710
+Which should be a webpage,
+right, index.html.
+
+51
+00:02:43.710 --> 00:02:45.370
+So, that's actually making a request.
+
+52
+00:02:45.370 --> 00:02:46.921
+So we send that string to,
+
+53
+00:02:46.921 --> 00:02:50.596
+calling that print line is sending
+that string to the server.
+
+54
+00:02:50.596 --> 00:02:53.304
+And then call client.stop
+to stop communication,
+
+55
+00:02:53.304 --> 00:02:55.920
+which by the way would
+be a silly thing to do.
+
+56
+00:02:55.920 --> 00:02:57.820
+Because we wouldn't wanna stop
+the communication immediately,
+
+57
+00:02:57.820 --> 00:02:59.660
+we'd wanna wait until we
+received the answer back.
+
+58
+00:02:59.660 --> 00:03:03.900
+But we could do that, so
+[LAUGH] anyway, that's it.
+
+59
+00:03:03.900 --> 00:03:08.200
+In this instance, we're just sending this
+one string requesting some information and
+
+60
+00:03:08.200 --> 00:03:09.770
+then we stop communication.
+
+61
+00:03:09.770 --> 00:03:13.200
+So this is a typical client
+sending data to a server.
+
+62
+00:03:14.990 --> 00:03:19.617
+Now I am sending a GET request,
+HTTP GET request is format and
+
+63
+00:03:19.617 --> 00:03:24.626
+port 80 is used because we're
+talking about HTTP which is web.
+
+64
+00:03:24.626 --> 00:03:28.202
+Now here's another tiny program
+where the client's receiving data.
+
+65
+00:03:28.202 --> 00:03:29.920
+Now we're putting this
+in the loop this time.
+
+66
+00:03:31.080 --> 00:03:35.900
+All we're doing here is we're having the
+client receive bytes as they're available.
+
+67
+00:03:35.900 --> 00:03:39.520
+So when a byte is available from
+the server, it takes the byte and it call,
+
+68
+00:03:39.520 --> 00:03:43.210
+it prints it to the serial
+monitor let's say.
+
+69
+00:03:43.210 --> 00:03:44.590
+So if you look at the loop,
+
+70
+00:03:44.590 --> 00:03:47.300
+if client.available meaning
+if there's a byte available.
+
+71
+00:03:47.300 --> 00:03:50.446
+Serial.print, client.read,
+client.read returns the byte,
+
+72
+00:03:50.446 --> 00:03:52.022
+the first byte available.
+
+73
+00:03:52.022 --> 00:03:55.130
+And Serial.print will take it and
+print it to the serial monitor.
+
+74
+00:03:55.130 --> 00:03:58.736
+And then it just, this is loop, so
+it just continues in that fashion.
+
+75
+00:03:58.736 --> 00:03:59.860
+Everytime a byte is available,
+
+76
+00:03:59.860 --> 00:04:03.650
+if clients available, then it just takes
+it, reads it and prints it, and that's it.
+
+77
+00:04:03.650 --> 00:04:05.929
+So that's a client receiving
+data from the server.
+
+78
+00:04:07.010 --> 00:04:08.826
+And printing it to the screen.
+
+79
+00:04:08.826 --> 00:04:12.495
+So it receives response and
+sends it to the serial monitor, thank you.
+
+80
+00:04:12.495 --> 00:04:18.440
+[MUSIC]

@@ -1,0 +1,381 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.436
+[MUSIC]
+
+2
+00:00:11.500 --> 00:00:13.448
+Now we're gonna work with a potentiometer.
+
+3
+00:00:13.448 --> 00:00:16.422
+We're gonna wire together,
+wire it to the Arduino.
+
+4
+00:00:16.422 --> 00:00:18.710
+And we're gonna run a program.
+
+5
+00:00:18.710 --> 00:00:21.230
+That will blink a light,
+an LED on the Arduino and
+
+6
+00:00:21.230 --> 00:00:24.530
+blink it according to how much
+we've turned the potentiometer.
+
+7
+00:00:24.530 --> 00:00:27.435
+So what resistance we've measured
+across the potentiometer.
+
+8
+00:00:28.740 --> 00:00:32.320
+So, here are the components
+we're gonna use right here.
+
+9
+00:00:32.320 --> 00:00:39.020
+We got potentiometer right there,
+we got a knob, got three leads.
+
+10
+00:00:39.020 --> 00:00:41.154
+Got some wires right here.
+
+11
+00:00:41.154 --> 00:00:43.997
+Got our breadboard that we always
+use to wire things together, and
+
+12
+00:00:43.997 --> 00:00:45.280
+we got our Arduino over here.
+
+13
+00:00:46.380 --> 00:00:47.254
+And on the side,
+
+14
+00:00:47.254 --> 00:00:51.578
+I have my laptop which I will plug in the
+Arduino to give it power when we're ready.
+
+15
+00:00:51.578 --> 00:00:55.610
+So as a rule, we wanna start wiring
+without having any power plugged in.
+
+16
+00:00:57.260 --> 00:01:00.810
+Now, the program that will
+be running in the Arduino,
+
+17
+00:01:00.810 --> 00:01:04.610
+the name of that program
+is called Analog Input.
+
+18
+00:01:04.610 --> 00:01:09.020
+So if you look in your examples,
+if you start your IDE, go to examples.
+
+19
+00:01:09.020 --> 00:01:12.890
+Look in the subcategory
+number three called analog.
+
+20
+00:01:12.890 --> 00:01:16.227
+And then the program called Analog Input,
+that's the one we're using.
+
+21
+00:01:16.227 --> 00:01:20.869
+Now what that program does is it reads
+analog input on analog input A0.
+
+22
+00:01:20.869 --> 00:01:27.235
+So if we look at pin A0,
+let's take a pen or something.
+
+23
+00:01:27.235 --> 00:01:29.750
+A0 is that pin right there.
+
+24
+00:01:29.750 --> 00:01:35.270
+So it reads A0,
+reads the analog voltage, and
+
+25
+00:01:35.270 --> 00:01:38.880
+based on that voltage,
+it sets a light to blinking.
+
+26
+00:01:38.880 --> 00:01:41.606
+So an LED is connected on pin 13.
+
+27
+00:01:41.606 --> 00:01:47.730
+Now, this LED right here on the Arduino,
+it's already connected to pin 13.
+
+28
+00:01:47.730 --> 00:01:50.500
+So, what'll happen is that LED will blink.
+
+29
+00:01:50.500 --> 00:01:55.175
+And the rate that it blinks will
+correspond to the voltage that is
+
+30
+00:01:55.175 --> 00:01:56.915
+read at analog pin A0.
+
+31
+00:01:56.915 --> 00:02:00.026
+So what we're gonna do,
+is we're gonna take this potentiometer.
+
+32
+00:02:00.026 --> 00:02:01.530
+A potentiometer has three leads.
+
+33
+00:02:01.530 --> 00:02:04.890
+We're gonna take the top lead
+wire to power, five volts.
+
+34
+00:02:04.890 --> 00:02:06.270
+The bottom lead wire to ground.
+
+35
+00:02:07.370 --> 00:02:11.015
+Then the middle, we're going to take that,
+and run that straight into A0.
+
+36
+00:02:11.015 --> 00:02:14.100
+Now then what will happen is,
+
+37
+00:02:14.100 --> 00:02:17.810
+the voltage is read at A0 will
+depend on how we turn the knob.
+
+38
+00:02:17.810 --> 00:02:20.027
+It will be somewhere between
+five volts and zero volts.
+
+39
+00:02:20.027 --> 00:02:25.412
+And the voltage, if you look at
+the program it calls analog read.
+
+40
+00:02:25.412 --> 00:02:29.186
+It converts that voltage to
+a number from 0 to 1,023 and
+
+41
+00:02:29.186 --> 00:02:33.090
+that number will be used as the delay for
+the blinking.
+
+42
+00:02:33.090 --> 00:02:38.070
+So in fact if you look at this program, it
+looks very similar to the blink program.
+
+43
+00:02:38.070 --> 00:02:42.425
+The blink program had a delay of 1,000
+milliseconds, so we're just gonna be able
+
+44
+00:02:42.425 --> 00:02:45.602
+to vary that based on how much
+we turn this potentiometer knob.
+
+45
+00:02:45.602 --> 00:02:47.089
+We could go from 0 to 1,023.
+
+46
+00:02:47.089 --> 00:02:51.755
+So 1,023 would be a little over a second,
+where 0 means just a constant.
+
+47
+00:02:51.755 --> 00:02:56.859
+Actually, I've already
+programmed to this Arduino.
+
+48
+00:02:56.859 --> 00:03:00.893
+So if you wanna do this yourself, just go
+get that program, it called Analog Input.
+
+49
+00:03:00.893 --> 00:03:04.714
+It's under examples,
+subcategory analog and
+
+50
+00:03:04.714 --> 00:03:08.160
+then the program's called Analog Input.
+
+51
+00:03:08.160 --> 00:03:12.030
+Program that into your Arduino,
+then wire it together.
+
+52
+00:03:12.030 --> 00:03:16.380
+So, start off, take the potentiometer.
+
+53
+00:03:16.380 --> 00:03:17.898
+We'll plug it into the breadboard.
+
+54
+00:03:17.898 --> 00:03:20.403
+It doesn't matter which three
+holes we plug it into but
+
+55
+00:03:20.403 --> 00:03:24.240
+notice the spacing of the these guys
+fits the spacing of the breadboard.
+
+56
+00:03:24.240 --> 00:03:27.020
+Oh, one thing to note,
+don't plug it in like this so
+
+57
+00:03:27.020 --> 00:03:29.860
+that all three pins are in the same row.
+
+58
+00:03:29.860 --> 00:03:31.290
+That wouldn't make any sense.
+
+59
+00:03:31.290 --> 00:03:33.700
+We want them to be in three different
+rows, so let's plug it in there.
+
+60
+00:03:34.950 --> 00:03:42.110
+Okay, so now we'll take the top connection
+of this, that's this one right here.
+
+61
+00:03:43.140 --> 00:03:47.380
+We'll plug it into power, get power
+from the board, five volt power, so
+
+62
+00:03:47.380 --> 00:03:48.350
+that's right here.
+
+63
+00:03:49.780 --> 00:03:55.221
+Okay, and then we'll take the bottom,
+plug it into ground.
+
+64
+00:03:55.221 --> 00:03:59.518
+Let's take that, that's the bottom lead of
+the potentiometer, plug it into a ground.
+
+65
+00:03:59.518 --> 00:04:05.035
+We've got a ground, here's ground,
+a couple grounds, yep.
+
+66
+00:04:05.035 --> 00:04:09.841
+And now we'll take the middle,
+which is the variable, and
+
+67
+00:04:09.841 --> 00:04:15.834
+we'll take that, use this green wire and
+plug it into A0, right there.
+
+68
+00:04:15.834 --> 00:04:18.650
+Okay, so that should be all we need.
+
+69
+00:04:21.070 --> 00:04:26.190
+Now, let us plug
+the Arduino into a USB for
+
+70
+00:04:26.190 --> 00:04:29.566
+power, see what happens.
+
+71
+00:04:31.889 --> 00:04:34.380
+Okay so, I hope you can see that.
+
+72
+00:04:34.380 --> 00:04:38.252
+You can see the LED is blinking at a rate,
+okay?
+
+73
+00:04:38.252 --> 00:04:45.293
+Now we should be able to change that
+rate by turning this knob, turn it.
+
+74
+00:04:45.293 --> 00:04:48.160
+Okay, that's faster,
+definitely faster, right?
+
+75
+00:04:48.160 --> 00:04:50.191
+Turn it some more.
+
+76
+00:04:50.191 --> 00:04:52.376
+That's definitely faster than before.
+
+77
+00:04:52.376 --> 00:04:54.233
+Turn it a little more.
+
+78
+00:04:54.233 --> 00:04:57.304
+There it is,
+almost solidly on at this point.
+
+79
+00:04:57.304 --> 00:04:58.652
+I can turn it back.
+
+80
+00:05:02.087 --> 00:05:03.666
+And that is it.
+
+81
+00:05:03.666 --> 00:05:04.780
+Thank you.
+
+82
+00:05:04.780 --> 00:05:09.859
+[MUSIC]

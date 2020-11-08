@@ -1,0 +1,459 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.617
+[MUSIC]
+
+2
+00:00:00.617 --> 00:00:06.901
+[SOUND] So there's a common function
+
+3
+00:00:06.901 --> 00:00:13.394
+that I do in the library called tone,
+
+4
+00:00:13.394 --> 00:00:19.897
+which also generates a square wave.
+
+5
+00:00:19.897 --> 00:00:21.650
+A similar to analogWrite but different.
+
+6
+00:00:22.720 --> 00:00:26.980
+Tone, this function tone can generate
+a square wave with an arbitrary frequency.
+
+7
+00:00:26.980 --> 00:00:30.610
+Now this is different than analogWrite
+because analogWrite has a fixed frequency.
+
+8
+00:00:30.610 --> 00:00:34.650
+If you remember analogWrite generates
+a signal, a square wave that's 490 hertz,
+
+9
+00:00:34.650 --> 00:00:40.510
+but tone can change the frequency and so
+it can be used for different purposes.
+
+10
+00:00:40.510 --> 00:00:42.626
+Now tone cannot change a duty cycle,
+Right?
+
+11
+00:00:42.626 --> 00:00:48.313
+With analogWrite you specify the duty
+cycle, tone has a fixed 50% duty cycle.
+
+12
+00:00:48.313 --> 00:00:50.420
+But tone can change the frequency.
+
+13
+00:00:51.640 --> 00:00:55.030
+So it can be used to make a tone,
+to make a sound.
+
+14
+00:00:55.030 --> 00:00:59.371
+Okay, to drive a speaker or buzzer or
+something like that, you can use tone.
+
+15
+00:00:59.371 --> 00:01:03.320
+Now, tone takes either two or
+three arguments.
+
+16
+00:01:03.320 --> 00:01:07.240
+The first argument is a pin number, the
+pin that you wanna generate the tone on,
+
+17
+00:01:07.240 --> 00:01:08.910
+that you wanna send this square wave to.
+
+18
+00:01:08.910 --> 00:01:13.514
+The second argument is the frequency
+in hertz that you want for the signal.
+
+19
+00:01:13.514 --> 00:01:16.900
+So whatever frequency you want,
+you just send that as the second argument.
+
+20
+00:01:16.900 --> 00:01:20.880
+And then the third argument, which is
+optional, is the duration in milliseconds.
+
+21
+00:01:20.880 --> 00:01:23.060
+So how long do you want that tone to play?
+
+22
+00:01:23.060 --> 00:01:24.020
+That could be your third argument.
+
+23
+00:01:25.040 --> 00:01:27.260
+If you don't have a third argument,
+it'll just play,
+
+24
+00:01:27.260 --> 00:01:29.890
+until you call another function
+called no tone, which will kill it.
+
+25
+00:01:31.540 --> 00:01:37.120
+Now we don't want to get too much digital
+signal processing, sound and all that.
+
+26
+00:01:37.120 --> 00:01:42.990
+But, to say a little bit, we're
+sending a square wave to make a sound.
+
+27
+00:01:42.990 --> 00:01:44.380
+So, tone generates a square wave, right?
+
+28
+00:01:44.380 --> 00:01:47.160
+It has to make a square wave because
+this is a digital component and
+
+29
+00:01:47.160 --> 00:01:48.300
+it's only zeroes and ones.
+
+30
+00:01:48.300 --> 00:01:53.580
+So, the wave has to be a square wave,
+but a square wave generally sounds bad.
+
+31
+00:01:53.580 --> 00:01:57.096
+So, when you take a square wave, send
+it to a speaker, it's gonna sound bad.
+
+32
+00:01:57.096 --> 00:02:04.380
+Reason why is because the square wave
+basically has sharp edges in it, okay?
+
+33
+00:02:04.380 --> 00:02:06.720
+So you've got zero and
+then suddenly it's one.
+
+34
+00:02:06.720 --> 00:02:10.250
+And instantaneously it's
+going from zero to one.
+
+35
+00:02:10.250 --> 00:02:13.300
+That's extremely, that's infinite
+frequency if we were to do that.
+
+36
+00:02:13.300 --> 00:02:16.760
+Now, it doesn't quite do that,
+it's not quite instantaneous but you get
+
+37
+00:02:16.760 --> 00:02:21.390
+lots of high frequency components right
+in those edges where it rises and falls.
+
+38
+00:02:21.390 --> 00:02:23.420
+And those sound bad,
+they sound like a buzz.
+
+39
+00:02:23.420 --> 00:02:25.417
+Like [SOUND], something like that.
+
+40
+00:02:25.417 --> 00:02:29.840
+Where a sine wave, if you would hear that,
+a pure sine wave is one frequency.
+
+41
+00:02:29.840 --> 00:02:33.450
+It's a pure tone, so [SOUND],
+something like that.
+
+42
+00:02:33.450 --> 00:02:36.151
+[SOUND] That's as close as I
+can get to a sine wave, okay.
+
+43
+00:02:36.151 --> 00:02:38.367
+A square wave is more [SOUND].
+
+44
+00:02:38.367 --> 00:02:42.480
+It might be the same frequency,
+but it sounds like a buzz.
+
+45
+00:02:42.480 --> 00:02:44.109
+It has annoying high-frequency components.
+
+46
+00:02:45.220 --> 00:02:48.600
+But that is the best we can do,
+because our Arduino is digital and
+
+47
+00:02:48.600 --> 00:02:49.970
+it's just going to generate square waves.
+
+48
+00:02:49.970 --> 00:02:53.200
+So with digital output square
+waves is the best that we can do.
+
+49
+00:02:53.200 --> 00:02:54.940
+Although sine wave would sound much nicer.
+
+50
+00:02:54.940 --> 00:02:56.260
+And if you really want to do this.
+
+51
+00:02:56.260 --> 00:02:58.110
+If you really want to make
+music with an Arduino, and
+
+52
+00:02:58.110 --> 00:03:00.360
+make it sound pleasing
+you would use a shield.
+
+53
+00:03:00.360 --> 00:03:02.070
+We'll talk about that in the next course.
+
+54
+00:03:02.070 --> 00:03:05.050
+You use the shield which
+has a sine wave generator.
+
+55
+00:03:05.050 --> 00:03:07.937
+Okay, but right now we're
+talking about square waves.
+
+56
+00:03:07.937 --> 00:03:13.560
+Okay, now for the speaker we're gonna
+use a piezo element as a buzzer.
+
+57
+00:03:13.560 --> 00:03:16.580
+These are very simple sound making
+devices, they look like that,
+
+58
+00:03:16.580 --> 00:03:17.854
+you should have one like this in your kit.
+
+59
+00:03:19.045 --> 00:03:20.470
+And here it's symbol.
+
+60
+00:03:20.470 --> 00:03:22.773
+[COUGH] It's got two terminals, right?
+
+61
+00:03:22.773 --> 00:03:25.875
+It's got two which are connected
+to signal and ground.
+
+62
+00:03:25.875 --> 00:03:29.115
+So one side's connected to ground,
+the other side is connected to the signal,
+
+63
+00:03:29.115 --> 00:03:31.955
+the say square wave, for instance, right?
+
+64
+00:03:31.955 --> 00:03:37.319
+And it produces a click, essentially
+a click when the rising edge is applied.
+
+65
+00:03:38.630 --> 00:03:39.820
+Or a sound, some kind of sound,
+
+66
+00:03:39.820 --> 00:03:42.250
+which we'll call a click when
+the rising edge is applied.
+
+67
+00:03:42.250 --> 00:03:45.980
+So if you have it clicking
+at a particular frequency,
+
+68
+00:03:45.980 --> 00:03:48.450
+you can change the tone that's generated.
+
+69
+00:03:48.450 --> 00:03:52.180
+Even though it's still a buzz, you can
+change the frequency of the tone overall.
+
+70
+00:03:52.180 --> 00:03:54.510
+So driving with a square wave
+produces some kind of pitch,
+
+71
+00:03:54.510 --> 00:03:56.890
+whatever pitch you want to make.
+
+72
+00:03:56.890 --> 00:04:01.950
+Now here's an example program for
+making a little piece of music,
+
+73
+00:04:01.950 --> 00:04:07.310
+now this, when I say piece of music, it's
+two tones, it's really only two tones.
+
+74
+00:04:07.310 --> 00:04:11.610
+Now notice that the set up function,
+it doesn't do anything,
+
+75
+00:04:11.610 --> 00:04:14.280
+there's nothing we need in the set up.
+
+76
+00:04:14.280 --> 00:04:16.640
+There's a picture of the connection,
+so you've got an Arduino,
+
+77
+00:04:16.640 --> 00:04:20.970
+and on pin 8 I'm assuming you got
+a piezo element connected on pin 8.
+
+78
+00:04:20.970 --> 00:04:24.150
+One side is connected to the piezo element
+and one side is connected to pin 8,
+
+79
+00:04:24.150 --> 00:04:26.190
+the other side is connected to the ground.
+
+80
+00:04:27.420 --> 00:04:29.650
+Now we've got this loop function.
+
+81
+00:04:29.650 --> 00:04:31.670
+Now the loop calls tone twice.
+
+82
+00:04:31.670 --> 00:04:35.910
+It calls tone, then it calls delay
+to let it play out for one second.
+
+83
+00:04:35.910 --> 00:04:38.910
+Then it calls tone again, then it calls
+delay to let it play out a second.
+
+84
+00:04:38.910 --> 00:04:41.770
+So this whole loop all it
+does is play two tones.
+
+85
+00:04:41.770 --> 00:04:46.300
+And since it's in a loop you'd hear these
+two tones over and over and over again.
+
+86
+00:04:46.300 --> 00:04:49.290
+And each tone is one second long,
+cuz notice my delay is one second.
+
+87
+00:04:49.290 --> 00:04:53.010
+And when I make the call to tone,
+I say tone 8, which is our pin.
+
+88
+00:04:53.010 --> 00:04:56.320
+988, which is the frequency, 988 hertz.
+
+89
+00:04:56.320 --> 00:04:58.320
+1000, and then I have a delay 1000.
+
+90
+00:04:58.320 --> 00:05:01.240
+I wait a 1000, and then the tone cuts off.
+
+91
+00:05:01.240 --> 00:05:05.490
+Then I say tone 8, 1047,
+1000 and delay another 1000, so
+
+92
+00:05:05.490 --> 00:05:10.030
+this is just gonna play two tones one
+second at a time, one second each tone.
+
+93
+00:05:10.030 --> 00:05:14.313
+Now, it happens at 988 Hz and 1047 Hz.
+
+94
+00:05:14.313 --> 00:05:17.000
+Those are a B and C on a scale.
+
+95
+00:05:17.000 --> 00:05:21.285
+So it'll just play a B and
+then a C over and over and over.
+
+96
+00:05:21.285 --> 00:05:23.400
+So, it's a simple system,
+
+97
+00:05:23.400 --> 00:05:28.343
+and if you wire that up, you should
+be able to hear these two tones.
+
+98
+00:05:28.343 --> 00:05:29.135
+Thank you.
+
+99
+00:05:29.135 --> 00:05:34.668
+[MUSIC]

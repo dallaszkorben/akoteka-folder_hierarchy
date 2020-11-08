@@ -1,0 +1,299 @@
+WEBVTT
+
+1
+00:00:00.102 --> 00:00:01.043
+[MUSIC]
+
+2
+00:00:01.043 --> 00:00:05.767
+[SOUND]
+
+3
+00:00:11.409 --> 00:00:13.330
+>> So now that we've got the concept of
+
+4
+00:00:13.330 --> 00:00:18.270
+voltage, current and resistance under our
+belts, let's just talk about Ohm's Law.
+
+5
+00:00:18.270 --> 00:00:20.528
+So Ohm's Law is the relationship
+that you see right there.
+
+6
+00:00:20.528 --> 00:00:24.900
+V = I*R,
+voltage equals current times resistance.
+
+7
+00:00:24.900 --> 00:00:29.090
+This is a useful relationship
+to keep in mind.
+
+8
+00:00:29.090 --> 00:00:31.880
+It's simple, but we need it for
+lots of little things.
+
+9
+00:00:31.880 --> 00:00:35.320
+So it expresses the relationship
+between voltage, current,
+
+10
+00:00:35.320 --> 00:00:39.080
+resistance, and it tells you a few
+things about the behavior of circuit.
+
+11
+00:00:39.080 --> 00:00:42.570
+So for instance, say you got a circuit and
+
+12
+00:00:42.570 --> 00:00:46.090
+the voltage is fixed, it's five volts,
+running at five volts.
+
+13
+00:00:46.090 --> 00:00:51.880
+If you increase the resistance
+then current will go down, right?
+
+14
+00:00:51.880 --> 00:00:54.370
+That makes sense because
+the voltage is fixed, right.
+
+15
+00:00:54.370 --> 00:00:58.420
+Our Arduino is running at five volts, it's
+driving five volts under its output pin.
+
+16
+00:00:58.420 --> 00:01:00.410
+So anything you connect to it,
+if the resistance goes up,
+
+17
+00:01:00.410 --> 00:01:03.390
+I has to go down to keep
+the relationship the same, right?
+
+18
+00:01:03.390 --> 00:01:06.550
+So that's the most useful
+thing about this law,
+
+19
+00:01:06.550 --> 00:01:10.530
+is that it gives you this intuition
+about current flow, right?
+
+20
+00:01:10.530 --> 00:01:14.310
+Current flow, and voltage, and
+resistance, and how they're all related.
+
+21
+00:01:14.310 --> 00:01:16.060
+And we need to know that in certain cases.
+
+22
+00:01:16.060 --> 00:01:18.470
+So it's used, so one way to do it,
+
+23
+00:01:18.470 --> 00:01:23.050
+to use this relationship is to compute one
+variable when you're given the other two.
+
+24
+00:01:23.050 --> 00:01:26.960
+So say you know the voltage, you know
+the current, you can solve for resistance.
+
+25
+00:01:26.960 --> 00:01:27.910
+Or you can do it the other way.
+
+26
+00:01:27.910 --> 00:01:32.730
+Say I know the current and I know
+the voltage, or I know the current and
+
+27
+00:01:32.730 --> 00:01:34.990
+I know the resistance,
+I can solve for voltage, and so on.
+
+28
+00:01:34.990 --> 00:01:37.660
+So given two, you can solve for
+the other one.
+
+29
+00:01:37.660 --> 00:01:39.430
+So when would you need to do this?
+
+30
+00:01:39.430 --> 00:01:43.780
+So, one use is what resistor do
+I need to limit current flow?
+
+31
+00:01:43.780 --> 00:01:48.280
+Now this is gonna happen a lot, where your
+Arduino is connected to a component and
+
+32
+00:01:48.280 --> 00:01:51.215
+this component, it only accepts
+a certain amount of current.
+
+33
+00:01:51.215 --> 00:01:53.525
+If you give it too much current,
+it will blow up.
+
+34
+00:01:53.525 --> 00:01:55.015
+Something bad will happen.
+
+35
+00:01:55.015 --> 00:01:58.855
+So you know that when you connect
+it to this component, you have to
+
+36
+00:01:58.855 --> 00:02:03.115
+add some resistor just to reduce
+the current flow to the appropriate level.
+
+37
+00:02:03.115 --> 00:02:06.115
+So, if you want to figure out what
+resistance do I need to make sure that my
+
+38
+00:02:06.115 --> 00:02:11.110
+current is low enough, you plug in
+the voltage say, Arduino is five volts.
+
+39
+00:02:11.110 --> 00:02:13.740
+The current limit that you want,
+you plug that in.
+
+40
+00:02:13.740 --> 00:02:16.310
+And then, you can solve for
+the resistance and say okay,
+
+41
+00:02:16.310 --> 00:02:18.500
+this is the type of resistor that I need.
+
+42
+00:02:18.500 --> 00:02:23.402
+So, that's one way to use this,
+that you will need to use this.
+
+43
+00:02:23.402 --> 00:02:26.630
+Another one is, what voltage can
+I expect for a given resistance?
+
+44
+00:02:26.630 --> 00:02:31.560
+And this is more on the, this is
+commonly something you need to figure
+
+45
+00:02:31.560 --> 00:02:35.901
+out on the input side, so
+I will get to this in a later module.
+
+46
+00:02:35.901 --> 00:02:40.717
+But, the idea is that say that you
+are doing this connector to some sensor of
+
+47
+00:02:40.717 --> 00:02:41.970
+some kind, okay.
+
+48
+00:02:41.970 --> 00:02:42.905
+And this sensor, so
+
+49
+00:02:42.905 --> 00:02:47.100
+our Arduino, it's gonna be reading
+the voltage that this senor is outputting.
+
+50
+00:02:47.100 --> 00:02:48.550
+But what voltage do I expect?
+
+51
+00:02:48.550 --> 00:02:51.860
+So, say I have it connected
+to a light sensor, right?
+
+52
+00:02:51.860 --> 00:02:56.270
+When the brightness is a certain level,
+I'll get a certain resistance in my
+
+53
+00:02:56.270 --> 00:03:00.180
+sensor, so what voltage would
+I expect to see in my Arduino?
+
+54
+00:03:00.180 --> 00:03:02.440
+So I can use this type of
+equation to figure that out.
+
+55
+00:03:02.440 --> 00:03:04.040
+Well I know what the current has to be and
+
+56
+00:03:04.040 --> 00:03:06.660
+I know the voltage will be this,
+the resistance will be such and
+
+57
+00:03:06.660 --> 00:03:09.670
+such at this light level,
+so the voltage has to be.
+
+58
+00:03:09.670 --> 00:03:12.900
+And then you could use that inside your
+program and say, if the voltage I measure
+
+59
+00:03:12.900 --> 00:03:17.430
+is greater than this threshold,
+then do this, else do that, and so on.
+
+60
+00:03:17.430 --> 00:03:21.670
+So V = I * R is sort of a very
+common law and you use it a lot for
+
+61
+00:03:21.670 --> 00:03:23.412
+lots of little things.
+
+62
+00:03:23.412 --> 00:03:24.074
+Thank you.
+
+63
+00:03:24.074 --> 00:03:27.335
+[MUSIC]

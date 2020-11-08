@@ -1,0 +1,259 @@
+WEBVTT
+
+1
+00:00:00.034 --> 00:00:10.034
+[MUSIC]
+
+2
+00:00:11.060 --> 00:00:15.460
+Several actuators are controlled
+using analog voltage.
+
+3
+00:00:15.460 --> 00:00:16.260
+It's a common thing.
+
+4
+00:00:17.450 --> 00:00:21.600
+So, to completely control them, to make
+them do everything they need to do,
+
+5
+00:00:21.600 --> 00:00:23.750
+you need to supply
+an analog voltage to them.
+
+6
+00:00:25.370 --> 00:00:27.560
+For instance, a DC motor.
+
+7
+00:00:27.560 --> 00:00:31.050
+A DC motor, the speed of the motor is
+controlled by the analog voltage that it
+
+8
+00:00:31.050 --> 00:00:33.420
+receives, so if you give it more voltage,
+it'll go faster, and so on.
+
+9
+00:00:34.540 --> 00:00:38.470
+And LED you can control it
+in binary zero one, but
+
+10
+00:00:38.470 --> 00:00:41.200
+you can also give it an analog
+voltage to make it brighter or dimmer.
+
+11
+00:00:42.920 --> 00:00:44.700
+Heating elements so for
+
+12
+00:00:44.700 --> 00:00:49.970
+instance in a toaster you know hot wire,
+that type of thing.
+
+13
+00:00:49.970 --> 00:00:51.130
+It's going to heat up.
+
+14
+00:00:51.130 --> 00:00:54.320
+It will output as much heat as it gets.
+
+15
+00:00:54.320 --> 00:01:00.973
+So if you increase the voltage it will
+have more energy so it make it hotter.
+
+16
+00:01:00.973 --> 00:01:03.940
+So, there are a lot of devices like this,
+a lot of actuators like this,
+
+17
+00:01:03.940 --> 00:01:09.220
+that require an analog voltage, but
+an Arduino cannot generate analog voltage.
+
+18
+00:01:09.220 --> 00:01:12.240
+Arduinos can do digital write,
+
+19
+00:01:12.240 --> 00:01:17.460
+which is a digital voltage, but
+outputting an analog voltage.
+
+20
+00:01:17.460 --> 00:01:20.920
+Now there is a function called analog
+wright, and I will describe this function.
+
+21
+00:01:20.920 --> 00:01:24.800
+But it does not directly produce
+an analog voltage on the output.
+
+22
+00:01:24.800 --> 00:01:28.690
+So say you wanna output 2.5
+volts on one of the pins.
+
+23
+00:01:28.690 --> 00:01:36.340
+You can't do that with an Arduino, or
+with a microcontroller inside an Arduino.
+
+24
+00:01:36.340 --> 00:01:39.990
+Actually most microcontroller don't
+have don't have that ability.
+
+25
+00:01:39.990 --> 00:01:41.660
+Now I should say that an Arduino Due,
+
+26
+00:01:41.660 --> 00:01:45.690
+which is a more expensive Arduino,
+I believe it can output analog directly,
+
+27
+00:01:45.690 --> 00:01:50.790
+but it is very common that components
+can't output analog directly.
+
+28
+00:01:50.790 --> 00:01:54.670
+Now, one way to fix that is to buy
+a digital to analog converter,
+
+29
+00:01:54.670 --> 00:01:57.040
+which I think is actually
+probably on the Arduino Due.
+
+30
+00:01:57.040 --> 00:01:58.340
+It's a separate chip.
+
+31
+00:01:59.350 --> 00:02:04.270
+A separate integrated circuit that you
+can connect to your microcontroller.
+
+32
+00:02:04.270 --> 00:02:07.300
+And it'll take, actually we show
+a schematic of it up there.
+
+33
+00:02:07.300 --> 00:02:10.480
+It'll take-send digital inputs, like
+in this case, it's an 8 bit number, so
+
+34
+00:02:10.480 --> 00:02:12.280
+8 digital inputs, zeros and ones.
+
+35
+00:02:12.280 --> 00:02:16.090
+And it'll output an analogue voltage
+value according to those digital inputs.
+
+36
+00:02:16.090 --> 00:02:18.820
+So, for instance, If you want to output,
+
+37
+00:02:18.820 --> 00:02:20.900
+this is a rough approximation
+of what would happen.
+
+38
+00:02:20.900 --> 00:02:24.510
+Say you want to output three
+volts on the analog output.
+
+39
+00:02:24.510 --> 00:02:27.500
+So you would drive the digital inputs
+with the number three in binary.
+
+40
+00:02:27.500 --> 00:02:28.660
+Which is 11.
+
+41
+00:02:28.660 --> 00:02:30.640
+You drive that.
+
+42
+00:02:30.640 --> 00:02:32.930
+And then the analog output
+would be three volts.
+
+43
+00:02:32.930 --> 00:02:36.180
+So it takes the digital inputs and
+converts it to an equivalent analog value.
+
+44
+00:02:37.630 --> 00:02:42.090
+So if you have one of these chips,
+you could interface that with the Arduino,
+
+45
+00:02:42.090 --> 00:02:45.900
+whatever might controller it is,
+and get analog voltage values.
+
+46
+00:02:47.270 --> 00:02:49.240
+Most microprocessors do not have,
+
+47
+00:02:49.240 --> 00:02:52.200
+most microcontrollers anyway
+don't have this built in.
+
+48
+00:02:52.200 --> 00:02:56.155
+But you can add a separate chip and
+attach it, wire it up.
+
+49
+00:02:56.155 --> 00:02:59.980
+We'll talk about things like that later,
+but it might be expensive.
+
+50
+00:02:59.980 --> 00:03:00.620
+It might cost you,
+
+51
+00:03:00.620 --> 00:03:03.840
+because you have to buy the digital
+analog converter and connect it up.
+
+52
+00:03:03.840 --> 00:03:07.000
+Might be a little bit complicated,
+but that can certainly be done.
+
+53
+00:03:07.000 --> 00:03:11.318
+But that's a more expensive option,
+usually that's not necessary.
+
+54
+00:03:11.318 --> 00:03:12.677
+Thank you.
+
+55
+00:03:12.677 --> 00:03:21.729
+[MUSIC]

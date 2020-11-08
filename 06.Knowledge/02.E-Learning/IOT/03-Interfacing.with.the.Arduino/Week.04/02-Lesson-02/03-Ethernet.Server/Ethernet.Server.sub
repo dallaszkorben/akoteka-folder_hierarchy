@@ -1,0 +1,476 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.773
+[MUSIC]
+
+2
+00:00:11.044 --> 00:00:16.200
+So we're talking about how an e
+Ethernet shield can act as client.
+
+3
+00:00:16.200 --> 00:00:18.090
+Now let's talk about how
+it can act as a server.
+
+4
+00:00:18.090 --> 00:00:19.680
+It can also act as a server.
+
+5
+00:00:19.680 --> 00:00:24.590
+Remember that the goal of a server is to
+sit listen for connection from clients,
+
+6
+00:00:24.590 --> 00:00:27.120
+for requests from clients.
+
+7
+00:00:27.120 --> 00:00:30.320
+So it's gotta sit at some IP address,
+listen to a port, and
+
+8
+00:00:30.320 --> 00:00:34.370
+when the request comes in on that port, it
+services the request, so it receives data,
+
+9
+00:00:34.370 --> 00:00:38.660
+or whatever the request is, and
+then sends data satisfying the request.
+
+10
+00:00:38.660 --> 00:00:41.540
+So, the Ethernet shield can
+act as a server, too, so
+
+11
+00:00:41.540 --> 00:00:42.960
+let's look at how that works.
+
+12
+00:00:42.960 --> 00:00:46.390
+First thing you want to do is
+create a server object, so
+
+13
+00:00:46.390 --> 00:00:48.570
+remember with the client,
+we had the Ethernet client object,
+
+14
+00:00:48.570 --> 00:00:51.870
+so, now we've got Ethernet server,
+we create a server object.
+
+15
+00:00:51.870 --> 00:00:55.620
+And in order to make that server, you've
+gotta explicitly call EthernetServer.
+
+16
+00:00:55.620 --> 00:00:57.720
+A function called EthernetServer
+which is its constructor.
+
+17
+00:00:57.720 --> 00:01:01.150
+And you pass an argument
+called that is the port.
+
+18
+00:01:01.150 --> 00:01:02.826
+So this creates a server.
+
+19
+00:01:02.826 --> 00:01:08.200
+So, server is now equal to a server object
+
+20
+00:01:08.200 --> 00:01:12.160
+that is listening on whatever port
+it is that you specified, right?
+
+21
+00:01:12.160 --> 00:01:15.309
+So if you're making a web server you
+would listen on port 80 and so forth.
+
+22
+00:01:17.150 --> 00:01:20.640
+To start listening,
+we have to create a client object.
+
+23
+00:01:20.640 --> 00:01:22.030
+Now this sounds a little
+counter intuitive.
+
+24
+00:01:22.030 --> 00:01:25.050
+You might say well look, I'm a server,
+why do I need to create a client object?
+
+25
+00:01:25.050 --> 00:01:28.530
+But you need to create a client object
+because that client object is gonna
+
+26
+00:01:28.530 --> 00:01:32.850
+represent the client that you're talking
+too, that you're communicating with.
+
+27
+00:01:32.850 --> 00:01:36.880
+So you say ethernet client
+client = server.available().
+
+28
+00:01:36.880 --> 00:01:39.330
+So you're calling this function
+server.available() and
+
+29
+00:01:39.330 --> 00:01:41.413
+that returns a client if
+a client is waiting, okay?
+
+30
+00:01:41.413 --> 00:01:46.890
+If a client is waiting to talk to the
+server then server.available() will return
+
+31
+00:01:46.890 --> 00:01:50.950
+that client and so now client will equal
+whatever server it is you want to talk to.
+
+32
+00:01:52.620 --> 00:01:57.930
+The server data available will return
+false if there's no client available.
+
+33
+00:01:57.930 --> 00:02:01.260
+But if there is a client available,
+then client's gonna equal [COUGH]
+
+34
+00:02:01.260 --> 00:02:06.260
+a client object which refers to the client
+you are talking to, not yourself, but
+
+35
+00:02:06.260 --> 00:02:07.000
+the one you're talking to.
+
+36
+00:02:07.000 --> 00:02:11.170
+And then client.stop can
+be called from the server
+
+37
+00:02:11.170 --> 00:02:13.460
+to cancel the communication
+with the clients, to end it.
+
+38
+00:02:14.920 --> 00:02:18.250
+Now in order to send data to the client
+and receive data from the client
+
+39
+00:02:18.250 --> 00:02:22.481
+you just call the same functions we called
+before, client.print and client.write.
+
+40
+00:02:22.481 --> 00:02:26.360
+Client.print will send the data,
+client.write will send bytes and
+
+41
+00:02:26.360 --> 00:02:27.110
+individual raw data.
+
+42
+00:02:27.110 --> 00:02:29.280
+And you can do client.read to read data.
+
+43
+00:02:30.360 --> 00:02:31.430
+Use client dot read to read data.
+
+44
+00:02:31.430 --> 00:02:34.523
+So you can send and receive data,
+communicate with the client using
+
+45
+00:02:34.523 --> 00:02:38.130
+client.print or client.read or
+also client.print line
+
+46
+00:02:38.130 --> 00:02:40.910
+if you want to put a character in there or
+client.read does the reading.
+
+47
+00:02:42.940 --> 00:02:46.290
+So here's a little example of a maybe
+a little silly piece of code but
+
+48
+00:02:46.290 --> 00:02:47.960
+that's okay it fit on the slide.
+
+49
+00:02:49.520 --> 00:02:51.200
+So we started off at the top.
+
+50
+00:02:51.200 --> 00:02:51.960
+Make a server.
+
+51
+00:02:51.960 --> 00:02:52.690
+Ethernet server,
+
+52
+00:02:52.690 --> 00:02:56.950
+we create the server, we call the Ethernet
+server with an 80 as its argument.
+
+53
+00:02:56.950 --> 00:02:59.630
+So we're creating a server that's
+gonna be listening to port 80.
+
+54
+00:02:59.630 --> 00:03:02.340
+Now, in our setup, we call Ethernet.begin.
+
+55
+00:03:02.340 --> 00:03:07.595
+You gotta call Ethernet.begin to
+begin to initialize the server,
+
+56
+00:03:07.595 --> 00:03:11.025
+to initialize the Ethernet shield.
+
+57
+00:03:11.025 --> 00:03:13.675
+Now notice that this time we pass
+it a MAC address, I don't know,
+
+58
+00:03:13.675 --> 00:03:14.925
+I didn't define them in here.
+
+59
+00:03:14.925 --> 00:03:16.657
+But suppose we had some MAC address.
+
+60
+00:03:16.657 --> 00:03:19.417
+This time we give it an IP address,
+a gateway, and a subnet.
+
+61
+00:03:19.417 --> 00:03:21.687
+The IP address is the most important here.
+
+62
+00:03:21.687 --> 00:03:25.087
+We gotta give it an IP address because
+now we're acting as a server, right?
+
+63
+00:03:25.087 --> 00:03:29.163
+And typically when you act as a server,
+you need your IP address to be static,
+
+64
+00:03:29.163 --> 00:03:30.063
+to be known.
+
+65
+00:03:30.063 --> 00:03:31.683
+Advertised, right?
+
+66
+00:03:31.683 --> 00:03:36.183
+And using, so when somebody does a domain
+saver, DNS look up for your name,
+
+67
+00:03:36.183 --> 00:03:39.893
+they've got this consistent IP address so
+they can find you.
+
+68
+00:03:39.893 --> 00:03:43.970
+So, it is common when you're creating
+a server that you don't rely on DHCP
+
+69
+00:03:43.970 --> 00:03:45.470
+to give you an IP address.
+
+70
+00:03:45.470 --> 00:03:47.490
+You specify an IP address.
+
+71
+00:03:47.490 --> 00:03:49.240
+Now I don't know what
+that IP address is but
+
+72
+00:03:49.240 --> 00:03:51.180
+we could have defined it
+to be whatever we want.
+
+73
+00:03:51.180 --> 00:03:54.960
+But we have to give it a MAC address and
+we also give it an IP address.
+
+74
+00:03:54.960 --> 00:03:58.380
+Then we also give it the optional gateway
+and subnet, but that's not necessary.
+
+75
+00:04:00.040 --> 00:04:01.621
+Then we call server.begin.
+
+76
+00:04:01.621 --> 00:04:05.019
+server.begin actually evokes
+the server and starts it listening.
+
+77
+00:04:06.920 --> 00:04:09.840
+Now [COUGH] then in the loop,
+we say, okay,
+
+78
+00:04:09.840 --> 00:04:14.030
+let's see if there's a client
+that wants to connect to us.
+
+79
+00:04:14.030 --> 00:04:15.020
+Right?
+
+80
+00:04:15.020 --> 00:04:22.850
+So we call server.available to return an
+EthernetClient If a client is available.
+
+81
+00:04:22.850 --> 00:04:27.360
+So server.available will return
+0 if a client's not available.
+
+82
+00:04:27.360 --> 00:04:28.550
+And then when we get to the next line,
+
+83
+00:04:28.550 --> 00:04:31.770
+if client it will be false and
+we won't do anything.
+
+84
+00:04:31.770 --> 00:04:35.410
+But if client is available then
+client's going to equal that client.
+
+85
+00:04:35.410 --> 00:04:37.600
+Equal an object which
+refers to that client.
+
+86
+00:04:37.600 --> 00:04:39.230
+So then we get to the line if client.
+
+87
+00:04:39.230 --> 00:04:41.970
+We say okay, if there is a client
+that was ready to talk to us,
+
+88
+00:04:41.970 --> 00:04:44.770
+then serial.print client.read.
+
+89
+00:04:44.770 --> 00:04:47.820
+So we just read something
+from the client and
+
+90
+00:04:47.820 --> 00:04:50.490
+print it to the serial monitor and
+that's that.
+
+91
+00:04:50.490 --> 00:04:53.660
+So that's all this does is it connects to
+a client waiting and wherever a client
+
+92
+00:04:53.660 --> 00:04:57.380
+sends it, it prints the serial monitor
+assuming the client is sending something.
+
+93
+00:04:57.380 --> 00:05:00.920
+Now, by the way we could write this code,
+but
+
+94
+00:05:00.920 --> 00:05:04.350
+to be safer, a better way to
+write this code is, and that,
+
+95
+00:05:04.350 --> 00:05:09.110
+before we do the serial.print client.read,
+before we call client.read,
+
+96
+00:05:09.110 --> 00:05:12.450
+we shouldn't call client.read before
+we know the date is available.
+
+97
+00:05:12.450 --> 00:05:16.270
+So we should check for availability
+first before we call client.read.
+
+98
+00:05:16.270 --> 00:05:18.410
+I didn't do it here, but
+probably should have.
+
+99
+00:05:20.670 --> 00:05:23.099
+So it receives data on port 80 and
+just prints it.
+
+100
+00:05:23.099 --> 00:05:23.818
+Thank you.
+
+101
+00:05:23.818 --> 00:05:28.893
+[MUSIC]

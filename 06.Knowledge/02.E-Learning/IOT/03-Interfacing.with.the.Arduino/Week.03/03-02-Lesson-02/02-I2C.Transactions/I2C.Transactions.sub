@@ -1,0 +1,404 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:11.059 --> 00:00:14.788
+So an I2C transaction,
+structure of a transaction,
+
+3
+00:00:14.788 --> 00:00:19.903
+means the sequence of zeros and ones
+that you expect to see on the two lines.
+
+4
+00:00:19.903 --> 00:00:21.771
+The data line and the clock line.
+
+5
+00:00:21.771 --> 00:00:26.320
+In order to send data,
+to write data or read data, okay?
+
+6
+00:00:26.320 --> 00:00:30.580
+I'm gonna go over what the transaction
+looks like in detail over time.
+
+7
+00:00:30.580 --> 00:00:35.140
+So what ones and zeros sequence
+is expected on those two lines.
+
+8
+00:00:36.580 --> 00:00:41.280
+So one thing to note is that in I2C, every
+transaction is either a write transaction,
+
+9
+00:00:42.380 --> 00:00:45.660
+meaning the master is writing to
+the slave, sending data to the slave.
+
+10
+00:00:45.660 --> 00:00:46.930
+Or it's a re-transaction,
+
+11
+00:00:46.930 --> 00:00:49.180
+meaning the master is gonna
+receive data from the slave.
+
+12
+00:00:50.890 --> 00:00:55.070
+So, every transaction starts
+off with a start condition.
+
+13
+00:00:55.070 --> 00:00:57.810
+A start condition is a condition
+on the two signals, the SDA and
+
+14
+00:00:57.810 --> 00:01:00.530
+SCL that indicates the beginning
+of the transaction.
+
+15
+00:01:00.530 --> 00:01:01.840
+I'll show you that on the next slide.
+
+16
+00:01:01.840 --> 00:01:05.810
+So the start condition is meeting, once
+the start condition happens the master
+
+17
+00:01:05.810 --> 00:01:09.810
+creates the start condition on the bus.
+
+18
+00:01:09.810 --> 00:01:13.060
+And then the slaves are all
+listening to the bus.
+
+19
+00:01:13.060 --> 00:01:14.686
+And they look for the start condition,
+
+20
+00:01:14.686 --> 00:01:17.493
+when they see the start condition
+they sensibly perk up their ears,
+
+21
+00:01:17.493 --> 00:01:20.510
+They start listening because they
+know a transaction is about to start.
+
+22
+00:01:22.200 --> 00:01:26.300
+So, [COUGH] after the start condition is
+sent, then you gotta send the address.
+
+23
+00:01:26.300 --> 00:01:29.900
+So every slave on this bus has an address,
+a known address.
+
+24
+00:01:29.900 --> 00:01:31.560
+And the addresses are seven bits long.
+
+25
+00:01:31.560 --> 00:01:34.330
+There's also another variance to
+this protocol where addresses can be
+
+26
+00:01:34.330 --> 00:01:36.940
+ten bits long, but
+right now let's say seven bits long.
+
+27
+00:01:36.940 --> 00:01:40.770
+So you got this seven bit long address
+that's associated with every slave and
+
+28
+00:01:40.770 --> 00:01:42.550
+every slave knows their own address.
+
+29
+00:01:42.550 --> 00:01:46.160
+So the master, when it's sending
+data to a particular slave,
+
+30
+00:01:46.160 --> 00:01:48.270
+starting a transaction
+with a particular slave.
+
+31
+00:01:48.270 --> 00:01:54.840
+It has to send that seven bit long address
+on the wires, one clock cycle at a time.
+
+32
+00:01:54.840 --> 00:01:58.450
+On an SDA line,
+say the address is 0000001.
+
+33
+00:01:58.450 --> 00:02:03.480
+So it puts that sequence on the SDA line.
+
+34
+00:02:03.480 --> 00:02:05.770
+One clock cycle at a time, one SCL.
+
+35
+00:02:05.770 --> 00:02:08.290
+So the first SCL clock,
+you'll have a zero.
+
+36
+00:02:08.290 --> 00:02:09.910
+Next one, you'll have a zero, and so on.
+
+37
+00:02:09.910 --> 00:02:11.050
+It puts them on one at a time.
+
+38
+00:02:11.050 --> 00:02:13.740
+And then, in addition to the address,
+
+39
+00:02:13.740 --> 00:02:16.730
+there's one more bit that is a direction,
+okay?
+
+40
+00:02:16.730 --> 00:02:19.340
+So all together, the address and
+direction make up a byte,
+
+41
+00:02:19.340 --> 00:02:20.350
+that's eight bits all together.
+
+42
+00:02:20.350 --> 00:02:22.740
+So seven bit address
+plus a one bit direction.
+
+43
+00:02:22.740 --> 00:02:25.620
+And the direction is,
+it's just a single bit, zero or one.
+
+44
+00:02:25.620 --> 00:02:29.370
+It indicates whether this is a read
+transaction or a write transaction.
+
+45
+00:02:29.370 --> 00:02:32.310
+So what happens is,
+at the point when the address and
+
+46
+00:02:32.310 --> 00:02:36.060
+the data direction are being sent, the
+slaves are all listening for the address.
+
+47
+00:02:36.060 --> 00:02:38.260
+They receive the address
+bits one at a time.
+
+48
+00:02:38.260 --> 00:02:39.600
+Then once they receive all seven,
+
+49
+00:02:39.600 --> 00:02:42.050
+they compare those address
+bits to their own address.
+
+50
+00:02:42.050 --> 00:02:46.150
+And if it's a match, then they continue
+to interact on this transaction.
+
+51
+00:02:46.150 --> 00:02:49.320
+And if it's not a match, then all the rest
+of the slaves are aware it's not a match.
+
+52
+00:02:49.320 --> 00:02:52.716
+They just go to sleep and forget about
+this transaction and wait until it's over.
+
+53
+00:02:52.716 --> 00:02:58.820
+Okay, so once you've sent the address and
+
+54
+00:02:58.820 --> 00:03:03.640
+the direction, then there's a data byte or
+a set of data bytes that can be sent.
+
+55
+00:03:03.640 --> 00:03:05.830
+Now, if this is a right transaction,
+
+56
+00:03:05.830 --> 00:03:07.980
+then you send as many data
+bytes as you wanna write.
+
+57
+00:03:07.980 --> 00:03:10.840
+You wanna write ten bytes,
+you send ten data bytes.
+
+58
+00:03:10.840 --> 00:03:16.920
+If this is a read transaction, then what
+happens is the slave has to send bytes
+
+59
+00:03:16.920 --> 00:03:22.090
+back, as many bytes as
+are needed to be read.
+
+60
+00:03:22.090 --> 00:03:24.750
+So there's a sequence of
+data bytes that happen, and
+
+61
+00:03:24.750 --> 00:03:28.950
+data bytes keep getting transferred
+until finally, there's a stop condition.
+
+62
+00:03:28.950 --> 00:03:30.980
+The message says okay, communication over.
+
+63
+00:03:30.980 --> 00:03:35.810
+And it sets a stop condition,
+sends that on the data line, the SDA line.
+
+64
+00:03:35.810 --> 00:03:39.060
+And the slave recognizes that,
+and then stops the transmission.
+
+65
+00:03:40.800 --> 00:03:43.170
+So that's the structure,
+that just to look at the start of this,
+
+66
+00:03:43.170 --> 00:03:46.630
+the beginning of this,
+we talked about a start condition.
+
+67
+00:03:46.630 --> 00:03:49.180
+So a start condition and a stop condition,
+here's what they look like.
+
+68
+00:03:49.180 --> 00:03:51.820
+This is how you start and
+stop any transaction.
+
+69
+00:03:51.820 --> 00:03:54.190
+So there are two lines, SDA and SCL.
+
+70
+00:03:54.190 --> 00:03:59.550
+The SDA line, if it falls,
+if there is a falling edge on that line.
+
+71
+00:03:59.550 --> 00:04:01.020
+So you can see the SDA line is high.
+
+72
+00:04:01.020 --> 00:04:02.350
+It goes from high to low.
+
+73
+00:04:02.350 --> 00:04:04.820
+If that happens while the SCL line,
+the clock line,
+
+74
+00:04:04.820 --> 00:04:06.690
+is high, then that's a start condition.
+
+75
+00:04:07.700 --> 00:04:09.670
+Now, stop conditions is the reverse.
+
+76
+00:04:09.670 --> 00:04:15.150
+The SDA line goes from zero to one while
+the clock line, the SCL line, is high.
+
+77
+00:04:15.150 --> 00:04:16.520
+So that's a stop condition.
+
+78
+00:04:16.520 --> 00:04:19.720
+So when the master wants to
+start a communication, they,
+
+79
+00:04:19.720 --> 00:04:23.925
+the master drives SDA from
+high to low on wall SCL.
+
+80
+00:04:23.925 --> 00:04:27.212
+Serving SCL high and
+if it wants to stop the communication,
+
+81
+00:04:27.212 --> 00:04:29.030
+then it just does the opposite.
+
+82
+00:04:29.030 --> 00:04:32.270
+It drives SDA from low to
+high while the SCL is high.
+
+83
+00:04:32.270 --> 00:04:35.280
+So start condition is falling
+transition on SDA while SCL=1.
+
+84
+00:04:35.280 --> 00:04:39.580
+And stop condition is a rising
+transition on SDA while SCL=1.
+
+85
+00:04:39.580 --> 00:04:40.833
+Thank you.
+
+86
+00:04:40.833 --> 00:04:49.899
+[MUSIC]

@@ -1,0 +1,575 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:11.421 --> 00:00:13.444
+Here I'll go through
+a specification example,
+
+3
+00:00:13.444 --> 00:00:15.129
+a requirement specification example.
+
+4
+00:00:15.129 --> 00:00:17.940
+I'll go through one good one and
+a couple of weaker ones.
+
+5
+00:00:17.940 --> 00:00:22.450
+And just talk about what's wrong with
+the weak ones and why they're not so
+
+6
+00:00:22.450 --> 00:00:24.490
+good and
+try to give you an idea of what I expect.
+
+7
+00:00:26.220 --> 00:00:28.480
+Okay, so let's talk about a soda machine.
+
+8
+00:00:29.570 --> 00:00:31.390
+So, we got a picture of a soda machine.
+
+9
+00:00:31.390 --> 00:00:33.670
+Here's a really basic specification.
+
+10
+00:00:33.670 --> 00:00:35.990
+I can't give a whole specification
+here because that's a long document,
+
+11
+00:00:35.990 --> 00:00:37.650
+but here's the idea.
+
+12
+00:00:37.650 --> 00:00:41.270
+So it's a machine,
+it has a coin slot, a soda button.
+
+13
+00:00:41.270 --> 00:00:43.720
+A soda dispensing slot,
+a change return slot.
+
+14
+00:00:43.720 --> 00:00:46.780
+Actually, according to the picture
+there's probably more than one button,
+
+15
+00:00:46.780 --> 00:00:48.070
+but that's okay.
+
+16
+00:00:48.070 --> 00:00:49.430
+Change return slot.
+
+17
+00:00:49.430 --> 00:00:54.620
+Coins are inserted into the coin slot and
+if soda button is pressed and
+
+18
+00:00:54.620 --> 00:00:58.940
+enough money has been deposited then a
+soda is dispensed and change is returned.
+
+19
+00:00:58.940 --> 00:01:02.220
+So this is giving us our base
+specification on how it works.
+
+20
+00:01:02.220 --> 00:01:03.185
+And this is pretty good.
+
+21
+00:01:03.185 --> 00:01:07.390
+It's mostly complete,
+not completely complete,
+
+22
+00:01:07.390 --> 00:01:10.320
+there are little details and
+the behavior there probably left out.
+
+23
+00:01:10.320 --> 00:01:13.910
+Like for instance,
+if you'd ever used a soda machine,
+
+24
+00:01:13.910 --> 00:01:17.050
+you can put in a few coins and you can
+press a button and they'll all come out
+
+25
+00:01:17.050 --> 00:01:20.520
+without you even buying a soda, right,
+if you change your mind or something.
+
+26
+00:01:20.520 --> 00:01:23.440
+So that's not in there but
+this mostly describes the behavior.
+
+27
+00:01:23.440 --> 00:01:26.240
+It describes the user interface for
+the users.
+
+28
+00:01:26.240 --> 00:01:28.150
+So the user can understand
+from reading this and
+
+29
+00:01:28.150 --> 00:01:30.930
+from looking at the picture,
+the picture is useful, by the way.
+
+30
+00:01:30.930 --> 00:01:34.140
+Looking at the picture, okay,
+I basically get the idea of what this is.
+
+31
+00:01:34.140 --> 00:01:37.570
+Some behaviors are not explicit,
+like if you put in the coins and
+
+32
+00:01:37.570 --> 00:01:40.210
+you press the coin return button
+without pressing a soda button,
+
+33
+00:01:40.210 --> 00:01:42.580
+that's not actually
+explicitly stated there.
+
+34
+00:01:42.580 --> 00:01:43.910
+But this is pretty good.
+
+35
+00:01:43.910 --> 00:01:46.350
+Now, you might want to
+add in the extra details
+
+36
+00:01:46.350 --> 00:01:49.863
+about what happens in the other cases,
+but this is pretty good.
+
+37
+00:01:51.860 --> 00:01:54.530
+Okay, so,
+another soda machine specification.
+
+38
+00:01:54.530 --> 00:01:56.390
+So this one is much shorter.
+
+39
+00:01:56.390 --> 00:01:59.060
+Insert some money,
+press a button, get a soda.
+
+40
+00:01:59.060 --> 00:01:59.840
+Now, why is this weak?
+
+41
+00:01:59.840 --> 00:02:01.420
+It's less detailed, right?
+
+42
+00:02:01.420 --> 00:02:03.290
+So it leaves out a lot of details.
+
+43
+00:02:03.290 --> 00:02:09.615
+Now leave out details in general is,
+some details it is okay to leave out.
+
+44
+00:02:09.615 --> 00:02:11.630
+But you have to be very
+careful about this.
+
+45
+00:02:11.630 --> 00:02:14.345
+I would say leave out very few details but
+
+46
+00:02:14.345 --> 00:02:16.730
+in practice,
+sometimes you leave out details,
+
+47
+00:02:16.730 --> 00:02:20.790
+because if you put every detail in there,
+the specification can get very long.
+
+48
+00:02:20.790 --> 00:02:22.940
+And sometimes some details
+are not necessary.
+
+49
+00:02:22.940 --> 00:02:27.640
+So for instance, if we talk about a soda
+machine, and everybody has already used
+
+50
+00:02:27.640 --> 00:02:31.280
+a soda machine, now this is assuming
+everybody has already used a soda machine.
+
+51
+00:02:31.280 --> 00:02:35.150
+But everybody I know has used a soda
+machine and basically knows how they work.
+
+52
+00:02:35.150 --> 00:02:39.030
+So, in a situation like that where
+everybody already knows how they work,
+
+53
+00:02:39.030 --> 00:02:42.530
+then why give all the details
+of exactly how it works, right?
+
+54
+00:02:42.530 --> 00:02:45.070
+Just give the key details and move on.
+
+55
+00:02:45.070 --> 00:02:48.850
+Now the difficulty with this is,
+you're assuming everybody's background.
+
+56
+00:02:48.850 --> 00:02:53.820
+You're assuming everybody uses soda
+machines that basically work the same way.
+
+57
+00:02:53.820 --> 00:02:56.730
+And that happens, people do that a lot,
+but that is not necessarily right.
+
+58
+00:02:56.730 --> 00:02:58.560
+And actually this course
+might be a good example.
+
+59
+00:02:58.560 --> 00:03:01.190
+This course,
+people view this course worldwide.
+
+60
+00:03:01.190 --> 00:03:04.400
+Most people who look at this
+course are not in the US.
+
+61
+00:03:04.400 --> 00:03:08.500
+And I don't know what soda machines
+are like in different parts of the world,
+
+62
+00:03:08.500 --> 00:03:09.090
+not for sure.
+
+63
+00:03:09.090 --> 00:03:10.640
+I've never been to India,
+
+64
+00:03:10.640 --> 00:03:13.195
+I don't know what soda machines
+are exactly like there, right?
+
+65
+00:03:13.195 --> 00:03:16.125
+Maybe they are different sort of machines
+because they are different vendors, right?
+
+66
+00:03:16.125 --> 00:03:19.925
+So I may make some assumption and
+you, say you're in India, and
+
+67
+00:03:19.925 --> 00:03:22.795
+you look at my specification, you may
+make a different assumption because
+
+68
+00:03:22.795 --> 00:03:26.505
+my specification is not complete and
+then the design is wrong.
+
+69
+00:03:26.505 --> 00:03:28.775
+This is the source of a lot of errors,
+okay?
+
+70
+00:03:28.775 --> 00:03:32.705
+So when you assume background knowledge,
+you have to be sure.
+
+71
+00:03:32.705 --> 00:03:37.930
+In fact, I remember an example where I
+saw this was with traffic lights, okay?
+
+72
+00:03:37.930 --> 00:03:42.030
+In the US, everybody knows what a traffic
+light does, red, yellow, green and
+
+73
+00:03:42.030 --> 00:03:44.590
+you know how basically they work and
+how they cycle.
+
+74
+00:03:44.590 --> 00:03:46.660
+So one time I went to Shanghai, right?
+
+75
+00:03:46.660 --> 00:03:50.020
+And I was driving through there,
+I was in a taxi, I did not drive.
+
+76
+00:03:50.020 --> 00:03:53.310
+The driving is different there all right,
+I didn't want to do it but
+
+77
+00:03:53.310 --> 00:03:55.150
+the taxi driver, he was driving.
+
+78
+00:03:55.150 --> 00:03:58.420
+As I'm watching, we get to a light and
+it's a very long red okay,
+
+79
+00:03:58.420 --> 00:04:00.410
+so he's sitting there forever.
+
+80
+00:04:00.410 --> 00:04:03.980
+And then normally after,
+in the US anyway, after a red,
+
+81
+00:04:03.980 --> 00:04:07.490
+you expect a green signal right,
+eventually.
+
+82
+00:04:07.490 --> 00:04:11.660
+Instead what happened was it went
+from red to yellow, all right?
+
+83
+00:04:11.660 --> 00:04:14.930
+And then it was like a red yellow and
+then it was green.
+
+84
+00:04:16.030 --> 00:04:18.470
+And I remember thinking,
+what is going on here?
+
+85
+00:04:18.470 --> 00:04:20.600
+It seemed like to me,
+
+86
+00:04:20.600 --> 00:04:25.080
+this yellow phase, I think somebody
+told me that the idea behind that yellow
+
+87
+00:04:25.080 --> 00:04:29.210
+was that red is such a long red
+that people shut their engines off.
+
+88
+00:04:29.210 --> 00:04:33.230
+Yellow is a hint, okay, we're about to to
+turn green so turn on your engine again.
+
+89
+00:04:33.230 --> 00:04:34.820
+I think that's what somebody told me.
+
+90
+00:04:34.820 --> 00:04:38.590
+Now I don't think this happens
+in every light in Shanghai.
+
+91
+00:04:38.590 --> 00:04:39.999
+But this happened at this light, and
+
+92
+00:04:39.999 --> 00:04:42.004
+this is one of those things
+that you can easily miss.
+
+93
+00:04:42.004 --> 00:04:44.526
+If I think okay,
+I'm going to write a specification for
+
+94
+00:04:44.526 --> 00:04:48.283
+a traffic light controller here in the US
+and I don't specify the light sequence
+
+95
+00:04:48.283 --> 00:04:52.173
+because I'm thinking everybody knows
+light sequences are the same everywhere.
+
+96
+00:04:52.173 --> 00:04:56.970
+Then that traffic light controller is sold
+in Shanghai, I might be in trouble, right?
+
+97
+00:04:56.970 --> 00:05:01.650
+Or vice versa, if a Shanghai traffic light
+controller is sold in the US, there might
+
+98
+00:05:01.650 --> 00:05:05.980
+be trouble because people had different
+understandings of the specification.
+
+99
+00:05:07.150 --> 00:05:10.150
+Okay, so this is a weak specification
+because it leaves out a lot of detail.
+
+100
+00:05:10.150 --> 00:05:14.510
+Now here's another one, insert money,
+press button, get soda.
+
+101
+00:05:14.510 --> 00:05:15.570
+It adds a little more of those.
+
+102
+00:05:15.570 --> 00:05:18.118
+It says, okay.
+We're going to use an Arduino to connect
+
+103
+00:05:18.118 --> 00:05:21.922
+to a coin sensor to track the money,
+to count how much has been inserted.
+
+104
+00:05:21.922 --> 00:05:24.616
+And then we're going to have the same
+Arduino will connect to a server to
+
+105
+00:05:24.616 --> 00:05:25.410
+dispense the soda.
+
+106
+00:05:25.410 --> 00:05:31.280
+So maybe there's a motor in there that
+moves a lever and then the soda comes out.
+
+107
+00:05:31.280 --> 00:05:34.370
+So we've decided, look, we're going to
+use an Arduino to do the control system.
+
+108
+00:05:34.370 --> 00:05:36.820
+That's inside the specification so
+
+109
+00:05:36.820 --> 00:05:39.500
+the problem with this, and
+also Arduino is going to give change.
+
+110
+00:05:39.500 --> 00:05:42.360
+So it's connected to a coin
+dispenser to release change.
+
+111
+00:05:42.360 --> 00:05:44.530
+It computes the change and
+it releases the change.
+
+112
+00:05:45.670 --> 00:05:48.160
+So this is bad because
+it's over-specified.
+
+113
+00:05:48.160 --> 00:05:49.570
+We're giving implementation detail.
+
+114
+00:05:49.570 --> 00:05:53.540
+We're saying look we're going to
+use an Arduino to do this, right?
+
+115
+00:05:53.540 --> 00:05:56.129
+So, that's not necessary, right?
+
+116
+00:05:56.129 --> 00:05:59.826
+In the specification and requirement
+specification, we don't want to talk at
+
+117
+00:05:59.826 --> 00:06:02.804
+that level of detail, we just want
+to say what the behavior is and
+
+118
+00:06:02.804 --> 00:06:05.837
+leave it later to the designer to
+decide do I want an Arduino or
+
+119
+00:06:05.837 --> 00:06:08.129
+do I want Raspberry Pi, or
+do I want this or that.
+
+120
+00:06:08.129 --> 00:06:12.004
+Thank you.
+
+121
+00:06:12.004 --> 00:06:17.599
+[MUSIC]

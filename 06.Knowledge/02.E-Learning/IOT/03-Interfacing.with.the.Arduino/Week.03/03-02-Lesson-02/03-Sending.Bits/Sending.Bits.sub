@@ -1,0 +1,528 @@
+WEBVTT
+
+1
+00:00:00.055 --> 00:00:10.055
+[MUSIC]
+
+2
+00:00:11.465 --> 00:00:16.327
+So, [COUGH] this whole protocol is
+about sending one bit at a time.
+
+3
+00:00:16.327 --> 00:00:19.552
+First you're sending the address bits,
+the direction bits.
+
+4
+00:00:19.552 --> 00:00:21.670
+Then you're sending the data bits and
+so on.
+
+5
+00:00:21.670 --> 00:00:24.950
+So you have to be able to send
+one bit at a time on these lines.
+
+6
+00:00:25.970 --> 00:00:28.830
+So let's just show how that goes on.
+
+7
+00:00:28.830 --> 00:00:31.288
+Remember that there are two wires,
+SDA and SCL.
+
+8
+00:00:31.288 --> 00:00:35.400
+And the data, whatever bit you're gonna
+send, that's gonna go on the SDA line.
+
+9
+00:00:35.400 --> 00:00:39.700
+But while the SDA line is going,
+the SCL line, it's a clock,
+
+10
+00:00:39.700 --> 00:00:41.452
+so its going up and down.
+
+11
+00:00:41.452 --> 00:00:46.096
+So this is showing how sending
+a bit how a might look.
+
+12
+00:00:46.096 --> 00:00:49.675
+Now you can see at the bottom,
+the SCL that's low then high then low,
+
+13
+00:00:49.675 --> 00:00:51.660
+that's one clock pulse.
+
+14
+00:00:51.660 --> 00:00:56.360
+The SDA line however, that can change
+from zero to one, one to zero.
+
+15
+00:00:56.360 --> 00:00:58.340
+Now the SDA,
+depending on what bit you're sending,
+
+16
+00:00:58.340 --> 00:00:59.990
+you might be sending a zero or a one.
+
+17
+00:00:59.990 --> 00:01:02.750
+So, notice that in the time
+diagram picture here for
+
+18
+00:01:02.750 --> 00:01:07.080
+the SDA, you can see that the SDA,
+you have it on both low and high.
+
+19
+00:01:07.080 --> 00:01:08.980
+That's representing the fact
+that it could be zero or one.
+
+20
+00:01:10.040 --> 00:01:13.866
+But you'll notice there are two places
+where it crosses, where it starts out low
+
+21
+00:01:13.866 --> 00:01:17.426
+high then it crosses and then it's low
+high again, then it crosses again.
+
+22
+00:01:17.426 --> 00:01:21.651
+So those crosses what they mean in this
+diagram is that those are the times when
+
+23
+00:01:21.651 --> 00:01:23.750
+SDA can change value.
+
+24
+00:01:23.750 --> 00:01:27.460
+So all this diagram is trying to say is
+that, say you want to send a bit, right?
+
+25
+00:01:27.460 --> 00:01:30.590
+A zero or a one, so you put that on SDA.
+
+26
+00:01:30.590 --> 00:01:35.375
+But, SDA is sampled by the receiver
+on the rising edge of SCL.
+
+27
+00:01:35.375 --> 00:01:39.900
+So, the value of SDA that
+matters is the value of SDA
+
+28
+00:01:39.900 --> 00:01:43.130
+that SDA has right when
+the clock edge is going hot.
+
+29
+00:01:43.130 --> 00:01:46.260
+So, you see where that SCL
+line goes from zero to one,
+
+30
+00:01:46.260 --> 00:01:48.685
+the value at SDA at that
+time is what counts.
+
+31
+00:01:48.685 --> 00:01:52.330
+So whoever is doing the transmission,
+
+32
+00:01:52.330 --> 00:01:57.741
+they have to apply a value on
+SDA before the SCL goes high and
+
+33
+00:01:57.741 --> 00:02:01.503
+hold it while SCL is going high, right?
+
+34
+00:02:01.503 --> 00:02:04.510
+And then that is the value that
+the receiver is going to accept.
+
+35
+00:02:05.770 --> 00:02:09.850
+So SDA is sampled by the receiver
+on the rising edge of the clock.
+
+36
+00:02:09.850 --> 00:02:12.840
+Also, there's a rule about
+this protocol that, SDA,
+
+37
+00:02:12.840 --> 00:02:17.070
+the data line has to be held constant
+as long as the clock is high.
+
+38
+00:02:17.070 --> 00:02:18.850
+And you can see that in this picture.
+
+39
+00:02:18.850 --> 00:02:22.540
+The SDA line, it can change values but
+notice that, the changes in value happen
+
+40
+00:02:22.540 --> 00:02:27.240
+either before the clock goes high,
+or after the clock goes high, right?
+
+41
+00:02:27.240 --> 00:02:29.610
+Always when the clock is low,
+that's when the change happens.
+
+42
+00:02:29.610 --> 00:02:32.300
+There can't be a change during
+the time when the clock is high.
+
+43
+00:02:32.300 --> 00:02:33.430
+That's just a rule.
+
+44
+00:02:33.430 --> 00:02:37.370
+They only time you can break that rule
+is if you're doing a start condition or
+
+45
+00:02:37.370 --> 00:02:38.490
+a stop condition.
+
+46
+00:02:38.490 --> 00:02:41.610
+Those conditions explicitly
+violate those rules, right?
+
+47
+00:02:41.610 --> 00:02:45.220
+A start condition is where the SDA
+goes low while the clock is high.
+
+48
+00:02:45.220 --> 00:02:47.940
+And a stop is where it goes
+high while the clock is high.
+
+49
+00:02:49.360 --> 00:02:53.030
+But if you're sending data, you're
+sending actual data, then the rule is
+
+50
+00:02:53.030 --> 00:02:57.660
+that the SDA line has to be held constant
+the whole time that the clock is high.
+
+51
+00:03:00.060 --> 00:03:01.350
+An acknowledge bit.
+
+52
+00:03:01.350 --> 00:03:05.212
+What this means is, okay, so
+the way this protocol's organized.
+
+53
+00:03:05.212 --> 00:03:08.000
+It's organized around sending bites.
+
+54
+00:03:08.000 --> 00:03:10.140
+All data is sent one byte at a time.
+
+55
+00:03:10.140 --> 00:03:11.540
+So you do a start condition.
+
+56
+00:03:11.540 --> 00:03:12.500
+Then you send a byte.
+
+57
+00:03:12.500 --> 00:03:14.880
+The first seven bits of
+the byte are the address.
+
+58
+00:03:14.880 --> 00:03:18.720
+And then the next one
+bit is the direction.
+
+59
+00:03:18.720 --> 00:03:20.740
+But all together that's
+a chuck of eight bytes.
+
+60
+00:03:20.740 --> 00:03:24.323
+Then after you send that byte,
+let's say it's a right transaction,
+
+61
+00:03:24.323 --> 00:03:26.154
+then you start sending data bytes.
+
+62
+00:03:26.154 --> 00:03:29.650
+One bit at a time, but
+you send them in chunks of eight.
+
+63
+00:03:29.650 --> 00:03:32.410
+Now, what happens is,
+after a chunk of eight is sent,
+
+64
+00:03:32.410 --> 00:03:34.360
+after a sequence of eight bits is sent,
+
+65
+00:03:34.360 --> 00:03:38.420
+the receiver has to acknowledge
+that it received the eight bits.
+
+66
+00:03:38.420 --> 00:03:40.400
+Now this is for
+error checking essentially,
+
+67
+00:03:40.400 --> 00:03:44.760
+because you never know what kind of error
+might have happened in communication.
+
+68
+00:03:44.760 --> 00:03:46.390
+So if it didn't receive the eight bits,
+
+69
+00:03:46.390 --> 00:03:48.910
+then you need to restart
+your communication.
+
+70
+00:03:48.910 --> 00:03:50.537
+So after every chunk of eight,
+
+71
+00:03:50.537 --> 00:03:53.990
+the receiver has to transmit
+what's called an acknowledge bit.
+
+72
+00:03:53.990 --> 00:03:57.890
+Now what that means is, let's say
+we've got the SDA line, SCL line.
+
+73
+00:03:57.890 --> 00:04:01.420
+SCL's pulsing high low and
+SDA, somebody, say the master,
+
+74
+00:04:01.420 --> 00:04:03.420
+is transmitting to the slave, okay?
+
+75
+00:04:03.420 --> 00:04:07.608
+So, it transmits eight bits and we've
+numbered them up there on the SDA line 1,
+
+76
+00:04:07.608 --> 00:04:09.468
+2, 3, dot, dot, dot, right?
+
+77
+00:04:09.468 --> 00:04:11.060
+And so you get to bit 8.
+
+78
+00:04:11.060 --> 00:04:15.210
+So once it sends out all eight
+of these bits, at the point, for
+
+79
+00:04:15.210 --> 00:04:20.490
+one SCL clock pulse,
+the master does not drive the SDA line.
+
+80
+00:04:20.490 --> 00:04:22.350
+It's up to the slave, sorry.
+
+81
+00:04:22.350 --> 00:04:25.690
+It's up the receiver, which if the
+master's doing transmissions it's a slave,
+
+82
+00:04:25.690 --> 00:04:30.480
+but it's up to the receiver at that
+point to pull the SDA line low.
+
+83
+00:04:30.480 --> 00:04:31.390
+That's called acknowledge.
+
+84
+00:04:31.390 --> 00:04:36.830
+See where it says ACK, notice that
+the SDA line is low when it says ACK.
+
+85
+00:04:36.830 --> 00:04:41.722
+So for that SCL clock pulse,
+the receiver has to
+
+86
+00:04:41.722 --> 00:04:45.891
+pull that SCL line low and acknowledge.
+
+87
+00:04:45.891 --> 00:04:49.922
+If it doesn't do that then the sender has
+to assume that something went wrong and
+
+88
+00:04:49.922 --> 00:04:52.240
+restart the communication.
+
+89
+00:04:52.240 --> 00:04:53.400
+So after each byte is sent,
+
+90
+00:04:53.400 --> 00:04:56.955
+the receiver must acknowledge
+by pulling that SDA line low.
+
+91
+00:04:56.955 --> 00:05:00.730
+And once the transmitter
+[COUGH] excuse me,
+
+92
+00:05:00.730 --> 00:05:04.920
+the transmitter has to release the SDA
+line so the receiver can pull it low.
+
+93
+00:05:04.920 --> 00:05:09.083
+It must be low for one pulse of the clock
+or else the transmissions aborted.
+
+94
+00:05:09.083 --> 00:05:13.076
+So typical I2C transaction,
+a very short ITC transaction.
+
+95
+00:05:13.076 --> 00:05:15.150
+Here's what it'll look like overall.
+
+96
+00:05:15.150 --> 00:05:18.870
+There's a start condition,
+that starting blue block right there.
+
+97
+00:05:18.870 --> 00:05:22.100
+That's how you initiate everything
+with the start condition.
+
+98
+00:05:22.100 --> 00:05:26.008
+Then you send 8 bits, the address bits,
+7 address bits plus a direction bit.
+
+99
+00:05:26.008 --> 00:05:27.510
+So that's 8 bits.
+
+100
+00:05:27.510 --> 00:05:30.090
+Then there's an acknowledgement
+to ACK right there.
+
+101
+00:05:30.090 --> 00:05:32.930
+Then you send 8 more data bits.
+
+102
+00:05:32.930 --> 00:05:35.261
+And then there's another acknowledge,
+and then you can stop.
+
+103
+00:05:35.261 --> 00:05:36.167
+Now this is short, right?
+
+104
+00:05:36.167 --> 00:05:38.540
+It's only transmitting one data byte.
+
+105
+00:05:38.540 --> 00:05:39.310
+This could be extended.
+
+106
+00:05:39.310 --> 00:05:40.960
+You could have many data bytes, right?
+
+107
+00:05:40.960 --> 00:05:42.440
+In this case I just did one.
+
+108
+00:05:42.440 --> 00:05:45.335
+So this is sort of
+a typical I2C transaction,
+
+109
+00:05:45.335 --> 00:05:47.573
+what it looks like on the SDA lines.
+
+110
+00:05:49.670 --> 00:05:52.420
+Each slave has a unique 7 bit address.
+
+111
+00:05:52.420 --> 00:05:54.902
+Direction is 0 is a right, 1's a read.
+
+112
+00:05:54.902 --> 00:05:56.620
+And ACK happens after every byte.
+
+113
+00:05:56.620 --> 00:05:57.247
+Thank you.
+
+114
+00:05:57.247 --> 00:06:03.266
+[MUSIC]

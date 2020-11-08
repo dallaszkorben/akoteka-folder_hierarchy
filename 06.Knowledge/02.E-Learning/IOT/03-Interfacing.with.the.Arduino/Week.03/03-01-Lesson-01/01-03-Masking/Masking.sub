@@ -1,0 +1,814 @@
+WEBVTT
+
+1
+00:00:01.120 --> 00:00:06.047
+I'm going to show how to use masking to
+focus on a certain subset of the bits in
+
+2
+00:00:06.047 --> 00:00:10.431
+a big number, to focus on them and
+eliminate the rest of the bits.
+
+3
+00:00:10.431 --> 00:00:13.250
+So when I say eliminate,
+set them all to zeros, so
+
+4
+00:00:13.250 --> 00:00:17.050
+that they are not affecting
+any computations, okay?
+
+5
+00:00:17.050 --> 00:00:22.150
+So in this example,
+I got the number, in decimal, 259.
+
+6
+00:00:22.150 --> 00:00:24.959
+Now you can see there's three numbers,
+three rows here, right?
+
+7
+00:00:24.959 --> 00:00:27.550
+Look at the top row, 259.
+
+8
+00:00:27.550 --> 00:00:31.740
+What you see in there, it's a sequence
+of 16 bits, zeros and ones.
+
+9
+00:00:31.740 --> 00:00:36.908
+And that row underneath the 259,
+that represents 259 in binary, okay.
+
+10
+00:00:36.908 --> 00:00:40.810
+And notice, it's a 16-bit representation.
+
+11
+00:00:40.810 --> 00:00:44.980
+Now if I were to look at this 16-bit
+representation, chop it up into two bytes,
+
+12
+00:00:44.980 --> 00:00:46.960
+to 8-bit bytes.
+
+13
+00:00:46.960 --> 00:00:51.800
+The high byte is all zeros and a one, see
+that one that I have highlighted in blue
+
+14
+00:00:51.800 --> 00:00:58.030
+there and the low bits, the bits all
+the way on the right, the low byte there.
+
+15
+00:00:58.030 --> 00:01:01.510
+That's six 0s and then two 1s, okay?
+
+16
+00:01:01.510 --> 00:01:05.472
+So there's a high byte,
+which is the number 1, all 0s and then 1.
+
+17
+00:01:05.472 --> 00:01:09.570
+And there's a low byte, which is six 0s
+and then one 1, which is a 3 like and
+
+18
+00:01:09.570 --> 00:01:11.479
+if you would represent in decimal.
+
+19
+00:01:11.479 --> 00:01:17.571
+So that's 259, that whole 16-bit
+number and 259 has two bytes.
+
+20
+00:01:17.571 --> 00:01:21.440
+Now let's say, I'm only interested
+in one of these bytes at a time,
+
+21
+00:01:21.440 --> 00:01:26.115
+I'm doing some arithmetic and the reason
+why this would happen is because remember
+
+22
+00:01:26.115 --> 00:01:31.310
+in Arduino, the Arduino is a 8-bit
+with microprocessor, microcontroller.
+
+23
+00:01:31.310 --> 00:01:35.880
+Since it's only 8-bits, your arithmetic
+is 8-bit, so if you want to do addition,
+
+24
+00:01:35.880 --> 00:01:39.648
+multiplication, something like this,
+you have an 8-bit adder, and
+
+25
+00:01:39.648 --> 00:01:41.277
+8-bit multiplier, right.
+
+26
+00:01:41.277 --> 00:01:46.940
+So you can't necessarily do
+operations on 16-bit numbers.
+
+27
+00:01:46.940 --> 00:01:48.620
+So you might have to add the low bits,
+
+28
+00:01:48.620 --> 00:01:50.630
+then add the high bits,
+something like this.
+
+29
+00:01:50.630 --> 00:01:53.970
+So there are many cases where if
+you have a bigger number like this,
+
+30
+00:01:53.970 --> 00:01:59.060
+you want to just focus on some subset of
+the bits and hide the rest of the bits.
+
+31
+00:01:59.060 --> 00:02:03.210
+So in this case, let's say,
+we want to look at the low byte,
+
+32
+00:02:03.210 --> 00:02:08.100
+we want to highlight the low byte and
+ignore the high byte of that 259.
+
+33
+00:02:08.100 --> 00:02:13.760
+So what we do is we make a mask, now
+notice that middle row, that's the mask.
+
+34
+00:02:13.760 --> 00:02:21.090
+Now my mask, you can see, is 8 zeros and
+8 ones, the low byte are all ones.
+
+35
+00:02:21.090 --> 00:02:23.120
+So that low byte, where those ones are,
+
+36
+00:02:23.120 --> 00:02:27.970
+those are telling us which bits
+inside that bigger number, 259,
+
+37
+00:02:27.970 --> 00:02:31.120
+which bits we're actually
+interested in and which we're not.
+
+38
+00:02:31.120 --> 00:02:36.022
+We're only interested in the low bits, so
+we made all the low 8-bits equal to 1,
+
+39
+00:02:36.022 --> 00:02:37.642
+and that number is 255.
+
+40
+00:02:37.642 --> 00:02:42.279
+So if you just have the result eight
+ones like that, that's the number 255.
+
+41
+00:02:42.279 --> 00:02:44.400
+But that is the mask, okay.
+
+42
+00:02:44.400 --> 00:02:46.610
+All of the low bits are the ones that
+we're interested in because I said,
+
+43
+00:02:46.610 --> 00:02:48.980
+we're interested in the low byte of 259.
+
+44
+00:02:48.980 --> 00:02:53.490
+Those bits are ones in the mask, and
+all the rest of the bits is zeros.
+
+45
+00:02:53.490 --> 00:02:57.466
+So what we would like to do is we need to,
+given that mask and
+
+46
+00:02:57.466 --> 00:03:02.983
+given the number 259, we want to get a new
+number which only has valid values for
+
+47
+00:03:02.983 --> 00:03:06.823
+those bits that are highlighted
+whose mask bits are 1.
+
+48
+00:03:06.823 --> 00:03:09.830
+Okay, so in this case, the low bits.
+
+49
+00:03:09.830 --> 00:03:15.350
+We want the low bits to keep their value
+that they have in that top number 259 and
+
+50
+00:03:15.350 --> 00:03:17.600
+the higher bits we want them to be zeros.
+
+51
+00:03:17.600 --> 00:03:19.520
+We want to ignore them.
+
+52
+00:03:19.520 --> 00:03:23.400
+So the operation that you perform with
+the mask is called a bitwise AND.
+
+53
+00:03:24.650 --> 00:03:26.290
+So, here's what a bitwise AND is.
+
+54
+00:03:26.290 --> 00:03:28.599
+An AND is a basic AND operation.
+
+55
+00:03:28.599 --> 00:03:33.700
+It's where you take a zero and
+one, true, false, zero, one.
+
+56
+00:03:33.700 --> 00:03:37.631
+And the result is only one
+if the two inputs are one.
+
+57
+00:03:37.631 --> 00:03:39.043
+So 1 AND 1 is 1.
+
+58
+00:03:39.043 --> 00:03:41.290
+But 1 AND 0 is a 0.
+
+59
+00:03:41.290 --> 00:03:44.710
+0 AND 1 is a 0, 0 AND 0 is a 0, right.
+
+60
+00:03:44.710 --> 00:03:48.530
+So the only way an AND is going to
+come true, is going to come one,
+
+61
+00:03:48.530 --> 00:03:50.860
+is if the two inputs are ones.
+
+62
+00:03:50.860 --> 00:03:53.090
+So we're going to do AND
+and AND operation, but
+
+63
+00:03:53.090 --> 00:03:54.840
+we going to do it in a bitwise fashion.
+
+64
+00:03:54.840 --> 00:03:59.670
+So what that means, is let's take that
+top number 259, and that mask below it,
+
+65
+00:03:59.670 --> 00:04:00.670
+255, right?
+
+66
+00:04:00.670 --> 00:04:03.353
+And you can see that each one
+of those has 16-bit positions,
+
+67
+00:04:03.353 --> 00:04:06.047
+the least significant bit position,
+we'll call that bit 0.
+
+68
+00:04:06.047 --> 00:04:09.380
+All the way up to the most
+significant bit, bit 15.
+
+69
+00:04:09.380 --> 00:04:10.930
+And note that bit 0,
+
+70
+00:04:10.930 --> 00:04:15.810
+just so you're aware how I'm counting,
+bit zeros all the way on the right side.
+
+71
+00:04:15.810 --> 00:04:18.740
+And bit 15 is all the way
+on the left side.
+
+72
+00:04:18.740 --> 00:04:22.610
+So what we're going to
+do is perform an AND
+
+73
+00:04:22.610 --> 00:04:25.860
+operation with the corresponding
+bits in those top two numbers.
+
+74
+00:04:25.860 --> 00:04:28.702
+So if we take 259, bit 0, that's a 1.
+
+75
+00:04:28.702 --> 00:04:31.700
+We take 255, bit 0, that's a 1.
+
+76
+00:04:31.700 --> 00:04:33.890
+We AND those two, we get a 1.
+
+77
+00:04:33.890 --> 00:04:38.829
+So in the bottom row, which is
+the bitwise AND result, the bit 0 is a 1.
+
+78
+00:04:40.100 --> 00:04:46.243
+Now then say you take bit 1 of 259, that's
+a 1, bit 1 of 255, that is also a 1.
+
+79
+00:04:46.243 --> 00:04:53.350
+So you AND those together, 1 and 1, you
+get a 1, bit 1 of the result is a 1, fine.
+
+80
+00:04:53.350 --> 00:04:54.101
+Now, then let's take bit 2.
+
+81
+00:04:54.101 --> 00:05:00.401
+Now bit 2 of 259 is 0, and
+bit 2 of 255 of the mask is 1.
+
+82
+00:05:00.401 --> 00:05:02.680
+A 0 and a 1 is a 0.
+
+83
+00:05:02.680 --> 00:05:07.090
+So bit 2 of the results at
+the bottom is also a 0, okay.
+
+84
+00:05:07.090 --> 00:05:08.640
+So this is a bitwise AND.
+
+85
+00:05:08.640 --> 00:05:11.160
+You just do that AND operation 16 times.
+
+86
+00:05:11.160 --> 00:05:14.290
+Once for every pair,
+every corresponding pair of bits.
+
+87
+00:05:14.290 --> 00:05:17.881
+And you get what's at the bottom,
+259 and 255.
+
+88
+00:05:17.881 --> 00:05:23.480
+And notice that the AND operation is
+an ampersand, but it's a single ampersand.
+
+89
+00:05:23.480 --> 00:05:26.241
+This is important later,
+because when you write your code,
+
+90
+00:05:26.241 --> 00:05:29.139
+a single ampersand is different
+than a double ampersand.
+
+91
+00:05:29.139 --> 00:05:32.410
+Ampersand ampersand is a regular AND
+operation.
+
+92
+00:05:32.410 --> 00:05:35.940
+But a bitwise AND, which is what we're
+doing here, is a single ampersand,
+
+93
+00:05:35.940 --> 00:05:36.640
+like you see there.
+
+94
+00:05:37.690 --> 00:05:41.740
+So the point though, is that at the AND,
+if you look at the result,
+
+95
+00:05:41.740 --> 00:05:47.210
+the bottom result of the ANDing with
+the mask, all the high bits are zeros.
+
+96
+00:05:47.210 --> 00:05:51.766
+That's because the way an AND operation
+works, is if you AND anything with a 0,
+
+97
+00:05:51.766 --> 00:05:52.510
+you get a 0.
+
+98
+00:05:52.510 --> 00:05:56.346
+And note that in our mask,
+we made all the high bits zeros, so
+
+99
+00:05:56.346 --> 00:05:59.170
+all the high bits AND
+results became zeros.
+
+100
+00:05:59.170 --> 00:06:03.300
+So we masked out all the high bits,
+that's what I would say anyway.
+
+101
+00:06:03.300 --> 00:06:06.276
+So the low bits,
+if you look at the results at the bottom,
+
+102
+00:06:06.276 --> 00:06:09.139
+the low 8 bits are the same
+as the low 8 bits of 259.
+
+103
+00:06:09.139 --> 00:06:14.500
+But the high bits are all zeros,
+that's what the masking did.
+
+104
+00:06:14.500 --> 00:06:18.188
+So we used a mask, we did a bitwise AND
+with the original number, and
+
+105
+00:06:18.188 --> 00:06:20.216
+now all we have left are the low bits.
+
+106
+00:06:20.216 --> 00:06:23.100
+The bits that were
+highlighted by the masks.
+
+107
+00:06:23.100 --> 00:06:25.090
+The bits where the masked value was one.
+
+108
+00:06:25.090 --> 00:06:27.640
+The bits where the masked value was zero,
+they were all zeroed out.
+
+109
+00:06:28.680 --> 00:06:32.870
+That is the point of masking,
+to focus on a subset of the bits,
+
+110
+00:06:32.870 --> 00:06:36.040
+whichever bits you're interested in,
+in this case the low bite.
+
+111
+00:06:36.040 --> 00:06:37.680
+But that's what masking is for.
+
+112
+00:06:38.820 --> 00:06:41.690
+So this is how you would get,
+using this mask,
+
+113
+00:06:41.690 --> 00:06:45.860
+you could look at just the low
+bits of the original number.
+
+114
+00:06:45.860 --> 00:06:49.300
+Now what if you want to look at high
+bits as the original number, right?
+
+115
+00:06:49.300 --> 00:06:50.430
+So there are a couple of ways.
+
+116
+00:06:50.430 --> 00:06:54.390
+You could use a mask two and do something
+with that, but there's no need.
+
+117
+00:06:55.760 --> 00:07:00.750
+Say, we got a 259 up there top row, right,
+and I am highlighting the high bits
+
+118
+00:07:00.750 --> 00:07:03.960
+this time in blue, those are the bits
+that we are interested in.
+
+119
+00:07:03.960 --> 00:07:05.613
+Now we want to just look
+at those high bits.
+
+120
+00:07:05.613 --> 00:07:10.918
+Now what we can do, easiest way to
+do this is to use, in this case,
+
+121
+00:07:10.918 --> 00:07:17.298
+a right shift operation, so see we
+say 259, greater than greater than 8.
+
+122
+00:07:17.298 --> 00:07:22.456
+So that greater than greater than symbol,
+that is a right shift, and greater than
+
+123
+00:07:22.456 --> 00:07:28.020
+greater than 8 means we take the 259 and
+we right shift the number 8 bits.
+
+124
+00:07:28.020 --> 00:07:32.560
+So every bit position gets
+shifted over 8 times, so
+
+125
+00:07:32.560 --> 00:07:37.210
+the high 8 bits are now the low 8 bits,
+right, they get shifted over 8.
+
+126
+00:07:37.210 --> 00:07:41.200
+Now then the question is, what happens
+to the high bits in the result, right?
+
+127
+00:07:41.200 --> 00:07:46.120
+Well, and then you do this operation,
+you shift in a 0 on the left hand side.
+
+128
+00:07:46.120 --> 00:07:49.970
+So the high 8 bits of the 259
+got moved to the low 8 bits.
+
+129
+00:07:49.970 --> 00:07:51.990
+And you got zeros all in the high 8 bits.
+
+130
+00:07:53.160 --> 00:07:56.570
+So now we have the situation we wanted,
+where the high bits that we were
+
+131
+00:07:56.570 --> 00:08:02.220
+interested in, they are now present in the
+result in the low bits, but the high bits
+
+132
+00:08:02.220 --> 00:08:06.000
+of the result are all zeroed out, right,
+which is the same as what we got before.
+
+133
+00:08:06.000 --> 00:08:09.830
+So now the bits that we are interested in
+are now the low 8 bits of the result and
+
+134
+00:08:09.830 --> 00:08:11.720
+the other bits are all zeros.
+
+135
+00:08:11.720 --> 00:08:13.290
+We didn't use mask into this.
+
+136
+00:08:13.290 --> 00:08:15.440
+We didn't need a mask,
+we just used right-shift to do it but
+
+137
+00:08:15.440 --> 00:08:17.290
+we got the same effect, okay.
+
+138
+00:08:17.290 --> 00:08:20.915
+So the effect was, the bits we're
+interested in are in the low bits and
+
+139
+00:08:20.915 --> 00:08:23.444
+they are valid and
+the rest of the bits is zeroed.
+
+140
+00:08:25.784 --> 00:08:30.448
+So here's a little example of how you
+might write an integer to an EEPROM,
+
+141
+00:08:30.448 --> 00:08:33.290
+you do it one byte at a time, okay.
+
+142
+00:08:33.290 --> 00:08:37.880
+So just to look at the setup,
+we've got littleData,
+
+143
+00:08:37.880 --> 00:08:44.510
+this is just a byte that I have,
+littleData = bigData, bitwise AND with FF.
+
+144
+00:08:44.510 --> 00:08:50.510
+Okay, so FF in hexadecimal, hexadecimal's
+a common format to represent this.
+
+145
+00:08:50.510 --> 00:08:53.780
+That's 8 ones, that's 1,
+1, 1, 1, 1, 1, 1, 1.
+
+146
+00:08:53.780 --> 00:08:55.190
+Remember the mask that we had?
+
+147
+00:08:55.190 --> 00:08:58.002
+There was 8 ones in the low bits and
+then 8 zeros in the high bits.
+
+148
+00:08:58.002 --> 00:09:00.500
+That's 0xFF.
+
+149
+00:09:00.500 --> 00:09:02.580
+Why do I do it in hex, hexadecimal?
+
+150
+00:09:02.580 --> 00:09:06.770
+Because hex is compact, okay?
+
+151
+00:09:06.770 --> 00:09:10.910
+I only need two characters
+to represent 8 ones, okay?
+
+152
+00:09:10.910 --> 00:09:13.260
+So that's why people use hex.
+
+153
+00:09:13.260 --> 00:09:15.630
+It's a convenient way to
+represent binary numbers.
+
+154
+00:09:15.630 --> 00:09:20.325
+So that is a bitwise masking,
+that first line, that littleData =
+
+155
+00:09:20.325 --> 00:09:24.950
+bigData AND 0xFF, I'm doing the masking to
+get the low bits that I'm interested in.
+
+156
+00:09:24.950 --> 00:09:27.140
+And then I do the write of that data.
+
+157
+00:09:27.140 --> 00:09:31.150
+Then, if I want to look at the high bits,
+I can take the bigData and
+
+158
+00:09:31.150 --> 00:09:34.513
+write shift it 8 to bring
+those high 8 down to low 8.
+
+159
+00:09:34.513 --> 00:09:37.270
+And then I do a write again,
+the same write.
+
+160
+00:09:37.270 --> 00:09:39.524
+And this time, I'm writing the high 8.
+
+161
+00:09:39.524 --> 00:09:41.640
+And notice,
+I'm writing them to different directions.
+
+162
+00:09:41.640 --> 00:09:44.826
+So the first write, I wrote to address 0,
+second write, I wrote to address 1.
+
+163
+00:09:44.826 --> 00:09:47.749
+So I wrote the least
+significant byte to address 0,
+
+164
+00:09:47.749 --> 00:09:50.080
+the most significant byte to address 1.
+
+165
+00:09:50.080 --> 00:09:53.910
+And this is called Little Endian ordering,
+just for your information.
+
+166
+00:09:53.910 --> 00:09:58.870
+Where we take the least significant
+byte and put it in the lowest address.
+
+167
+00:09:58.870 --> 00:10:00.870
+Notice, we could have done
+it the other way, right.
+
+168
+00:10:00.870 --> 00:10:03.390
+We could have take the least significant
+byte and put it in address 1 and
+
+169
+00:10:03.390 --> 00:10:05.542
+put the most significant byte
+in address 0, if I wanted to.
+
+170
+00:10:05.542 --> 00:10:08.299
+That'd be called big endian ordering and
+we use little endian and
+
+171
+00:10:08.299 --> 00:10:09.964
+it was a completely arbitrary choice.
+
+172
+00:10:11.976 --> 00:10:12.476
+Thank you.
+
+173
+00:10:16.404 --> 00:10:17.746
+[SOUND]

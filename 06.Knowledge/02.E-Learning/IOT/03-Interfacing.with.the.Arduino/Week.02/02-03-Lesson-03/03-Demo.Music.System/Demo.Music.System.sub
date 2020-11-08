@@ -1,0 +1,268 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.787
+[MUSIC]
+
+2
+00:00:00.787 --> 00:00:06.503
+[SOUND] So now, we're gonna
+
+3
+00:00:06.503 --> 00:00:13.213
+go through the tone function and
+
+4
+00:00:13.213 --> 00:00:17.446
+see how that works.
+
+5
+00:00:17.446 --> 00:00:20.340
+It's similar to pulse width modulation,
+but not the same.
+
+6
+00:00:20.340 --> 00:00:23.150
+Because it does not actually
+modulate the pulse width.
+
+7
+00:00:23.150 --> 00:00:24.460
+Instead of modulating the pulse width,
+
+8
+00:00:24.460 --> 00:00:28.220
+what this function does,
+is it actually changes the frequency.
+
+9
+00:00:28.220 --> 00:00:31.960
+So, with pulse width modulation,
+the frequency is constant and
+
+10
+00:00:31.960 --> 00:00:33.750
+all you change is the width of the pulse.
+
+11
+00:00:33.750 --> 00:00:35.580
+But, it's still a square wave.
+
+12
+00:00:35.580 --> 00:00:39.440
+When we're using tone function,
+that changed the frequency but
+
+13
+00:00:39.440 --> 00:00:41.890
+keeps the duty cycle at 50%.
+
+14
+00:00:41.890 --> 00:00:44.790
+So, we have a little simple program
+
+15
+00:00:44.790 --> 00:00:49.300
+that we are gonna use to make
+some sound out of a piezo buzzer.
+
+16
+00:00:49.300 --> 00:00:50.180
+So, here is the buzzer.
+
+17
+00:00:50.180 --> 00:00:53.750
+The buzzer right here, it's got two leads.
+
+18
+00:00:54.930 --> 00:00:56.780
+Then we got a couple of
+wires that are in black.
+
+19
+00:00:56.780 --> 00:00:59.900
+Got our arduino and
+we have the red boards.
+
+20
+00:00:59.900 --> 00:01:01.239
+So, this is a very simple circuit.
+
+21
+00:01:02.260 --> 00:01:04.580
+We're just gonna plug this in and
+attach it to pin eight.
+
+22
+00:01:04.580 --> 00:01:07.940
+And our program here,
+will just generate two tones,
+
+23
+00:01:07.940 --> 00:01:11.150
+one after the other in repetition forever.
+
+24
+00:01:11.150 --> 00:01:17.653
+And it'll do that by calling tone, it'll
+send a square wave to the piezo buzzer.
+
+25
+00:01:17.653 --> 00:01:23.280
+Every time the piezo receives a rising
+edge on the clock, it'll click.
+
+26
+00:01:23.280 --> 00:01:25.010
+But, it's clicking very fast.
+
+27
+00:01:25.010 --> 00:01:30.330
+So, at the frequency that we state in
+the program, and so we'll get tones.
+
+28
+00:01:30.330 --> 00:01:32.680
+They are rough sounding tones,
+but they are tones.
+
+29
+00:01:32.680 --> 00:01:34.810
+So, let's start wiring the circuit.
+
+30
+00:01:34.810 --> 00:01:38.090
+Start off with the piezo, let's put
+that into the breadboard somewhere.
+
+31
+00:01:39.100 --> 00:01:39.980
+Doesn't really matter where.
+
+32
+00:01:39.980 --> 00:01:40.880
+We'll take these two rows.
+
+33
+00:01:40.880 --> 00:01:46.870
+Now let's see, yeah, row 10 and 13.
+
+34
+00:01:46.870 --> 00:01:52.820
+So we got the piezo in there,
+now let's wire one lead to ground.
+
+35
+00:01:52.820 --> 00:01:58.240
+So, the ground in arduino, right here.
+
+36
+00:01:59.630 --> 00:02:03.440
+And then we'll wire
+the other lead to pin eight,
+
+37
+00:02:03.440 --> 00:02:09.010
+which is the pin that we're gonna
+actually put the tone on, here we go.
+
+38
+00:02:09.010 --> 00:02:11.500
+Okay, so that's the wiring and
+you can see the program, so
+
+39
+00:02:11.500 --> 00:02:13.400
+let's actually plug this in.
+
+40
+00:02:13.400 --> 00:02:18.310
+I've already uploaded this to the board so
+we'll just power it up.
+
+41
+00:02:24.830 --> 00:02:29.510
+And you can hear that two tones
+alternating over and over.
+
+42
+00:02:29.510 --> 00:02:33.020
+So just to explain in a code,
+it first starts with the setup,
+
+43
+00:02:33.020 --> 00:02:35.390
+we start with pin mode eight to an output.
+
+44
+00:02:35.390 --> 00:02:38.465
+That's because we are using it as an
+output, we are driving the piezo with it.
+
+45
+00:02:38.465 --> 00:02:43.011
+[SOUND] Then in the loop
+we call tone two times.
+
+46
+00:02:43.011 --> 00:02:44.980
+So tone takes three arguments.
+
+47
+00:02:44.980 --> 00:02:47.010
+First argument is the pin, pin a.
+
+48
+00:02:47.010 --> 00:02:52.220
+Next argument is a frequency,
+which happens to be a b in a scale.
+
+49
+00:02:52.220 --> 00:02:57.679
+On a sulfite scale it's a doe or
+rather it's a t if you use sulfa.
+
+50
+00:02:58.750 --> 00:03:02.200
+So that's 998 for
+the first pitch, and then 1000.
+
+51
+00:03:02.200 --> 00:03:06.430
+The last argument is the duration in
+milliseconds, so it's one second duration.
+
+52
+00:03:06.430 --> 00:03:08.390
+Then we delay for a second.
+
+53
+00:03:08.390 --> 00:03:13.980
+Then we call tone on a c with a 147,
+that's a C,
+
+54
+00:03:13.980 --> 00:03:16.350
+and then we have a duration without.
+
+55
+00:03:16.350 --> 00:03:17.465
+Again, we wait another second.
+
+56
+00:03:17.465 --> 00:03:20.320
+[SOUND] So it's just alternating,
+one second at a time, but
+
+57
+00:03:20.320 --> 00:03:23.589
+that's what a square wave sounds
+like coming out of a piezo buzzer.
+
+58
+00:03:23.589 --> 00:03:24.588
+Thanks.
+
+59
+00:03:24.588 --> 00:03:27.224
+[MUSIC]

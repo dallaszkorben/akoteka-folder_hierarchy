@@ -1,0 +1,774 @@
+WEBVTT
+
+1
+00:00:00.306 --> 00:00:10.306
+[MUSIC]
+
+2
+00:00:11.981 --> 00:00:13.901
+So we'll talk now about Arduino libraries,
+
+3
+00:00:13.901 --> 00:00:16.080
+the different libraries
+that come with Arduinos.
+
+4
+00:00:16.080 --> 00:00:19.470
+Arduino is a board, it's a type of board,
+it's a piece of hardware.
+
+5
+00:00:19.470 --> 00:00:24.270
+But it's also this software in the form of
+these libraries that come with the board.
+
+6
+00:00:24.270 --> 00:00:27.090
+And the libraries actually very important
+to the useability of an Arduino.
+
+7
+00:00:27.090 --> 00:00:29.880
+Part of the reason why people
+really like Arduino is because
+
+8
+00:00:29.880 --> 00:00:32.070
+these libraries help you use the Arduino.
+
+9
+00:00:32.070 --> 00:00:33.210
+Help you use the hardware right.
+
+10
+00:00:33.210 --> 00:00:36.640
+Because these micro controls have been
+in existence for a very long time.
+
+11
+00:00:36.640 --> 00:00:38.710
+But, only with Arduino and
+
+12
+00:00:38.710 --> 00:00:42.680
+things like it coming along with
+libraries that are really easy to use.
+
+13
+00:00:42.680 --> 00:00:44.350
+Have regular people.
+
+14
+00:00:44.350 --> 00:00:45.070
+I say regular people.
+
+15
+00:00:45.070 --> 00:00:50.043
+People who don't know much about hardware
+been able to use this hardware and
+
+16
+00:00:50.043 --> 00:00:51.835
+build IOT devices easily.
+
+17
+00:00:51.835 --> 00:00:55.386
+So there are lots of so
+we talked about sensors actuators and
+
+18
+00:00:55.386 --> 00:00:59.373
+things that you connect to Arduinos,
+or to any micro controller.
+
+19
+00:00:59.373 --> 00:01:02.135
+And these devices, these sensors,
+these actuators and
+
+20
+00:01:02.135 --> 00:01:04.609
+other devices that we
+haven't much talked about,
+
+21
+00:01:04.609 --> 00:01:07.901
+that you connect in the system you
+connect to the microcontroller.
+
+22
+00:01:07.901 --> 00:01:09.351
+Some of them are simple.
+Like the sensors and
+
+23
+00:01:09.351 --> 00:01:11.020
+actuators that we've looked at.
+
+24
+00:01:11.020 --> 00:01:14.790
+The resistive sensors and the voltage
+controlling sensors, and so on.
+
+25
+00:01:14.790 --> 00:01:19.920
+You can just use pulse with modulation or
+analog read,
+
+26
+00:01:19.920 --> 00:01:22.220
+analog write, digital read, digital write.
+
+27
+00:01:22.220 --> 00:01:25.830
+You can use those functions to
+actually control these devices and
+
+28
+00:01:25.830 --> 00:01:27.430
+observe these devices.
+
+29
+00:01:27.430 --> 00:01:31.510
+But there are a lot of other devices
+that are significantly more complicated
+
+30
+00:01:31.510 --> 00:01:32.620
+than that.
+
+31
+00:01:32.620 --> 00:01:35.590
+That you also want to be able
+to connect to your Arduino and
+
+32
+00:01:35.590 --> 00:01:38.700
+your microcontroller in general and
+you want to be able to use.
+
+33
+00:01:38.700 --> 00:01:43.140
+So, for these type of devices,
+it's hard for
+
+34
+00:01:43.140 --> 00:01:47.720
+your average person to write code
+that directly controls these devices.
+
+35
+00:01:47.720 --> 00:01:49.196
+They can be very complicated.
+
+36
+00:01:49.196 --> 00:01:51.750
+Now, some of these devices
+that we want to control.
+
+37
+00:01:51.750 --> 00:01:54.050
+They are actually inside
+the micro controller itself.
+
+38
+00:01:54.050 --> 00:01:57.570
+So the Arduino Uno anyway has
+a microcontroller, an ATMega328,
+
+39
+00:01:57.570 --> 00:02:02.650
+and this ATMega328 has a lot
+of different devices on it.
+
+40
+00:02:02.650 --> 00:02:06.850
+So it runs code but it has other devices
+on it that we would like to use.
+
+41
+00:02:06.850 --> 00:02:08.300
+So, for instance, memories.
+
+42
+00:02:08.300 --> 00:02:11.190
+It has memories and maybe we want
+to write things to memory and
+
+43
+00:02:11.190 --> 00:02:12.630
+read things from memory.
+
+44
+00:02:12.630 --> 00:02:14.530
+Communication interfaces.
+
+45
+00:02:14.530 --> 00:02:15.410
+We'll talk about these.
+
+46
+00:02:15.410 --> 00:02:16.610
+But maybe an I2C bus.
+
+47
+00:02:16.610 --> 00:02:19.340
+Actually we've talked about
+[COUGH] some of these already.
+
+48
+00:02:19.340 --> 00:02:22.580
+I2C or SPI,
+different bus communication interfaces.
+
+49
+00:02:22.580 --> 00:02:25.690
+Maybe we want the microcontroller to talk
+to another microcontroller through one of
+
+50
+00:02:25.690 --> 00:02:27.440
+these communication interfaces,
+something like that.
+
+51
+00:02:28.440 --> 00:02:29.880
+Pulse width modulation logic.
+
+52
+00:02:29.880 --> 00:02:31.955
+We've talked about this, right.
+
+53
+00:02:31.955 --> 00:02:36.312
+There are lots of things, timers, lots of
+different components on there on the chip.
+
+54
+00:02:36.312 --> 00:02:38.431
+That we wanna have access to as
+programmers and we wanna use for
+
+55
+00:02:38.431 --> 00:02:39.170
+different things.
+
+56
+00:02:39.170 --> 00:02:42.990
+So some of these things are complicated so
+what happens is,
+
+57
+00:02:42.990 --> 00:02:46.940
+rather than you having to read the the
+data sheet on exactly how to control
+
+58
+00:02:46.940 --> 00:02:51.660
+the pulse with modulation logic Or the I2C
+control logic and things like this.
+
+59
+00:02:51.660 --> 00:02:54.360
+Rather than you having to do all that,
+
+60
+00:02:54.360 --> 00:02:58.340
+instead what they do is they
+provide you with these libraries.
+
+61
+00:02:58.340 --> 00:03:02.195
+And these libraries, they have relatively
+simple functions that are predefined.
+
+62
+00:03:02.195 --> 00:03:05.515
+And you call the function, and it does
+whatever it's supposed to do without you
+
+63
+00:03:05.515 --> 00:03:08.165
+having to understand all the details
+of what's going on inside the library.
+
+64
+00:03:08.165 --> 00:03:11.025
+And so these libraries
+are immensely helpful in using
+
+65
+00:03:11.025 --> 00:03:15.095
+lots of interesting things with your
+Arduino with any microcontroller.
+
+66
+00:03:15.095 --> 00:03:16.815
+So the Arduino provides several libraries.
+
+67
+00:03:16.815 --> 00:03:19.331
+Also there are third-party libraries too.
+
+68
+00:03:21.200 --> 00:03:23.850
+Now libraries are also available for
+external hardware.
+
+69
+00:03:23.850 --> 00:03:27.240
+So not only are these libraries useful
+in helping you use the hardware that's
+
+70
+00:03:27.240 --> 00:03:28.050
+on the chip.
+
+71
+00:03:28.050 --> 00:03:31.650
+Like a timer built in to the chip,
+a memory built in to the chip.
+
+72
+00:03:31.650 --> 00:03:33.800
+But it helps you use other hardware,
+other chips,
+
+73
+00:03:33.800 --> 00:03:37.590
+other parts that are external to the
+Arduino that you connect to the Arduino.
+
+74
+00:03:37.590 --> 00:03:41.170
+And this is in the form of shields,
+which we'll talk about in the next module.
+
+75
+00:03:42.200 --> 00:03:45.220
+But those also have a set of
+libraries that allow you to use them,
+
+76
+00:03:45.220 --> 00:03:48.940
+cause otherwise it's fairly
+complicated to use them.
+
+77
+00:03:48.940 --> 00:03:51.360
+So libraries make things much easier for
+you as a programmer.
+
+78
+00:03:53.380 --> 00:03:56.640
+So what we'll talk about first,
+we'll talk about the EEPROM.
+
+79
+00:03:56.640 --> 00:03:58.650
+This is actually a memory.
+
+80
+00:03:58.650 --> 00:04:01.800
+It stands for Electronically Erasable
+Programmable Read-Only Memory.
+
+81
+00:04:01.800 --> 00:04:06.860
+So the picture at the bottom,
+that picture is a picture of an EEPROM.
+
+82
+00:04:06.860 --> 00:04:08.600
+That is not the EEPROM we're using.
+
+83
+00:04:08.600 --> 00:04:13.208
+The EEPROM that we're using is memory
+that's already embedded into the ATMega328
+
+84
+00:04:13.208 --> 00:04:13.909
+processor.
+
+85
+00:04:13.909 --> 00:04:15.883
+So you wouldn't see it as a separate chip.
+
+86
+00:04:15.883 --> 00:04:20.880
+It's just a little piece of the chip we
+see on the Arduino, the main processor.
+
+87
+00:04:20.880 --> 00:04:23.030
+It has some EEPROM memory.
+
+88
+00:04:23.030 --> 00:04:26.920
+Now there's very little of it available,
+only 1k so
+
+89
+00:04:26.920 --> 00:04:29.750
+1024 bytes available on
+our ATMega processor.
+
+90
+00:04:31.610 --> 00:04:36.227
+This memory is non-volatile memory so
+non-volatile means.
+
+91
+00:04:36.227 --> 00:04:38.014
+It holds its data without power.
+
+92
+00:04:38.014 --> 00:04:39.820
+So that's like a disk.
+
+93
+00:04:39.820 --> 00:04:42.650
+A disk is non-volatile memory,
+or a flash, so
+
+94
+00:04:42.650 --> 00:04:44.330
+flash is also a non-volatile memory,
+right?
+
+95
+00:04:44.330 --> 00:04:46.160
+You can write something, you lose power.
+
+96
+00:04:46.160 --> 00:04:49.700
+When you turn on power again,
+it still has the same memory.
+
+97
+00:04:49.700 --> 00:04:53.610
+So in fact,
+EEPROM technology is similar to flash.
+
+98
+00:04:53.610 --> 00:04:57.520
+But it's more flexible in the sense that
+you can write a single byte at a time.
+
+99
+00:04:57.520 --> 00:05:00.520
+Now with flash,
+you can't actually write a byte at a time.
+
+100
+00:05:00.520 --> 00:05:02.070
+Memory is grouped into blocks.
+
+101
+00:05:02.070 --> 00:05:04.510
+You might now know this,
+you might not be aware of this, but
+
+102
+00:05:04.510 --> 00:05:05.560
+it's grouped into blocks.
+
+103
+00:05:05.560 --> 00:05:08.960
+So if you want to write to one byte,
+you've gotta write to the whole block.
+
+104
+00:05:08.960 --> 00:05:11.610
+Which maybe you don't even need
+to write to the whole block.
+
+105
+00:05:11.610 --> 00:05:12.830
+You just want to change one byte, but
+
+106
+00:05:12.830 --> 00:05:15.200
+you've gotta overwrite
+the whole block again.
+
+107
+00:05:15.200 --> 00:05:18.430
+So this wastes time and things like
+this but that's the way it's organized.
+
+108
+00:05:18.430 --> 00:05:19.700
+EEPROM's more flexible.
+
+109
+00:05:19.700 --> 00:05:22.730
+It's byte right writable so
+you can do one byte at a time.
+
+110
+00:05:24.370 --> 00:05:28.960
+And it supports many more right cycle so
+what that means is, flash and
+
+111
+00:05:28.960 --> 00:05:31.340
+EEPROM both they don't last forever.
+
+112
+00:05:31.340 --> 00:05:35.215
+Flash, Flash maybe it'll last tens
+of thousands of write cycles.
+
+113
+00:05:35.215 --> 00:05:39.092
+So, what that means is if you've got
+Flash, and you've got a particular address
+
+114
+00:05:39.092 --> 00:05:42.031
+in the Flash,
+you write to that address 10,000 times.
+
+115
+00:05:42.031 --> 00:05:47.480
+After that maybe 10,000, 20,000,
+30,000 times, that address will wear out.
+
+116
+00:05:47.480 --> 00:05:49.760
+So, eventually that address
+won't work anymore.
+
+117
+00:05:49.760 --> 00:05:52.650
+And, the chip will just,
+the memory will just fail.
+
+118
+00:05:52.650 --> 00:05:56.710
+So the flashes have a limited lifetime.
+
+119
+00:05:56.710 --> 00:05:58.360
+And EEPROM is better than flash.
+
+120
+00:05:58.360 --> 00:06:02.290
+So maybe a flash might be tens of
+thousands of write cycles, EEPROM
+
+121
+00:06:02.290 --> 00:06:07.020
+would be a lot more than that, maybe
+a hundred thousand, something like that.
+
+122
+00:06:07.020 --> 00:06:10.900
+Now this isn't as good as disk,
+disk has a lot more than that.
+
+123
+00:06:10.900 --> 00:06:13.560
+But EEPROM is better in that sense,
+better than flash.
+
+124
+00:06:13.560 --> 00:06:14.740
+But there isn't much available.
+
+125
+00:06:14.740 --> 00:06:18.450
+So EEPROM takes up a lot
+of area on the chip so
+
+126
+00:06:18.450 --> 00:06:21.700
+there's only space on our part for
+a 1024 bytes or 1k bytes.
+
+127
+00:06:23.640 --> 00:06:27.630
+But it's useful for certain things so
+your program might want might store some
+
+128
+00:06:27.630 --> 00:06:32.420
+more variables in there, in this EEPROM
+the same way you might use a flash.
+
+129
+00:06:32.420 --> 00:06:37.160
+Although, see the flash on our ATMega What
+happens is that Flash is used for
+
+130
+00:06:37.160 --> 00:06:38.410
+the program itself.
+
+131
+00:06:38.410 --> 00:06:41.220
+So the code itself is sitting on
+the Flash, plus the boot-loader.
+
+132
+00:06:41.220 --> 00:06:44.650
+But the EEPROM is a place where you
+might store settings, or variables, or
+
+133
+00:06:44.650 --> 00:06:48.490
+something like that,
+that you want to save time and time again.
+
+134
+00:06:48.490 --> 00:06:51.020
+Even after you unplug your Iduino,
+plug it back in.
+
+135
+00:06:51.020 --> 00:06:53.550
+You want that data to be saved in there.
+
+136
+00:06:53.550 --> 00:06:57.580
+Same way you might use files in
+a regular disk, a regular file system.
+
+137
+00:06:57.580 --> 00:07:00.160
+You could put little pieces
+of data inside this EEPROM.
+
+138
+00:07:00.160 --> 00:07:03.350
+Of course these are tiny
+files cuz they're only 10-24.
+
+139
+00:07:03.350 --> 00:07:08.460
+But you can store some kind of data that
+you wanna be persistent in this EEPROM.
+
+140
+00:07:08.460 --> 00:07:09.730
+So it can be useful.
+
+141
+00:07:09.730 --> 00:07:11.490
+So you need to read it and
+you need to write it.
+
+142
+00:07:11.490 --> 00:07:12.452
+So how do you do that?
+
+143
+00:07:12.452 --> 00:07:15.270
+So they provide library functions
+to access the EEPROM and
+
+144
+00:07:15.270 --> 00:07:17.347
+it's pretty straightforward actually.
+
+145
+00:07:17.347 --> 00:07:20.610
+You access one address at a time.
+
+146
+00:07:20.610 --> 00:07:24.390
+And each address is one byte,
+so we call byte addressable,
+
+147
+00:07:24.390 --> 00:07:25.790
+meaning every address has one byte in it.
+
+148
+00:07:26.950 --> 00:07:32.400
+So the way you read an address is you
+call this function called EEPROM.read.
+
+149
+00:07:32.400 --> 00:07:33.610
+It's in the EEPROM library.
+
+150
+00:07:33.610 --> 00:07:34.700
+It's called read.
+
+151
+00:07:34.700 --> 00:07:38.440
+And you pass it an argument, which is
+an address, which is just a number.
+
+152
+00:07:38.440 --> 00:07:42.310
+And that number, that function returns
+the contents of that address, so
+
+153
+00:07:42.310 --> 00:07:43.940
+all the addresses are numbered.
+
+154
+00:07:43.940 --> 00:07:48.460
+Since there are only 1024
+locations in the memory,
+
+155
+00:07:48.460 --> 00:07:53.430
+there are 1024 addresses,
+they're numbered 0 through 1023.
+
+156
+00:07:53.430 --> 00:07:56.796
+So that address argument can be
+any value from 0 to 1023, and
+
+157
+00:07:56.796 --> 00:08:02.280
+EEPROM.read will return the contents
+of that address, the byte.
+
+158
+00:08:02.280 --> 00:08:03.375
+It'll return a one byte value.
+
+159
+00:08:03.375 --> 00:08:07.516
+EEPROM.write does what it sounds like.
+
+160
+00:08:07.516 --> 00:08:11.999
+It takes two arguments, an address and
+some data some byte size piece of data.
+
+161
+00:08:11.999 --> 00:08:15.580
+So that data's one byte, and
+a write set byte into that address.
+
+162
+00:08:15.580 --> 00:08:16.483
+And that's it.
+
+163
+00:08:16.483 --> 00:08:18.872
+And the address has to be between zero and
+
+164
+00:08:18.872 --> 00:08:21.830
+1023 because that's as
+big as the EEPROM is.
+
+165
+00:08:21.830 --> 00:08:23.349
+Thank you.
+
+166
+00:08:23.349 --> 00:08:32.250
+[MUSIC]

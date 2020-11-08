@@ -1,0 +1,417 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:11.508 --> 00:00:13.330
+So, now we're talking about the library.
+
+3
+00:00:13.330 --> 00:00:17.530
+They are doing a library that
+supports I2C, so that's called Wire.
+
+4
+00:00:17.530 --> 00:00:19.760
+So the Wire Library is used to access I2C.
+
+5
+00:00:19.760 --> 00:00:22.400
+Why they don't call it I2C, I'm not sure.
+
+6
+00:00:22.400 --> 00:00:25.180
+Maybe it's the license lease name or
+stuff, I don't really don't.
+
+7
+00:00:25.180 --> 00:00:26.320
+It's copyrighted, I don't know.
+
+8
+00:00:26.320 --> 00:00:28.230
+But the Wire Library is what accesses I2C.
+
+9
+00:00:29.810 --> 00:00:33.570
+So first, to start off using library,
+like with all libraries
+
+10
+00:00:33.570 --> 00:00:36.090
+you get start off with a hashtag,
+include with appropriate hashtag.
+
+11
+00:00:36.090 --> 00:00:40.220
+Include, in this case it's Wire.h,
+so that's the header file.
+
+12
+00:00:40.220 --> 00:00:42.275
+So you put that on top of your file.
+
+13
+00:00:42.275 --> 00:00:48.120
+Then to initialize the library,
+start off all the I2C operations,
+
+14
+00:00:48.120 --> 00:00:52.670
+you gotta call wire.begin, and
+you would do this in your setup.
+
+15
+00:00:52.670 --> 00:00:54.990
+This initializes the I2c hardware.
+
+16
+00:00:54.990 --> 00:00:57.210
+So, in the micro controller,
+the ATmega328,
+
+17
+00:00:57.210 --> 00:01:03.000
+it has hardware dedicated to I2C and
+dedicated to placing and
+
+18
+00:01:03.000 --> 00:01:06.240
+doing all this stuff and putting start
+conditions, stop conditions and all that.
+
+19
+00:01:06.240 --> 00:01:10.670
+And so that hardware is
+initialized by calling Wire.begin.
+
+20
+00:01:10.670 --> 00:01:13.750
+Now, if you call Wire.begin
+with no arguments,
+
+21
+00:01:13.750 --> 00:01:15.480
+that makes the Arduino the Master.
+
+22
+00:01:16.550 --> 00:01:19.680
+But if you call Wire.begin with
+an address as an argument,
+
+23
+00:01:19.680 --> 00:01:25.390
+some number between 0 and 127,
+then that makes the Arduino a Slave.
+
+24
+00:01:25.390 --> 00:01:28.330
+And it's address is whatever
+the address argument was.
+
+25
+00:01:28.330 --> 00:01:31.330
+So if you don't pass an address,
+see masses don't need addresses, right?
+
+26
+00:01:31.330 --> 00:01:34.710
+Masses they need addresses to talk to
+Slaves, but if you're not a Slave,
+
+27
+00:01:34.710 --> 00:01:35.450
+you don't need an address.
+
+28
+00:01:35.450 --> 00:01:38.130
+So if you give no address,
+then you're a Master.
+
+29
+00:01:40.190 --> 00:01:41.120
+Master Communication.
+
+30
+00:01:41.120 --> 00:01:44.930
+So here's a really rough,
+high level overview of what your
+
+31
+00:01:44.930 --> 00:01:47.010
+communication will look like
+from the master point of view.
+
+32
+00:01:47.010 --> 00:01:49.540
+You start the communication,
+you send a bunch of data.
+
+33
+00:01:49.540 --> 00:01:51.470
+And then you end the communication.
+
+34
+00:01:51.470 --> 00:01:54.130
+You start transmission,
+you send data, end transmission.
+
+35
+00:01:54.130 --> 00:01:57.520
+And so there are functions for
+each one of these things.
+
+36
+00:01:57.520 --> 00:02:02.830
+So data, one thing to note is that data
+is put into a buffer before sending.
+
+37
+00:02:02.830 --> 00:02:06.720
+So, what I mean is,
+inside the ATmega328 there is a buffer for
+
+38
+00:02:06.720 --> 00:02:09.400
+the I2C data that you're going to send.
+
+39
+00:02:09.400 --> 00:02:13.850
+So basically, all the data that you're
+going to send gets put into this buffer
+
+40
+00:02:13.850 --> 00:02:15.790
+and then it's all sent out at once.
+
+41
+00:02:15.790 --> 00:02:18.069
+The whole transaction is done at once.
+
+42
+00:02:19.120 --> 00:02:22.250
+Basically the whole buffer
+is dumped onto the lines.
+
+43
+00:02:22.250 --> 00:02:24.340
+So, when I say dumped onto the lines.
+
+44
+00:02:24.340 --> 00:02:26.670
+Say you want to send 10 bytes.
+
+45
+00:02:26.670 --> 00:02:28.330
+All 10 bytes are put into a buffer and
+then,
+
+46
+00:02:28.330 --> 00:02:31.180
+when you end the transmission,
+when you call end transmission,
+
+47
+00:02:31.180 --> 00:02:36.530
+it actually sends those 10
+bytes on the SDA and SCL lines.
+
+48
+00:02:36.530 --> 00:02:37.910
+It doesn't happen when you call it.
+
+49
+00:02:37.910 --> 00:02:39.359
+It happens when you end the transmission.
+
+50
+00:02:40.710 --> 00:02:43.950
+So we start off,
+we say wire.beginTransmission address, and
+
+51
+00:02:43.950 --> 00:02:48.380
+this initializes, tells it it's gonna
+have to do a start condition, and
+
+52
+00:02:48.380 --> 00:02:50.660
+tells it what that address
+is it's gonna be sent.
+
+53
+00:02:50.660 --> 00:02:53.620
+What those seven address bits are,
+those are whatever the argument is,
+
+54
+00:02:53.620 --> 00:02:56.420
+those are gonna become
+the seven address bits.
+
+55
+00:02:56.420 --> 00:03:02.130
+Now, then you say, you write data
+You Wire.write into basic writes data.
+
+56
+00:03:02.130 --> 00:03:04.080
+So you give it a byte, data's a byte, and
+
+57
+00:03:04.080 --> 00:03:06.530
+the data's gonna be
+transmitted on the bus.
+
+58
+00:03:07.590 --> 00:03:12.240
+And in transmission, it basically it
+transmits the data in the buffer, and
+
+59
+00:03:12.240 --> 00:03:14.200
+creates a stop condition.
+
+60
+00:03:14.200 --> 00:03:17.070
+So when you call end transmission,
+it takes all the data that you
+
+61
+00:03:17.070 --> 00:03:21.600
+wrote into the bus, it creates a start
+transmission, a start condition.
+
+62
+00:03:21.600 --> 00:03:23.150
+It sends the address.
+
+63
+00:03:23.150 --> 00:03:25.610
+Then it sends all the data in the buffer.
+
+64
+00:03:25.610 --> 00:03:30.000
+And then it creates the end condition.
+
+65
+00:03:30.000 --> 00:03:32.270
+So basically, all your transmissions
+are going to happen like that.
+
+66
+00:03:32.270 --> 00:03:33.880
+There's going to be a beginTransmission,
+
+67
+00:03:33.880 --> 00:03:36.960
+then a bunch of writes if
+you're doing write transaction.
+
+68
+00:03:36.960 --> 00:03:37.900
+And then a end transmission.
+
+69
+00:03:37.900 --> 00:03:38.480
+And then that's it.
+
+70
+00:03:38.480 --> 00:03:40.619
+It's pretty straightforward,
+from a coding point of view.
+
+71
+00:03:42.010 --> 00:03:43.710
+So here's an example.
+
+72
+00:03:43.710 --> 00:03:45.830
+Let's say I define my address.
+
+73
+00:03:45.830 --> 00:03:50.090
+I do a hash to find out if their addresses
+equal to one so that the address I want.
+
+74
+00:03:50.090 --> 00:03:51.730
+That's the Slave address
+I'm gonna send to.
+
+75
+00:03:52.730 --> 00:03:57.577
+So in my set up I say wire.begin
+to initialize the I2C hardware.
+
+76
+00:03:57.577 --> 00:04:00.725
+Then wire.begintransmission
+to the address.
+
+77
+00:04:00.725 --> 00:04:04.301
+Then I'll say wire.write(2)
+wire.write(3) so
+
+78
+00:04:04.301 --> 00:04:06.986
+I'm sending two bytes, a two and a three.
+
+79
+00:04:06.986 --> 00:04:10.792
+And then, wire.endTransmission and
+(stop) and
+
+80
+00:04:10.792 --> 00:04:16.710
+that just causes all the data to be sent
+in the format that we talked about in I2C.
+
+81
+00:04:16.710 --> 00:04:20.270
+So from a coding point of view, you don't
+have to worry about all the details,
+
+82
+00:04:20.270 --> 00:04:23.250
+the bitwise details of is this bit a 1,
+is this bit a 0?
+
+83
+00:04:23.250 --> 00:04:24.840
+All the sequence stuff.
+
+84
+00:04:24.840 --> 00:04:26.050
+I talked about that.
+
+85
+00:04:26.050 --> 00:04:28.680
+But that stuff, as a programmer, you don't
+have to think about that all the time.
+
+86
+00:04:28.680 --> 00:04:32.178
+You can call these library functions and
+it will handle all that for you.
+
+87
+00:04:34.299 --> 00:04:36.850
+So this sends two bytes since
+the start condition had sent,
+
+88
+00:04:36.850 --> 00:04:40.182
+the stop conditions sends at the end,
+the start condition at the beginning.
+
+89
+00:04:40.182 --> 00:04:41.506
+Thank you.
+
+90
+00:04:41.506 --> 00:04:48.138
+[MUSIC]

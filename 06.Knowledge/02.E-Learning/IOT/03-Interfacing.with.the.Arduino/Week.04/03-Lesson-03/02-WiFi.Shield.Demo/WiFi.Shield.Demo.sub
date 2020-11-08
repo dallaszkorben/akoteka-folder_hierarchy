@@ -1,0 +1,625 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.935
+[MUSIC]
+
+2
+00:00:04.935 --> 00:00:11.669
+[SOUND]
+So,
+
+3
+00:00:11.669 --> 00:00:15.880
+today, we're going to
+look at the WiFi Shield.
+
+4
+00:00:15.880 --> 00:00:20.150
+Specifically, I'm using
+the WiFi Shield 101.
+
+5
+00:00:20.150 --> 00:00:23.020
+There are a lot of different WiFi shields,
+I'm using WiFi Shield 101,
+
+6
+00:00:23.020 --> 00:00:26.570
+which means you need to
+use the WiFi 101 library.
+
+7
+00:00:26.570 --> 00:00:31.900
+But, you can install that if you
+go to Sketch > Include Library.
+
+8
+00:00:31.900 --> 00:00:36.910
+Go to Manage Libraries right here,
+and you can select WiFi 101,
+
+9
+00:00:36.910 --> 00:00:40.380
+and it will just download it for
+you and install it.
+
+10
+00:00:40.380 --> 00:00:44.219
+I've already done that, so you can see
+WiFi 101 down there in the list for me.
+
+11
+00:00:45.350 --> 00:00:50.003
+So then, what we're gonna do is that
+we're gonna run this as a wi-fi client.
+
+12
+00:00:50.003 --> 00:00:53.407
+So I have already connected
+my wi-fi shield on top of,
+
+13
+00:00:53.407 --> 00:00:56.963
+stacked it on top of [INAUDIBLE],
+is plugged in right now.
+
+14
+00:00:56.963 --> 00:01:00.490
+It's running the code that I'll
+walk through over right here.
+
+15
+00:01:00.490 --> 00:01:02.575
+Let's open this window a tad.
+
+16
+00:01:02.575 --> 00:01:06.189
+So to show you where to get
+this,you to to Examples,
+
+17
+00:01:06.189 --> 00:01:11.130
+scroll down to wifi101 and
+we're doing wifi web client right here.
+
+18
+00:01:12.200 --> 00:01:13.460
+So that's the code you
+see in front of you.
+
+19
+00:01:13.460 --> 00:01:17.062
+And what this web client is supposed
+to do, is connect to Google.
+
+20
+00:01:17.062 --> 00:01:21.680
+It'll connect to www.google.com.
+
+21
+00:01:21.680 --> 00:01:28.090
+Since we're not using a web browser
+with this, we won't see the actual
+
+22
+00:01:28.090 --> 00:01:33.978
+image that you see when you go to
+google.com but we will see all the html.
+
+23
+00:01:33.978 --> 00:01:37.340
+So what's gonna happen is we're
+gonna start this thing and
+
+24
+00:01:37.340 --> 00:01:39.080
+we'll start up the serial monitor and
+
+25
+00:01:39.080 --> 00:01:44.790
+in the serial monitor, we will see all
+the html that produces the Google page.
+
+26
+00:01:44.790 --> 00:01:48.500
+So we'll see a message received
+from the Google server and
+
+27
+00:01:48.500 --> 00:01:52.940
+we'll see a bunch of HTML with text in
+it that we can decipher if we feel like.
+
+28
+00:01:52.940 --> 00:01:54.470
+So let's walk through the code.
+
+29
+00:01:55.700 --> 00:01:59.946
+Forst we start with the include,
+so we've got include SPI.h and
+
+30
+00:01:59.946 --> 00:02:04.140
+WiFi101.h since I'm using
+the WiFi101 shield.
+
+31
+00:02:04.140 --> 00:02:05.820
+Now the network that I'm connecting to,
+
+32
+00:02:06.920 --> 00:02:11.148
+the network we're connected to is
+one that I made up called, X-X-X-X.
+
+33
+00:02:11.148 --> 00:02:14.580
+And it's just a random title I thought up.
+
+34
+00:02:14.580 --> 00:02:16.831
+And that is an open connection.
+
+35
+00:02:16.831 --> 00:02:19.740
+So it's an open network,
+you don't need a password.
+
+36
+00:02:19.740 --> 00:02:22.960
+So although this code has a space for
+a password, we're not actually gonna
+
+37
+00:02:22.960 --> 00:02:26.730
+use a password or a key index because
+I've decided to use null encryption.
+
+38
+00:02:26.730 --> 00:02:28.076
+just to make it easy.
+
+39
+00:02:28.076 --> 00:02:33.358
+Okay so then,
+let's go down to our server = google.com.
+
+40
+00:02:33.358 --> 00:02:37.240
+That's what we're connecting to.
+
+41
+00:02:37.240 --> 00:02:38.160
+So WiFi client.
+
+42
+00:02:39.210 --> 00:02:41.090
+We make a client right here.
+
+43
+00:02:42.640 --> 00:02:47.120
+And then in our setup, we start the serial
+interface for diagnostic reasons.
+
+44
+00:02:47.120 --> 00:02:49.510
+We wanna see what we receive.
+
+45
+00:02:49.510 --> 00:02:51.090
+In Serial Modern.
+
+46
+00:02:51.090 --> 00:02:52.930
+So we start that.
+
+47
+00:02:52.930 --> 00:02:56.270
+Then we get the WiFi.status,
+it checks to see if a shield is connected,
+
+48
+00:02:56.270 --> 00:02:57.050
+which there is.
+
+49
+00:02:57.050 --> 00:03:00.950
+And if there isn't, it'll give us
+this error, WiFi shield not present.
+
+50
+00:03:00.950 --> 00:03:02.450
+That should not happen.
+
+51
+00:03:02.450 --> 00:03:05.380
+Then it attempts to
+connect to a WiFi network.
+
+52
+00:03:05.380 --> 00:03:08.760
+Now, it's gonna connect to
+the network that I gave it, X-X-X-X.
+
+53
+00:03:08.760 --> 00:03:11.120
+So it'll attempt to connect.
+
+54
+00:03:11.120 --> 00:03:14.470
+And when it connects, it'll say it,
+attempting to connect to SSID,
+
+55
+00:03:14.470 --> 00:03:18.920
+it'll give the name, which is XXXX, we
+should see that in the serial monitor, and
+
+56
+00:03:18.920 --> 00:03:22.680
+then it'll begin, begin the connection.
+
+57
+00:03:22.680 --> 00:03:26.645
+And after that it'll say connected to
+WiFI, assuming that it was successful and
+
+58
+00:03:26.645 --> 00:03:27.936
+print the wi-fi status.
+
+59
+00:03:27.936 --> 00:03:31.485
+And the WiFi status will
+tell us just the RSSI and
+
+60
+00:03:31.485 --> 00:03:36.112
+things like that and we'll see that,
+in the serial monitor.
+
+61
+00:03:36.112 --> 00:03:42.270
+So, then we're gonna start
+the connection to the server.
+
+62
+00:03:42.270 --> 00:03:43.700
+So we say client connect.
+
+63
+00:03:44.790 --> 00:03:46.000
+And we're connecting on port 80.
+
+64
+00:03:46.000 --> 00:03:52.010
+We use port 79 because that's where web
+traffic goes, where HTTP traffic goes.
+
+65
+00:03:52.010 --> 00:03:54.300
+So what we're gonna do is we're gonna
+connect to the google server, and
+
+66
+00:03:54.300 --> 00:03:56.520
+then we're gonna send it
+something on port 80.
+
+67
+00:03:56.520 --> 00:03:59.880
+Specifically a request, an HTTP request.
+
+68
+00:03:59.880 --> 00:04:00.940
+So we make the connection and
+
+69
+00:04:00.940 --> 00:04:05.230
+if it's successful,
+then it prints Connected to Server.
+
+70
+00:04:05.230 --> 00:04:10.320
+And then we say client print line which
+actually sends data to the Google server.
+
+71
+00:04:10.320 --> 00:04:13.070
+We send the following text.
+
+72
+00:04:13.070 --> 00:04:15.403
+Now notice the first line here.
+
+73
+00:04:15.403 --> 00:04:18.930
+This is the standard header for requests.
+
+74
+00:04:18.930 --> 00:04:21.576
+So actually we're doing
+a search on Arduino.
+
+75
+00:04:21.576 --> 00:04:23.583
+If you look at the text there,
+search Arduino.
+
+76
+00:04:23.583 --> 00:04:28.509
+All right, so this is, what we're asking
+for, we're saying Google please search,
+
+77
+00:04:28.509 --> 00:04:32.698
+do a search on the word, on the name
+Arduino and give us back your results.
+
+78
+00:04:32.698 --> 00:04:36.267
+So that's what we're asking it for
+and that's all in the set up.
+
+79
+00:04:36.267 --> 00:04:40.990
+And then in the loop we should be waiting.
+
+80
+00:04:40.990 --> 00:04:44.540
+We call client.read to wait for
+our response.
+
+81
+00:04:44.540 --> 00:04:45.920
+So whatever response character,
+
+82
+00:04:45.920 --> 00:04:49.140
+if we get a character from the Google
+server, then we serial write.
+
+83
+00:04:49.140 --> 00:04:52.770
+We write that to serial monitor.
+
+84
+00:04:52.770 --> 00:04:55.689
+So what'll happen is,
+as it sends its response.
+
+85
+00:04:56.900 --> 00:05:02.540
+Many characters, each character will
+appear on the serial monitor and
+
+86
+00:05:02.540 --> 00:05:06.960
+we'll see the raw text of
+the data we're getting back.
+
+87
+00:05:06.960 --> 00:05:08.555
+And it'll be a lot as we'll see.
+
+88
+00:05:08.555 --> 00:05:11.840
+But that's what we'll see
+on the serial monitor.
+
+89
+00:05:11.840 --> 00:05:15.359
+And then the client's not connected
+we stop and that's the end.
+
+90
+00:05:16.512 --> 00:05:22.610
+And the Print WiFi status
+prints the status of WiFi.
+
+91
+00:05:22.610 --> 00:05:24.870
+And that's called when
+we make the connection.
+
+92
+00:05:24.870 --> 00:05:28.670
+So, we'll see that in
+the serial monitor as well.
+
+93
+00:05:28.670 --> 00:05:30.840
+Let us upload this.
+
+94
+00:05:33.180 --> 00:05:35.240
+We're uploading and compiling the sketch.
+
+95
+00:05:38.143 --> 00:05:39.943
+Yeah, compile, uploading now.
+
+96
+00:05:42.359 --> 00:05:43.254
+Yeah.
+
+97
+00:05:44.704 --> 00:05:45.865
+All right.
+
+98
+00:05:49.986 --> 00:05:50.850
+It's done uploading.
+
+99
+00:05:50.850 --> 00:05:55.341
+Now it is done uploading, so
+let us open up the serial monitor.
+
+100
+00:05:55.341 --> 00:05:57.896
+Let's see what we get.
+
+101
+00:05:57.896 --> 00:06:01.840
+Attempting connect to
+SSID xx xx as my network.
+
+102
+00:06:02.990 --> 00:06:06.520
+So this might take a try or
+two, we'll see.
+
+103
+00:06:06.520 --> 00:06:10.830
+Now I'm actually creating this network,
+I may go, there it is, okay.
+
+104
+00:06:10.830 --> 00:06:13.270
+We'll see this in a second,
+let's scroll back.
+
+105
+00:06:13.270 --> 00:06:14.220
+Here we go.
+
+106
+00:06:14.220 --> 00:06:17.040
+Let me stop the auto scrolls,
+so I can see what it's doing.
+
+107
+00:06:17.040 --> 00:06:17.850
+It's a lot of data.
+
+108
+00:06:17.850 --> 00:06:20.490
+And it's all going over
+a slow serial connection.
+
+109
+00:06:20.490 --> 00:06:21.530
+So it's taking a while to print.
+
+110
+00:06:21.530 --> 00:06:25.300
+But let's scroll back to the top of
+the serial monitor and see what happened.
+
+111
+00:06:25.300 --> 00:06:29.840
+So first it said attempting
+to connect to SSID x x x x.
+
+112
+00:06:29.840 --> 00:06:31.530
+Then connected to wifi.
+
+113
+00:06:31.530 --> 00:06:33.226
+Gave the name of the SSID.
+
+114
+00:06:33.226 --> 00:06:36.120
+Then it gave the IP
+address that was assigned.
+
+115
+00:06:36.120 --> 00:06:39.590
+So it's configured for DHCP.
+
+116
+00:06:39.590 --> 00:06:41.240
+So, we got assign this IP address.
+
+117
+00:06:41.240 --> 00:06:43.180
+It gives us the signal strength and so on.
+
+118
+00:06:43.180 --> 00:06:44.137
+Then, starting connection to server.
+
+119
+00:06:44.137 --> 00:06:48.064
+So it tries to connect to the server,
+it connected to the server and
+
+120
+00:06:48.064 --> 00:06:51.730
+starting here is the response
+it got from Google's servers.
+
+121
+00:06:51.730 --> 00:06:53.480
+200 OK message.
+
+122
+00:06:53.480 --> 00:06:54.569
+There's several headers.
+
+123
+00:06:55.670 --> 00:07:00.330
+So headers, and other data,
+cookies, gigantic cookies.
+
+124
+00:07:00.330 --> 00:07:01.870
+And after all the header information.
+
+125
+00:07:01.870 --> 00:07:05.140
+The header stuff ends here,
+this is all our header stuff.
+
+126
+00:07:05.140 --> 00:07:06.410
+Then comes the actual content.
+
+127
+00:07:06.410 --> 00:07:09.600
+So starting here with this doc type HTML,
+and so on.
+
+128
+00:07:09.600 --> 00:07:11.278
+That's the actual HTML.
+
+129
+00:07:11.278 --> 00:07:14.930
+So this is the HTML of
+the webpage that would appear.
+
+130
+00:07:14.930 --> 00:07:18.400
+Now this is very long,
+we see lots and lots of stuff.
+
+131
+00:07:18.400 --> 00:07:19.270
+But this is valid HTML.
+
+132
+00:07:19.270 --> 00:07:24.170
+So if we took this and
+fed it to a web browser, then we
+
+133
+00:07:24.170 --> 00:07:28.900
+would see a web page, Google's web page
+with whatever the search results were.
+
+134
+00:07:30.270 --> 00:07:31.526
+So that is it.
+
+135
+00:07:31.526 --> 00:07:32.396
+Thank you.
+
+136
+00:07:32.396 --> 00:07:37.207
+[MUSIC]

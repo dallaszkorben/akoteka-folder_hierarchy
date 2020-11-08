@@ -1,0 +1,345 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:11.627 --> 00:00:15.818
+So the last set of slides I was talking
+about, if the master wanted to do a write
+
+3
+00:00:15.818 --> 00:00:19.121
+transaction, writing some data,
+sending it to the slave.
+
+4
+00:00:19.121 --> 00:00:21.231
+But let's say the master
+wants to do a read, so
+
+5
+00:00:21.231 --> 00:00:24.190
+the master wants to grab
+data from the slave.
+
+6
+00:00:24.190 --> 00:00:27.360
+So there are some different
+function calls for that.
+
+7
+00:00:27.360 --> 00:00:30.230
+First is this Wire.requestFrom().
+
+8
+00:00:30.230 --> 00:00:32.940
+So this is how it initiates a request.
+
+9
+00:00:32.940 --> 00:00:36.470
+The master initiates a read
+request from the slave.
+
+10
+00:00:36.470 --> 00:00:41.670
+So, this is the first thing you would have
+to call if you wanted to initiate a read.
+
+11
+00:00:41.670 --> 00:00:42.719
+Now this take three arguments.
+
+12
+00:00:43.960 --> 00:00:46.950
+One is the address of the slaves, so
+that's gonna be the first argument.
+
+13
+00:00:46.950 --> 00:00:50.070
+The second is the number of bytes to read,
+the number of bytes being requested.
+
+14
+00:00:51.220 --> 00:00:57.510
+And the third argument is an optional
+argument, a stop argument.
+
+15
+00:00:57.510 --> 00:01:02.190
+The word stop you can add in there to
+release the bus after you're done.
+
+16
+00:01:02.190 --> 00:01:06.380
+So, releasing the bus means
+asserting a stop condition.
+
+17
+00:01:06.380 --> 00:01:10.422
+If it asserts a stop condition,
+[COUGH] then it releases a bus.
+
+18
+00:01:10.422 --> 00:01:13.363
+It's basically giving up access
+to the bus and saying look,
+
+19
+00:01:13.363 --> 00:01:17.241
+any other master can now take over this
+bus if they want to use it to communicate.
+
+20
+00:01:17.241 --> 00:01:20.201
+Where if you don't do that stop condition,
+[COUGH], excuse me.
+
+21
+00:01:20.201 --> 00:01:24.510
+If you don't do that stop condition then
+this master is free to make more requests.
+
+22
+00:01:24.510 --> 00:01:29.810
+It could say, oh, let me read some more
+data later or something like that.
+
+23
+00:01:29.810 --> 00:01:33.200
+Depending on the situation,
+you don't want to hog up the bus.
+
+24
+00:01:33.200 --> 00:01:36.050
+You wouldn't want one master to hog
+the bus for a long time because then
+
+25
+00:01:36.050 --> 00:01:39.650
+nobody else, no other masters,
+can use the bus, but it's optional.
+
+26
+00:01:39.650 --> 00:01:42.754
+So you can have a stop argument that would
+indicate that this master's actually
+
+27
+00:01:42.754 --> 00:01:44.945
+giving up the boss and
+allowing other masters to use it.
+
+28
+00:01:47.231 --> 00:01:50.998
+Now, another function you're
+gonna use is Wire.read().
+
+29
+00:01:50.998 --> 00:01:55.160
+Wire.read() actually reads that data
+that's received, reads one byte.
+
+30
+00:01:55.160 --> 00:01:56.840
+Wire.read() reads exactly one byte.
+
+31
+00:01:56.840 --> 00:02:00.620
+So what happens is, when you do
+a Wire.requestFrom(), it request the data
+
+32
+00:02:00.620 --> 00:02:04.770
+and the data eventually,
+in the slave time, is received, okay?
+
+33
+00:02:04.770 --> 00:02:08.935
+So once the data is
+received by the master,
+
+34
+00:02:08.935 --> 00:02:11.890
+it's put into a buffer on the master.
+
+35
+00:02:11.890 --> 00:02:13.890
+And then the master,
+in order to access that data,
+
+36
+00:02:13.890 --> 00:02:18.830
+has to call Wire.read() to read the bytes
+one at a time from that receive buffer.
+
+37
+00:02:21.400 --> 00:02:24.230
+Now there's another function
+called Wire.available(),
+
+38
+00:02:24.230 --> 00:02:26.065
+which returns a number of bytes waiting.
+
+39
+00:02:26.065 --> 00:02:29.601
+Now, you need this for a couple of things.
+
+40
+00:02:29.601 --> 00:02:34.208
+One main reason is that even though the
+master requested a certain amount of data,
+
+41
+00:02:34.208 --> 00:02:38.413
+maybe the master requests ten bytes,
+the slave may not give ten bytes, for
+
+42
+00:02:38.413 --> 00:02:39.780
+one reason or another.
+
+43
+00:02:39.780 --> 00:02:42.490
+Maybe it doesn't have ten bytes to give or
+something like that.
+
+44
+00:02:42.490 --> 00:02:48.230
+So, maybe less data is available
+than the master thinks.
+
+45
+00:02:48.230 --> 00:02:51.830
+Or maybe the slave is slow and
+is taking a long time in responding,
+
+46
+00:02:51.830 --> 00:02:54.902
+in which case data might not be
+available immediately, right?
+
+47
+00:02:54.902 --> 00:02:59.470
+So, Wire.available() is a function
+the master can call to see if there's
+
+48
+00:02:59.470 --> 00:03:03.560
+data available in the receive
+buffer that it can read.
+
+49
+00:03:03.560 --> 00:03:08.605
+So these are the functions that we're
+gonna use, and let's just show a little
+
+50
+00:03:08.605 --> 00:03:13.741
+example of some code on the master side
+where the master is acting as a receiver.
+
+51
+00:03:13.741 --> 00:03:18.737
+And this case all I want the master to do,
+is request from a slave two bytes, and
+
+52
+00:03:18.737 --> 00:03:22.430
+add those two bytes together and
+compute a cell.
+
+53
+00:03:22.430 --> 00:03:24.767
+So we start off, int sum = 0.
+
+54
+00:03:24.767 --> 00:03:28.568
+wire.requestFrom(), the address, whatever
+the address of the slave is, comma 2.
+
+55
+00:03:28.568 --> 00:03:32.840
+I'm requesting two bytes, cuz I wanna
+get these two bytes and average them.
+
+56
+00:03:32.840 --> 00:03:37.541
+So while Wire.available(), so
+while there is data waiting, right?
+
+57
+00:03:37.541 --> 00:03:41.265
+While there's data waiting, you go and
+you say sum +=, so add to the sum.
+
+58
+00:03:41.265 --> 00:03:43.250
+Wire.read().
+
+59
+00:03:43.250 --> 00:03:47.270
+Now, we code Wire.read() to grab the byte,
+we cast it to an int.
+
+60
+00:03:47.270 --> 00:03:50.200
+So when we put int in parentheses
+like that, we're making an integer.
+
+61
+00:03:50.200 --> 00:03:53.200
+We're saying, look, this should
+be interpreted as an integer so
+
+62
+00:03:53.200 --> 00:03:55.370
+we can perform proper addition on it.
+
+63
+00:03:55.370 --> 00:03:56.480
+We interpret as an integer and
+
+64
+00:03:56.480 --> 00:03:58.800
+then we add that to the sum
+cuz sum is also an integer.
+
+65
+00:03:58.800 --> 00:04:02.475
+So, you would like Wire.read()'s results
+to be cast to an integer as well,
+
+66
+00:04:02.475 --> 00:04:05.060
+cuz you want to add two integers.
+
+67
+00:04:05.060 --> 00:04:10.591
+So this is all it does, it just adds
+these two numbers together into sum.
+
+68
+00:04:10.591 --> 00:04:13.910
+So it receives two bytes from
+the slave and computes the sum.
+
+69
+00:04:13.910 --> 00:04:17.190
+And it uses Wire.available() to see
+how much data is actually received to
+
+70
+00:04:17.190 --> 00:04:19.020
+make sure two bytes are received.
+
+71
+00:04:19.020 --> 00:04:20.221
+And that's it.
+
+72
+00:04:20.221 --> 00:04:24.982
+Thank you.
+[MUSIC]

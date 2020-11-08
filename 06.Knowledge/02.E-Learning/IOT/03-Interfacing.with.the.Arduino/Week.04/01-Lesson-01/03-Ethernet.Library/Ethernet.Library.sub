@@ -1,0 +1,538 @@
+WEBVTT
+
+1
+00:00:00.092 --> 00:00:11.041
+[MUSIC]
+
+2
+00:00:11.041 --> 00:00:14.001
+So now, we're gonna start talking
+about the Ethernet library.
+
+3
+00:00:14.001 --> 00:00:18.935
+The library that's used to control an
+Ethernet controller, an Ethernet shield.
+
+4
+00:00:18.935 --> 00:00:21.036
+So we'll start with #include.
+
+5
+00:00:21.036 --> 00:00:23.442
+So at the top,
+like with all these libraries,
+
+6
+00:00:23.442 --> 00:00:27.286
+you need to set a #include to include
+a bunch of header files, .h files.
+
+7
+00:00:27.286 --> 00:00:28.561
+There are a lot.
+
+8
+00:00:28.561 --> 00:00:32.766
+So for instance, Ethernet.h,
+EthernetClient.h, EthernetServer.h and
+
+9
+00:00:32.766 --> 00:00:34.093
+there are several more.
+
+10
+00:00:34.093 --> 00:00:37.971
+The easy way to do this in your
+sketch is just to go to the ITE,
+
+11
+00:00:37.971 --> 00:00:40.920
+go to Sketch > import
+library > Ethernet and
+
+12
+00:00:40.920 --> 00:00:46.134
+it'll just stick in all the #includes
+that you need for the Ethernet library.
+
+13
+00:00:46.134 --> 00:00:51.063
+So let's assume you do that,
+then there's several functions provided
+
+14
+00:00:51.063 --> 00:00:55.527
+to initialize the Ethernet
+interface to initialize the shield.
+
+15
+00:00:55.527 --> 00:00:59.950
+So these are the first things that you're
+gonna call when you wanna use the shield.
+
+16
+00:01:01.000 --> 00:01:04.790
+So Ethernet.begin, that's really
+the function, which is common name for
+
+17
+00:01:04.790 --> 00:01:08.943
+the first function in any library, but
+Ethernet.being, you call that function.
+
+18
+00:01:08.943 --> 00:01:12.822
+Now there are five possible arguments for
+Ethernet.begin.
+
+19
+00:01:12.822 --> 00:01:15.801
+Only the first one is required and
+the rest are optional.
+
+20
+00:01:15.801 --> 00:01:18.890
+We'll go through all them and
+we won't actually use all them.
+
+21
+00:01:18.890 --> 00:01:21.976
+Well, the first one we have to give
+the rest we probably won't, but
+
+22
+00:01:21.976 --> 00:01:23.395
+let's go through all of them.
+
+23
+00:01:23.395 --> 00:01:26.007
+So first argument that is
+required is the MAC address.
+
+24
+00:01:26.007 --> 00:01:30.033
+As the MAC address of your Ethernet
+shield, which you can make up, by the way.
+
+25
+00:01:30.033 --> 00:01:33.709
+And most fields you can just create
+which ever one you want to create and
+
+26
+00:01:33.709 --> 00:01:34.653
+you can use that.
+
+27
+00:01:34.653 --> 00:01:37.692
+[COUGH] Or if it has a sticker on
+there that indicates its MAC Address,
+
+28
+00:01:37.692 --> 00:01:38.610
+you can us that too.
+
+29
+00:01:40.510 --> 00:01:45.190
+IP Address, that's the IP address
+of your shield, optional.
+
+30
+00:01:45.190 --> 00:01:49.397
+DNS, so that's the IP Address of
+the domain name server that you wanna
+
+31
+00:01:49.397 --> 00:01:52.693
+connect to by default and
+you don't have to give that.
+
+32
+00:01:52.693 --> 00:01:54.386
+A gateway is the address of a router,
+
+33
+00:01:54.386 --> 00:01:56.805
+which knows how to route
+packets to other networks.
+
+34
+00:01:56.805 --> 00:02:00.371
+So if you're going outside of our local
+network, which we won't in this class.
+
+35
+00:02:00.371 --> 00:02:05.572
+But if you are, then you might
+want to specify a default gateway.
+
+36
+00:02:05.572 --> 00:02:10.698
+A default router to go to when it wants
+to send packets to an outside network,
+
+37
+00:02:10.698 --> 00:02:15.841
+it can go ask this gateway router for
+the path to say, how do I get this there?
+
+38
+00:02:15.841 --> 00:02:18.221
+Now if you don't give a gateway,
+it will find a gateway.
+
+39
+00:02:18.221 --> 00:02:23.797
+But sometimes a particular service will
+have it's own gateway to speed thing sup,
+
+40
+00:02:23.797 --> 00:02:25.879
+but you don't have to do that.
+
+41
+00:02:25.879 --> 00:02:28.155
+Also the subnet mask.
+
+42
+00:02:28.155 --> 00:02:36.365
+Subnet mask tells us which other IP
+addresses are in the local subnet.
+
+43
+00:02:36.365 --> 00:02:38.318
+So this is sort of a flexible idea, but
+
+44
+00:02:38.318 --> 00:02:40.772
+a subnet you can think of
+as your local network.
+
+45
+00:02:40.772 --> 00:02:44.568
+And generally,
+what happens with the IP addresses.
+
+46
+00:02:44.568 --> 00:02:49.827
+The prefix, so it's a 4-byte number,
+4 numbers separated by decimals.
+
+47
+00:02:49.827 --> 00:02:55.923
+And the higher bytes, the most significant
+bytes are often held constant for
+
+48
+00:02:55.923 --> 00:02:58.755
+all the machines in a local subnet.
+
+49
+00:02:58.755 --> 00:03:02.059
+So in a local subnet maybe it's 128, 198,
+
+50
+00:03:02.059 --> 00:03:07.251
+200 are the first 3 numbers and then
+the last number is a 1 from my machine,
+
+51
+00:03:07.251 --> 00:03:12.391
+a 2 for the next machine, a 3 for the next
+machine and so on, but they share.
+
+52
+00:03:12.391 --> 00:03:15.922
+In that case,
+the local subnet shares the high 3 bytes.
+
+53
+00:03:15.922 --> 00:03:19.296
+So the subnet mask tells you which bits,
+
+54
+00:03:19.296 --> 00:03:23.178
+specifically are shared
+by the local subnet.
+
+55
+00:03:23.178 --> 00:03:25.047
+You don't have to specify this.
+
+56
+00:03:25.047 --> 00:03:28.669
+If you don't,
+it'll default to 255.255.255.0.
+
+57
+00:03:28.669 --> 00:03:31.746
+So what that means is remember
+255 in binary is all 1s.
+
+58
+00:03:31.746 --> 00:03:34.989
+So all 1s, all 1s, all 1s and then all 0s.
+
+59
+00:03:34.989 --> 00:03:38.124
+So that's saying that the local
+subnet is just the last byte.
+
+60
+00:03:38.124 --> 00:03:42.479
+So, all the nodes in a local subnet
+share the same high 3 bytes.
+
+61
+00:03:42.479 --> 00:03:45.678
+That's what it says and that'll be
+the default if you don't set it, but
+
+62
+00:03:45.678 --> 00:03:46.577
+you don't have to.
+
+63
+00:03:46.577 --> 00:03:50.512
+Dynamic Host Connection Protocol.
+
+64
+00:03:50.512 --> 00:03:52.950
+So this is pretty important or DHCP.
+
+65
+00:03:52.950 --> 00:03:57.141
+So in order to communicate on
+the internet, you need an IP address.
+
+66
+00:03:57.141 --> 00:03:59.590
+Every node on the internet
+needs an IP address.
+
+67
+00:03:59.590 --> 00:04:04.211
+Now note that in our Ethernet type again,
+we did not have to specify and IP address.
+
+68
+00:04:04.211 --> 00:04:07.937
+So how is it gonna communicate on
+the Internet without an IP address?
+
+69
+00:04:07.937 --> 00:04:09.528
+Well, it has to get one.
+
+70
+00:04:09.528 --> 00:04:11.595
+It can get one dynamically.
+
+71
+00:04:11.595 --> 00:04:17.157
+So DHCP, Dynamic Host Connection Protocol
+is a protocol that a allows a node,
+
+72
+00:04:17.157 --> 00:04:21.770
+a new node on the network to
+request a new IP address.
+
+73
+00:04:21.770 --> 00:04:24.541
+Now this is generally enabled
+on routers by default.
+
+74
+00:04:24.541 --> 00:04:29.065
+So right here, right now my laptop is
+sitting over there and I open it up.
+
+75
+00:04:29.065 --> 00:04:32.963
+And when I opened it up, it connected
+to the local network at school and
+
+76
+00:04:32.963 --> 00:04:37.006
+it uses DHCP and the local network
+is setup for DHCP, that's turned on.
+
+77
+00:04:37.006 --> 00:04:41.677
+And my machine basically in order to
+communicate, it's first thing it does is
+
+78
+00:04:41.677 --> 00:04:45.807
+it asks through using this DHCP protocol,
+it asks for an IP address.
+
+79
+00:04:45.807 --> 00:04:49.613
+So, it gets it's IP address
+dynamically from the network and
+
+80
+00:04:49.613 --> 00:04:54.015
+then the network finds some available
+IP address and tells my machine.
+
+81
+00:04:54.015 --> 00:04:55.401
+So here's your IP address and
+
+82
+00:04:55.401 --> 00:04:58.458
+that's what we're assuming is
+being used that's very common.
+
+83
+00:04:58.458 --> 00:05:03.372
+So let's just assume that's whats being
+used and we don't have to specify
+
+84
+00:05:03.372 --> 00:05:08.364
+an IP address, we can just assume DHCP
+is being used to give us an IP address.
+
+85
+00:05:08.364 --> 00:05:13.251
+Now DHCP is invoked if you call
+Ethernet.begin ad it has no
+
+86
+00:05:13.251 --> 00:05:15.157
+IP address argument.
+
+87
+00:05:15.157 --> 00:05:18.889
+So if you just give it, if you call with
+a MAC address argument and nothing else,
+
+88
+00:05:18.889 --> 00:05:22.698
+no IP Address doesn't know anything,
+then it automatically invokes the DHCP.
+
+89
+00:05:22.698 --> 00:05:26.540
+Making a request, you don't have to deal
+with these details, but your machine will.
+
+90
+00:05:26.540 --> 00:05:29.771
+Your Ethernet shield will make a request
+to the local network to ask for
+
+91
+00:05:29.771 --> 00:05:30.499
+an IP address.
+
+92
+00:05:30.499 --> 00:05:32.096
+Well, after you call up again.
+
+93
+00:05:32.096 --> 00:05:34.731
+Most routers are configured for DHCP.
+
+94
+00:05:34.731 --> 00:05:38.233
+Now another way to do this,
+instead of allowing DHCP,
+
+95
+00:05:38.233 --> 00:05:43.271
+which gives dynamic IP addresses is that
+you can also use static IP addresses.
+
+96
+00:05:43.271 --> 00:05:45.721
+Static IP addresses
+are fixed IP addresses.
+
+97
+00:05:45.721 --> 00:05:49.003
+So that means every time you power your
+machine and connect to the network,
+
+98
+00:05:49.003 --> 00:05:50.632
+it gets exactly the same IP address.
+
+99
+00:05:50.632 --> 00:05:56.240
+Now a static IP address,
+that's more difficult to manage.
+
+100
+00:05:56.240 --> 00:06:00.536
+Basically, that IP address needs
+to be known across the world.
+
+101
+00:06:00.536 --> 00:06:03.194
+It has to be known to any machine that
+wants to connect to your machine,
+
+102
+00:06:03.194 --> 00:06:04.736
+it needs to know that static IP address.
+
+103
+00:06:04.736 --> 00:06:06.443
+It's useful for servers.
+
+104
+00:06:06.443 --> 00:06:09.293
+It's typical for servers,
+because like say,
+
+105
+00:06:09.293 --> 00:06:13.582
+www.uci.edu, there's a web server
+right there, which I can go to.
+
+106
+00:06:13.582 --> 00:06:17.760
+And in order for my machine, my laptop
+to connect to that server to look at
+
+107
+00:06:17.760 --> 00:06:21.605
+the school's web page, I need to
+be able to look up its IP address.
+
+108
+00:06:21.605 --> 00:06:24.539
+So it needs to be static,
+it needs to sit in the same place and
+
+109
+00:06:24.539 --> 00:06:25.784
+be in a table somewhere.
+
+110
+00:06:25.784 --> 00:06:28.455
+So when I request,
+it's address I can get it.
+
+111
+00:06:28.455 --> 00:06:33.246
+So servers often have static addresses,
+but dynamic addresses are very common for
+
+112
+00:06:33.246 --> 00:06:34.073
+non servers.
+
+113
+00:06:34.073 --> 00:06:34.631
+Thank You.
+
+114
+00:06:34.631 --> 00:06:40.807
+[MUSIC]

@@ -1,0 +1,20 @@
+{1}{1}25.000
+{26898}{26963}Gyakran mondogatják
+{26965}{27052}Hogy az asszonnyal pont elég a nõbõl
+{27054}{27119}De szerintem ez badarság
+{27121}{27217}Miért lenne a férfiak szíve kõbõl
+{27219}{27265}Az én szívem
+{27265}{27313}Másból van
+{27315}{27366}Egy bájos pillantás elindítja a láncot.
+{27430}{27512}Csinos lányok, nem úsztok meg
+{27527}{27675}Egy újabb románcot
+{27675}{27730}Imádnék egy millió lányt
+{27732}{27783}Minden típusból egyet
+{27785}{27845}Imádnék egy kínait, egy eszkimót, egy--
+{28711}{28778}Imádnék egy millió lányt
+{28780}{28838}Minden típusból egyet
+{28840}{28886}Imádnék egy kínait,
+{28888}{28934}Egy eszkimót, egy lengyelt
+{28936}{29030}Ellenék egy német csajjal|szõkéket de még hány't
+{29032}{29101}Valójában szívesen imádnék
+{31869}{32069}Fordította: floyddebarber | http://the-simpsons.extra.hu

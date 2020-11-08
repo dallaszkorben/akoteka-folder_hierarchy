@@ -1,0 +1,920 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.821
+[MUSIC]
+
+2
+00:00:04.821 --> 00:00:12.249
+[SOUND]
+So,
+
+3
+00:00:12.249 --> 00:00:17.920
+IOT devices, embedded devices in general,
+have sets of Sensors.
+
+4
+00:00:17.920 --> 00:00:20.280
+Sensors are the inputs to your device.
+
+5
+00:00:20.280 --> 00:00:23.990
+So Sensors are how the device
+perceives the outside world.
+
+6
+00:00:23.990 --> 00:00:26.016
+So it allows the microcontroller,
+
+7
+00:00:26.016 --> 00:00:29.055
+which we have in
+the microcontroller on the Arduino,
+
+8
+00:00:29.055 --> 00:00:33.792
+allows it to receive information from
+the outside world, about the environment.
+
+9
+00:00:33.792 --> 00:00:34.380
+Okay?
+
+10
+00:00:34.380 --> 00:00:37.280
+Now the environment, it could be simple
+stuff like pressing a button, but
+
+11
+00:00:37.280 --> 00:00:39.720
+it could be more complicated
+aspects of the environment.
+
+12
+00:00:39.720 --> 00:00:43.450
+It depends completely on the type of
+IOT device that you're making and
+
+13
+00:00:43.450 --> 00:00:46.910
+what kind of environmental
+conditions you want set.
+
+14
+00:00:46.910 --> 00:00:50.660
+So for instance, you could have a sensor
+that determines how bright it is, right?
+
+15
+00:00:50.660 --> 00:00:51.850
+How bright it is outside, right?
+
+16
+00:00:51.850 --> 00:00:54.330
+You could have a photo sensor,
+It detects brightness and
+
+17
+00:00:54.330 --> 00:00:55.940
+tells that to the microcontroller.
+
+18
+00:00:55.940 --> 00:00:58.610
+You could have a sensor
+that detects volume.
+
+19
+00:00:58.610 --> 00:01:00.579
+Right?
+A microphone essentially is what
+
+20
+00:01:00.579 --> 00:01:01.150
+that does.
+
+21
+00:01:01.150 --> 00:01:04.620
+What it does is, it'll tell
+the microcontroller, it is this volume,
+
+22
+00:01:04.620 --> 00:01:06.510
+this loud or not.
+
+23
+00:01:06.510 --> 00:01:07.640
+Right?
+What volume it is.
+
+24
+00:01:07.640 --> 00:01:09.430
+Humidity, you can sense humidity.
+
+25
+00:01:09.430 --> 00:01:11.140
+Barometric pressure, things like this.
+
+26
+00:01:11.140 --> 00:01:12.280
+You can have Sensors for that.
+
+27
+00:01:13.450 --> 00:01:14.550
+These are just a few.
+
+28
+00:01:14.550 --> 00:01:16.860
+Is a button being pressed, so
+is somebody pressing that button or not?
+
+29
+00:01:16.860 --> 00:01:19.884
+A kind of keyboard, or just a button,
+an on-off button, something like that.
+
+30
+00:01:19.884 --> 00:01:21.668
+You could sense if that's being pressed.
+
+31
+00:01:21.668 --> 00:01:25.561
+So, these are all information from the
+outside world that the microcontroller's
+
+32
+00:01:25.561 --> 00:01:27.514
+receiving in order to do its job, right?
+
+33
+00:01:27.514 --> 00:01:30.038
+So, say I wanted to detect the humidity.
+
+34
+00:01:30.038 --> 00:01:33.300
+Maybe I wanna do something if it's
+very humid out I need to do something.
+
+35
+00:01:33.300 --> 00:01:38.170
+So I receive the humidity and I have some
+codes that says if humidity is above
+
+36
+00:01:38.170 --> 00:01:40.580
+whatever the thresholds
+then do my operations.
+
+37
+00:01:40.580 --> 00:01:42.050
+Something like that.
+
+38
+00:01:42.050 --> 00:01:45.450
+So Sensors and these are just a few
+of the types of Sensors that exist.
+
+39
+00:01:45.450 --> 00:01:47.390
+There are lots of Sensors.
+
+40
+00:01:47.390 --> 00:01:49.210
+But somehow,
+
+41
+00:01:49.210 --> 00:01:53.960
+how do we know the microcontroller has
+received received data from the Sensors?
+
+42
+00:01:56.460 --> 00:02:00.100
+Because it needs to perform different
+operations based on some aspects
+
+43
+00:02:00.100 --> 00:02:00.990
+of the environment.
+
+44
+00:02:00.990 --> 00:02:03.170
+So, for instance turning a light out,
+turning a light on and
+
+45
+00:02:03.170 --> 00:02:05.980
+it's dark out cuz it senses that
+the light outside is too low,
+
+46
+00:02:05.980 --> 00:02:09.598
+meant that the light is too low, maybe it
+turns on a light, a very simple thing.
+
+47
+00:02:09.598 --> 00:02:11.790
+Or a voice controlled operation, so
+
+48
+00:02:11.790 --> 00:02:15.410
+if somebody's speaking then
+it does an operation, right?
+
+49
+00:02:15.410 --> 00:02:17.960
+So it receives a sound,
+if sound's above a threshold and
+
+50
+00:02:17.960 --> 00:02:21.030
+matches a certain pattern then it
+performs an operation, things like this.
+
+51
+00:02:21.030 --> 00:02:22.340
+So this is what Sensors are for.
+
+52
+00:02:24.164 --> 00:02:26.676
+So when it comes to
+sensing the environment,
+
+53
+00:02:26.676 --> 00:02:30.720
+eventually all this data has to come
+into the microcontroller, right?
+
+54
+00:02:30.720 --> 00:02:34.170
+Cuz remember that in our system there's
+hardware, but the intelligence of
+
+55
+00:02:34.170 --> 00:02:37.620
+the whole system is in this software,
+this code that you are writing.
+
+56
+00:02:37.620 --> 00:02:40.150
+And this code is running
+on the microcontroller.
+
+57
+00:02:40.150 --> 00:02:43.430
+So eventually this Sensor data has
+to come into the microcontroller and
+
+58
+00:02:43.430 --> 00:02:46.560
+then your code has to interpret it,
+has to say, oh,
+
+59
+00:02:46.560 --> 00:02:51.120
+if this light magnitude is greater
+than this, then do something, right?
+
+60
+00:02:51.120 --> 00:02:53.110
+So it's gotta come into
+the microcontroller.
+
+61
+00:02:53.110 --> 00:02:58.220
+But the thing about microcontrollers
+is that they only sense voltage, okay?
+
+62
+00:02:58.220 --> 00:03:00.540
+That's all they can generally sense.
+
+63
+00:03:01.560 --> 00:03:07.450
+So what I mean by that is that, say you're
+writing a sketch in Arduino, right?
+
+64
+00:03:07.450 --> 00:03:11.610
+We've already covered this, there's
+a digital read function that you get.
+
+65
+00:03:11.610 --> 00:03:13.600
+This digital read you
+give it a pin number and
+
+66
+00:03:13.600 --> 00:03:15.900
+that returns the state of the digital pen.
+
+67
+00:03:15.900 --> 00:03:18.010
+It returns if it's low or if it's high.
+
+68
+00:03:18.010 --> 00:03:21.790
+So that is the Arduino reading
+the voltage on the pen.
+
+69
+00:03:21.790 --> 00:03:24.895
+Right, so, this one I'm saying
+that the Arduino it is only any
+
+70
+00:03:24.895 --> 00:03:27.270
+microcontroller is gonna read voltage.
+
+71
+00:03:27.270 --> 00:03:30.360
+It can read digitally, either low or high.
+
+72
+00:03:30.360 --> 00:03:33.810
+Or you can use analogRead
+on the analog pins anyway.
+
+73
+00:03:33.810 --> 00:03:36.240
+And that reads the analog
+voltage on a pin.
+
+74
+00:03:36.240 --> 00:03:36.980
+But either way,
+
+75
+00:03:36.980 --> 00:03:40.570
+either digital read or analog read you
+are reading the voltage on this pin.
+
+76
+00:03:40.570 --> 00:03:43.570
+Your either reading it in bindery,
+high low, or
+
+77
+00:03:43.570 --> 00:03:46.020
+your reading the analog
+value of the voltage.
+
+78
+00:03:46.020 --> 00:03:49.360
+But that's all the micro control
+can do to receive input.
+
+79
+00:03:49.360 --> 00:03:51.680
+It can read voltages on pins.
+
+80
+00:03:51.680 --> 00:03:56.350
+That's not all but that's the main way of
+the microcontroller is gonna receive data,
+
+81
+00:03:56.350 --> 00:03:58.380
+at least certainly at this stage.
+
+82
+00:03:58.380 --> 00:04:00.900
+Receive data from our Sensors
+is through these pins and
+
+83
+00:04:00.900 --> 00:04:02.030
+it's reading voltage values.
+
+84
+00:04:03.430 --> 00:04:06.160
+So, in order for
+this to work, in order for
+
+85
+00:04:06.160 --> 00:04:10.376
+Sensors to be able to send data to
+an Arduino or any other microcontroller,
+
+86
+00:04:10.376 --> 00:04:13.460
+that Sensor has to take whatever
+the environmental effect
+
+87
+00:04:13.460 --> 00:04:18.150
+is that it's measuring, and
+turn that into a voltage value, okay?
+
+88
+00:04:18.150 --> 00:04:21.130
+So that the Arduino can read it.
+
+89
+00:04:21.130 --> 00:04:23.680
+So for instance,
+actually do I have an example?
+
+90
+00:04:23.680 --> 00:04:28.350
+Actually, before I go on,
+one example that I might use,
+
+91
+00:04:28.350 --> 00:04:31.820
+I might talk about a light sensor,
+photo sensor, right?
+
+92
+00:04:31.820 --> 00:04:37.880
+A photo sensor, maybe it's outputting
+the voltage according to how bright it is.
+
+93
+00:04:37.880 --> 00:04:41.860
+You' would like to have a component like,
+your Sensor has to do that.
+
+94
+00:04:41.860 --> 00:04:43.940
+To take the brightness and
+turn it into a voltage,
+
+95
+00:04:43.940 --> 00:04:47.190
+then it can drive that voltage
+up to a pin of the Arduino.
+
+96
+00:04:47.190 --> 00:04:51.170
+Then in your Arduino code you can call
+analog read, see what the voltage is, and
+
+97
+00:04:51.170 --> 00:04:53.000
+then you know how bright it is.
+
+98
+00:04:53.000 --> 00:04:54.960
+So that's what all these
+Sensors are doing.
+
+99
+00:04:54.960 --> 00:04:59.090
+They're taking some environmental
+effect and turning it into voltage.
+
+100
+00:05:00.380 --> 00:05:04.690
+So some of these Sensors, actually we'll
+go through some of these Sensors now.
+
+101
+00:05:04.690 --> 00:05:07.500
+Some of these Sensors do
+not directly do that.
+
+102
+00:05:07.500 --> 00:05:10.160
+[LAUGH] Okay, a lot of these
+Sensors they don't output voltage.
+
+103
+00:05:10.160 --> 00:05:14.500
+Okay, some of these Sensors change
+resistance or do other things.
+
+104
+00:05:14.500 --> 00:05:18.578
+And so it's up to you to make
+a little circuit that changes,
+
+105
+00:05:18.578 --> 00:05:23.910
+that causes a change in the environment
+to make a change in voltage.
+
+106
+00:05:23.910 --> 00:05:25.820
+So, so an example, push button.
+
+107
+00:05:26.820 --> 00:05:31.440
+Now, remember a push button, all it does
+is connect two points, two wires right?
+
+108
+00:05:31.440 --> 00:05:35.100
+So this push button, this simple
+push button it's got two terminals.
+
+109
+00:05:35.100 --> 00:05:37.920
+When the button's not pushed,
+these terminals are not connected.
+
+110
+00:05:37.920 --> 00:05:41.240
+When you push, close the button,
+close the switch by pushing the button.
+
+111
+00:05:41.240 --> 00:05:43.060
+The two terminals are connected.
+
+112
+00:05:43.060 --> 00:05:46.703
+So you have to, if you want your
+Arduino to read that push button,
+
+113
+00:05:46.703 --> 00:05:50.814
+you've gotta make a circuit so that
+when they push this button and when you
+
+114
+00:05:50.814 --> 00:05:54.886
+don't push this button, it changes
+the voltage on a pin of the Arduino.
+
+115
+00:05:54.886 --> 00:05:57.543
+Right, so you get one voltage
+when the button is not pushed,
+
+116
+00:05:57.543 --> 00:05:59.755
+another voltage when the button is pushed.
+
+117
+00:05:59.755 --> 00:06:02.335
+If you can do that,
+if you can design such a circuit,
+
+118
+00:06:02.335 --> 00:06:06.975
+then your Arduino can read it and can call
+digital read and see if it's high or low.
+
+119
+00:06:08.005 --> 00:06:12.975
+So, up here on the slide we've got two
+circuits, the incorrect version and
+
+120
+00:06:12.975 --> 00:06:14.500
+the correct version.
+
+121
+00:06:14.500 --> 00:06:18.990
+Now, let me tell you our
+goal here in our circuit.
+
+122
+00:06:18.990 --> 00:06:24.410
+We need to make a pin go high
+when the button is pressed and
+
+123
+00:06:24.410 --> 00:06:26.630
+go low when the button is not pressed.
+
+124
+00:06:26.630 --> 00:06:27.740
+That's our whole goal.
+
+125
+00:06:27.740 --> 00:06:31.670
+If we can do that, then inside our
+code we can call digital read and
+
+126
+00:06:31.670 --> 00:06:33.869
+we can see if it's low or high and
+see if the button is pressed or not.
+
+127
+00:06:34.940 --> 00:06:38.920
+Now the incorrect circuit is a sort of
+a first cut, a first sort of simple guess.
+
+128
+00:06:38.920 --> 00:06:42.570
+You can take some Arduino pin,
+it doesn't matter what digital pin it is,
+
+129
+00:06:42.570 --> 00:06:47.220
+pin two whatever, and you can wire
+that to one side of the push button.
+
+130
+00:06:47.220 --> 00:06:49.460
+Then on the other side of the push
+button you can take that and
+
+131
+00:06:49.460 --> 00:06:52.300
+wire that to plus five volts to power.
+
+132
+00:06:52.300 --> 00:06:54.670
+Now This is half good, okay?
+
+133
+00:06:54.670 --> 00:06:57.330
+This is good in the sense that
+when you press the button,
+
+134
+00:06:57.330 --> 00:07:00.650
+the Arduino pin is then directly
+connected to the five volts.
+
+135
+00:07:00.650 --> 00:07:04.300
+And so when you press the button, it will
+make that pin high, and that's good.
+
+136
+00:07:04.300 --> 00:07:06.250
+That's half of what we wanted.
+
+137
+00:07:06.250 --> 00:07:10.670
+But the other half of what we wanted
+is that the Arduino pin should be low.
+
+138
+00:07:10.670 --> 00:07:12.320
+When the button is not pressed.
+
+139
+00:07:12.320 --> 00:07:15.510
+And that incorrect circuit
+does not accomplish that.
+
+140
+00:07:15.510 --> 00:07:19.410
+When the button is not pressed, the
+Arduino pin isn't connected to anything.
+
+141
+00:07:19.410 --> 00:07:22.510
+So it's voltage can float between high and
+low.
+
+142
+00:07:22.510 --> 00:07:24.190
+We don't know what its voltage is.
+
+143
+00:07:24.190 --> 00:07:26.100
+So we have no guarantee
+that it's gonna be low.
+
+144
+00:07:26.100 --> 00:07:27.610
+So that circuit will not work.
+
+145
+00:07:27.610 --> 00:07:29.980
+Or we can't trust it to work, let's say.
+
+146
+00:07:29.980 --> 00:07:31.270
+So that's why it's incorrect.
+
+147
+00:07:31.270 --> 00:07:32.730
+It does half of what we want.
+
+148
+00:07:32.730 --> 00:07:34.730
+It makes sure that when you
+press the button, it's high,
+
+149
+00:07:34.730 --> 00:07:37.150
+but when you don't press the button
+it doesn't have to be low.
+
+150
+00:07:37.150 --> 00:07:38.570
+So that's bad.
+
+151
+00:07:38.570 --> 00:07:41.333
+A better circuit is the correct one.
+
+152
+00:07:41.333 --> 00:07:43.477
+So if you look at the correct one,
+
+153
+00:07:43.477 --> 00:07:47.725
+we wired this Arduino pin in between
+a resistor and a push button.
+
+154
+00:07:47.725 --> 00:07:51.069
+[COUGH] Okay, let's look at what
+happens when you press the button.
+
+155
+00:07:52.080 --> 00:07:57.230
+When you press the button, you connected
+the Arduino pin directly to five volts.
+
+156
+00:07:57.230 --> 00:07:58.550
+Okay?
+Actually that's similar to
+
+157
+00:07:58.550 --> 00:07:59.720
+the incorrect version, right?
+
+158
+00:07:59.720 --> 00:08:03.460
+You connect the Arduino pin directly
+to five volts and we're happy, right?
+
+159
+00:08:03.460 --> 00:08:05.170
+Because the Arduino pin's
+connected to five volts so
+
+160
+00:08:05.170 --> 00:08:07.380
+when you press the button
+the Arduino pin reads high.
+
+161
+00:08:09.280 --> 00:08:11.840
+And notice that the current flow
+
+162
+00:08:11.840 --> 00:08:15.030
+will go from power straight to
+ground through that resistors.
+
+163
+00:08:15.030 --> 00:08:17.310
+You've got resistors down there,
+that will go through that resistor.
+
+164
+00:08:17.310 --> 00:08:20.950
+Now a little bit of current will flow into
+the Arduino pen, but only very little.
+
+165
+00:08:20.950 --> 00:08:24.655
+The majority of the current will
+go straight from power to ground.
+
+166
+00:08:24.655 --> 00:08:27.492
+These Arduino pins are made
+not to take to much current.
+
+167
+00:08:27.492 --> 00:08:30.760
+Okay, so that's what happens
+when the button's pressed,
+
+168
+00:08:30.760 --> 00:08:34.890
+when the button is not pressed which was
+a problem in the incorrect circuit right?
+
+169
+00:08:34.890 --> 00:08:36.005
+When the button is not pressed,
+
+170
+00:08:36.005 --> 00:08:39.790
+then the Arduino pin is not
+connected to power right?
+
+171
+00:08:39.790 --> 00:08:44.900
+Because the button is not pressed so the
+switch isn't closed but the Arduino pin is
+
+172
+00:08:44.900 --> 00:08:49.480
+connected to ground through the resistor
+even when the button was not pressed.
+
+173
+00:08:49.480 --> 00:08:51.560
+Now it's through resistor, sure, but
+
+174
+00:08:51.560 --> 00:08:54.920
+since there is nothing else it is
+connected to, its voltage will go to zero.
+
+175
+00:08:56.020 --> 00:08:58.300
+So, cuz it'll be connected to
+the ground through a resistor.
+
+176
+00:08:59.400 --> 00:09:02.450
+So that's why the correct
+circuit is correct,
+
+177
+00:09:02.450 --> 00:09:05.220
+because it takes care of what happens
+when the button is not pressed.
+
+178
+00:09:05.220 --> 00:09:09.015
+When the button is not pressed, the only
+thing that the Arduino pin is connected to
+
+179
+00:09:09.015 --> 00:09:12.270
+is ground So, when it's not pressed it
+will go to zero and it will be low.
+
+180
+00:09:12.270 --> 00:09:14.840
+So that's why the correct
+circuit is correct.
+
+181
+00:09:14.840 --> 00:09:16.800
+But this is the type of
+thing we have to do.
+
+182
+00:09:16.800 --> 00:09:20.500
+So notice how this push button
+we use as our Sensor, right?
+
+183
+00:09:20.500 --> 00:09:23.550
+But this push button does
+not directly change voltage.
+
+184
+00:09:23.550 --> 00:09:25.670
+It doesn't put out a high voltage,
+low voltage.
+
+185
+00:09:25.670 --> 00:09:28.240
+So, we've got to make a little circuit,
+namely the correct circuit.
+
+186
+00:09:28.240 --> 00:09:30.340
+So that that accomplishes that goal.
+
+187
+00:09:30.340 --> 00:09:31.750
+We gotta design a little circuit so
+
+188
+00:09:31.750 --> 00:09:36.660
+that when the button is pushed,
+you get five volts at the pin.
+
+189
+00:09:36.660 --> 00:09:39.080
+And when the button's not pushed,
+you get zero volts to the pin.
+
+190
+00:09:39.080 --> 00:09:40.210
+And that's what we've done.
+
+191
+00:09:40.210 --> 00:09:44.600
+So sometimes with these simple circuits,
+with simple Sensors, rather, you have to
+
+192
+00:09:44.600 --> 00:09:48.800
+build a little circuit around the Sensor
+just to make it change voltage so
+
+193
+00:09:48.800 --> 00:09:50.065
+that you can read it in the Arduino.
+
+194
+00:09:50.065 --> 00:09:51.186
+No.
+
+195
+00:09:51.186 --> 00:09:52.023
+Thank you.
+
+196
+00:09:52.023 --> 00:09:55.935
+[MUSIC]

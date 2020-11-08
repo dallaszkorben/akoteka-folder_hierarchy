@@ -1,0 +1,880 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:12.079 --> 00:00:16.674
+In this lecture, we'll separate
+the design process into system design
+
+3
+00:00:16.674 --> 00:00:20.780
+versus detail design,
+system design being the first thing.
+
+4
+00:00:20.780 --> 00:00:24.325
+And we'll talk about systems and
+what I mean by that.
+
+5
+00:00:24.325 --> 00:00:29.836
+So here's my really simplified
+diagram of the design process again.
+
+6
+00:00:29.836 --> 00:00:31.760
+It's a little bit of
+a different perspective.
+
+7
+00:00:31.760 --> 00:00:33.520
+You start off with
+the requirements specification.
+
+8
+00:00:33.520 --> 00:00:34.890
+We just talked about that.
+
+9
+00:00:34.890 --> 00:00:37.290
+Once you've got that,
+you need to do design.
+
+10
+00:00:37.290 --> 00:00:41.370
+So we're basically taking the design
+process and splitting it up into two
+
+11
+00:00:41.370 --> 00:00:45.420
+pieces, system design versus
+detailed design and then test.
+
+12
+00:00:45.420 --> 00:00:49.209
+So system design, the first part,
+it's more the abstract decisions,
+
+13
+00:00:49.209 --> 00:00:50.570
+the bigger decisions.
+
+14
+00:00:50.570 --> 00:00:54.020
+So system-level design determines
+large-scale decisions.
+
+15
+00:00:54.020 --> 00:00:57.720
+Once you've made these decisions,
+then you work on the detailed decisions.
+
+16
+00:00:57.720 --> 00:01:00.630
+So then you take each component and
+work on the details.
+
+17
+00:01:00.630 --> 00:01:03.465
+But at some point you're going to
+make these high level broad
+
+18
+00:01:03.465 --> 00:01:05.500
+large-scale decisions.
+
+19
+00:01:05.500 --> 00:01:06.840
+And that's what I'm calling system design.
+
+20
+00:01:07.950 --> 00:01:11.730
+Now, remember that I'm putting
+a clean line between system design and
+
+21
+00:01:11.730 --> 00:01:12.660
+detail design.
+
+22
+00:01:12.660 --> 00:01:14.760
+Really it's sort of a flowing thing.
+
+23
+00:01:14.760 --> 00:01:17.900
+You make some complex decisions, some
+higher decisions, then you make a little
+
+24
+00:01:17.900 --> 00:01:20.358
+bit more detailed decisions,
+then you make a little bit more.
+
+25
+00:01:20.358 --> 00:01:23.118
+It's more fine-grained but
+we, for simplicity,
+
+26
+00:01:23.118 --> 00:01:25.120
+are going to cut it out like this.
+
+27
+00:01:25.120 --> 00:01:28.170
+There are large-scale decisions and
+detailed decisions.
+
+28
+00:01:28.170 --> 00:01:30.232
+And so, we're just talking
+about the system-level design,
+
+29
+00:01:30.232 --> 00:01:34.400
+this large-scale decision part first,
+because it's so important.
+
+30
+00:01:34.400 --> 00:01:38.593
+So you want to fix these big decisions
+first early on in the design process,
+
+31
+00:01:38.593 --> 00:01:40.974
+then you can go on and
+work on the details.
+
+32
+00:01:40.974 --> 00:01:44.623
+Now, [COUGH] part of the reason we're
+looking at sys design first and
+
+33
+00:01:44.623 --> 00:01:48.659
+really considering hard where our
+system-level decisions are is because
+
+34
+00:01:48.659 --> 00:01:51.730
+we are designing within constraints.
+
+35
+00:01:51.730 --> 00:01:55.334
+Now, there are always constraints but
+especially when you have hardware and
+
+36
+00:01:55.334 --> 00:01:58.994
+software components working together,
+you can try to say sell in the market or
+
+37
+00:01:58.994 --> 00:02:02.779
+something like this, you have tight
+constraints that you're working within.
+
+38
+00:02:02.779 --> 00:02:06.150
+And you have to satisfy all of these
+constraints in your design process.
+
+39
+00:02:06.150 --> 00:02:08.230
+So the required specification.
+
+40
+00:02:09.230 --> 00:02:12.180
+It gives you a set of constraints
+to satisfy, so in the requirement
+
+41
+00:02:12.180 --> 00:02:17.740
+specification, it should say,
+this thing has to work this fast.
+
+42
+00:02:17.740 --> 00:02:20.870
+Some performance constraint, or
+it can't cost more than this.
+
+43
+00:02:20.870 --> 00:02:22.530
+So it should give you
+high level constraints.
+
+44
+00:02:22.530 --> 00:02:26.180
+It can't consume more power than this,
+because it's running off of battery.
+
+45
+00:02:26.180 --> 00:02:27.490
+Something like that.
+
+46
+00:02:27.490 --> 00:02:29.810
+So there should be these
+high level constraints, and
+
+47
+00:02:29.810 --> 00:02:33.070
+the design process has to
+satisfy these constraints.
+
+48
+00:02:33.070 --> 00:02:35.662
+So I need to meet all these constraints.
+
+49
+00:02:35.662 --> 00:02:39.740
+Now, system-level decisions,
+these large scale decisions,
+
+50
+00:02:39.740 --> 00:02:44.100
+have a big impact on the constraints on
+whether they can be satisfied or not.
+
+51
+00:02:45.100 --> 00:02:49.890
+And so, that's why we're considering them
+so separately than the detailed decisions.
+
+52
+00:02:49.890 --> 00:02:52.050
+They have an impact too, but
+the system-level decisions,
+
+53
+00:02:52.050 --> 00:02:54.140
+being large scale,
+they have more of an impact.
+
+54
+00:02:55.840 --> 00:03:00.190
+So making the wrong system decision, wrong
+high-level large-scale system decision
+
+55
+00:03:00.190 --> 00:03:03.560
+can make it impossible to complete
+the design and meet the constraints.
+
+56
+00:03:03.560 --> 00:03:06.310
+And that's why you gotta seriously
+consider these system-level decisions.
+
+57
+00:03:06.310 --> 00:03:08.860
+So just to give you a little example.
+
+58
+00:03:10.230 --> 00:03:14.136
+Let's say one system level
+decision might be for a system,
+
+59
+00:03:14.136 --> 00:03:17.505
+I'm going to either use an Arduino or
+a Raspberry Pi.
+
+60
+00:03:17.505 --> 00:03:19.470
+In fact, this is a decision
+that a lot of you will face.
+
+61
+00:03:20.600 --> 00:03:23.810
+Now, maybe in my specifications it says,
+
+62
+00:03:23.810 --> 00:03:27.480
+look, this system that I'm building,
+it needs to operate at this speed.
+
+63
+00:03:27.480 --> 00:03:30.350
+It needs to compute at a certain rate.
+
+64
+00:03:30.350 --> 00:03:35.060
+Now, if you go and choose Arduino, Arduino
+is a slower processor than a Raspberry Pi.
+
+65
+00:03:35.060 --> 00:03:39.630
+If you choose an Arduino, then you
+might never be able to satisfy that
+
+66
+00:03:39.630 --> 00:03:44.110
+speed constraint because you made this
+wrong high-level decision, and then what
+
+67
+00:03:44.110 --> 00:03:48.115
+will happen is, so say you make this wrong
+system-level decision of choosing Arduino
+
+68
+00:03:48.115 --> 00:03:52.400
+versus Raspberry Pi, because you can't
+meet the constraints, if you use Arduino.
+
+69
+00:03:52.400 --> 00:03:55.520
+Then you can waste a lot of time
+implementing your whole system and
+
+70
+00:03:55.520 --> 00:03:58.980
+only at the end realize that it
+doesn't satisfy the constraints.
+
+71
+00:03:58.980 --> 00:04:00.380
+Then you've wasted a lot of time.
+
+72
+00:04:00.380 --> 00:04:01.670
+Then you have your design iterations.
+
+73
+00:04:01.670 --> 00:04:04.330
+To voice out redesign,
+let me go back to the top,
+
+74
+00:04:04.330 --> 00:04:08.360
+figure out what I did wrong, I choose
+an Arduino, now we choose a Raspberry Pi
+
+75
+00:04:08.360 --> 00:04:11.390
+then you got to re-implement
+everything around a Raspberry Pi.
+
+76
+00:04:11.390 --> 00:04:14.630
+So that waste a lot of time and
+money and so forth.
+
+77
+00:04:14.630 --> 00:04:18.347
+So that's why this system of decision,
+they can have a very big impact
+
+78
+00:04:18.347 --> 00:04:21.694
+on the constraints,
+you've got to seriously consider them.
+
+79
+00:04:21.694 --> 00:04:25.098
+You don't want to waste
+a lot of time implementing
+
+80
+00:04:25.098 --> 00:04:27.520
+with a wrong system on a decision.
+
+81
+00:04:27.520 --> 00:04:29.330
+So at the system level,
+
+82
+00:04:29.330 --> 00:04:33.160
+when you're trying to decide things
+you have to explore a design space.
+
+83
+00:04:33.160 --> 00:04:35.286
+So when I say that, I mean,
+
+84
+00:04:35.286 --> 00:04:40.930
+you have to have several system level
+options that evaluate all of them.
+
+85
+00:04:40.930 --> 00:04:45.426
+So for instance, Arduino versus Raspbery
+Pi, you got to somehow say, look, Arduino
+
+86
+00:04:45.426 --> 00:04:49.612
+it runs at this clock rate, Rapsberry Pi
+runs at this clock rate and somehow has to
+
+87
+00:04:49.612 --> 00:04:53.950
+be able to estimate, yes this clock rate
+for Arduino is sufficient or no it's not.
+
+88
+00:04:55.050 --> 00:04:56.659
+So you have to explore the space,
+
+89
+00:04:56.659 --> 00:05:00.520
+you can't just choose one option say
+Arduino and that's what I'm going with.
+
+90
+00:05:00.520 --> 00:05:03.240
+You've got to try other options,
+evaluate other options.
+
+91
+00:05:05.060 --> 00:05:06.037
+So design alternatives.
+
+92
+00:05:06.037 --> 00:05:09.148
+So basically, you're going to
+have to actually turn this in.
+
+93
+00:05:09.148 --> 00:05:12.290
+You're going to have to turn in a
+document, a system level design document.
+
+94
+00:05:12.290 --> 00:05:14.450
+That's one of your peer assessments.
+
+95
+00:05:14.450 --> 00:05:16.930
+In this document, you're going to have
+
+96
+00:05:16.930 --> 00:05:20.830
+to write out a bunch of different
+system level design alternatives.
+
+97
+00:05:20.830 --> 00:05:23.096
+Big, large scale decisions.
+
+98
+00:05:23.096 --> 00:05:27.750
+And you're going to have to write them out
+and enumerate these design alternatives
+
+99
+00:05:27.750 --> 00:05:31.390
+to prove that you have actually
+investigated multiple design alternatives.
+
+100
+00:05:31.390 --> 00:05:35.295
+So we do not want students just picking
+the first method that comes to their head
+
+101
+00:05:35.295 --> 00:05:36.545
+and then implementing.
+
+102
+00:05:36.545 --> 00:05:39.980
+We want you to look at different
+options so you can find the best.
+
+103
+00:05:39.980 --> 00:05:43.910
+At least a few options, at least two or
+three options you need to look at and
+
+104
+00:05:43.910 --> 00:05:46.440
+enumerate those options and
+then rule them out.
+
+105
+00:05:46.440 --> 00:05:48.830
+So then you have to evaluate
+each options to rule them out.
+
+106
+00:05:48.830 --> 00:05:50.404
+You take some and you evaluate,
+
+107
+00:05:50.404 --> 00:05:54.180
+say this one runs this fast like
+a performance is a constraint.
+
+108
+00:05:54.180 --> 00:05:56.250
+Then you say,
+well this kid give me this performance and
+
+109
+00:05:56.250 --> 00:06:00.090
+I estimate,
+I'll get this eventual performance.
+
+110
+00:06:00.090 --> 00:06:02.200
+This one I estimate,
+I'll get this eventual performance.
+
+111
+00:06:02.200 --> 00:06:05.635
+So maybe you can rule out one
+of your options and say, look,
+
+112
+00:06:05.635 --> 00:06:08.797
+this option will not work because,
+by my estimation,
+
+113
+00:06:08.797 --> 00:06:11.776
+I can't get the performance that I need,
+or cost.
+
+114
+00:06:11.776 --> 00:06:13.649
+You could say, look,
+I'm looking at three options.
+
+115
+00:06:13.649 --> 00:06:18.170
+But I only have five bucks, and I know
+these two options cost more than that.
+
+116
+00:06:18.170 --> 00:06:20.700
+So I threw those out.
+
+117
+00:06:20.700 --> 00:06:23.922
+So you need to evaluate, you need to come
+up with a set of design alternatives,
+
+118
+00:06:23.922 --> 00:06:26.770
+system-level large-scale
+design alternatives and
+
+119
+00:06:26.770 --> 00:06:31.920
+then evaluate them through estimation or
+by looking up information.
+
+120
+00:06:31.920 --> 00:06:36.990
+So Google or whatever search engine
+you're using, Yahoo, whatever.
+
+121
+00:06:36.990 --> 00:06:42.650
+Use some search engine to just look for
+other people who have worked with this.
+
+122
+00:06:42.650 --> 00:06:45.040
+So for instance, Arduino and Raspberry Pi.
+
+123
+00:06:45.040 --> 00:06:48.660
+If you go and search on Arduino Raspberry
+Pi and their performance and how they're
+
+124
+00:06:48.660 --> 00:06:53.530
+used in certain situations, like say you
+want to do some kind of signal processing.
+
+125
+00:06:53.530 --> 00:06:56.405
+You want to do image processing,
+find the color red in a picture.
+
+126
+00:06:56.405 --> 00:06:59.570
+And you're thinking, well I can use an
+Arduino, I can use Raspberry Pi for that.
+
+127
+00:06:59.570 --> 00:07:03.690
+Arduino with it's camera shield and
+Raspberry Pi with it's camera.
+
+128
+00:07:03.690 --> 00:07:05.360
+There's a good chance
+if you search around,
+
+129
+00:07:05.360 --> 00:07:08.790
+you can find people who have already done
+this and see what their results were.
+
+130
+00:07:09.890 --> 00:07:13.007
+So this is a good thing to do.
+
+131
+00:07:13.007 --> 00:07:15.416
+People actually, students in my classes,
+
+132
+00:07:15.416 --> 00:07:18.281
+I've taught Capstone Design
+projects before, and
+
+133
+00:07:18.281 --> 00:07:23.060
+students don't do enough of this,
+investigate other people, their solutions.
+
+134
+00:07:23.060 --> 00:07:27.220
+Because remember the capstone design
+process, certainly in the US,
+
+135
+00:07:27.220 --> 00:07:31.640
+every say electrical engineering
+department has a capstone design project.
+
+136
+00:07:31.640 --> 00:07:36.130
+Every year like every senior in
+electrical engineering has to do it,
+
+137
+00:07:36.130 --> 00:07:38.380
+not every but
+the vast majority have to do it.
+
+138
+00:07:38.380 --> 00:07:41.890
+There are tons of this projects out there,
+people thought of everything, so
+
+139
+00:07:41.890 --> 00:07:45.740
+if you search around there and look you'll
+find people capstone design projects and
+
+140
+00:07:45.740 --> 00:07:48.930
+this students they do their documents and
+they write or they put them on the web
+
+141
+00:07:48.930 --> 00:07:52.650
+because they're proud, they put it on a
+website or a blog, or something like this.
+
+142
+00:07:52.650 --> 00:07:55.250
+You can look at that and
+see how they've done it and
+
+143
+00:07:55.250 --> 00:07:57.328
+evaluate what their decisions were.
+
+144
+00:07:57.328 --> 00:08:00.840
+So this is wealth of information
+of previous work out there for
+
+145
+00:08:00.840 --> 00:08:03.890
+the large majority of capstone
+design project ideas.
+
+146
+00:08:03.890 --> 00:08:07.600
+And you should look at that to
+see how their ideas worked out.
+
+147
+00:08:07.600 --> 00:08:10.460
+They did one trade off versus another,
+was that a good idea?
+
+148
+00:08:10.460 --> 00:08:14.711
+And you can use that information
+in making your decision.
+
+149
+00:08:14.711 --> 00:08:18.355
+So you need to document this process of
+enumerating these design alternatives and
+
+150
+00:08:18.355 --> 00:08:19.780
+evaluating the options.
+
+151
+00:08:19.780 --> 00:08:22.904
+Say how you evaluated it,
+what data you used.
+
+152
+00:08:22.904 --> 00:08:27.704
+I looked up this website, I looked at
+this book, I found this information,
+
+153
+00:08:27.704 --> 00:08:30.337
+and I made this estimation based on that.
+
+154
+00:08:30.337 --> 00:08:31.707
+As an example, so here is an example.
+
+155
+00:08:31.707 --> 00:08:35.320
+Say you want to build a remote control or
+RC Quadcopter.
+
+156
+00:08:35.320 --> 00:08:38.910
+So one option is to buy a kit,
+you can go and buy a kit.
+
+157
+00:08:38.910 --> 00:08:42.350
+Another option is to build it from scratch
+and scratch can be different things.
+
+158
+00:08:42.350 --> 00:08:44.210
+Rebuild it from basic parts.
+
+159
+00:08:44.210 --> 00:08:46.580
+Another option is to use
+a pre-built flight controller.
+
+160
+00:08:46.580 --> 00:08:48.040
+It's sort of in-between the two.
+
+161
+00:08:48.040 --> 00:08:50.520
+I can use a pre-built flight controller,
+but I can build the rest from scratch.
+
+162
+00:08:50.520 --> 00:08:52.230
+So there are three options.
+
+163
+00:08:52.230 --> 00:08:53.970
+And you're going to want to
+estimate the characteristics,
+
+164
+00:08:53.970 --> 00:08:56.020
+the important characteristics
+of each options.
+
+165
+00:08:56.020 --> 00:08:58.250
+So by important characteristics,
+I might say cost.
+
+166
+00:08:59.370 --> 00:09:00.810
+So this is easy.
+
+167
+00:09:00.810 --> 00:09:02.680
+Say I want to evaluate
+the cost of each options.
+
+168
+00:09:02.680 --> 00:09:05.650
+Buying a kit, you can look up kits
+online and see how much they cost.
+
+169
+00:09:05.650 --> 00:09:06.645
+Bam.
+
+170
+00:09:06.645 --> 00:09:08.942
+Build from scratch,
+that's a little bit harder.
+
+171
+00:09:08.942 --> 00:09:11.457
+You have to find a list of parts.
+
+172
+00:09:11.457 --> 00:09:14.337
+But you can find those actually
+if you search around online,
+
+173
+00:09:14.337 --> 00:09:16.100
+you can find people's parts lists.
+
+174
+00:09:16.100 --> 00:09:21.110
+You can find mine, for instance, online
+at various websites of what parts I use.
+
+175
+00:09:21.110 --> 00:09:25.470
+So you can get estimates of what you think
+the ballpark range cost is going to be.
+
+176
+00:09:25.470 --> 00:09:27.297
+Then buy the pre-built flight controller,
+so
+
+177
+00:09:27.297 --> 00:09:30.050
+you can find out the price of
+pre-built flight controllers.
+
+178
+00:09:30.050 --> 00:09:33.210
+You can look these things up, and
+then you document that and say, look,
+
+179
+00:09:33.210 --> 00:09:34.730
+I found these are the prices.
+
+180
+00:09:34.730 --> 00:09:36.683
+Say where you got that information.
+
+181
+00:09:36.683 --> 00:09:41.280
+Include that in your document and
+put that and submit that.
+
+182
+00:09:41.280 --> 00:09:43.699
+And then, you can look at
+the cost estimates and say, look,
+
+183
+00:09:43.699 --> 00:09:45.280
+I can afford this, I can afford these.
+
+184
+00:09:45.280 --> 00:09:47.299
+And you can make a decision based on that.
+
+185
+00:09:47.299 --> 00:09:54.579
+Thank you.
+[MUSIC]

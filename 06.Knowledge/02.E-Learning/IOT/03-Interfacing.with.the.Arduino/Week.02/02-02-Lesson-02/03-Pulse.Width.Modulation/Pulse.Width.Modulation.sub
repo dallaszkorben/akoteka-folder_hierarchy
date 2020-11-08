@@ -1,0 +1,572 @@
+WEBVTT
+
+1
+00:00:00.102 --> 00:00:10.102
+[MUSIC]
+
+2
+00:00:11.305 --> 00:00:16.640
+So there are actuators that need analog
+voltages to do what they need to do.
+
+3
+00:00:16.640 --> 00:00:18.680
+They need to be controlled
+with analog voltage.
+
+4
+00:00:18.680 --> 00:00:23.670
+But an Arduino, or most microcontrollers,
+cannot supply analog voltages directly.
+
+5
+00:00:23.670 --> 00:00:26.730
+So instead, it is common to
+use pulse width modulation.
+
+6
+00:00:26.730 --> 00:00:30.880
+So there are many actuators that
+normally take analog voltage,
+
+7
+00:00:30.880 --> 00:00:35.340
+but you can basically fool them with
+a pulse width modulated signal.
+
+8
+00:00:35.340 --> 00:00:39.140
+And pulse width modulated signals
+can be generated from Arduinos and
+
+9
+00:00:39.140 --> 00:00:40.199
+from most microcontrollers.
+
+10
+00:00:41.400 --> 00:00:46.400
+So basically what a pulse width modulation
+signal is, it's the idea that look,
+
+11
+00:00:46.400 --> 00:00:48.410
+we assume we can only output digital.
+
+12
+00:00:48.410 --> 00:00:52.508
+Zero and five volts, zero volts,
+five volts, let's say.
+
+13
+00:00:52.508 --> 00:00:56.909
+So how do we fake out, essentially
+fool the actuator to think that
+
+14
+00:00:56.909 --> 00:01:00.359
+it's getting some arbitrary
+voltage in between?
+
+15
+00:01:00.359 --> 00:01:02.940
+Say we wanna supply it with 2.5 volts,
+right?
+
+16
+00:01:02.940 --> 00:01:05.410
+But we can only give out zero and
+five volts.
+
+17
+00:01:05.410 --> 00:01:10.440
+So what we can do is just alternate
+between zero and five volt, very quickly.
+
+18
+00:01:10.440 --> 00:01:12.545
+So just, we output a square wave.
+
+19
+00:01:12.545 --> 00:01:16.242
+Zero volts at the bottom and
+then five volts at the top.
+
+20
+00:01:16.242 --> 00:01:19.490
+And if it's a 50 50, 50% duty cycle.
+
+21
+00:01:19.490 --> 00:01:21.230
+So if it's high half the time and
+
+22
+00:01:21.230 --> 00:01:26.120
+low half the time, then on average
+you'll be sending out 2.5 volts.
+
+23
+00:01:26.120 --> 00:01:30.040
+And now whether that works or
+not depends on the actuator.
+
+24
+00:01:30.040 --> 00:01:33.550
+But if you make this square
+wave go very quickly,
+
+25
+00:01:33.550 --> 00:01:38.300
+have a high frequency and then the
+actuator doesn't respond quickly, right?
+
+26
+00:01:38.300 --> 00:01:40.800
+Normal actuators don't
+respond that quickly.
+
+27
+00:01:40.800 --> 00:01:42.710
+Then this is satisfactory.
+
+28
+00:01:42.710 --> 00:01:43.269
+This will work.
+
+29
+00:01:44.280 --> 00:01:47.140
+And that's usually, most actuators.
+
+30
+00:01:47.140 --> 00:01:51.510
+There are a lot of actuators that will
+accept pulse with modulated signals as
+
+31
+00:01:51.510 --> 00:01:54.850
+a replacement for actual analog voltage.
+
+32
+00:01:54.850 --> 00:01:56.830
+So you're sending out a square wave.
+
+33
+00:01:56.830 --> 00:01:58.550
+Zero volts, five volts.
+
+34
+00:01:58.550 --> 00:02:00.520
+But the thing that you're
+changing is the pulse width,
+
+35
+00:02:00.520 --> 00:02:03.780
+basically what percentage of
+the time the signal is high.
+
+36
+00:02:03.780 --> 00:02:07.460
+So duty cycle is a percent of
+the time that the pulse is high.
+
+37
+00:02:07.460 --> 00:02:09.190
+So, if you have a 50% duty cycle,
+
+38
+00:02:09.190 --> 00:02:13.330
+that's the middle signal in that
+wave format you're seeing there.
+
+39
+00:02:13.330 --> 00:02:15.710
+It's high half the time,
+and low half the time.
+
+40
+00:02:15.710 --> 00:02:19.550
+But, if you want the perceived
+voltage to be higher, then you have,
+
+41
+00:02:19.550 --> 00:02:21.388
+maybe, a 75% duty cycle.
+
+42
+00:02:21.388 --> 00:02:25.320
+And then you'd get what you see at the
+top, where it's high 75% of the time, so
+
+43
+00:02:25.320 --> 00:02:28.220
+the voltage that,
+the average voltage is going to be higher.
+
+44
+00:02:28.220 --> 00:02:32.910
+Or you could go down 25% duty cycle,
+then the average voltage is lower.
+
+45
+00:02:32.910 --> 00:02:37.840
+So you can change the perceived voltage
+by changing the width of this pulse.
+
+46
+00:02:39.670 --> 00:02:44.120
+Now analogWrite() does exactly this, it
+generates a pulse width modulated signal.
+
+47
+00:02:44.120 --> 00:02:47.850
+So it generates a square wave on a pin,
+it's 490 hertz.
+
+48
+00:02:47.850 --> 00:02:50.030
+Now hertz is cycles per second, right?
+
+49
+00:02:50.030 --> 00:02:51.250
+So how many clock pulses?
+
+50
+00:02:51.250 --> 00:02:54.010
+490 clock pulses every second.
+
+51
+00:02:54.010 --> 00:03:01.550
+That's how fast this clock is changing,
+how fast the square wave is changing.
+
+52
+00:03:01.550 --> 00:03:03.320
+Okay, this analogWrite()
+takes two arguments.
+
+53
+00:03:03.320 --> 00:03:05.110
+The first argument is a pin number.
+
+54
+00:03:05.110 --> 00:03:08.120
+The pin that you wanna generate
+the pulse width modulated signal on.
+
+55
+00:03:08.120 --> 00:03:11.770
+And just as a note, Arduino only
+allows you to generate the pulse width
+
+56
+00:03:11.770 --> 00:03:14.300
+modulated signal on a subset of the pins.
+
+57
+00:03:14.300 --> 00:03:18.750
+If you look at your Arduino, the numbers
+of the pins, there'll be a little tilde,
+
+58
+00:03:18.750 --> 00:03:20.330
+squiggle mark,
+
+59
+00:03:20.330 --> 00:03:24.460
+next to the pins that you're allowed
+to do pulse width modulation on.
+
+60
+00:03:24.460 --> 00:03:26.330
+Okay, so
+the first argument is the pin number.
+
+61
+00:03:26.330 --> 00:03:30.020
+The second argument is the pulse width,
+or an indication of the pulse width.
+
+62
+00:03:30.020 --> 00:03:33.440
+So the second argument in
+a number from 0 to 255.
+
+63
+00:03:33.440 --> 00:03:35.660
+And that number indicates
+how wide the pulse is.
+
+64
+00:03:35.660 --> 00:03:41.850
+So, 0 means you have a 0% duty cycle,
+which means it's low all the time.
+
+65
+00:03:41.850 --> 00:03:45.070
+255 is the max, so
+that would mean 100% duty cycle.
+
+66
+00:03:45.070 --> 00:03:48.400
+If you wanted 50% duty cycle,
+you'd do halfway in between.
+
+67
+00:03:48.400 --> 00:03:49.840
+So, 128 and 127.
+
+68
+00:03:49.840 --> 00:03:51.630
+That'd be 50% duty cycle.
+
+69
+00:03:51.630 --> 00:03:54.270
+And you can change duty cycle by
+changing that second argument.
+
+70
+00:03:56.540 --> 00:03:58.700
+The pin number has to be
+a pulse width modulated pin,
+
+71
+00:03:58.700 --> 00:04:00.020
+it has a little tilde symbol.
+
+72
+00:04:00.020 --> 00:04:02.349
+They're marked on the Arduino.
+
+73
+00:04:02.349 --> 00:04:06.160
+So an example,
+you might say analogWrite(3, 128).
+
+74
+00:04:06.160 --> 00:04:11.070
+That would say on pin 3 we're going
+to drive that with a square wave.
+
+75
+00:04:11.070 --> 00:04:13.620
+And 128 is it's duty cycle.
+
+76
+00:04:13.620 --> 00:04:16.900
+Now since that's halfway between,
+or almost halfway between 0 and
+
+77
+00:04:16.900 --> 00:04:21.390
+255, you'd expect a 50% duty cycle for
+that.
+
+78
+00:04:21.390 --> 00:04:22.990
+Now, here's an example piece of code.
+
+79
+00:04:22.990 --> 00:04:26.960
+This is actually in your example,
+so if you open up your Arduino IDE.
+
+80
+00:04:26.960 --> 00:04:30.190
+Go to file, examples,
+I believe this is in the basics.
+
+81
+00:04:30.190 --> 00:04:31.570
+File examples, basics.
+
+82
+00:04:31.570 --> 00:04:34.010
+There's one called Fade, and that's this.
+
+83
+00:04:34.010 --> 00:04:39.210
+I've taken out all the comments to make it
+shorter, but this is basically the code.
+
+84
+00:04:39.210 --> 00:04:43.780
+So, first notice there the normal two
+functions, the setup and the loop.
+
+85
+00:04:43.780 --> 00:04:47.560
+All this does, just to zip right
+to what it does, there is an LED.
+
+86
+00:04:47.560 --> 00:04:50.970
+It assumes that there is an LED
+connected on one of the pins.
+
+87
+00:04:50.970 --> 00:04:53.140
+Actually I must have left out that.
+
+88
+00:04:53.140 --> 00:04:56.170
+LED is a variable in here that refers
+to a particular pin that you've
+
+89
+00:04:56.170 --> 00:04:56.950
+wired an LED on to.
+
+90
+00:04:56.950 --> 00:04:59.830
+Let's assume it's pin 13, okay?
+
+91
+00:04:59.830 --> 00:05:04.130
+Say it's pin 13,
+cuz we know there's an LED on that pin.
+
+92
+00:05:04.130 --> 00:05:08.480
+So what all this does
+is it calls analogWrite
+
+93
+00:05:08.480 --> 00:05:10.670
+on that pin you can see
+highlighted in red.
+
+94
+00:05:10.670 --> 00:05:12.780
+It called analogWrite on that pin.
+
+95
+00:05:12.780 --> 00:05:15.360
+So it generates a square wave on that pin.
+
+96
+00:05:15.360 --> 00:05:18.120
+And the second argument
+which is the duty cycle.
+
+97
+00:05:18.120 --> 00:05:23.010
+Which is the indication of the duty cycle,
+that's the brightness.
+
+98
+00:05:23.010 --> 00:05:26.337
+So the idea is that if you have
+a large duty cycle, 100% duty cycle,
+
+99
+00:05:26.337 --> 00:05:28.290
+then you're gonna get a very bright LED.
+
+100
+00:05:28.290 --> 00:05:30.110
+But if you have a very small duty cycle,
+
+101
+00:05:30.110 --> 00:05:34.340
+it's only high a very small fraction of
+the time, then you get a very dim LED.
+
+102
+00:05:34.340 --> 00:05:37.750
+And so what this function does, if you
+look at the loop, it does the analogWrite
+
+103
+00:05:37.750 --> 00:05:41.820
+with a certain brightness, starting
+at brightness 0, so it would be off.
+
+104
+00:05:41.820 --> 00:05:42.850
+Then it increments brightness,
+
+105
+00:05:42.850 --> 00:05:47.050
+brightness = brightness + fadeAmount,
+which is something small, say five.
+
+106
+00:05:48.280 --> 00:05:51.950
+Then, if brightness equals 0,
+or brightness equals 255.
+
+107
+00:05:51.950 --> 00:05:53.430
+So if it reaches an extreme.
+
+108
+00:05:53.430 --> 00:05:55.500
+So you're counting up, right.
+
+109
+00:05:55.500 --> 00:05:59.040
+So you start off with brightness equals 0,
+then 5, then 10, then so on.
+
+110
+00:05:59.040 --> 00:06:03.020
+Every pass through, cuz this is in a loop,
+it gets bigger, brighter, and brighter.
+
+111
+00:06:03.020 --> 00:06:08.010
+Then, once it hits the maximum, once it's
+255, then it has to change direction.
+
+112
+00:06:08.010 --> 00:06:09.550
+And the fade amount, if it was five,
+
+113
+00:06:09.550 --> 00:06:13.550
+it should become negative five now,
+so that it gets dimmer.
+
+114
+00:06:13.550 --> 00:06:17.150
+And then if it was -5 and you hit 0,
+then it should reverse direction and
+
+115
+00:06:17.150 --> 00:06:18.480
+become positive 5.
+
+116
+00:06:18.480 --> 00:06:23.160
+So what this function will do is
+actually make the LED get brighter and
+
+117
+00:06:23.160 --> 00:06:25.450
+then dimmer, brighter and
+dimmer over and over.
+
+118
+00:06:25.450 --> 00:06:26.440
+Notice the delay(30).
+
+119
+00:06:26.440 --> 00:06:29.250
+That slows the process down
+a little bit so you could see it.
+
+120
+00:06:29.250 --> 00:06:31.263
+But that's what this function does, and
+
+121
+00:06:31.263 --> 00:06:34.668
+it uses analogWrite to send a pulse
+width modulated signal to the LED.
+
+122
+00:06:36.200 --> 00:06:37.199
+Thank you.
+
+123
+00:06:37.199 --> 00:06:45.769
+[MUSIC]

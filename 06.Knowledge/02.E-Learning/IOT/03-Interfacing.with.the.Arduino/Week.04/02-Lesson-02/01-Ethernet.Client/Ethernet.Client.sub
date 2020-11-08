@@ -1,0 +1,385 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:10.000
+[MUSIC]
+
+2
+00:00:11.171 --> 00:00:15.911
+So remember that, typically,
+the Internet is used in this client-server
+
+3
+00:00:15.911 --> 00:00:20.570
+relationship, not always, but
+that's what we're assuming here.
+
+4
+00:00:20.570 --> 00:00:25.050
+So client-server relationship, what this
+means is that the server sits there, and
+
+5
+00:00:25.050 --> 00:00:26.450
+waits for connections, right.
+
+6
+00:00:26.450 --> 00:00:30.440
+Like a web server, it sits there, and
+has some kind of service it's providing.
+
+7
+00:00:30.440 --> 00:00:32.960
+Like a web server, it provides a web page.
+
+8
+00:00:32.960 --> 00:00:34.690
+It provides web pages.
+
+9
+00:00:34.690 --> 00:00:38.240
+So it sits there on the network,
+listening and waiting for connections, for
+
+10
+00:00:38.240 --> 00:00:40.160
+people to request something.
+
+11
+00:00:40.160 --> 00:00:42.030
+Then a client does the requesting.
+
+12
+00:00:42.030 --> 00:00:45.920
+So a client connects to the server and
+request some service.
+
+13
+00:00:45.920 --> 00:00:49.520
+Like request a web page, please give
+me a web page or something like that.
+
+14
+00:00:49.520 --> 00:00:52.330
+So we're assuming this
+client server relationship.
+
+15
+00:00:52.330 --> 00:00:55.520
+Our Ethernet shield can act as a client or
+a server.
+
+16
+00:00:55.520 --> 00:00:58.410
+So right now we are going to talk about
+using the Ethernet shield as a client.
+
+17
+00:00:59.710 --> 00:01:05.110
+When you do that, first thing you do is
+you have to create a client object, okay.
+
+18
+00:01:05.110 --> 00:01:08.230
+So Ethernet Client is
+the name of this class.
+
+19
+00:01:08.230 --> 00:01:10.950
+You say EthernetClient client,
+and that creates a client object.
+
+20
+00:01:10.950 --> 00:01:12.940
+You need that if you
+wanna act as a client.
+
+21
+00:01:12.940 --> 00:01:17.070
+So you create the client object, then
+you need to connect to a server, right.
+
+22
+00:01:17.070 --> 00:01:17.620
+If you're a client,
+
+23
+00:01:17.620 --> 00:01:20.410
+you're gonna wanna connect to
+a server to get some service from.
+
+24
+00:01:20.410 --> 00:01:22.478
+So you can do that,
+we're showing two ways of doing it,
+
+25
+00:01:22.478 --> 00:01:25.036
+basically you're calling this
+function called client.connect.
+
+26
+00:01:25.036 --> 00:01:28.410
+Now client.connect,
+it takes two arguments.
+
+27
+00:01:28.410 --> 00:01:31.630
+The first argument, well actually
+we showed two calls right here.
+
+28
+00:01:31.630 --> 00:01:34.930
+The first call, its two arguments
+are IP address and a port.
+
+29
+00:01:34.930 --> 00:01:38.340
+So you gotta give the IP address and
+the port number as its two arguments and
+
+30
+00:01:38.340 --> 00:01:41.160
+then it knows what machine to talk to.
+
+31
+00:01:41.160 --> 00:01:45.050
+Or you can pass the two arguments
+of the domain name and the port.
+
+32
+00:01:45.050 --> 00:01:48.090
+And, remember,
+using Domain Name Service, DNS,
+
+33
+00:01:48.090 --> 00:01:53.290
+the domain name can automatically
+be translated into an IP address.
+
+34
+00:01:53.290 --> 00:01:54.505
+So either way is fine.
+
+35
+00:01:54.505 --> 00:01:58.890
+client.connect you can call it, give
+it an IP address and a port number and
+
+36
+00:01:58.890 --> 00:02:00.770
+it makes a connection with a server.
+
+37
+00:02:00.770 --> 00:02:07.000
+Now notice that line of code says result
+equals client.connect, result equals.
+
+38
+00:02:07.000 --> 00:02:11.350
+So what that means is that client.connect
+is gonna return either a zero or a one.
+
+39
+00:02:11.350 --> 00:02:12.660
+True or false.
+
+40
+00:02:12.660 --> 00:02:15.550
+It returns a one if a connection is
+successfully made with a server.
+
+41
+00:02:15.550 --> 00:02:17.690
+It returns a zero if it's not.
+
+42
+00:02:17.690 --> 00:02:22.179
+And so then in your code you can
+say if result then da da da, right.
+
+43
+00:02:22.179 --> 00:02:25.620
+So you can check to see if a connection
+was successfully made before you go on and
+
+44
+00:02:25.620 --> 00:02:26.679
+start communicating.
+
+45
+00:02:29.400 --> 00:02:32.700
+And client.stop that stops the connection.
+
+46
+00:02:32.700 --> 00:02:33.800
+It ends the connection.
+
+47
+00:02:33.800 --> 00:02:36.120
+So when you're done communicating,
+you just go client.stop and
+
+48
+00:02:36.120 --> 00:02:36.860
+it closes the connection.
+
+49
+00:02:38.800 --> 00:02:40.420
+So sending, receiving data.
+
+50
+00:02:40.420 --> 00:02:43.710
+Now once you've made your connection,
+your client has made a connection to
+
+51
+00:02:43.710 --> 00:02:47.670
+the server, you want to send data to the
+server and receive data from the server.
+
+52
+00:02:47.670 --> 00:02:49.508
+So they have functions for that.
+
+53
+00:02:49.508 --> 00:02:53.040
+client.print or
+client.println that sends data.
+
+54
+00:02:53.040 --> 00:02:56.670
+print just sends the data and
+println sends the data and
+
+55
+00:02:56.670 --> 00:02:58.550
+sends a carriage return at the end.
+
+56
+00:02:58.550 --> 00:03:01.230
+That's common for
+sort of visible type data.
+
+57
+00:03:01.230 --> 00:03:02.450
+If you're sending a line you
+
+58
+00:03:02.450 --> 00:03:05.350
+just wanna put the carriage return
+in there automatically sometimes.
+
+59
+00:03:05.350 --> 00:03:10.270
+So print, and println, client.print,
+client.println are used to send data.
+
+60
+00:03:10.270 --> 00:03:13.620
+Now, and println is the character term.
+
+61
+00:03:13.620 --> 00:03:17.140
+Data is a string, so if you wanna send
+strings you use print or println.
+
+62
+00:03:18.445 --> 00:03:20.440
+Or an array of bytes
+which is also a string.
+
+63
+00:03:20.440 --> 00:03:21.470
+Same thing.
+
+64
+00:03:21.470 --> 00:03:25.320
+Now if you just wanna send raw data,
+it's not a string at all,
+
+65
+00:03:25.320 --> 00:03:29.040
+then you call client.write and
+you just pass the value, whatever it is.
+
+66
+00:03:29.040 --> 00:03:32.710
+If you send a byte values a byte you can
+send the client.write it'll send a byte.
+
+67
+00:03:34.410 --> 00:03:37.740
+Now client.read is used
+to do the opposite.
+
+68
+00:03:37.740 --> 00:03:38.860
+If want to read data.
+
+69
+00:03:38.860 --> 00:03:40.690
+If you're trying to read
+data from the server.
+
+70
+00:03:40.690 --> 00:03:42.810
+It calls client.read.
+
+71
+00:03:42.810 --> 00:03:45.720
+No arguments and
+that just reads the next available byte.
+
+72
+00:03:45.720 --> 00:03:48.520
+The next byte that's
+coming from the server.
+
+73
+00:03:48.520 --> 00:03:49.290
+And it returns that.
+
+74
+00:03:49.290 --> 00:03:50.892
+So data equals client.read,
+
+75
+00:03:50.892 --> 00:03:54.720
+data is gonna end up equaling whatever
+byte was received from the server.
+
+76
+00:03:55.760 --> 00:03:58.051
+Also, you can call client.available.
+
+77
+00:03:58.051 --> 00:04:01.520
+Client.available lets you know
+if there is data waiting.
+
+78
+00:04:01.520 --> 00:04:04.930
+So if client.available returns one,
+that means there is data waiting so
+
+79
+00:04:04.930 --> 00:04:06.592
+you can call client.read.
+
+80
+00:04:06.592 --> 00:04:09.090
+If client.available returns to zero,
+
+81
+00:04:09.090 --> 00:04:11.786
+then there's no point in calling
+client.read because it will fail.
+
+82
+00:04:11.786 --> 00:04:13.492
+Thank you.
+
+83
+00:04:13.492 --> 00:04:20.319
+[MUSIC]

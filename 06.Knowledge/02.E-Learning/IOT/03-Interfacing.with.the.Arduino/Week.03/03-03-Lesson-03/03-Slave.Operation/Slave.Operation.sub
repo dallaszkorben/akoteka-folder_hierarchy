@@ -1,0 +1,573 @@
+WEBVTT
+
+1
+00:00:00.097 --> 00:00:10.097
+[MUSIC]
+
+2
+00:00:11.299 --> 00:00:14.399
+So far we've been looking at the master,
+and how it operates,
+
+3
+00:00:14.399 --> 00:00:16.930
+how it does the transmit,
+how it does the receive.
+
+4
+00:00:16.930 --> 00:00:18.870
+Now let's look at it from
+the slave point-of-view.
+
+5
+00:00:18.870 --> 00:00:21.400
+So let's say the arduino is
+actually acting as a slave
+
+6
+00:00:21.400 --> 00:00:23.750
+in the I2C communication.
+
+7
+00:00:23.750 --> 00:00:29.270
+So slave remember has to wait for a
+transmission, it can't initiate anything.
+
+8
+00:00:29.270 --> 00:00:30.150
+It has to sit there and wait.
+
+9
+00:00:31.790 --> 00:00:36.770
+Now, waiting is conceivably a problem
+because how does the machine wait?
+
+10
+00:00:36.770 --> 00:00:38.978
+One way is to use what is
+called the busy wait loop,
+
+11
+00:00:38.978 --> 00:00:40.881
+now busy wait loop is immensely wasteful.
+
+12
+00:00:40.881 --> 00:00:42.761
+Basically it's just a while loop.
+
+13
+00:00:42.761 --> 00:00:45.965
+A while loop that's just infinitely
+checking to see if a request has
+
+14
+00:00:45.965 --> 00:00:47.720
+been received.
+
+15
+00:00:47.720 --> 00:00:50.470
+Now the reason why this is
+wasteful is because the slave
+
+16
+00:00:50.470 --> 00:00:54.190
+can't do anything until
+the request is received.
+
+17
+00:00:54.190 --> 00:00:57.680
+So let's say it runs for
+an hour before a request is received.
+
+18
+00:00:57.680 --> 00:01:01.440
+For that hour, it's just sitting there in
+a wait loop, while loop doing nothing.
+
+19
+00:01:01.440 --> 00:01:02.369
+So you call it busy waiting.
+
+20
+00:01:03.430 --> 00:01:04.500
+That's a waste.
+
+21
+00:01:04.500 --> 00:01:05.785
+So we don't want to do that.
+
+22
+00:01:05.785 --> 00:01:07.356
+We would like the arduino or
+
+23
+00:01:07.356 --> 00:01:10.370
+the microcontroller in
+general to be doing things.
+
+24
+00:01:10.370 --> 00:01:11.620
+Useful things.
+
+25
+00:01:11.620 --> 00:01:15.860
+And then every once in awhile
+maybe a request is made and
+
+26
+00:01:15.860 --> 00:01:18.470
+it has to wake up and handle that request.
+
+27
+00:01:18.470 --> 00:01:19.880
+Maybe a write transaction.
+
+28
+00:01:19.880 --> 00:01:22.930
+So it needs to read whatever
+the receipt received the data but
+
+29
+00:01:22.930 --> 00:01:24.260
+then it goes back to
+whatever it was doing.
+
+30
+00:01:24.260 --> 00:01:28.690
+So we want this processor to be
+continuous normal operation and
+
+31
+00:01:28.690 --> 00:01:32.290
+just be basically interrupted periodically
+when it has to deal with I2C.
+
+32
+00:01:34.005 --> 00:01:38.100
+So what we use for that is called callback
+functions and this is a general thing,
+
+33
+00:01:38.100 --> 00:01:41.210
+used not just in this domain but
+in lots of different domains.
+
+34
+00:01:41.210 --> 00:01:45.800
+A callback function is a function
+that is called when an event occurs.
+
+35
+00:01:45.800 --> 00:01:48.240
+So while the event is not occurring,
+
+36
+00:01:48.240 --> 00:01:50.842
+the processor can be doing
+whatever it's doing, right?
+
+37
+00:01:50.842 --> 00:01:53.183
+The arduino can be running whatever code.
+
+38
+00:01:53.183 --> 00:01:56.787
+But every once in a while, the event,
+the interesting event will happen and
+
+39
+00:01:56.787 --> 00:01:58.756
+in our case, write request is received,
+
+40
+00:01:58.756 --> 00:02:01.138
+or something like that
+write transmission I2C.
+
+41
+00:02:01.138 --> 00:02:04.180
+When that event happens,
+a callback function is invoked.
+
+42
+00:02:04.180 --> 00:02:07.650
+So that callback function is executed, and
+then it can go back to what it was doing.
+
+43
+00:02:08.750 --> 00:02:13.150
+So we're gonna use callback functions for
+both types of transmissions.
+
+44
+00:02:13.150 --> 00:02:16.181
+So for instance,
+we've got Wire.onReceive():.
+
+45
+00:02:16.181 --> 00:02:19.830
+Wire.onReceive(): is a function
+that identifies the function
+
+46
+00:02:19.830 --> 00:02:22.930
+called when the slave
+receives data from a master.
+
+47
+00:02:22.930 --> 00:02:25.630
+So as the master initiates
+a write transaction,
+
+48
+00:02:25.630 --> 00:02:28.310
+then the slave is gonna
+have to receive data.
+
+49
+00:02:28.310 --> 00:02:33.080
+So when that happens, when the master
+initiates the write transaction,
+
+50
+00:02:33.080 --> 00:02:35.260
+a callback function is
+called on the slave.
+
+51
+00:02:35.260 --> 00:02:39.550
+And this function, Wire.onReceive,
+
+52
+00:02:39.550 --> 00:02:44.569
+names the function that is gonna be called
+when data is being received by the slave.
+
+53
+00:02:46.040 --> 00:02:50.840
+Now we've also got this Wire.onRequest,
+and this names the function
+
+54
+00:02:50.840 --> 00:02:56.170
+that is called when the slave
+receives a read request.
+
+55
+00:02:56.170 --> 00:02:58.130
+So if it receives a request like that,
+
+56
+00:02:58.130 --> 00:03:02.450
+then the function that's gonna be
+named in the onRequest is called.
+
+57
+00:03:02.450 --> 00:03:06.459
+Now note that onReceive and onRequest are
+not themselves the functions that handle
+
+58
+00:03:07.810 --> 00:03:12.120
+the receiving and the requesting,
+right that the service is gonna request,
+
+59
+00:03:12.120 --> 00:03:16.240
+they're not the functions, they just
+provide the names of those functions.
+
+60
+00:03:16.240 --> 00:03:17.460
+So let's watch.
+
+61
+00:03:17.460 --> 00:03:19.460
+Okay so let's look at some slave code.
+
+62
+00:03:20.510 --> 00:03:23.505
+Now in the slave code,
+actually go straight to the bottom.
+
+63
+00:03:23.505 --> 00:03:26.700
+Wire.onReceive(receiveFunct).
+
+64
+00:03:26.700 --> 00:03:30.920
+So what that says is,
+look, when this slave
+
+65
+00:03:30.920 --> 00:03:34.400
+gets a write request from the master,
+right?
+
+66
+00:03:34.400 --> 00:03:36.860
+When the master says I'm
+doing a write transaction,
+
+67
+00:03:36.860 --> 00:03:40.170
+that means the slave has to be ready
+to receive that transaction, right?
+
+68
+00:03:40.170 --> 00:03:41.460
+So when that happens,
+
+69
+00:03:41.460 --> 00:03:45.430
+the function called receiveFunct which
+is the arguments of Wire.onReceive.
+
+70
+00:03:45.430 --> 00:03:49.930
+That function is gonna be called
+to do the receiving of the data.
+
+71
+00:03:49.930 --> 00:03:51.260
+Then above it, right at the top,
+
+72
+00:03:51.260 --> 00:03:54.400
+you can see the definition of
+that function, receiveFunct.
+
+73
+00:03:54.400 --> 00:03:57.960
+And see what it does,
+skip the argument for a second.
+
+74
+00:03:57.960 --> 00:03:58.590
+It's a four loop.
+
+75
+00:03:59.730 --> 00:04:03.450
+Inside it, it's just called wire read.
+
+76
+00:04:03.450 --> 00:04:05.010
+Right.
+So it reads the data,
+
+77
+00:04:05.010 --> 00:04:06.710
+which is presumably the data
+coming in from the master,
+
+78
+00:04:06.710 --> 00:04:09.660
+and it's adding it to the sum,
+it's computing a sum.
+
+79
+00:04:09.660 --> 00:04:11.060
+And then at the end of the loop.
+
+80
+00:04:11.060 --> 00:04:12.595
+it just says serial.print(sum).
+
+81
+00:04:12.595 --> 00:04:13.392
+It prints the sum.
+
+82
+00:04:13.392 --> 00:04:15.014
+So that's all this thing
+is supposed to do.
+
+83
+00:04:15.014 --> 00:04:20.301
+So, when the slave gets a write
+request from the master.
+
+84
+00:04:20.301 --> 00:04:23.761
+All it does, is it takes all of
+the data that's being written,
+
+85
+00:04:23.761 --> 00:04:27.308
+it adds it up into its sum and
+then prints it on its serial output.
+
+86
+00:04:27.308 --> 00:04:28.386
+Okay?
+
+87
+00:04:28.386 --> 00:04:32.230
+So note that this receiveFunct
+takes one argument.
+
+88
+00:04:32.230 --> 00:04:34.130
+Okay, and it's byteNum.
+
+89
+00:04:34.130 --> 00:04:38.090
+That argument is an integer, that is
+the number of bytes that's received.
+
+90
+00:04:38.090 --> 00:04:41.584
+So when you write this functions,
+that function receiveFunct,
+
+91
+00:04:41.584 --> 00:04:45.392
+it can have whatever name you want,
+okay, but that function has to take
+
+92
+00:04:45.392 --> 00:04:49.350
+one argument, which is the number of
+data bytes that have been received.
+
+93
+00:04:49.350 --> 00:04:52.829
+And then you can see how inside
+the function is using that,
+
+94
+00:04:52.829 --> 00:04:56.173
+that byteNum in the for loop,
+say i=0 to i < byteNum.
+
+95
+00:04:56.173 --> 00:05:03.057
+Because it wants to call read once for
+every byte that's received.
+
+96
+00:05:03.057 --> 00:05:06.858
+The C function is called the call back
+function and you call Wire.onReceive, you
+
+97
+00:05:06.858 --> 00:05:10.980
+pass it an argument which is the name of
+the call back function which you defined.
+
+98
+00:05:10.980 --> 00:05:13.614
+And the name can be anything you want in
+this case I called it the receiveFunct
+
+99
+00:05:13.614 --> 00:05:15.109
+since that is a reasonable sounding name.
+
+100
+00:05:17.360 --> 00:05:18.910
+Now for transmission.
+
+101
+00:05:18.910 --> 00:05:23.510
+So let's say the slave
+instead of receiving a write
+
+102
+00:05:23.510 --> 00:05:28.230
+transaction request from
+the master it gets a read.
+
+103
+00:05:28.230 --> 00:05:33.230
+Okay now if it gets a read that means that
+the slave now has to do the transmission.
+
+104
+00:05:33.230 --> 00:05:35.460
+Because it's the master saying
+look give me this data.
+
+105
+00:05:35.460 --> 00:05:36.580
+It's requesting data.
+
+106
+00:05:36.580 --> 00:05:42.630
+So, the slave has to do the transmission,
+so again,
+
+107
+00:05:42.630 --> 00:05:47.560
+at the bottom,
+you can Wire.onRequest(transmitFunct).
+
+108
+00:05:47.560 --> 00:05:51.050
+So, transmitFunct is gonna be the name
+of the function that's going to do this
+
+109
+00:05:51.050 --> 00:05:51.960
+transmission.
+
+110
+00:05:51.960 --> 00:05:55.967
+So, since we're passing
+that name as an argument to
+
+111
+00:05:55.967 --> 00:06:00.890
+the onRequest function that
+ties it to the request event.
+
+112
+00:06:00.890 --> 00:06:05.350
+So when the event happens,
+the slave receives this read request.
+
+113
+00:06:05.350 --> 00:06:09.010
+Then it call transmitFunct and if you
+look at the transmitFunct at the top.
+
+114
+00:06:09.010 --> 00:06:12.430
+All that does is it just calls write,
+it sends some data.
+
+115
+00:06:12.430 --> 00:06:14.380
+Okay it sends a byte, very simple.
+
+116
+00:06:14.380 --> 00:06:18.020
+It could do whatever we want in
+this case it just sends one byte.
+
+117
+00:06:18.020 --> 00:06:21.570
+In this transmission function, this
+callback function called transmitFunct.
+
+118
+00:06:21.570 --> 00:06:25.231
+It has to take no arguments and
+returns nothing which is void and
+
+119
+00:06:25.231 --> 00:06:26.969
+it should take no arguments.
+
+120
+00:06:26.969 --> 00:06:30.130
+But it's name can be
+whatever you want it to be.
+
+121
+00:06:30.130 --> 00:06:30.893
+Thank you.
+
+122
+00:06:30.893 --> 00:06:36.762
+[MUSIC]

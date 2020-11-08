@@ -1,0 +1,652 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.027
+[MUSIC]
+
+2
+00:00:04.027 --> 00:00:08.612
+Now we're going to look
+
+3
+00:00:08.612 --> 00:00:13.610
+at a different library.
+
+4
+00:00:13.610 --> 00:00:16.240
+The I2C library,
+actually it's called the wire library.
+
+5
+00:00:16.240 --> 00:00:19.060
+But it supports what's
+called I2C communication.
+
+6
+00:00:19.060 --> 00:00:23.771
+So one of the things that you often
+want to do in a system when you have
+
+7
+00:00:23.771 --> 00:00:25.300
+a micro controller.
+
+8
+00:00:25.300 --> 00:00:27.720
+You want to connect it to
+another integrated circuit.
+
+9
+00:00:27.720 --> 00:00:28.690
+Some other chip, right.
+
+10
+00:00:28.690 --> 00:00:31.982
+Maybe it's a memory chip,
+maybe it's a digital analog converter,
+
+11
+00:00:31.982 --> 00:00:33.540
+whatever it is right?
+
+12
+00:00:33.540 --> 00:00:35.900
+You want to connect your micro
+controller to other chips.
+
+13
+00:00:35.900 --> 00:00:38.290
+So you can talk to those chips and
+tell them what to do,
+
+14
+00:00:38.290 --> 00:00:40.320
+grab data from them and so forth.
+
+15
+00:00:40.320 --> 00:00:44.240
+So these chips, when they communicate
+there are several different protocols.
+
+16
+00:00:44.240 --> 00:00:46.780
+Communication protocols
+which they can use.
+
+17
+00:00:46.780 --> 00:00:50.030
+The one we're gonna talk about
+right here is called I2C.
+
+18
+00:00:50.030 --> 00:00:54.880
+I2C communication protocol is a serial
+protocol and it's a synchronous protocol.
+
+19
+00:00:54.880 --> 00:00:58.670
+So serial means it sends
+data over only one wire.
+
+20
+00:00:58.670 --> 00:01:00.650
+Data is only traveling over one wire.
+
+21
+00:01:00.650 --> 00:01:03.760
+This is good, serial protocols
+are good because they save bits,
+
+22
+00:01:03.760 --> 00:01:04.990
+they save pins rather.
+
+23
+00:01:04.990 --> 00:01:07.620
+You don't need many pins,
+you just need the one or
+
+24
+00:01:07.620 --> 00:01:10.940
+in this case you need two total pins,
+but data is only going across one.
+
+25
+00:01:10.940 --> 00:01:12.700
+So you need very few pins.
+
+26
+00:01:12.700 --> 00:01:16.210
+The downside of that is that since it's
+serial it's sending one bit at a time.
+
+27
+00:01:16.210 --> 00:01:18.120
+So it takes longer, it's slower.
+
+28
+00:01:18.120 --> 00:01:21.870
+If you send eight bits in parallel that's
+a lot quicker than sending one at a time.
+
+29
+00:01:21.870 --> 00:01:24.220
+So, it's a serial protocol.
+
+30
+00:01:24.220 --> 00:01:26.120
+Which saves pins, which are important.
+
+31
+00:01:26.120 --> 00:01:27.520
+Also, it's a synchronous protocol.
+
+32
+00:01:27.520 --> 00:01:30.260
+What that means is that if there
+are two communicating entities,
+
+33
+00:01:30.260 --> 00:01:34.750
+two integrated circuits, talking about
+I2C, they need to share the same clock.
+
+34
+00:01:34.750 --> 00:01:36.290
+So they need to get the same clock.
+
+35
+00:01:37.660 --> 00:01:40.490
+They need to share it so
+they can synchronize with each other.
+
+36
+00:01:40.490 --> 00:01:41.773
+So, based on the clock,
+
+37
+00:01:41.773 --> 00:01:45.390
+the receiver knows when the sender's
+gonna be sending data, right?
+
+38
+00:01:45.390 --> 00:01:49.450
+So they need to share the same clock so
+they can be timed correctly.
+
+39
+00:01:49.450 --> 00:01:53.560
+So the receiver knows when to read the bus
+through, sender knows when to write.
+
+40
+00:01:54.560 --> 00:01:56.060
+So it's a synchronous protocol.
+
+41
+00:01:56.060 --> 00:01:57.110
+It's a serial protocol.
+
+42
+00:01:58.130 --> 00:01:59.920
+And multiple masters and multiple slaves.
+
+43
+00:01:59.920 --> 00:02:02.480
+So we're gonna talk about this
+concept of master and slave.
+
+44
+00:02:02.480 --> 00:02:05.580
+But basically, the master is the one
+who starts all the communications and
+
+45
+00:02:05.580 --> 00:02:08.750
+the slave is the one who waits for
+communications, roughly.
+
+46
+00:02:08.750 --> 00:02:10.110
+And you can have multiple masters and
+
+47
+00:02:10.110 --> 00:02:11.930
+multiple slaves in this
+particular bus protocol.
+
+48
+00:02:14.160 --> 00:02:15.640
+Bitwidth is fixed.
+
+49
+00:02:15.640 --> 00:02:18.880
+So when I say bitwidth is fixed,
+the number of bits
+
+50
+00:02:18.880 --> 00:02:23.760
+Traveling between these two, between any
+number of devices on an I2C bus is fixed.
+
+51
+00:02:23.760 --> 00:02:25.010
+It's always two.
+
+52
+00:02:25.010 --> 00:02:27.860
+There is the data signal and
+the clock signal, just two.
+
+53
+00:02:28.980 --> 00:02:30.560
+And it's independent of
+the number of slaves.
+
+54
+00:02:30.560 --> 00:02:33.790
+There are other protocols where every
+slave you have to add more bits.
+
+55
+00:02:33.790 --> 00:02:36.856
+But I2C you can have as
+many slaves as you want, or
+
+56
+00:02:36.856 --> 00:02:39.420
+up to the limit that they enforce.
+
+57
+00:02:39.420 --> 00:02:43.790
+And you can, and
+it's the same number of bits, two bits.
+
+58
+00:02:43.790 --> 00:02:45.880
+So two wires SDA and SCL.
+
+59
+00:02:45.880 --> 00:02:48.470
+These are the common names.
+
+60
+00:02:48.470 --> 00:02:51.870
+SDA is the data, that's the line
+where the data's gonna travel.
+
+61
+00:02:51.870 --> 00:02:54.820
+And SCL's a clock that's used
+to synchronize all the devices.
+
+62
+00:02:57.080 --> 00:02:59.880
+Both lines, SDA and
+SCL, are open drain, so
+
+63
+00:02:59.880 --> 00:03:05.440
+what that means is that they are connected
+to power through a big resistor.
+
+64
+00:03:06.500 --> 00:03:10.130
+And so what happens is they're
+pulled up high by default.
+
+65
+00:03:10.130 --> 00:03:13.240
+That means if let's say there
+are lots of different I2C
+
+66
+00:03:13.240 --> 00:03:14.870
+communicating entities on this bus.
+
+67
+00:03:14.870 --> 00:03:17.280
+They're wired to the SDA and SCL lines.
+
+68
+00:03:17.280 --> 00:03:19.020
+But nobody is talking on the bus.
+
+69
+00:03:19.020 --> 00:03:23.160
+So none of these components are driving
+those two wires high or low.
+
+70
+00:03:23.160 --> 00:03:25.864
+Because they're connected to
+power through a big resistor,
+
+71
+00:03:25.864 --> 00:03:27.380
+they will automatically go high.
+
+72
+00:03:27.380 --> 00:03:29.110
+They will be high.
+
+73
+00:03:29.110 --> 00:03:34.977
+Now, if any one of these communicating
+entities wanna force a zero into the line,
+
+74
+00:03:34.977 --> 00:03:35.750
+they can.
+
+75
+00:03:35.750 --> 00:03:38.390
+They can pull it down to a zero
+,because it's a very big resistor.
+
+76
+00:03:38.390 --> 00:03:39.850
+So it's a, it's a weak pull up.
+
+77
+00:03:39.850 --> 00:03:43.940
+So you can pull it down, but
+if nobody's talking on the bus,
+
+78
+00:03:43.940 --> 00:03:45.730
+the state of the bus is still defined.
+
+79
+00:03:45.730 --> 00:03:48.160
+You always know that it's
+gonna be high by default.
+
+80
+00:03:48.160 --> 00:03:50.770
+And that's actually useful
+in the protocol to know,
+
+81
+00:03:50.770 --> 00:03:53.270
+that the state is always either zero or
+one.
+
+82
+00:03:53.270 --> 00:03:55.020
+It's not some random intermediate value.
+
+83
+00:03:57.160 --> 00:04:01.210
+So some of the terms we're gonna
+be talking about is Bus Protocol.
+
+84
+00:04:01.210 --> 00:04:03.530
+One is the master, master and slave.
+
+85
+00:04:03.530 --> 00:04:07.840
+So a master is a node on
+the bus that initiates and
+
+86
+00:04:07.840 --> 00:04:09.730
+terminates transmission, okay?
+
+87
+00:04:09.730 --> 00:04:13.060
+So when transmission starts
+the master starts it.
+
+88
+00:04:13.060 --> 00:04:15.150
+When it stops the master stops it.
+
+89
+00:04:15.150 --> 00:04:19.599
+Also it generates the clock SCL, so
+the clock is generated by the master.
+
+90
+00:04:20.840 --> 00:04:22.880
+Now the Slave is addressed by the Master.
+
+91
+00:04:22.880 --> 00:04:27.390
+So the Slave basically waits until
+the Master starts communication and
+
+92
+00:04:27.390 --> 00:04:29.620
+until the Master stops communication.
+
+93
+00:04:29.620 --> 00:04:31.100
+And does whatever the Master says.
+
+94
+00:04:31.100 --> 00:04:34.840
+So these transmissions are either
+write transmissions or read.
+
+95
+00:04:34.840 --> 00:04:35.810
+Sending to or from.
+
+96
+00:04:35.810 --> 00:04:38.830
+And the slave just
+essentially obeys the master.
+
+97
+00:04:38.830 --> 00:04:42.460
+If the master says I'm doing a write then
+the slave knows okay I better listen.
+
+98
+00:04:42.460 --> 00:04:43.310
+I better read.
+
+99
+00:04:43.310 --> 00:04:44.840
+I better read whatever's on the bus.
+
+100
+00:04:44.840 --> 00:04:45.980
+And so forth.
+
+101
+00:04:45.980 --> 00:04:47.190
+So there's master and there's slave.
+
+102
+00:04:48.400 --> 00:04:50.460
+Now, in addition to that,
+there's also transmitter and
+
+103
+00:04:50.460 --> 00:04:53.940
+receiver which are orthogonal
+to master and slave.
+
+104
+00:04:53.940 --> 00:04:58.320
+So the transmitter is whatever
+node is putting data onto the bus.
+
+105
+00:04:58.320 --> 00:05:02.130
+And the receiver is whatever date
+known as receiving data from the boss.
+
+106
+00:05:02.130 --> 00:05:03.772
+Now the master can be the transmitter,
+
+107
+00:05:03.772 --> 00:05:06.775
+it can be the master that starts
+transmissions and puts data on the bus.
+
+108
+00:05:06.775 --> 00:05:07.650
+Cuz they're doing a write.
+
+109
+00:05:07.650 --> 00:05:12.250
+They want to send data to the slave,
+but the master can be the receiver.
+
+110
+00:05:12.250 --> 00:05:14.480
+The master can start a transmission and
+
+111
+00:05:14.480 --> 00:05:18.980
+say, okay slave, this is a reinteract,
+a retransmission.
+
+112
+00:05:18.980 --> 00:05:22.780
+So it effectively orders
+the slave to give it information.
+
+113
+00:05:22.780 --> 00:05:26.540
+So the master can also be the receiver,
+and the slave can be the transmitter or
+
+114
+00:05:26.540 --> 00:05:27.520
+receiver also.
+
+115
+00:05:27.520 --> 00:05:31.270
+So every node is either a master or
+a slave, and can also be either
+
+116
+00:05:31.270 --> 00:05:33.970
+a receiver or a transmitter, and
+they can be mixed and matched.
+
+117
+00:05:33.970 --> 00:05:35.890
+So a master can be transmitter, receiver.
+
+118
+00:05:35.890 --> 00:05:37.439
+Slave can also be transmitter or receiver.
+
+119
+00:05:39.150 --> 00:05:42.250
+This is a picture of what the bus
+network will typically look like.
+
+120
+00:05:42.250 --> 00:05:44.450
+Each one of those blue blocks
+is labelled master, slave.
+
+121
+00:05:44.450 --> 00:05:46.610
+Think of that as probably
+an integrated circuit, or
+
+122
+00:05:46.610 --> 00:05:49.940
+some component that is
+talking on this bus.
+
+123
+00:05:49.940 --> 00:05:53.570
+And they're labelled master and slave
+to say what their roles are on the bus.
+
+124
+00:05:53.570 --> 00:05:55.870
+And there are a couple of masters and
+three slaves.
+
+125
+00:05:55.870 --> 00:05:57.100
+You can mix and match.
+
+126
+00:05:57.100 --> 00:06:01.250
+Each one of those connect to the same
+set of two lines SDA and SCL.
+
+127
+00:06:01.250 --> 00:06:04.105
+So SDA and SCL are common to
+all the masters and slaves,
+
+128
+00:06:04.105 --> 00:06:05.420
+all the nodes on the bus.
+
+129
+00:06:05.420 --> 00:06:08.560
+And they share it, and
+they're bidirectional.
+
+130
+00:06:08.560 --> 00:06:11.112
+So you can talk in two directions,
+you can talk,
+
+131
+00:06:11.112 --> 00:06:13.350
+data can go either way along those wires.
+
+132
+00:06:13.350 --> 00:06:15.800
+From left to right,
+right to left, whatever.
+
+133
+00:06:15.800 --> 00:06:19.088
+Also notice that the two lines SDA and
+SCL are wired to Vcc,
+
+134
+00:06:19.088 --> 00:06:21.320
+meaning power through big resistors.
+
+135
+00:06:21.320 --> 00:06:23.870
+Those resistors aren't labeled,
+but they are presumably big.
+
+136
+00:06:23.870 --> 00:06:25.760
+10k ohms or something like that.
+
+137
+00:06:25.760 --> 00:06:28.690
+So this is what the typical
+I2C network looks like.
+
+138
+00:06:28.690 --> 00:06:33.081
+We'll be talking about
+networks with just two nodes,
+
+139
+00:06:33.081 --> 00:06:38.340
+one master and one slave, but
+you can have much larger networks.
+
+140
+00:06:38.340 --> 00:06:39.440
+Like the one we're seeing here.
+
+141
+00:06:39.440 --> 00:06:40.490
+Thank you.
+
+142
+00:06:40.490 --> 00:06:42.714
+[MUSIC]

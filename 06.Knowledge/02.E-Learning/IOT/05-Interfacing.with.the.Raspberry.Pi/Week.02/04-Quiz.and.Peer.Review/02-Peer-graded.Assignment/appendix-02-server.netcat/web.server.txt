@@ -1,0 +1,17 @@
+import socket
+
+PORT = 1234
+
+my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+my_socket.bind(("", PORT))
+my_socket.listen(5)
+print("Server is listening on", PORT)
+
+conn, addr = my_socket.accept()         #waits for a new connection
+while True:
+    data = conn.recv(1000)              #receives data from the SAME connection continously
+    if not data:
+        break
+    print("Got a request")
+conn.close()
+my_socket.close()
