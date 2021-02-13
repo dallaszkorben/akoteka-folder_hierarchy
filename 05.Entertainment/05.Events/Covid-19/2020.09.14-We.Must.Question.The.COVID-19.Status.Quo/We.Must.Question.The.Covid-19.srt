@@ -1,0 +1,10106 @@
+1
+00:00:00,240 --> 00:00:02,430
+Hey, everyone Dr. Z,
+welcome to The ZDoggMD Show.
+
+2
+00:00:02,430 --> 00:00:04,210
+Today I have a special guest
+
+3
+00:00:04,210 --> 00:00:05,570
+look, I moved back to the Bay Area,
+
+4
+00:00:05,570 --> 00:00:07,410
+so I could talk to smart people
+
+5
+00:00:07,410 --> 00:00:10,150
+at places like UCSF and
+Stanford and in the Bay area.
+
+6
+00:00:10,150 --> 00:00:13,070
+And I was all excited and then COVID hit
+
+7
+00:00:13,070 --> 00:00:15,950
+and it was Zoom, Zoom,
+Zoom, and I hate Zoom.
+
+8
+00:00:15,950 --> 00:00:17,850
+So today I have someone
+I've been wanting to talk to
+
+9
+00:00:17,850 --> 00:00:19,860
+since this pandemic started,
+
+10
+00:00:19,860 --> 00:00:24,410
+Dr. Jay Bhattacharya is a
+Stanford Professor of Medicine
+
+11
+00:00:24,410 --> 00:00:28,040
+and he has training and
+specialty in economics.
+
+12
+00:00:28,040 --> 00:00:28,970
+Actually tell me Jay
+
+13
+00:00:28,970 --> 00:00:31,173
+Jay, who are you man?
+
+14
+00:00:31,173 --> 00:00:32,920
+- Well, okay.
+
+15
+00:00:32,920 --> 00:00:34,100
+- Not in a metaphysical sense.
+
+16
+00:00:34,100 --> 00:00:36,930
+- Exactly, so I am a Professor
+of Medicine as you said
+
+17
+00:00:36,930 --> 00:00:37,890
+at Stanford university,
+
+18
+00:00:37,890 --> 00:00:41,120
+I've been at Stanford on the
+faculty for about 20 years.
+
+19
+00:00:41,120 --> 00:00:43,660
+I've an MD and a PhD in Economics.
+
+20
+00:00:43,660 --> 00:00:45,620
+And I studied health policy
+and health economics.
+
+21
+00:00:45,620 --> 00:00:48,220
+I've been working on infectious disease,
+
+22
+00:00:48,220 --> 00:00:50,360
+economics and epidemiology
+
+23
+00:00:50,360 --> 00:00:52,060
+for 20 some years now.
+
+24
+00:00:52,060 --> 00:00:54,540
+- So the reason I wanted
+to have you on the show
+
+25
+00:00:54,540 --> 00:00:55,960
+was what you just said.
+
+26
+00:00:55,960 --> 00:01:00,560
+You have the MD Stanford
+training and PhD in economics,
+
+27
+00:01:00,560 --> 00:01:02,520
+which means you can see in a way
+
+28
+00:01:02,520 --> 00:01:05,160
+that many frontline healthcare people,
+
+29
+00:01:05,160 --> 00:01:06,600
+including public health people,
+
+30
+00:01:06,600 --> 00:01:08,030
+aren't able to see the bigger picture.
+
+31
+00:01:08,030 --> 00:01:11,804
+Now you came to prominence
+during the pandemic
+
+32
+00:01:11,804 --> 00:01:13,470
+as one of the coauthors
+
+33
+00:01:13,470 --> 00:01:15,170
+of the Stanford Seroprevalence Study,
+
+34
+00:01:15,170 --> 00:01:18,380
+which raised all kinds of interesting.
+
+35
+00:01:18,380 --> 00:01:19,680
+I mean, tell me about that experience
+
+36
+00:01:19,680 --> 00:01:22,280
+because I was talking
+about your piece early on
+
+37
+00:01:22,280 --> 00:01:24,380
+saying, hey, this is true.
+
+38
+00:01:24,380 --> 00:01:29,380
+The actual infection
+fatality rate of this disease
+
+39
+00:01:29,510 --> 00:01:31,470
+is actually much lower than we thought
+
+40
+00:01:31,470 --> 00:01:33,010
+it's still higher than flu,
+
+41
+00:01:33,010 --> 00:01:36,150
+but it's not as high as
+they've been saying in China.
+
+42
+00:01:36,150 --> 00:01:37,566
+What was that experience like?
+
+43
+00:01:37,566 --> 00:01:39,010
+- I mean, that was incredible.
+
+44
+00:01:39,010 --> 00:01:41,660
+Just an amazing, in
+some ways, dispiriting,
+
+45
+00:01:41,660 --> 00:01:43,680
+but also exciting experience.
+
+46
+00:01:43,680 --> 00:01:45,440
+Let me kind of go back just a little bit?
+
+47
+00:01:45,440 --> 00:01:46,370
+- [Dr. Z] Absolutely.
+
+48
+00:01:46,370 --> 00:01:47,788
+- So what got me into it
+
+49
+00:01:47,788 --> 00:01:49,580
+was I had done some work
+
+50
+00:01:49,580 --> 00:01:52,670
+during the H1N1 Flu epidemic in 2009.
+
+51
+00:01:52,670 --> 00:01:53,503
+- [Dr. Z] I remember that one.
+
+52
+00:01:53,503 --> 00:01:55,500
+- I mean, it was a big
+deal at the time, right?
+
+53
+00:01:55,500 --> 00:01:57,430
+But luckily it didn't turn
+out to be as bad as COVID,
+
+54
+00:01:57,430 --> 00:01:59,680
+but especially at the beginning,
+
+55
+00:01:59,680 --> 00:02:01,260
+people were really, really panicked
+
+56
+00:02:01,260 --> 00:02:02,690
+over the high fatality rates
+
+57
+00:02:02,690 --> 00:02:04,140
+that were the case fatality rates
+
+58
+00:02:04,140 --> 00:02:06,810
+that were coming up out
+of all around the world.
+
+59
+00:02:06,810 --> 00:02:09,690
+- I remember I was a practicing
+hospitalist at Stanford
+
+60
+00:02:09,690 --> 00:02:12,460
+and everybody was like,
+we're all going to die.
+
+61
+00:02:12,460 --> 00:02:14,600
+It was a kind of a catastrophization.
+
+62
+00:02:14,600 --> 00:02:16,935
+- Yeah, it's actually
+an in the early days,
+
+63
+00:02:16,935 --> 00:02:17,768
+there was good reason.
+
+64
+00:02:17,768 --> 00:02:19,160
+There were these case fatality rates
+
+65
+00:02:19,160 --> 00:02:21,998
+that looked like Ebola.
+
+66
+00:02:21,998 --> 00:02:23,298
+It just did look terrible.
+
+67
+00:02:24,320 --> 00:02:26,020
+In the months that followed
+
+68
+00:02:26,020 --> 00:02:29,170
+what happened was people
+did zero prevalence studies
+
+69
+00:02:29,170 --> 00:02:30,003
+and found that
+
+70
+00:02:30,003 --> 00:02:33,560
+there were many times
+more cases of infections
+
+71
+00:02:33,560 --> 00:02:36,930
+than there had been cases in H1N1
+
+72
+00:02:36,930 --> 00:02:38,610
+and the infection fatality rate,
+
+73
+00:02:38,610 --> 00:02:41,970
+which turned out to be
+about a hundred times less
+
+74
+00:02:41,970 --> 00:02:44,540
+than the initial case fatality
+rates in the H1N1 case.
+
+75
+00:02:44,540 --> 00:02:46,610
+- So let me reiterate that for people
+
+76
+00:02:46,610 --> 00:02:48,190
+who don't understand
+some of the terminology.
+
+77
+00:02:48,190 --> 00:02:50,610
+So case fatality rate is when someone
+
+78
+00:02:50,610 --> 00:02:53,700
+is actually tested for
+disease, presents to care
+
+79
+00:02:53,700 --> 00:02:55,480
+and is diagnosed with the disease,
+
+80
+00:02:55,480 --> 00:02:58,200
+and then how many people
+die out of that group.
+
+81
+00:02:58,200 --> 00:02:59,130
+- [Dr. Jay] Correct.
+
+82
+00:02:59,130 --> 00:03:00,450
+- Infection fatality rate
+
+83
+00:03:00,450 --> 00:03:03,280
+is, well, of all the
+infections that exist,
+
+84
+00:03:03,280 --> 00:03:05,920
+including ones that we weren't
+able to openly diagnose.
+
+85
+00:03:05,920 --> 00:03:08,300
+What's the rate of fatality in that group.
+
+86
+00:03:08,300 --> 00:03:12,180
+And it was 100X different in H1N1.
+
+87
+00:03:12,180 --> 00:03:13,040
+- [Dr. Jay] In H1N1 that's right.
+
+88
+00:03:13,040 --> 00:03:15,670
+- And so this got you interested then
+
+89
+00:03:15,670 --> 00:03:17,560
+when COVID came around, I imagine.
+
+90
+00:03:17,560 --> 00:03:19,530
+- It looked like a repeat to me, right?
+
+91
+00:03:19,530 --> 00:03:22,300
+So looked like the people were finding
+
+92
+00:03:22,300 --> 00:03:23,770
+enormously high case fatality rates.
+
+93
+00:03:23,770 --> 00:03:26,732
+I think World Health
+Organization said 3.4%.
+
+94
+00:03:26,732 --> 00:03:29,640
+There was a piece published
+in JAMA in February
+
+95
+00:03:30,680 --> 00:03:33,480
+Journal of American Medical
+Association, that said 2.2%.
+
+96
+00:03:34,539 --> 00:03:36,060
+And these are terrible numbers.
+
+97
+00:03:36,060 --> 00:03:37,695
+- These are horrifying numbers.
+
+98
+00:03:37,695 --> 00:03:39,000
+These are the kind of
+numbers that would cause you
+
+99
+00:03:39,000 --> 00:03:41,750
+to lock down the entire planet instantly,
+
+100
+00:03:41,750 --> 00:03:43,090
+because you're gonna lose
+
+101
+00:03:43,090 --> 00:03:44,450
+that percentage of your population
+
+102
+00:03:44,450 --> 00:03:45,678
+if everybody gets infected.
+
+103
+00:03:45,678 --> 00:03:47,910
+- Millions and millions
+of people dead, right
+
+104
+00:03:47,910 --> 00:03:50,360
+if that's the number in
+the United States alone.
+
+105
+00:03:50,360 --> 00:03:51,193
+- [Dr. Z] Alone.
+
+106
+00:03:51,193 --> 00:03:52,703
+- If the numbers are right.
+
+107
+00:03:53,767 --> 00:03:54,753
+But that was what happened at H1N1.
+
+108
+00:03:54,753 --> 00:03:57,810
+And I said okay, well, do we really know
+
+109
+00:03:57,810 --> 00:03:59,434
+how many people actually have it?
+
+110
+00:03:59,434 --> 00:04:01,960
+And at the same time we're worried
+
+111
+00:04:01,960 --> 00:04:03,912
+about how much testing resources we had.
+
+112
+00:04:03,912 --> 00:04:06,450
+Remember there was a shortage of tests.
+
+113
+00:04:06,450 --> 00:04:08,082
+So we're just holding onto the test
+
+114
+00:04:08,082 --> 00:04:11,120
+to look at people who
+actually have serious disease,
+
+115
+00:04:11,120 --> 00:04:13,480
+which is what you ought to do
+from a clinical perspective.
+
+116
+00:04:13,480 --> 00:04:15,270
+But then from an
+epidemiologic perspective,
+
+117
+00:04:15,270 --> 00:04:16,640
+can you extrapolate that
+
+118
+00:04:16,640 --> 00:04:18,680
+to say, okay the population at large
+
+119
+00:04:18,680 --> 00:04:21,143
+3% of us are all gonna die if we get it.
+
+120
+00:04:22,370 --> 00:04:24,840
+And we don't have the answer to that.
+
+121
+00:04:24,840 --> 00:04:27,210
+So that's what led to the
+Stanford Seroprevalence Study.
+
+122
+00:04:27,210 --> 00:04:28,043
+- [Dr. Z] Yeah.
+
+123
+00:04:28,043 --> 00:04:29,650
+- And the other share problem
+studies I've worked on.
+
+124
+00:04:29,650 --> 00:04:31,666
+So it was this hypothesis.
+
+125
+00:04:31,666 --> 00:04:33,540
+Like how many people actually have it?
+
+126
+00:04:33,540 --> 00:04:35,210
+How deadly actually is it?
+
+127
+00:04:35,210 --> 00:04:36,520
+- And so how did you do this study?
+
+128
+00:04:36,520 --> 00:04:39,280
+Because there was a ton of
+controversy around the methods
+
+129
+00:04:39,280 --> 00:04:43,250
+and the actual sensitivity specificity
+
+130
+00:04:43,250 --> 00:04:45,150
+of the assay that you use and all that.
+
+131
+00:04:45,150 --> 00:04:47,650
+- Yeah, so that was a lot
+of confusion around that.
+
+132
+00:04:47,650 --> 00:04:50,830
+So we wanted to do a study
+
+133
+00:04:50,830 --> 00:04:52,530
+that could be done very, very quickly,
+
+134
+00:04:52,530 --> 00:04:54,149
+put it in the field very, very quickly.
+
+135
+00:04:54,149 --> 00:04:56,544
+At the time of the study
+
+136
+00:04:56,544 --> 00:04:59,450
+the FDA had approved for use
+
+137
+00:04:59,450 --> 00:05:01,980
+some, the lateral flow assays,
+
+138
+00:05:01,980 --> 00:05:03,190
+they looked like pregnancy tests,
+
+139
+00:05:03,190 --> 00:05:04,560
+like little pregnancy kits.
+
+140
+00:05:05,827 --> 00:05:09,440
+The one we used had pretty
+good error properties.
+
+141
+00:05:09,440 --> 00:05:11,080
+You know every medical test has errors.
+
+142
+00:05:11,080 --> 00:05:12,370
+I mean, there's just not a,
+
+143
+00:05:12,370 --> 00:05:14,070
+and you can't avoid that.
+
+144
+00:05:14,070 --> 00:05:15,087
+That's just the nature of,
+
+145
+00:05:15,087 --> 00:05:16,570
+we don't have a tri-corder
+
+146
+00:05:16,570 --> 00:05:19,040
+that can automatically tell me exactly
+
+147
+00:05:19,040 --> 00:05:21,243
+what's wrong with you, right?
+
+148
+00:05:21,243 --> 00:05:23,743
+We need to look at the
+numbers and interpret them.
+
+149
+00:05:24,580 --> 00:05:29,040
+At the time the FDA had approved for use
+
+150
+00:05:29,040 --> 00:05:30,940
+these little lateral assayed tests,
+
+151
+00:05:30,940 --> 00:05:32,630
+including the one we use, for sale
+
+152
+00:05:32,630 --> 00:05:33,740
+but they hadn't approved them
+
+153
+00:05:33,740 --> 00:05:36,133
+for general use in the population.
+
+154
+00:05:37,242 --> 00:05:39,320
+We could use them for research purposes,
+
+155
+00:05:39,320 --> 00:05:40,820
+but not for clinical purposes.
+
+156
+00:05:41,860 --> 00:05:44,453
+So we use one of those, the
+reason it was very simple.
+
+157
+00:05:45,380 --> 00:05:47,750
+There are two kinds of tests
+to do antibody testing,
+
+158
+00:05:47,750 --> 00:05:51,060
+there's these ELISA tests,
+which are pretty accurate
+
+159
+00:05:51,060 --> 00:05:52,640
+and then these lateral flow assay tests.
+
+160
+00:05:52,640 --> 00:05:54,400
+For the ELISA's, you have
+to draw venous blood.
+
+161
+00:05:54,400 --> 00:05:56,290
+It's really hard in the
+middle of a pandemic
+
+162
+00:05:56,290 --> 00:05:57,600
+to go out and find,
+
+163
+00:05:57,600 --> 00:06:00,750
+you know, can I draw
+venous blood from you?
+
+164
+00:06:00,750 --> 00:06:01,970
+A big vial of it,
+
+165
+00:06:01,970 --> 00:06:04,160
+or I can just do a little finger stick.
+
+166
+00:06:04,160 --> 00:06:05,820
+The nice thing about epidemiologic work
+
+167
+00:06:05,820 --> 00:06:07,860
+is that you can correct for the errors,
+
+168
+00:06:07,860 --> 00:06:08,910
+which is what we did.
+
+169
+00:06:10,280 --> 00:06:12,980
+Actually I've run three
+Seroprevalence Studies,
+
+170
+00:06:12,980 --> 00:06:15,970
+one in Santa Clara
+County, one in LA County,
+
+171
+00:06:15,970 --> 00:06:19,555
+and one in with Major League Baseball.
+
+172
+00:06:19,555 --> 00:06:20,933
+- Did you get to meet a
+lot of baseball players?
+
+173
+00:06:20,933 --> 00:06:23,600
+- I got to meet a lot
+of, not baseball players,
+
+174
+00:06:23,600 --> 00:06:26,080
+I mean it was surreal,
+
+175
+00:06:26,080 --> 00:06:27,910
+I got to be in a meeting
+with all the owners.
+
+176
+00:06:27,910 --> 00:06:28,743
+It was just--
+
+177
+00:06:28,743 --> 00:06:29,699
+- [Dr. Z] Oh, wow, that's nice.
+
+178
+00:06:29,699 --> 00:06:31,216
+- It was fantastic.
+
+179
+00:06:31,216 --> 00:06:32,670
+I had to contain myself when
+I met the Yankee's owner,
+
+180
+00:06:32,670 --> 00:06:34,432
+but, you know, that's another thing.
+
+181
+00:06:34,432 --> 00:06:36,880
+So I ran three different studies
+
+182
+00:06:36,880 --> 00:06:39,630
+and the interesting
+thing about the studies
+
+183
+00:06:39,630 --> 00:06:41,520
+was we use very different methods
+
+184
+00:06:41,520 --> 00:06:44,660
+to try to disseminate them.
+
+185
+00:06:44,660 --> 00:06:46,873
+So the Santa Clara
+Study was the first one.
+
+186
+00:06:47,890 --> 00:06:52,370
+It was a big study, 2000
+some people in the Bay area
+
+187
+00:06:53,454 --> 00:06:54,850
+in Santa Clara County.
+
+188
+00:06:54,850 --> 00:06:55,683
+- [Dr. Z] Right.
+
+189
+00:06:55,683 --> 00:06:57,810
+- We wrote the study very
+quickly and we released it
+
+190
+00:06:57,810 --> 00:06:59,410
+through an open science process,
+
+191
+00:06:59,410 --> 00:07:00,243
+- Like a pre print,
+
+192
+00:07:00,243 --> 00:07:01,270
+- A pre print, right, exactly.
+
+193
+00:07:01,270 --> 00:07:03,150
+So now the traditional path
+
+194
+00:07:03,150 --> 00:07:04,880
+involves sending it to a journal.
+
+195
+00:07:04,880 --> 00:07:08,906
+The journal then sends it to
+three anonymous reviewers.
+
+196
+00:07:08,906 --> 00:07:11,230
+No one will hear it about it, except me.
+
+197
+00:07:11,230 --> 00:07:12,570
+And that's how I spend
+
+198
+00:07:12,570 --> 00:07:14,420
+my life dealing with this
+three anonymous reviews,
+
+199
+00:07:14,420 --> 00:07:15,770
+all of them always hate me.
+
+200
+00:07:18,140 --> 00:07:20,410
+- So you're not used to the
+whole planet hating you at once.
+
+201
+00:07:20,410 --> 00:07:21,750
+- Yeah, that was interesting.
+
+202
+00:07:21,750 --> 00:07:25,740
+So we sent it and I got 10,000
+peer reviews in one day.
+
+203
+00:07:25,740 --> 00:07:26,660
+- [Dr. Z] Oh my gosh.
+
+204
+00:07:26,660 --> 00:07:29,460
+- And it was kind of
+interesting, exciting.
+
+205
+00:07:29,460 --> 00:07:30,840
+I learned a lot.
+
+206
+00:07:30,840 --> 00:07:33,200
+So we made, what I would characterize
+
+207
+00:07:33,200 --> 00:07:37,740
+a relatively minor error in
+standard error calculation,
+
+208
+00:07:37,740 --> 00:07:39,580
+which we corrected within a week.
+
+209
+00:07:39,580 --> 00:07:40,413
+- [Dr. Z] Right.
+
+210
+00:07:40,413 --> 00:07:45,030
+- And the number that we
+got was absolutely stunning.
+
+211
+00:07:45,030 --> 00:07:47,080
+What we found was that the disease
+
+212
+00:07:47,080 --> 00:07:48,350
+was 50 times more prevalent
+
+213
+00:07:48,350 --> 00:07:50,230
+than people thought based
+on just the case number.
+
+214
+00:07:50,230 --> 00:07:51,730
+So people thought in Santa Clara County,
+
+215
+00:07:51,730 --> 00:07:53,940
+there were a 1000 cases as of April 3rd,
+
+216
+00:07:53,940 --> 00:07:55,310
+I think it was.
+
+217
+00:07:55,310 --> 00:07:57,420
+But in fact based on the study,
+
+218
+00:07:57,420 --> 00:07:58,777
+you could tell 50,000 people
+
+219
+00:07:58,777 --> 00:08:02,350
+had, had some antibody
+evidence of it the same time.
+
+220
+00:08:02,350 --> 00:08:04,220
+- Right, which would correspond
+
+221
+00:08:04,220 --> 00:08:06,070
+to an infection fatality rate
+
+222
+00:08:06,070 --> 00:08:07,600
+at that time of what?
+
+223
+00:08:07,600 --> 00:08:09,010
+- About two in 1,000.
+
+224
+00:08:09,010 --> 00:08:09,964
+- [Dr. Z] two in a 1,000
+- So that means
+
+225
+00:08:09,964 --> 00:08:11,640
+out of the 1,000 people
+
+226
+00:08:11,640 --> 00:08:14,040
+who got the infection, 998 survived.
+
+227
+00:08:14,040 --> 00:08:16,244
+- So 0.2%.
+- 0.2%.
+
+228
+00:08:16,244 --> 00:08:19,849
+- So double what we think
+the mortality is for flu.
+
+229
+00:08:19,849 --> 00:08:21,630
+- Well I am not 100% sure I
+know what the flu mortality,
+
+230
+00:08:21,630 --> 00:08:24,870
+I know the evidence, it's unclear in flu
+
+231
+00:08:24,870 --> 00:08:25,710
+no one's done the same
+
+232
+00:08:25,710 --> 00:08:27,150
+kind of infection fatality rate numbers
+
+233
+00:08:27,150 --> 00:08:28,503
+that they've done with for COVID
+
+234
+00:08:28,503 --> 00:08:29,770
+that they've dealt with the flu.
+
+235
+00:08:29,770 --> 00:08:31,510
+- So in many ways we're
+comparing apples to oranges
+
+236
+00:08:31,510 --> 00:08:32,342
+when we're comparing flu--
+
+237
+00:08:32,342 --> 00:08:34,389
+- So let's come back
+to that flu comparison.
+
+238
+00:08:34,390 --> 00:08:35,470
+'Cause it is interesting and important,
+
+239
+00:08:35,470 --> 00:08:36,710
+but I think the key thing
+
+240
+00:08:36,710 --> 00:08:40,150
+is how much would you change your life '
+
+241
+00:08:40,150 --> 00:08:41,473
+for two in a 1,000 risk?
+
+242
+00:08:42,700 --> 00:08:45,040
+And there's a couple
+other things we learned.
+
+243
+00:08:45,040 --> 00:08:49,330
+So one is that if you're
+older, it's much higher.
+
+244
+00:08:49,330 --> 00:08:50,730
+It's probably much worse
+than the flu actually.
+
+245
+00:08:50,730 --> 00:08:51,580
+- [Dr. Z] Yeah.
+- For older
+
+246
+00:08:51,580 --> 00:08:52,693
+- Order of magnitude.
+
+247
+00:08:53,720 --> 00:08:55,180
+- So if you're over 70
+
+248
+00:08:55,180 --> 00:08:59,645
+versus if you're let's say
+you're under 15 or under 10.
+
+249
+00:08:59,645 --> 00:09:02,480
+It's on the order of a
+1000 to one difference
+
+250
+00:09:02,480 --> 00:09:03,730
+in mortality probability.
+
+251
+00:09:05,110 --> 00:09:08,440
+So the flu is much more
+deadly if you're older,
+
+252
+00:09:08,440 --> 00:09:10,980
+if you're over let's say 65 or 70.
+
+253
+00:09:10,980 --> 00:09:12,890
+And if you're under--
+
+254
+00:09:12,890 --> 00:09:14,920
+- The flu or COVID we are talking about?
+
+255
+00:09:14,920 --> 00:09:16,750
+- I'm sorry COVID I apologize.
+
+256
+00:09:16,750 --> 00:09:20,370
+It's COVID is much more deadly
+if you're over 65 or 70,
+
+257
+00:09:20,370 --> 00:09:24,573
+and if you're under say
+40, the flu is worse.
+
+258
+00:09:25,890 --> 00:09:27,290
+That's what seroprevalence studies shows.
+
+259
+00:09:27,290 --> 00:09:29,100
+- And that was the sense that
+I was getting early on too.
+
+260
+00:09:29,100 --> 00:09:31,900
+And seroprevalence study
+was supporting that.
+
+261
+00:09:31,900 --> 00:09:33,830
+And you said something which
+we're gonna get back to.
+
+262
+00:09:33,830 --> 00:09:34,900
+I think that's a theme of this,
+
+263
+00:09:34,900 --> 00:09:37,120
+how much would you change your life
+
+264
+00:09:37,120 --> 00:09:39,340
+for a two in a 1000 chance, right?
+
+265
+00:09:39,340 --> 00:09:42,890
+- Yeah and I think that age
+difference is important.
+
+266
+00:09:42,890 --> 00:09:45,080
+The absolute number is also important
+
+267
+00:09:45,080 --> 00:09:46,170
+well, let's get back to that theme.
+
+268
+00:09:46,170 --> 00:09:48,252
+- Yeah , absolute versus
+relative risk, yeah.
+
+269
+00:09:48,252 --> 00:09:50,840
+- So the interesting thing about that,
+
+270
+00:09:50,840 --> 00:09:52,220
+so we released the LA County Study.
+
+271
+00:09:52,220 --> 00:09:54,980
+It was immediately accepted
+in JAMA and published.
+
+272
+00:09:54,980 --> 00:09:55,813
+- Just instant.
+- It's the same number
+
+273
+00:09:55,813 --> 00:09:57,791
+- Peer reviewed.
+- Peer reviewed, yeah.
+
+274
+00:09:57,791 --> 00:10:00,600
+I've never had such an
+easy time with a review
+
+275
+00:10:00,600 --> 00:10:01,700
+it was a very strange.
+
+276
+00:10:02,980 --> 00:10:06,780
+Whereas the Santa Clara
+Study, it exploded Twitter.
+
+277
+00:10:06,780 --> 00:10:07,930
+I'm not on Twitter myself.
+
+278
+00:10:07,930 --> 00:10:08,763
+- Thank God for you.
+
+279
+00:10:08,763 --> 00:10:11,210
+- It was actually probably
+good for my sanity.
+
+280
+00:10:11,210 --> 00:10:12,043
+- It really is.
+
+281
+00:10:14,300 --> 00:10:15,530
+- And everyone on earth
+
+282
+00:10:15,530 --> 00:10:18,830
+was paying attention to it
+all at once, one study, right.
+
+283
+00:10:18,830 --> 00:10:20,310
+- [Dr. Z] Right, pre print.
+
+284
+00:10:20,310 --> 00:10:22,510
+- And everyone was convinced
+that I was absolutely wrong.
+
+285
+00:10:22,510 --> 00:10:23,343
+- [Dr. Z] Yeah.
+
+286
+00:10:23,343 --> 00:10:27,030
+- 100% wrong because people
+had fixed in their mind,
+
+287
+00:10:27,030 --> 00:10:30,628
+New York City where the
+death rate was higher.
+
+288
+00:10:30,628 --> 00:10:32,530
+Actually we know from
+seroprevalence studies
+
+289
+00:10:32,530 --> 00:10:33,363
+that it was higher,
+
+290
+00:10:33,363 --> 00:10:34,370
+the actual infection fatality rate
+
+291
+00:10:34,370 --> 00:10:35,770
+was higher in New York City.
+
+292
+00:10:36,960 --> 00:10:40,760
+So now since then 50 some studies
+
+293
+00:10:40,760 --> 00:10:42,510
+from around the world have been done.
+
+294
+00:10:42,510 --> 00:10:44,410
+And there's a consistent theme
+
+295
+00:10:44,410 --> 00:10:45,640
+that the infection fatality rates
+
+296
+00:10:45,640 --> 00:10:47,430
+somewhere between two and three in 1,000,
+
+297
+00:10:47,430 --> 00:10:48,850
+just like what we found in Santa Clara,
+
+298
+00:10:48,850 --> 00:10:53,430
+just like what we found in LA County
+
+299
+00:10:53,430 --> 00:10:57,090
+and the places that have higher density
+
+300
+00:10:57,090 --> 00:10:58,410
+where you think did worse,
+
+301
+00:10:58,410 --> 00:11:02,270
+you know, Bergamot, New
+York City, they did worse.
+
+302
+00:11:02,270 --> 00:11:03,810
+Their infection fatality rate is worse
+
+303
+00:11:03,810 --> 00:11:06,510
+five in a 1,000, six in a 1,000
+
+304
+00:11:06,510 --> 00:11:09,800
+in some Spain, maybe 10 in a 1,000.
+
+305
+00:11:09,800 --> 00:11:12,360
+- So, okay, there's a lot here.
+
+306
+00:11:12,360 --> 00:11:14,130
+And again, this gets me fired up
+
+307
+00:11:14,130 --> 00:11:16,330
+because I've been talking
+about this myself,
+
+308
+00:11:17,550 --> 00:11:21,270
+why would an infection
+fatality rate be different
+
+309
+00:11:21,270 --> 00:11:23,790
+in say New York versus at Santa Clara?
+
+310
+00:11:23,790 --> 00:11:24,710
+Walk me through that.
+
+311
+00:11:24,710 --> 00:11:26,280
+- Yeah, sure so we think
+
+312
+00:11:26,280 --> 00:11:27,890
+about infection fatality rate
+
+313
+00:11:27,890 --> 00:11:30,500
+as if it were just a--
+- [Dr. Z] Static.
+
+314
+00:11:30,500 --> 00:11:33,830
+- Well, as if it's the virus itself,
+
+315
+00:11:33,830 --> 00:11:34,950
+it's a feature of the virus.
+
+316
+00:11:34,950 --> 00:11:35,783
+Here's the virus.
+
+317
+00:11:35,783 --> 00:11:36,840
+Here's the infection fatality rate.
+
+318
+00:11:36,840 --> 00:11:38,293
+That's wrong thinking.
+
+319
+00:11:39,330 --> 00:11:41,770
+It's a function of the virus obviously,
+
+320
+00:11:41,770 --> 00:11:42,603
+the biology of the virus,
+
+321
+00:11:42,603 --> 00:11:44,450
+but also the host
+
+322
+00:11:44,450 --> 00:11:46,060
+and also of the healthcare system
+
+323
+00:11:46,060 --> 00:11:48,620
+taking care of the patient.
+
+324
+00:11:48,620 --> 00:11:50,100
+- Do they survive or do they care
+
+325
+00:11:50,100 --> 00:11:52,147
+- All three of those things matter a ton.
+
+326
+00:11:52,147 --> 00:11:53,440
+- [Dr. Z] Ah.
+
+327
+00:11:53,440 --> 00:11:54,273
+- So for instance,
+
+328
+00:11:54,273 --> 00:11:56,550
+if you look at the case
+fatality rate for this disease,
+
+329
+00:11:56,550 --> 00:11:58,362
+just case fatality forget about
+infection fatality, right?
+
+330
+00:11:58,362 --> 00:11:59,780
+This is the number of
+people who have the disease
+
+331
+00:11:59,780 --> 00:12:01,000
+who actually died from it.
+
+332
+00:12:01,000 --> 00:12:03,830
+It's declined very sharply
+since March and April.
+
+333
+00:12:03,830 --> 00:12:06,867
+- Sure has, cases up deaths down.
+
+334
+00:12:06,867 --> 00:12:07,810
+- Has the virus changed?
+
+335
+00:12:07,810 --> 00:12:09,170
+Maybe a little, I mean,
+there's some mutation,
+
+336
+00:12:09,170 --> 00:12:10,250
+but not enough to think
+
+337
+00:12:10,250 --> 00:12:12,258
+that it's had any appreciable change.
+
+338
+00:12:12,258 --> 00:12:14,450
+What it is, is a few things.
+
+339
+00:12:14,450 --> 00:12:17,140
+One is the set of people
+that are getting infected
+
+340
+00:12:17,140 --> 00:12:18,540
+are less vulnerable to it.
+
+341
+00:12:18,540 --> 00:12:20,093
+They tend to be younger.
+
+342
+00:12:21,177 --> 00:12:22,807
+And so they just don't die
+at higher rates from it.
+
+343
+00:12:22,807 --> 00:12:24,900
+The second we were better at managing it,
+
+344
+00:12:24,900 --> 00:12:25,990
+better treating it.
+
+345
+00:12:25,990 --> 00:12:27,865
+- Right, dexamethasone.
+
+346
+00:12:27,865 --> 00:12:28,698
+- [Dr. Jay] Exactly.
+
+347
+00:12:28,698 --> 00:12:29,750
+- Not intubating everyone.
+
+348
+00:12:29,750 --> 00:12:32,040
+- Not killing people
+with ventilators right.
+
+349
+00:12:32,040 --> 00:12:34,960
+I mean that would seem
+like a really good idea.
+
+350
+00:12:34,960 --> 00:12:38,500
+- Yeah which by the way,
+
+351
+00:12:38,500 --> 00:12:40,510
+wasn't clear in the beginning at all.
+
+352
+00:12:40,510 --> 00:12:42,830
+So not to disparage people
+who are intubating everyone,
+
+353
+00:12:42,830 --> 00:12:43,960
+but we just didn't know.
+
+354
+00:12:43,960 --> 00:12:46,010
+- Yeah, I know, look, I
+have a lot of sympathy
+
+355
+00:12:46,010 --> 00:12:47,770
+and people were really brave going in
+
+356
+00:12:47,770 --> 00:12:49,130
+when we didn't have the numbers.
+
+357
+00:12:49,130 --> 00:12:51,083
+I honor that, absolutely.
+
+358
+00:12:53,320 --> 00:12:54,190
+But it is absolutely the case,
+
+359
+00:12:54,190 --> 00:12:56,480
+we've learned a lot about
+how to treat the disease
+
+360
+00:12:56,480 --> 00:12:59,827
+and we're much better at
+managing than we once we're.
+
+361
+00:12:59,827 --> 00:13:02,320
+I think that kind of news
+ought to get out more.
+
+362
+00:13:02,320 --> 00:13:03,950
+That seems like an important fact,
+
+363
+00:13:03,950 --> 00:13:06,060
+our understanding of
+disease shouldn't be frozen
+
+364
+00:13:06,060 --> 00:13:07,700
+in Amber, in March.
+
+365
+00:13:07,700 --> 00:13:09,310
+- No, so you're appreciated the choir
+
+366
+00:13:09,310 --> 00:13:10,490
+because I just did a video on this,
+
+367
+00:13:10,490 --> 00:13:12,290
+on the cases up deaths down.
+
+368
+00:13:12,290 --> 00:13:16,260
+I actually think that there is a lot
+
+369
+00:13:16,260 --> 00:13:18,520
+of catastrophization and misunderstanding,
+
+370
+00:13:18,520 --> 00:13:20,380
+and there's been a polarity
+
+371
+00:13:20,380 --> 00:13:22,130
+that I've not seen in science ever.
+
+372
+00:13:24,822 --> 00:13:25,655
+And the thing is folks like you,
+
+373
+00:13:25,655 --> 00:13:28,890
+this is the thing I
+criticized your trial as well,
+
+374
+00:13:28,890 --> 00:13:30,180
+but also put it out there
+
+375
+00:13:30,180 --> 00:13:31,280
+and said, hey, this is what's going on.
+
+376
+00:13:31,280 --> 00:13:32,950
+This is the critique, et cetera.
+
+377
+00:13:32,950 --> 00:13:33,783
+- Well, science, that's how it works.
+
+378
+00:13:33,783 --> 00:13:35,353
+- That's what you do in science.
+
+379
+00:13:35,353 --> 00:13:37,547
+- I mean, I didn't mind the science.
+
+380
+00:13:37,547 --> 00:13:38,886
+of course we talk,
+
+381
+00:13:38,886 --> 00:13:40,910
+we look at the data,
+we try to interpret it.
+
+382
+00:13:40,910 --> 00:13:43,400
+That's the fun part of science.
+
+383
+00:13:43,400 --> 00:13:46,670
+- But the vitriol and the censorship too,
+
+384
+00:13:46,670 --> 00:13:49,360
+like Ioniddis is your partner in that
+
+385
+00:13:49,360 --> 00:13:51,430
+one of the most respected scientists
+
+386
+00:13:51,430 --> 00:13:53,180
+actually has done papers
+and papers and papers
+
+387
+00:13:53,180 --> 00:13:56,630
+on how we get science wrong
+with our own biases, right.
+
+388
+00:13:56,630 --> 00:14:00,040
+Was accused of severe bias and censored.
+
+389
+00:14:00,040 --> 00:14:02,004
+- Yeah, it was absolutely shocking.
+
+390
+00:14:02,004 --> 00:14:05,627
+So, like Buzzfeed attack
+my family, Buzzfeed.
+
+391
+00:14:06,610 --> 00:14:09,440
+- Can I say, so anytime I
+see anything in Buzzfeed,
+
+392
+00:14:09,440 --> 00:14:12,480
+if it isn't 10 reasons
+celebrities have done something
+
+393
+00:14:12,480 --> 00:14:15,290
+that make you go, what I'm shook!
+
+394
+00:14:15,290 --> 00:14:18,500
+I don't listen to it because
+it's so clearly biased.
+
+395
+00:14:18,500 --> 00:14:20,857
+- Yeah, it was really kind of
+
+396
+00:14:20,857 --> 00:14:22,450
+- Buzzfeed attacked your family?
+
+397
+00:14:22,450 --> 00:14:24,930
+- Yeah they said my wife was involved
+
+398
+00:14:24,930 --> 00:14:26,170
+in like she volunteered,
+
+399
+00:14:26,170 --> 00:14:28,002
+my daughter actually volunteered as a,
+
+400
+00:14:28,002 --> 00:14:29,580
+it was lot of community involvement
+
+401
+00:14:29,580 --> 00:14:31,300
+with the feeling around
+the study in Santa Clara
+
+402
+00:14:31,300 --> 00:14:32,760
+was a lot of volunteers
+
+403
+00:14:32,760 --> 00:14:33,593
+a lot of people,
+
+404
+00:14:33,593 --> 00:14:35,007
+it was a really good feeling.
+
+405
+00:14:35,007 --> 00:14:37,650
+And my wife was super
+excited about the study.
+
+406
+00:14:37,650 --> 00:14:38,880
+She's an oncologist.
+
+407
+00:14:38,880 --> 00:14:42,170
+She wrote a email and to her friends,
+
+408
+00:14:42,170 --> 00:14:43,750
+encouraging them to sign up
+
+409
+00:14:43,750 --> 00:14:45,380
+and somebody leaked the email,
+
+410
+00:14:45,380 --> 00:14:47,820
+which had some information
+that was not quite right.
+
+411
+00:14:47,820 --> 00:14:50,440
+And then Buzzfeed made
+her international news.
+
+412
+00:14:50,440 --> 00:14:52,135
+- [Dr. Z] Oh my God.
+
+413
+00:14:52,135 --> 00:14:53,017
+- That's the hardest part of this.
+
+414
+00:14:53,017 --> 00:14:54,880
+It was just getting my
+family involved with it
+
+415
+00:14:54,880 --> 00:14:56,943
+in a way that I didn't expect.
+
+416
+00:14:58,830 --> 00:15:00,943
+- What's the agenda for that,
+
+417
+00:15:00,943 --> 00:15:04,410
+that you're somehow
+minimizing the pandemic
+
+418
+00:15:04,410 --> 00:15:06,360
+and gonna cost lives, is that right?
+
+419
+00:15:06,360 --> 00:15:08,113
+- I think so, that's part of it.
+
+420
+00:15:09,458 --> 00:15:12,690
+The same Buzzfeed author
+then wrote an accusation
+
+421
+00:15:12,690 --> 00:15:15,100
+that somehow, because people gave money,
+
+422
+00:15:15,100 --> 00:15:17,250
+including like, I guess
+a JetBlue executive
+
+423
+00:15:17,250 --> 00:15:19,000
+- Right, I saw that.
+- [Dr. Jay] To Stanford
+
+424
+00:15:19,000 --> 00:15:20,770
+- Right, right 5000 bucks.
+
+425
+00:15:20,770 --> 00:15:21,779
+- [Dr. Jay] 5,000,
+
+426
+00:15:21,779 --> 00:15:23,480
+- So 5000 which is a rounding
+error on the cost of a trial.
+
+427
+00:15:23,480 --> 00:15:24,770
+- Well, in this case, the study was
+
+428
+00:15:24,770 --> 00:15:26,300
+we ran a really cheap,
+
+429
+00:15:26,300 --> 00:15:29,230
+it was less than a $100,000 for the study.
+
+430
+00:15:29,230 --> 00:15:30,436
+- [Dr. Z] Nice.
+
+431
+00:15:30,436 --> 00:15:33,830
+- But they give the money to Stanford
+
+432
+00:15:33,830 --> 00:15:36,910
+and somehow I'm gonna
+change the results for the,
+
+433
+00:15:36,910 --> 00:15:37,760
+it's just ridiculous.
+
+434
+00:15:37,760 --> 00:15:38,980
+- You know what,
+
+435
+00:15:38,980 --> 00:15:41,040
+Jay, when you're in big JetBlue's pocket
+
+436
+00:15:41,040 --> 00:15:41,873
+anything goes wrong
+
+437
+00:15:41,873 --> 00:15:44,907
+- It was really kind of him
+to give money for thE study
+
+438
+00:15:44,907 --> 00:15:46,320
+was like, I'm grateful.
+
+439
+00:15:46,320 --> 00:15:48,410
+- And that's fine that
+he had his own agenda,
+
+440
+00:15:48,410 --> 00:15:49,570
+which was probably, hey, yeah.
+
+441
+00:15:49,570 --> 00:15:50,403
+- Everyone has an agenda
+
+442
+00:15:50,403 --> 00:15:51,320
+- [Dr. Z] Everyone has an agenda.
+
+443
+00:15:51,320 --> 00:15:55,615
+- So my agenda was to
+learn what that number was.
+
+444
+00:15:55,615 --> 00:15:57,330
+I think we now know it.
+
+445
+00:15:57,330 --> 00:16:00,220
+- So your feeling now is that somewhere
+
+446
+00:16:00,220 --> 00:16:05,190
+between 0.2 and 0.3%
+
+447
+00:16:06,080 --> 00:16:07,077
+infection fatality rates.
+
+448
+00:16:07,077 --> 00:16:08,717
+- That's the median around the world
+
+449
+00:16:08,717 --> 00:16:09,550
+- Median, around the world,
+
+450
+00:16:09,550 --> 00:16:11,094
+It may be higher in
+places like a New York.
+
+451
+00:16:11,094 --> 00:16:11,927
+- [Dr. Jay] Yeah.
+
+452
+00:16:11,927 --> 00:16:13,910
+- Why was it higher in
+New York, do you think?
+
+453
+00:16:13,910 --> 00:16:15,810
+- I think there's lots of reasons.
+
+454
+00:16:15,810 --> 00:16:19,063
+I think potential one is
+I think the set of people
+
+455
+00:16:19,063 --> 00:16:21,500
+that were infected in New York were older.
+
+456
+00:16:21,500 --> 00:16:23,537
+And the institutions
+where they are infected
+
+457
+00:16:23,537 --> 00:16:25,210
+was less capable of dealing with it
+
+458
+00:16:25,210 --> 00:16:27,060
+in the early days of the epidemic.
+
+459
+00:16:27,060 --> 00:16:28,715
+So there's something to this
+
+460
+00:16:28,715 --> 00:16:31,681
+and the fact that it was older people
+
+461
+00:16:31,681 --> 00:16:33,670
+in nursing home settings
+
+462
+00:16:33,670 --> 00:16:36,420
+that weren't sort of
+equipped to manage it.
+
+463
+00:16:36,420 --> 00:16:38,670
+I think that played a big role
+
+464
+00:16:38,670 --> 00:16:40,010
+in why it was higher in New York.
+
+465
+00:16:40,010 --> 00:16:41,280
+The other thing is I think there's a,
+
+466
+00:16:41,280 --> 00:16:42,810
+and this is a theory I've seen,
+
+467
+00:16:42,810 --> 00:16:44,099
+I think, I mean, there's something to it,
+
+468
+00:16:44,099 --> 00:16:46,170
+when viral load is higher,
+
+469
+00:16:46,170 --> 00:16:47,010
+when you're exposed to it
+
+470
+00:16:47,010 --> 00:16:48,714
+multiple times over and over again,
+
+471
+00:16:48,714 --> 00:16:51,170
+you just get a worse outcome.
+
+472
+00:16:51,170 --> 00:16:53,810
+So I talked about this with
+Monica Gandhi yesterday
+
+473
+00:16:53,810 --> 00:16:55,650
+on the show UCSF ID doc,
+
+474
+00:16:55,650 --> 00:16:59,460
+and her theory of viral inoculum
+correlating to severity.
+
+475
+00:16:59,460 --> 00:17:00,293
+- I saw that.
+
+476
+00:17:00,293 --> 00:17:02,640
+- Yeah, yeah and she actually posited
+
+477
+00:17:02,640 --> 00:17:03,691
+the same exact thing in,
+
+478
+00:17:03,691 --> 00:17:07,270
+it's a theory like it's
+was hypothesis in New York
+
+479
+00:17:07,270 --> 00:17:08,940
+was that people are in
+the built environment
+
+480
+00:17:08,940 --> 00:17:10,200
+or on top of each other,
+
+481
+00:17:10,200 --> 00:17:11,670
+especially minority communities,
+
+482
+00:17:11,670 --> 00:17:12,650
+which were hardest hit.
+
+483
+00:17:12,650 --> 00:17:15,990
+And so, as a result, if you're
+out in Queens or somewhere,
+
+484
+00:17:15,990 --> 00:17:18,364
+and you're just living
+in this multifamily home,
+
+485
+00:17:18,364 --> 00:17:21,660
+told to stay in doors, right.
+
+486
+00:17:21,660 --> 00:17:22,492
+What are you doing?
+
+487
+00:17:22,492 --> 00:17:24,108
+You get a high viral inoculum.
+
+488
+00:17:24,108 --> 00:17:25,819
+And again, it's a hypothesis,
+
+489
+00:17:25,819 --> 00:17:27,989
+but it's interesting
+because that would affect
+
+490
+00:17:27,990 --> 00:17:30,480
+your infection fatality ratio
+
+491
+00:17:30,480 --> 00:17:33,850
+if that is a component of
+how severely ill you get.
+
+492
+00:17:33,850 --> 00:17:35,630
+- Correct and that is what explains
+
+493
+00:17:35,630 --> 00:17:38,043
+why nosocomial spreads
+like hospital's spread
+
+494
+00:17:38,043 --> 00:17:40,230
+it's so important.
+- Exactly.
+
+495
+00:17:40,230 --> 00:17:45,230
+We talked Dr. Li, the guy,
+the ophthalmologist in Wuhan
+
+496
+00:17:45,340 --> 00:17:48,560
+who first sort of broke this
+news and he died and he was 33
+
+497
+00:17:48,560 --> 00:17:50,570
+and the thought was,
+he's an ophthalmologist.
+
+498
+00:17:50,570 --> 00:17:53,580
+So he's seeing patients
+this close to their face,
+
+499
+00:17:53,580 --> 00:17:56,513
+getting viral inoculum right in the face.
+
+500
+00:17:57,400 --> 00:17:59,670
+And now we've learned a lot from that.
+
+501
+00:17:59,670 --> 00:18:02,470
+that's why we in N95 and
+face shield in the hospital
+
+502
+00:18:02,470 --> 00:18:04,021
+and paper and all that.
+
+503
+00:18:04,021 --> 00:18:06,388
+If we can yeah.
+
+504
+00:18:06,388 --> 00:18:11,210
+So do you think the
+infection fatality ratio,
+
+505
+00:18:11,210 --> 00:18:13,600
+if you just looked at one community,
+
+506
+00:18:13,600 --> 00:18:17,530
+like say Latinos, Latinas,
+
+507
+00:18:17,530 --> 00:18:20,103
+would you think it'd be higher
+there from what we're seeing?
+
+508
+00:18:21,770 --> 00:18:22,603
+- From what I've seen,
+
+509
+00:18:22,603 --> 00:18:24,687
+I think that minorities are
+harder hit with this epidemic.
+
+510
+00:18:24,687 --> 00:18:25,940
+That's absolutely true.
+
+511
+00:18:25,940 --> 00:18:29,340
+So black communities, Latino
+communities are been harder,
+
+512
+00:18:29,340 --> 00:18:30,180
+especially in California,
+
+513
+00:18:30,180 --> 00:18:32,634
+Latino communities make
+up the bulk of the--
+
+514
+00:18:32,634 --> 00:18:34,780
+- Disease yeah, 45% yeah.
+
+515
+00:18:34,780 --> 00:18:37,210
+- It's incredible, I don't think
+
+516
+00:18:37,210 --> 00:18:38,610
+the infection fatality rates,
+- Sorry 60%,
+
+517
+00:18:38,610 --> 00:18:41,510
+60% of cases in California
+
+518
+00:18:42,539 --> 00:18:44,840
+- But I don't think that
+the infection fatality rate
+
+519
+00:18:44,840 --> 00:18:47,230
+is much higher conditional on getting it.
+
+520
+00:18:47,230 --> 00:18:48,670
+It's just they're more likely to get it.
+
+521
+00:18:48,670 --> 00:18:49,543
+- [Dr. Z] I see.
+
+522
+00:18:49,543 --> 00:18:50,632
+- It may be a little higher.
+
+523
+00:18:50,632 --> 00:18:52,150
+I mean, you know, it's hard to.
+
+524
+00:18:52,150 --> 00:18:54,110
+- See because is there preexisting disease
+
+525
+00:18:54,110 --> 00:18:54,950
+more in that community,
+
+526
+00:18:54,950 --> 00:18:56,670
+chronic disease, diabetes,
+hypertension disease.
+
+527
+00:18:56,670 --> 00:18:57,957
+- Yeah, that's the question.
+
+528
+00:18:57,957 --> 00:19:00,030
+So if you have these
+underlying conditions,
+
+529
+00:19:00,030 --> 00:19:01,130
+of course, you're more likely to die from,
+
+530
+00:19:01,130 --> 00:19:02,490
+if you're older you're
+more likely to die from it,
+
+531
+00:19:02,490 --> 00:19:03,914
+things like that we know for a fact.
+
+532
+00:19:03,914 --> 00:19:05,170
+Once you control for that,
+
+533
+00:19:05,170 --> 00:19:07,650
+if you're Hispanic, are
+you more likely to die?
+
+534
+00:19:07,650 --> 00:19:09,030
+My guess is probably not.
+
+535
+00:19:09,030 --> 00:19:09,863
+- [Dr. Z] Interesting.
+
+536
+00:19:09,863 --> 00:19:11,530
+- It's mostly those preexisting conditions
+
+537
+00:19:11,530 --> 00:19:12,887
+and the fact that you're
+more likely get it
+
+538
+00:19:12,887 --> 00:19:14,180
+in the first place.
+
+539
+00:19:14,180 --> 00:19:16,530
+- Now, one counter proposal
+I might say as well,
+
+540
+00:19:16,530 --> 00:19:18,570
+if viral inoculum does matter,
+
+541
+00:19:18,570 --> 00:19:20,100
+if that hypothesis is true
+
+542
+00:19:21,260 --> 00:19:23,400
+and Hispanic families are more likely
+
+543
+00:19:23,400 --> 00:19:25,543
+to congregate together under one roof,
+
+544
+00:19:26,489 --> 00:19:27,322
+you might see
+
+545
+00:19:27,322 --> 00:19:29,590
+actually a higher infection
+fatality rate in that.
+
+546
+00:19:29,590 --> 00:19:30,830
+- It could be yeah.
+
+547
+00:19:30,830 --> 00:19:32,700
+There's a study that was done in Mumbai,
+
+548
+00:19:32,700 --> 00:19:34,230
+in the Dharavi Slums in Mumbai.
+
+549
+00:19:34,230 --> 00:19:36,590
+- Yes, I saw that, explain it.
+
+550
+00:19:36,590 --> 00:19:38,820
+- First, the, the prevalence was enormous.
+
+551
+00:19:38,820 --> 00:19:39,939
+I mean, I think it was like--
+
+552
+00:19:39,939 --> 00:19:42,763
+- It was 80%, 60 or 80.
+
+553
+00:19:42,763 --> 00:19:45,460
+- I actually talked to some
+of those study authors,
+
+554
+00:19:45,460 --> 00:19:47,043
+the studies who ran the thing.
+
+555
+00:19:48,110 --> 00:19:49,810
+Essentially the idea they have
+
+556
+00:19:49,810 --> 00:19:54,050
+is that the lockdown put people,
+
+557
+00:19:54,050 --> 00:19:58,290
+this is a slum where like 10
+people live in the same house
+
+558
+00:19:58,290 --> 00:19:59,720
+and there's police walking around,
+
+559
+00:19:59,720 --> 00:20:00,940
+making sure that if you
+walk out of the house,
+
+560
+00:20:00,940 --> 00:20:02,870
+you're gonna be arrested.
+
+561
+00:20:02,870 --> 00:20:04,709
+So they put 10 people in the house,
+
+562
+00:20:04,709 --> 00:20:07,760
+they probably spread the
+disease with the lockdown,
+
+563
+00:20:07,760 --> 00:20:11,466
+enormous viral load.
+
+564
+00:20:11,466 --> 00:20:15,350
+You can see with the 80%
+antibody number right.
+
+565
+00:20:15,350 --> 00:20:16,650
+- Right
+
+566
+00:20:16,650 --> 00:20:18,753
+- But the infection fatality
+rate was really low.
+
+567
+00:20:18,753 --> 00:20:19,710
+- Minuscule.
+
+568
+00:20:19,710 --> 00:20:20,543
+- [Dr.  Jay] Yeah.
+
+569
+00:20:20,543 --> 00:20:22,330
+- Like I think it might
+be an under reporting
+
+570
+00:20:22,330 --> 00:20:24,470
+to some degree, but like 200,
+300 deaths out of all these.
+
+571
+00:20:24,470 --> 00:20:26,760
+- Yeah it was really, really low.
+
+572
+00:20:26,760 --> 00:20:29,530
+So part of that is they
+don't have the diabetes,
+
+573
+00:20:29,530 --> 00:20:30,363
+they don't have the obesity,
+
+574
+00:20:30,363 --> 00:20:33,260
+they don't have those kinds
+of predisposing conditions.
+
+575
+00:20:33,260 --> 00:20:34,093
+- 'Cause they're thin.
+
+576
+00:20:34,093 --> 00:20:35,030
+- [Dr. Jay] And they're younger.
+
+577
+00:20:35,030 --> 00:20:35,915
+- They're younger.
+
+578
+00:20:35,915 --> 00:20:38,580
+- So, I think we're still learning
+
+579
+00:20:38,580 --> 00:20:39,413
+and at least I'm still
+learning quite a lot
+
+580
+00:20:39,413 --> 00:20:40,570
+about this disease.
+
+581
+00:20:40,570 --> 00:20:42,160
+- Well, and you know the
+other thought that I had,
+
+582
+00:20:42,160 --> 00:20:45,370
+and again, this is just
+pure mental masturbation
+
+583
+00:20:45,370 --> 00:20:48,980
+is the idea that that group may be exposed
+
+584
+00:20:48,980 --> 00:20:51,470
+to so many pathogens on a daily basis,
+
+585
+00:20:51,470 --> 00:20:53,050
+including Corona Viruses, et cetera,
+
+586
+00:20:53,050 --> 00:20:56,510
+that they have some innate
+T-cell immunity or mucosal immune
+
+587
+00:20:56,510 --> 00:20:57,830
+something that we don't have.
+
+588
+00:20:57,830 --> 00:20:59,250
+- Yeah, I think there's some evidence
+
+589
+00:20:59,250 --> 00:21:00,700
+of that even in the United States right.
+
+590
+00:21:00,700 --> 00:21:01,700
+- [Dr. Z] Yeah, exactly.
+
+591
+00:21:01,700 --> 00:21:03,697
+- I saw this really interesting
+study where it looked at,
+
+592
+00:21:03,697 --> 00:21:04,810
+it was a small study
+
+593
+00:21:04,810 --> 00:21:06,198
+so I don't know if it generalizes
+
+594
+00:21:06,198 --> 00:21:08,220
+it will hold up when it's done larger,
+
+595
+00:21:08,220 --> 00:21:10,060
+but people who have young kids,
+
+596
+00:21:10,060 --> 00:21:12,071
+you know if you have young kids,
+
+597
+00:21:12,071 --> 00:21:13,410
+I have three kids
+
+598
+00:21:13,410 --> 00:21:16,400
+and when they were little
+I had colds all the time.
+
+599
+00:21:16,400 --> 00:21:19,623
+People with young kids are
+less likely to die from it.
+
+600
+00:21:21,220 --> 00:21:22,730
+- And that really tells you something
+
+601
+00:21:22,730 --> 00:21:26,870
+like, I remember I had
+a severe cold actually
+
+602
+00:21:26,870 --> 00:21:30,050
+just in January
+
+603
+00:21:30,050 --> 00:21:31,920
+before it was really widely prevalent
+
+604
+00:21:31,920 --> 00:21:33,990
+and I never had antibody
+testing or anything.
+
+605
+00:21:33,990 --> 00:21:36,440
+So I don't know if it was
+COVID, but I doubt it.
+
+606
+00:21:36,440 --> 00:21:37,540
+No one else in the family was sick.
+
+607
+00:21:37,540 --> 00:21:39,592
+I caught it from a friend
+who was in Las Vegas.
+
+608
+00:21:39,592 --> 00:21:42,730
+And I wonder whether getting those
+
+609
+00:21:42,730 --> 00:21:44,640
+really jazzes your T-cell immunity
+
+610
+00:21:44,640 --> 00:21:46,253
+kind of like getting a BCG vaccination
+
+611
+00:21:46,253 --> 00:21:47,861
+or something like that.
+
+612
+00:21:47,861 --> 00:21:50,600
+- There seems to be increasing evidence
+
+613
+00:21:50,600 --> 00:21:53,300
+that T cell mediated immunity
+does matter quite a bit.
+
+614
+00:21:55,099 --> 00:21:56,850
+- But even talking about that
+
+615
+00:21:56,850 --> 00:21:59,640
+people are like, "stop
+minimizing the catastrophe."
+
+616
+00:21:59,640 --> 00:22:00,473
+- I don't understand this,
+
+617
+00:22:00,473 --> 00:22:03,395
+like this is not politics to me.
+
+618
+00:22:03,395 --> 00:22:06,900
+This is a really important
+epidemiologic phenomenon
+
+619
+00:22:06,900 --> 00:22:08,950
+that we absolutely have
+to get our hands around.
+
+620
+00:22:08,950 --> 00:22:11,100
+We need the best science possible.
+
+621
+00:22:11,100 --> 00:22:13,050
+I don't understand the politicization
+
+622
+00:22:13,050 --> 00:22:15,440
+of you're on team apocalypse
+
+623
+00:22:15,440 --> 00:22:18,270
+or you're on team doom, right, team--
+
+624
+00:22:18,270 --> 00:22:19,103
+- Team denial.
+
+625
+00:22:19,103 --> 00:22:20,770
+- [Dr. Jay] Yeah, exactly.
+
+626
+00:22:20,770 --> 00:22:24,340
+- I liked that team apocalypse
+versus team denial go!
+
+627
+00:22:24,340 --> 00:22:25,173
+That's really what it is.
+
+628
+00:22:25,173 --> 00:22:28,170
+And we say that we don't understand it,
+
+629
+00:22:28,170 --> 00:22:30,270
+but we do understand it's
+an election year all that,
+
+630
+00:22:30,270 --> 00:22:34,970
+but as scientists, we don't condone it
+
+631
+00:22:34,970 --> 00:22:36,010
+is what we're trying to say.
+
+632
+00:22:36,010 --> 00:22:37,320
+You got sucked into it, right?
+
+633
+00:22:37,320 --> 00:22:40,970
+Because by definition
+now you're on team denial
+
+634
+00:22:40,970 --> 00:22:42,720
+because you did science
+that doesn't support
+
+635
+00:22:42,720 --> 00:22:45,120
+the press' narrative of X, Y, and Z.
+
+636
+00:22:45,120 --> 00:22:47,965
+- Yeah, what I was taught
+
+637
+00:22:47,965 --> 00:22:50,730
+in public health circles,
+
+638
+00:22:50,730 --> 00:22:53,840
+we actually give people
+the right information,
+
+639
+00:22:53,840 --> 00:22:54,673
+the true information.
+
+640
+00:22:54,673 --> 00:22:57,260
+We don't unduly stoke panic
+
+641
+00:22:57,260 --> 00:22:59,790
+just in order to get the result we want,
+
+642
+00:22:59,790 --> 00:23:01,550
+which is essentially you're gonna comply
+
+643
+00:23:01,550 --> 00:23:03,150
+with this order or that order.
+
+644
+00:23:03,150 --> 00:23:04,055
+We don't do that.
+
+645
+00:23:04,055 --> 00:23:06,493
+We tell people, okay, here are the risks.
+
+646
+00:23:08,730 --> 00:23:12,260
+We have to trust people to
+react to that appropriately.
+
+647
+00:23:12,260 --> 00:23:13,980
+Not many times, they won't some
+
+648
+00:23:13,980 --> 00:23:15,510
+but many times they will,
+
+649
+00:23:15,510 --> 00:23:17,840
+but on net if you wanna maintain trust
+
+650
+00:23:17,840 --> 00:23:19,180
+in the public health community,
+
+651
+00:23:19,180 --> 00:23:21,670
+the absolute first thing we have to do
+
+652
+00:23:21,670 --> 00:23:24,160
+is tell them the absolute
+truth about what we know
+
+653
+00:23:24,160 --> 00:23:25,570
+and we don't know.
+
+654
+00:23:25,570 --> 00:23:27,010
+- So what you've nailed here again,
+
+655
+00:23:27,010 --> 00:23:28,840
+is something I talked with
+Vinay Prasad on the show about
+
+656
+00:23:28,840 --> 00:23:29,850
+which is authenticity.
+
+657
+00:23:29,850 --> 00:23:31,460
+We suck at it in medicine,
+
+658
+00:23:31,460 --> 00:23:34,060
+we prevaricate, we think
+we don't trust the public
+
+659
+00:23:34,060 --> 00:23:35,260
+to do the right thing.
+
+660
+00:23:35,260 --> 00:23:37,350
+We are paternalistic to a fault.
+
+661
+00:23:37,350 --> 00:23:38,880
+So when Monica was on the show yesterday,
+
+662
+00:23:38,880 --> 00:23:40,500
+she said, you know, I'm an HIV researcher.
+
+663
+00:23:40,500 --> 00:23:41,800
+I believe in harm reduction.
+
+664
+00:23:41,800 --> 00:23:44,840
+How dare us preach at people
+
+665
+00:23:44,840 --> 00:23:47,790
+wear mask you dummy, you stupid person.
+
+666
+00:23:47,790 --> 00:23:51,110
+And do you wanna kill grandmothers?
+
+667
+00:23:51,110 --> 00:23:51,943
+And this and this and this,
+
+668
+00:23:51,943 --> 00:23:55,210
+that's not the way to
+communicate public health.
+
+669
+00:23:55,210 --> 00:23:56,630
+You communicate the uncertainty,
+
+670
+00:23:56,630 --> 00:23:58,650
+but you communicate what we know
+
+671
+00:23:58,650 --> 00:24:00,827
+and her whole thing as well,
+if mass reduce inoculum,
+
+672
+00:24:00,827 --> 00:24:02,400
+and it's a low risk intervention,
+
+673
+00:24:02,400 --> 00:24:04,140
+then maybe you guys should do that.
+
+674
+00:24:04,140 --> 00:24:05,024
+But it's your decision.
+
+675
+00:24:05,024 --> 00:24:06,167
+I don't wanna mandate it.
+
+676
+00:24:06,167 --> 00:24:09,070
+And if we get 80% compliance
+according to our data,
+
+677
+00:24:09,070 --> 00:24:10,260
+maybe that's a tipping point,
+
+678
+00:24:10,260 --> 00:24:12,943
+but you know, again, it's a hypothesis.
+
+679
+00:24:14,250 --> 00:24:15,900
+- I'd amend that a little bit.
+
+680
+00:24:15,900 --> 00:24:17,150
+I agree with that actually,
+
+681
+00:24:17,150 --> 00:24:18,210
+but the only thing I'd amend
+
+682
+00:24:18,210 --> 00:24:22,370
+is it's related to the harm
+you really, really are seeing.
+
+683
+00:24:22,370 --> 00:24:25,820
+So if we really are seeing
+it's a 3% mortality disease,
+
+684
+00:24:25,820 --> 00:24:28,783
+yeah then I'm okay with more aggressive.
+
+685
+00:24:30,315 --> 00:24:31,460
+But if on the other hand
+
+686
+00:24:31,460 --> 00:24:33,690
+we're really uncertain about that 3%,
+
+687
+00:24:33,690 --> 00:24:34,523
+which we were.
+
+688
+00:24:35,370 --> 00:24:36,470
+If we really don't know,
+
+689
+00:24:36,470 --> 00:24:37,630
+we should tell people,
+
+690
+00:24:37,630 --> 00:24:38,790
+look, it's looking like 3%
+
+691
+00:24:38,790 --> 00:24:40,870
+we don't know, let's see,
+
+692
+00:24:40,870 --> 00:24:43,220
+here's what we're doing
+to try to figure it out.
+
+693
+00:24:43,220 --> 00:24:45,210
+We should just be honest
+about what we don't know.
+
+694
+00:24:45,210 --> 00:24:47,470
+I think to me has been
+the most shocking thing
+
+695
+00:24:47,470 --> 00:24:50,320
+that the public health people and doctors
+
+696
+00:24:50,320 --> 00:24:53,390
+have dawn this mantle
+of absolute knowledge
+
+697
+00:24:53,390 --> 00:24:55,955
+in a place where I've read
+a lot of this literature
+
+698
+00:24:55,955 --> 00:24:58,260
+there's a lot I don't know
+
+699
+00:24:58,260 --> 00:25:00,340
+even though I've been reading
+the literature scientifically.
+
+700
+00:25:00,340 --> 00:25:01,600
+So we just don't know.
+
+701
+00:25:01,600 --> 00:25:02,690
+We should say that.
+
+702
+00:25:02,690 --> 00:25:05,340
+Why is it bad to say that
+when we just don't know.
+
+703
+00:25:05,340 --> 00:25:06,490
+- You know, and what it does
+
+704
+00:25:06,490 --> 00:25:07,670
+there's a side effect of that,
+
+705
+00:25:07,670 --> 00:25:08,980
+that we're seeing now,
+
+706
+00:25:08,980 --> 00:25:11,150
+which is when doctors and
+public health officials
+
+707
+00:25:11,150 --> 00:25:13,087
+say, "don't wear a mask."
+
+708
+00:25:14,200 --> 00:25:17,757
+and then yeah in the next
+breath, "wear a mask of any kind.
+
+709
+00:25:17,757 --> 00:25:18,590
+"I don't care
+
+710
+00:25:18,590 --> 00:25:21,550
+"if it's just the lace panties
+over your face wear that"
+
+711
+00:25:21,550 --> 00:25:23,320
+we look like idiots.
+
+712
+00:25:23,320 --> 00:25:24,520
+And on top of that,
+
+713
+00:25:24,520 --> 00:25:26,750
+the public then, which isn't as dumb
+
+714
+00:25:26,750 --> 00:25:30,010
+as they're portrayed by
+the intellectual elite,
+
+715
+00:25:30,010 --> 00:25:31,792
+goes, "now wait a minute."
+
+716
+00:25:31,792 --> 00:25:32,625
+- And they should.
+
+717
+00:25:32,625 --> 00:25:33,730
+- And they should.
+
+718
+00:25:33,730 --> 00:25:35,410
+And then what happens is,
+
+719
+00:25:35,410 --> 00:25:37,520
+and you see it in the comments
+to my own videos, right?
+
+720
+00:25:37,520 --> 00:25:39,980
+If I do a video kind of
+leaning in one direction,
+
+721
+00:25:39,980 --> 00:25:41,550
+a billion people comment
+the other direction.
+
+722
+00:25:41,550 --> 00:25:43,280
+If I lean in, in that other direction,
+
+723
+00:25:43,280 --> 00:25:44,520
+a billion people comment,
+
+724
+00:25:44,520 --> 00:25:47,260
+the public is trying to find truth.
+
+725
+00:25:47,260 --> 00:25:48,093
+- Right.
+
+726
+00:25:48,093 --> 00:25:48,926
+- [Dr. Z] And it's tough.
+
+727
+00:25:48,926 --> 00:25:50,220
+- I mean, you know, that's okay.
+
+728
+00:25:50,220 --> 00:25:51,392
+We're having a conversation,
+
+729
+00:25:51,392 --> 00:25:53,130
+there's stuff I'm learning from you.
+
+730
+00:25:53,130 --> 00:25:54,867
+I hope there's some stuff
+you're learning from me.
+
+731
+00:25:54,867 --> 00:25:57,500
+And basically that's what science is.
+
+732
+00:25:57,500 --> 00:26:00,150
+It's a conversation
+that leads to more data
+
+733
+00:26:00,150 --> 00:26:01,203
+that leads to more conversation.
+
+734
+00:26:01,203 --> 00:26:02,240
+That's what it is.
+
+735
+00:26:02,240 --> 00:26:04,730
+- So what you just said
+
+736
+00:26:04,730 --> 00:26:07,080
+is absolutely reasonable and rational
+
+737
+00:26:07,080 --> 00:26:09,700
+and Buzzfeed attacks your family.
+
+738
+00:26:09,700 --> 00:26:12,750
+- Yeah, so, I mean, that was tough,
+
+739
+00:26:12,750 --> 00:26:13,650
+I have to say.
+
+740
+00:26:13,650 --> 00:26:14,483
+That was probably the hardest parts
+
+741
+00:26:14,483 --> 00:26:16,850
+of the whole work on this
+
+742
+00:26:16,850 --> 00:26:19,910
+was just feeling like I've
+dragged my family into something.
+
+743
+00:26:19,910 --> 00:26:20,890
+There's one thing to go after me.
+
+744
+00:26:20,890 --> 00:26:21,723
+It's, another thing.
+
+745
+00:26:21,723 --> 00:26:24,013
+Like, but in any case,
+let's leave me aside.
+
+746
+00:26:25,793 --> 00:26:28,445
+So we put this paper out,
+
+747
+00:26:28,445 --> 00:26:31,643
+we find this number 0.2 to 0.3,
+
+748
+00:26:33,357 --> 00:26:36,222
+and then a whole series of
+studies started coming out
+
+749
+00:26:36,222 --> 00:26:38,522
+from around the world
+to find the same number.
+
+750
+00:26:39,690 --> 00:26:41,283
+Many of them published,
+
+751
+00:26:42,964 --> 00:26:46,690
+the peer review literature I
+think now has established it.
+
+752
+00:26:46,690 --> 00:26:48,380
+- So let me ask you a question though.
+
+753
+00:26:48,380 --> 00:26:50,880
+So what, two to three times a flu
+
+754
+00:26:50,880 --> 00:26:53,120
+is still catastrophic, man.
+
+755
+00:26:53,120 --> 00:26:55,260
+Well, how do you respond to that?
+
+756
+00:26:57,130 --> 00:26:58,820
+- I'd amend that, there's also no vaccine.
+
+757
+00:26:58,820 --> 00:27:00,927
+- Right no vaccine and we
+didn't have treatments.
+
+758
+00:27:00,927 --> 00:27:04,060
+- Absolutely it is worse than
+the flu for those reasons.
+
+759
+00:27:04,060 --> 00:27:06,573
+- Thank you 'cause I
+think that the denial,
+
+760
+00:27:07,430 --> 00:27:09,820
+I think a lot of people perceive a denial.
+
+761
+00:27:09,820 --> 00:27:12,180
+This comparison with flu is very charged
+
+762
+00:27:12,180 --> 00:27:13,288
+and the truth is--
+
+763
+00:27:13,288 --> 00:27:14,650
+- It's worse than the flu.
+
+764
+00:27:14,650 --> 00:27:16,880
+And I think for older people,
+
+765
+00:27:16,880 --> 00:27:18,330
+it is absolutely
+
+766
+00:27:18,330 --> 00:27:19,163
+we should treat it
+
+767
+00:27:19,163 --> 00:27:20,330
+like it's much worse than the flu,
+
+768
+00:27:20,330 --> 00:27:22,226
+because it is worse than the flu.
+
+769
+00:27:22,226 --> 00:27:25,120
+So for instance, nursing homes, right?
+
+770
+00:27:25,120 --> 00:27:26,573
+So I just looked at a paper
+
+771
+00:27:26,573 --> 00:27:28,460
+that said that nursing homes
+
+772
+00:27:28,460 --> 00:27:31,160
+often share staff workers.
+
+773
+00:27:31,160 --> 00:27:33,780
+So like one staff worker
+works in nursing A
+
+774
+00:27:33,780 --> 00:27:36,044
+may also works in nursing on B.
+
+775
+00:27:36,044 --> 00:27:37,970
+We should be using our testing resources
+
+776
+00:27:37,970 --> 00:27:40,440
+to make sure that when
+shared staff workers
+
+777
+00:27:40,440 --> 00:27:41,273
+move back and forth,
+
+778
+00:27:41,273 --> 00:27:42,921
+they don't bring the virus
+
+779
+00:27:42,921 --> 00:27:45,510
+back and forth with them
+across these nursing homes.
+
+780
+00:27:45,510 --> 00:27:47,702
+That seems like a completely
+reasonable outcome
+
+781
+00:27:47,702 --> 00:27:50,630
+of the fact that older people
+are much more vulnerable,
+
+782
+00:27:50,630 --> 00:27:53,523
+especially people with
+comorbid conditions.
+
+783
+00:27:53,523 --> 00:27:55,320
+- And you've been a big advocate
+
+784
+00:27:55,320 --> 00:27:56,994
+of protecting vulnerable groups.
+
+785
+00:27:56,994 --> 00:27:58,820
+- That's the whole point of this
+
+786
+00:27:58,820 --> 00:28:01,380
+is to learn who really should we be using
+
+787
+00:28:01,380 --> 00:28:03,887
+our relatively limited
+resources to protect.
+
+788
+00:28:03,887 --> 00:28:08,080
+And when we raise alarm,
+
+789
+00:28:08,080 --> 00:28:10,370
+who should we be doing it for.
+
+790
+00:28:10,370 --> 00:28:11,830
+There's cost to raising alarm, right?
+
+791
+00:28:11,830 --> 00:28:16,050
+So like, if I panic you,
+you may take actions.
+
+792
+00:28:16,050 --> 00:28:16,883
+That's the whole point
+
+793
+00:28:16,883 --> 00:28:18,635
+of the raising the panic and the alarm.
+
+794
+00:28:18,635 --> 00:28:20,930
+But those actions will
+have very little effect
+
+795
+00:28:20,930 --> 00:28:22,710
+or much less effect on the spread
+
+796
+00:28:22,710 --> 00:28:23,970
+than the costs that you pay
+
+797
+00:28:23,970 --> 00:28:25,650
+and the society pays for those acts.
+
+798
+00:28:25,650 --> 00:28:28,410
+- And the problem with those costs
+
+799
+00:28:28,410 --> 00:28:29,920
+are they're often in tangibles,
+
+800
+00:28:29,920 --> 00:28:32,390
+like I have had fans,
+
+801
+00:28:32,390 --> 00:28:33,720
+who've become fans of my show
+
+802
+00:28:33,720 --> 00:28:35,920
+since we started the COVID adventure.
+
+803
+00:28:35,920 --> 00:28:37,960
+And the reason they became fans
+
+804
+00:28:37,960 --> 00:28:40,040
+is they have generalized anxiety disorder,
+
+805
+00:28:40,040 --> 00:28:41,730
+or they have some level of anxiety.
+
+806
+00:28:41,730 --> 00:28:45,130
+They have been jumping out of their skin,
+
+807
+00:28:45,130 --> 00:28:48,010
+watching the press
+catastrophize about this
+
+808
+00:28:48,010 --> 00:28:49,400
+in generating the fear
+
+809
+00:28:49,400 --> 00:28:53,440
+that I think was the medical establishment
+
+810
+00:28:53,440 --> 00:28:54,273
+was complicit with
+
+811
+00:28:54,273 --> 00:28:56,420
+because they are seeing
+it on the front lines
+
+812
+00:28:56,420 --> 00:28:58,130
+in a very biased way.
+
+813
+00:28:58,130 --> 00:29:01,140
+Oh my God, my ICU is full
+of people who are dying,
+
+814
+00:29:01,140 --> 00:29:02,313
+including some young people.
+
+815
+00:29:02,313 --> 00:29:04,870
+And therefore anything we can do
+
+816
+00:29:04,870 --> 00:29:06,850
+to get the public to behave
+
+817
+00:29:06,850 --> 00:29:08,120
+is gonna be important, right.
+
+818
+00:29:08,120 --> 00:29:09,290
+And then what ends up happening
+
+819
+00:29:09,290 --> 00:29:10,880
+is these poor individuals
+
+820
+00:29:10,880 --> 00:29:14,650
+who have a tendency to anxiety
+are losing their minds.
+
+821
+00:29:14,650 --> 00:29:15,550
+So they tell me,
+
+822
+00:29:15,550 --> 00:29:18,270
+I watch your show
+because you seem rational
+
+823
+00:29:18,270 --> 00:29:19,680
+and you have opposing viewpoints,
+
+824
+00:29:19,680 --> 00:29:22,230
+and you're not just saying
+we're all gonna die.
+
+825
+00:29:22,230 --> 00:29:25,840
+And I think why should I be
+the one who's doing that?
+
+826
+00:29:25,840 --> 00:29:26,720
+- Well, you have a good audience.
+
+827
+00:29:26,720 --> 00:29:28,960
+- I think that ought to be the general.
+
+828
+00:29:28,960 --> 00:29:30,133
+- I agree with that.
+
+829
+00:29:33,609 --> 00:29:35,430
+I don't really understand it,
+
+830
+00:29:35,430 --> 00:29:37,355
+but it seems like people want,
+
+831
+00:29:37,355 --> 00:29:41,723
+especially the press seems
+to want to create this panic.
+
+832
+00:29:42,880 --> 00:29:45,076
+So every time there's
+a study that comes out,
+
+833
+00:29:45,076 --> 00:29:47,890
+that a child has died,
+
+834
+00:29:47,890 --> 00:29:49,966
+which has happened
+absolutely for this disease.
+
+835
+00:29:49,966 --> 00:29:53,970
+You're gonna get this panic
+headline from the press.
+
+836
+00:29:53,970 --> 00:29:54,980
+Now, one of the things I've learned
+
+837
+00:29:54,980 --> 00:29:56,190
+from the seroprevalence studies,
+
+838
+00:29:56,190 --> 00:29:57,400
+again from around the world now,
+
+839
+00:29:57,400 --> 00:29:58,407
+not just mine,
+
+840
+00:29:58,407 --> 00:30:01,750
+is that there's a very wide
+range of clinical presentations
+
+841
+00:30:01,750 --> 00:30:02,608
+from this disease.
+
+842
+00:30:02,608 --> 00:30:06,060
+It ranges from, somewhere
+between 30 to 40%
+
+843
+00:30:06,060 --> 00:30:06,930
+of the people that get it
+
+844
+00:30:06,930 --> 00:30:08,460
+have no symptoms whatsoever.
+
+845
+00:30:08,460 --> 00:30:09,300
+They can't remember.
+
+846
+00:30:09,300 --> 00:30:10,133
+They have the antibodies,
+
+847
+00:30:10,133 --> 00:30:11,110
+but they have no symptoms
+
+848
+00:30:11,110 --> 00:30:12,610
+that they can remember from it
+
+849
+00:30:15,631 --> 00:30:18,220
+maybe even a larger part have
+relatively mild symptoms.
+
+850
+00:30:18,220 --> 00:30:19,876
+It's like a cold.
+
+851
+00:30:19,876 --> 00:30:22,210
+And a small fraction
+
+852
+00:30:22,210 --> 00:30:24,760
+have this horrible viral
+pneumonia that kills them.
+
+853
+00:30:26,230 --> 00:30:28,430
+We focus all our attention
+on the viral pneumonia
+
+854
+00:30:28,430 --> 00:30:32,000
+and none on the fact that 998 people
+
+855
+00:30:32,000 --> 00:30:33,430
+are gonna recover from it.
+
+856
+00:30:33,430 --> 00:30:36,520
+- Yeah, that's a feel good hit
+of the summer, right there.
+
+857
+00:30:36,520 --> 00:30:37,745
+Like that's a positive story
+
+858
+00:30:37,745 --> 00:30:39,310
+and they're going to develop immunity
+
+859
+00:30:39,310 --> 00:30:40,143
+and this whole panic
+
+860
+00:30:40,143 --> 00:30:41,730
+about, well, no, we're never immune.
+
+861
+00:30:41,730 --> 00:30:42,930
+That's another press thing.
+
+862
+00:30:42,930 --> 00:30:44,740
+- Yeah.
+- [Dr. Z] It's insane
+
+863
+00:30:44,740 --> 00:30:46,440
+- It's like no other
+virus does that, right.
+
+864
+00:30:46,440 --> 00:30:48,197
+- Exactly well, what do we all,
+
+865
+00:30:49,064 --> 00:30:51,380
+and the related piece to that,
+
+866
+00:30:51,380 --> 00:30:53,389
+like you said, one story about a child.
+
+867
+00:30:53,389 --> 00:30:54,363
+- HIV, I guess
+
+868
+00:30:54,363 --> 00:30:56,070
+- [Dr. Z] HIV I guess, strep throat.
+
+869
+00:30:56,070 --> 00:30:57,670
+You can't have a vaccine.
+
+870
+00:30:57,670 --> 00:31:00,100
+- So actually it's a
+legitimate scientific question,
+
+871
+00:31:00,100 --> 00:31:02,197
+but one we now have an answer to.
+
+872
+00:31:02,197 --> 00:31:04,140
+You do develop immunity, this virus.
+
+873
+00:31:04,140 --> 00:31:07,450
+- And the thing is because
+we have now millions of cases
+
+874
+00:31:07,450 --> 00:31:08,283
+and we can look
+
+875
+00:31:08,283 --> 00:31:10,420
+and there's been like, I
+think two documented cases
+
+876
+00:31:10,420 --> 00:31:11,976
+of actual re-infection.
+
+877
+00:31:11,976 --> 00:31:12,809
+- [Dr. Jay] Yeah.
+
+878
+00:31:12,809 --> 00:31:14,070
+- One was like, it was totally mild.
+
+879
+00:31:14,070 --> 00:31:15,394
+The other was more severe.
+
+880
+00:31:15,394 --> 00:31:16,830
+And so you could think in a population
+
+881
+00:31:16,830 --> 00:31:18,280
+there's variants, right.
+
+882
+00:31:18,280 --> 00:31:19,890
+- But two out of millions right?
+
+883
+00:31:19,890 --> 00:31:20,780
+So, and as you said, the first case,
+
+884
+00:31:20,780 --> 00:31:22,235
+that was the reinfection,
+
+885
+00:31:22,235 --> 00:31:24,520
+it looked like the guy was protected.
+
+886
+00:31:24,520 --> 00:31:26,467
+- Mild, which is what you would expect,
+
+887
+00:31:26,467 --> 00:31:27,970
+even with a cold,
+
+888
+00:31:27,970 --> 00:31:29,350
+like, you get a cold one year,
+
+889
+00:31:29,350 --> 00:31:30,570
+you may get it again the next year,
+
+890
+00:31:30,570 --> 00:31:32,280
+but it's gonna be minor.
+
+891
+00:31:32,280 --> 00:31:34,080
+- Yeah, if you have the same virus,
+
+892
+00:31:34,080 --> 00:31:35,781
+even if the antibodies fade,
+
+893
+00:31:35,781 --> 00:31:39,782
+you may have T-cells or
+other mechanisms immunity
+
+894
+00:31:39,782 --> 00:31:40,615
+that make it so that,
+
+895
+00:31:40,615 --> 00:31:41,820
+it's not that you won't get sick,
+
+896
+00:31:41,820 --> 00:31:43,480
+but you'll get sick much less
+
+897
+00:31:43,480 --> 00:31:47,420
+and it won't create severe illness.
+
+898
+00:31:47,420 --> 00:31:48,417
+- Now, one thing that's gonna come up,
+
+899
+00:31:48,417 --> 00:31:49,910
+and this comes up a lot again,
+
+900
+00:31:49,910 --> 00:31:51,700
+in the catastrophization camp,
+
+901
+00:31:51,700 --> 00:31:54,300
+but what about the long
+haulers and the terrible damage
+
+902
+00:31:54,300 --> 00:31:56,160
+to the lungs and the cardiac damage
+
+903
+00:31:56,160 --> 00:31:57,610
+and the brain damage
+
+904
+00:31:57,610 --> 00:31:59,120
+and all the other things.
+
+905
+00:31:59,120 --> 00:32:00,980
+- You know, those happened with influenza.
+
+906
+00:32:00,980 --> 00:32:01,813
+- [Dr. Z] Exactly, right.
+
+907
+00:32:01,813 --> 00:32:05,000
+- So my son, my young son, 13 year old now
+
+908
+00:32:05,000 --> 00:32:06,600
+a couple years ago, got the flu
+
+909
+00:32:06,600 --> 00:32:07,945
+and he'd had the flu vaccine
+
+910
+00:32:07,945 --> 00:32:10,140
+and he still got the flu.
+
+911
+00:32:10,140 --> 00:32:10,973
+- Which happens.
+
+912
+00:32:10,973 --> 00:32:12,990
+- Yeah, it happens I mean it was fine.
+
+913
+00:32:12,990 --> 00:32:15,250
+Like, it was a little worse
+than I thought it would
+
+914
+00:32:15,250 --> 00:32:16,380
+when you normally would get,
+
+915
+00:32:16,380 --> 00:32:17,860
+and he was getting better
+
+916
+00:32:17,860 --> 00:32:19,100
+and he woke up one morning
+
+917
+00:32:19,100 --> 00:32:20,010
+and he couldn't walk.
+
+918
+00:32:20,010 --> 00:32:21,060
+- [Dr. Z] Oh my gosh.
+
+919
+00:32:23,240 --> 00:32:26,090
+- I was going through all the panic things
+
+920
+00:32:26,090 --> 00:32:27,943
+when you go through medical
+school, you always have to.
+
+921
+00:32:27,943 --> 00:32:29,336
+- Like Guillain-Barre.
+- That's exactly
+
+922
+00:32:29,336 --> 00:32:30,780
+- Transverse myelitis.
+
+923
+00:32:30,780 --> 00:32:32,390
+- And I'm like, Oh God.
+
+924
+00:32:32,390 --> 00:32:36,250
+So it turned out it was benign myositis.
+
+925
+00:32:36,250 --> 00:32:39,190
+Thank God and within a
+week he was walking again.
+
+926
+00:32:39,190 --> 00:32:41,470
+Flu has all kinds of strange side effects.
+
+927
+00:32:41,470 --> 00:32:42,930
+It has neurologic side effects.
+
+928
+00:32:42,930 --> 00:32:45,280
+It can have cardiac side effects.
+
+929
+00:32:45,280 --> 00:32:47,488
+We put these in context, right?
+
+930
+00:32:47,488 --> 00:32:49,210
+These are things that happen.
+
+931
+00:32:49,210 --> 00:32:50,980
+Absolutely can happen.
+
+932
+00:32:50,980 --> 00:32:52,500
+but we have a lot of information
+
+933
+00:32:52,500 --> 00:32:53,770
+about how frequent they are.
+
+934
+00:32:53,770 --> 00:32:54,940
+Are they likely?
+
+935
+00:32:54,940 --> 00:32:56,101
+How long lasting they are?
+
+936
+00:32:56,101 --> 00:32:58,120
+If it was Guillain-Barre
+would have been terrible,
+
+937
+00:32:58,120 --> 00:33:01,370
+but if it's benign myositis it'd last week
+
+938
+00:33:01,370 --> 00:33:02,410
+and he's okay.
+
+939
+00:33:02,410 --> 00:33:05,070
+- So that's funny because my
+daughter had a viral syndrome
+
+940
+00:33:05,070 --> 00:33:07,410
+when she was three and couldn't walk
+
+941
+00:33:07,410 --> 00:33:10,008
+and again benign myositis.
+
+942
+00:33:10,008 --> 00:33:11,523
+But again, you go through the panic,
+
+943
+00:33:11,523 --> 00:33:14,900
+but the point being these things happen
+
+944
+00:33:14,900 --> 00:33:16,860
+with viral infection,
+
+945
+00:33:16,860 --> 00:33:18,593
+this is a new viral infection
+
+946
+00:33:18,593 --> 00:33:20,620
+that we don't have a vaccine for.
+
+947
+00:33:20,620 --> 00:33:23,600
+That is novel to the
+degree that it's novel.
+
+948
+00:33:23,600 --> 00:33:25,340
+Although we seem to have
+some innate immunity
+
+949
+00:33:25,340 --> 00:33:27,410
+from cross-reactivity to Corona Virus,
+
+950
+00:33:27,410 --> 00:33:32,230
+and yet we are spinning it
+as if the world is ending.
+
+951
+00:33:32,230 --> 00:33:34,150
+And the thing is that would be fine
+
+952
+00:33:34,150 --> 00:33:36,720
+if we thought it was actually
+going to cause less harm
+
+953
+00:33:36,720 --> 00:33:38,190
+to spin it that way than not,
+
+954
+00:33:38,190 --> 00:33:40,780
+but it's actually causing a lot of harm
+
+955
+00:33:40,780 --> 00:33:43,300
+in terms of the response.
+
+956
+00:33:43,300 --> 00:33:45,220
+So whether it's suicide rate going up,
+
+957
+00:33:45,220 --> 00:33:48,438
+substance abuse, economic catastrophe,
+
+958
+00:33:48,438 --> 00:33:50,450
+mortgaging our children's future,
+
+959
+00:33:50,450 --> 00:33:52,810
+creating intergenerational divides now.
+
+960
+00:33:52,810 --> 00:33:54,350
+- Yeah, I was hoping we
+get to talk about that.
+
+961
+00:33:54,350 --> 00:33:55,320
+'Cause that's something
+
+962
+00:33:55,320 --> 00:33:57,490
+I think has been vastly underemphasized
+
+963
+00:33:57,490 --> 00:33:59,310
+and it's breaking my heart.
+
+964
+00:33:59,310 --> 00:34:01,710
+So let's talk about suicide.
+
+965
+00:34:01,710 --> 00:34:04,871
+The CDC released a report, I think in July
+
+966
+00:34:04,871 --> 00:34:09,871
+that it was a report where they
+ask about suicidal ideation.
+
+967
+00:34:09,929 --> 00:34:11,279
+Like how many suicidal thoughts,
+
+968
+00:34:11,280 --> 00:34:13,500
+have you have you had any
+serious suicidal thoughts.
+
+969
+00:34:13,500 --> 00:34:16,480
+One in four 18 to 24 year olds,
+
+970
+00:34:16,480 --> 00:34:19,520
+one in four 18 to 24 year olds in June
+
+971
+00:34:19,520 --> 00:34:22,073
+had serious thoughts of suicide.
+
+972
+00:34:23,460 --> 00:34:27,360
+- You know, so my assistant
+is in her early twenties
+
+973
+00:34:27,360 --> 00:34:29,100
+and she only just recently told me
+
+974
+00:34:29,100 --> 00:34:30,860
+during the early lockdown stuff,
+
+975
+00:34:30,860 --> 00:34:33,500
+we didn't have her in our house.
+
+976
+00:34:33,500 --> 00:34:36,070
+And, kind of kept her on a, not a furlough
+
+977
+00:34:36,070 --> 00:34:40,330
+we were paying her, but she isolated.
+
+978
+00:34:40,330 --> 00:34:43,909
+Now this is a hyper social
+person in the prime of her life
+
+979
+00:34:43,909 --> 00:34:46,489
+who is now told, don't leave your house
+
+980
+00:34:46,489 --> 00:34:48,149
+sit there with your dog.
+
+981
+00:34:48,150 --> 00:34:52,620
+And she told me now that it
+was so awful for her, you know?
+
+982
+00:34:52,620 --> 00:34:54,949
+- Yeah, for a disease for
+her 20 early twenties,
+
+983
+00:34:54,949 --> 00:34:56,685
+probably one in 10,000 death rate.
+
+984
+00:34:56,686 --> 00:35:01,640
+We're basically imposing
+asking young people
+
+985
+00:35:01,640 --> 00:35:03,490
+who are meant to live in community.
+
+986
+00:35:03,490 --> 00:35:04,910
+Not me I was a hermit,
+
+987
+00:35:04,910 --> 00:35:07,433
+but everyone,
+- Me too, I really enjoy this.
+
+988
+00:35:07,433 --> 00:35:12,433
+- But we're not meant to live
+alone in our house hold up,
+
+989
+00:35:13,607 --> 00:35:15,280
+it's going to have consequences.
+
+990
+00:35:15,280 --> 00:35:16,830
+It's gonna have severe
+negative consequences,
+
+991
+00:35:16,830 --> 00:35:19,723
+psychologically, and we
+are already seeing it.
+
+992
+00:35:22,750 --> 00:35:25,723
+That is just the beginning
+of the cost of the lockdown.
+
+993
+00:35:26,610 --> 00:35:30,690
+Worldwide, they're reports
+of hundreds, of millions,
+
+994
+00:35:30,690 --> 00:35:33,880
+of additional people starving as a result
+
+995
+00:35:33,880 --> 00:35:36,550
+because you said you're
+talking about economics.
+
+996
+00:35:36,550 --> 00:35:39,980
+So one of the themes I've
+heard argued against me
+
+997
+00:35:39,980 --> 00:35:40,813
+when I make this point
+
+998
+00:35:40,813 --> 00:35:42,568
+is, well, look, you're
+talking about the lockdowns
+
+999
+00:35:42,568 --> 00:35:44,270
+and there's some economic costs,
+
+1000
+00:35:44,270 --> 00:35:47,210
+but what are they relative
+to the lives we save.
+
+1001
+00:35:47,210 --> 00:35:50,060
+But it's not lives on one
+side the economy on the other.
+
+1002
+00:35:50,060 --> 00:35:55,060
+The economy is really important
+to the lives of the people
+
+1003
+00:35:55,510 --> 00:35:56,343
+who are in the midst of it.
+
+1004
+00:35:56,343 --> 00:35:59,860
+And hundreds of millions
+of people around the world
+
+1005
+00:35:59,860 --> 00:36:02,723
+that are on the edge of economic disaster.
+
+1006
+00:36:03,810 --> 00:36:05,510
+And you push them over you,
+
+1007
+00:36:05,510 --> 00:36:06,960
+you destroy the world economy.
+
+1008
+00:36:06,960 --> 00:36:08,260
+It's not just dollars.
+
+1009
+00:36:08,260 --> 00:36:11,010
+It's hundreds of millions
+of people starving.
+
+1010
+00:36:11,010 --> 00:36:12,173
+And that's what the UN has said.
+
+1011
+00:36:12,173 --> 00:36:13,430
+Then you go, and it's fine.
+
+1012
+00:36:13,430 --> 00:36:16,210
+- I said this, like in the
+first month of this pandemic,
+
+1013
+00:36:16,210 --> 00:36:19,010
+I said, you guys seem to
+have this false dichotomy
+
+1014
+00:36:19,010 --> 00:36:21,260
+between economy and lives.
+
+1015
+00:36:21,260 --> 00:36:26,260
+Blood is treasure it's there
+it's a transitive property.
+
+1016
+00:36:26,960 --> 00:36:28,740
+When you start having unemployment,
+
+1017
+00:36:28,740 --> 00:36:30,290
+the suicide rate goes up
+
+1018
+00:36:30,290 --> 00:36:32,930
+in the world when you
+shut the economy down,
+
+1019
+00:36:32,930 --> 00:36:35,580
+people starved to death.
+
+1020
+00:36:35,580 --> 00:36:37,161
+And this idea,
+
+1021
+00:36:37,161 --> 00:36:39,510
+and I'm gonna rant for one second
+
+1022
+00:36:39,510 --> 00:36:41,030
+and you may or may not agree with me.
+
+1023
+00:36:41,030 --> 00:36:43,160
+I feel like my own tribe of people,
+
+1024
+00:36:43,160 --> 00:36:44,260
+the healthcare professionals,
+
+1025
+00:36:44,260 --> 00:36:46,515
+have held the rest of our country hostage
+
+1026
+00:36:46,515 --> 00:36:48,860
+with their catastrophizing around this,
+
+1027
+00:36:48,860 --> 00:36:50,410
+which was done with good intent.
+
+1028
+00:36:50,410 --> 00:36:51,620
+These are good smart people.
+
+1029
+00:36:51,620 --> 00:36:52,453
+And they're right.
+
+1030
+00:36:52,453 --> 00:36:54,680
+We've had deaths and terrible outcomes,
+
+1031
+00:36:54,680 --> 00:36:57,020
+but they fail to see the bigger picture.
+
+1032
+00:36:57,020 --> 00:36:59,140
+And Monica Gandhi on
+the show yesterday said,
+
+1033
+00:36:59,140 --> 00:37:02,420
+as doctors it's our
+responsibility to see this.
+
+1034
+00:37:02,420 --> 00:37:04,288
+- Our job is to show people that picture,
+
+1035
+00:37:04,288 --> 00:37:05,243
+I'd say even more than just,
+
+1036
+00:37:05,243 --> 00:37:08,670
+I mean, I call us the
+Zoomocracy and I mean it.
+
+1037
+00:37:08,670 --> 00:37:10,270
+So like, I'm fine
+
+1038
+00:37:10,270 --> 00:37:12,170
+I can be on Zoom and
+I'm not going to lose my
+
+1039
+00:37:12,170 --> 00:37:14,290
+well, maybe who knows the
+Sanford could keep me.
+
+1040
+00:37:14,290 --> 00:37:15,496
+- We gotta talk about that.
+
+1041
+00:37:15,496 --> 00:37:18,810
+- But I think I'm fine, right?
+
+1042
+00:37:18,810 --> 00:37:20,680
+So like, why should I care about,
+
+1043
+00:37:20,680 --> 00:37:22,640
+well, my job is to tell people
+
+1044
+00:37:22,640 --> 00:37:25,153
+what's happening in the
+rest of the world, I think.
+
+1045
+00:37:26,660 --> 00:37:28,150
+There's this program called Gavi,
+
+1046
+00:37:28,150 --> 00:37:30,015
+which is a program for vaccinations
+
+1047
+00:37:30,015 --> 00:37:32,540
+International Program for Vaccinations.
+
+1048
+00:37:32,540 --> 00:37:35,730
+They've halted their operations
+because of the lockdown.
+
+1049
+00:37:35,730 --> 00:37:37,070
+- So polio comes back,
+
+1050
+00:37:37,070 --> 00:37:38,910
+measles comes back.
+
+1051
+00:37:38,910 --> 00:37:40,680
+measles never gone, measles is still here.
+
+1052
+00:37:40,680 --> 00:37:41,530
+- Yeah we're gonna see research
+
+1053
+00:37:41,530 --> 00:37:43,780
+we may even see resurgents
+in polio in the United States
+
+1054
+00:37:43,780 --> 00:37:45,437
+because people stopped taking their kids
+
+1055
+00:37:45,437 --> 00:37:47,880
+for the Tdap vaccine.
+
+1056
+00:37:47,880 --> 00:37:51,230
+- Yeah absolutely cancer screening,
+
+1057
+00:37:51,230 --> 00:37:52,330
+their mental--
+
+1058
+00:37:52,330 --> 00:37:54,970
+- So we've had good news from
+cancer for the past few years.
+
+1059
+00:37:54,970 --> 00:37:58,190
+We've actually had decreases
+in cancer related mortality
+
+1060
+00:37:58,190 --> 00:38:01,750
+for the first time in my memory anyways,
+
+1061
+00:38:01,750 --> 00:38:03,110
+for three or four years in a row
+
+1062
+00:38:03,110 --> 00:38:04,020
+that will reverse,
+
+1063
+00:38:04,020 --> 00:38:05,880
+we're gonna start seeing
+later stage breast cancers,
+
+1064
+00:38:05,880 --> 00:38:07,270
+later stage prostate cancers,
+
+1065
+00:38:07,270 --> 00:38:08,960
+people stopped getting screening.
+
+1066
+00:38:08,960 --> 00:38:11,580
+People actually even
+stopped getting treatment
+
+1067
+00:38:11,580 --> 00:38:13,316
+for cancer, active cancer.
+
+1068
+00:38:13,316 --> 00:38:15,110
+During the epidemic.
+- Yeah I've seen that.
+
+1069
+00:38:15,110 --> 00:38:19,420
+HIV, patients are losing
+their viral suppression.
+
+1070
+00:38:19,420 --> 00:38:20,840
+Monica was talking about that
+
+1071
+00:38:20,840 --> 00:38:21,760
+because they're not coming in.
+
+1072
+00:38:21,760 --> 00:38:24,170
+- Tuberculosis millions of
+extra tuberculosis cases
+
+1073
+00:38:24,170 --> 00:38:25,003
+'cause you have tuberculosis,
+
+1074
+00:38:25,003 --> 00:38:26,678
+you have to treat over
+a long period of time
+
+1075
+00:38:26,678 --> 00:38:28,650
+with regular antibiotics.
+
+1076
+00:38:28,650 --> 00:38:30,540
+People come in around the world
+
+1077
+00:38:30,540 --> 00:38:31,373
+because they're--
+
+1078
+00:38:31,373 --> 00:38:32,870
+- Directly observed therapy,
+all this other stuff.
+
+1079
+00:38:32,870 --> 00:38:34,968
+- Exactly and that stopped
+
+1080
+00:38:34,968 --> 00:38:37,510
+were gonna see a resurgence
+of tuberculosis deaths.
+
+1081
+00:38:37,510 --> 00:38:38,343
+- Well, so let me ask a question
+
+1082
+00:38:38,343 --> 00:38:40,940
+because this is very gloomy stuff.
+
+1083
+00:38:40,940 --> 00:38:43,300
+Like, honestly, when you said earlier,
+
+1084
+00:38:43,300 --> 00:38:44,660
+you were heartbroken.
+
+1085
+00:38:44,660 --> 00:38:46,820
+This is what keeps me up at night
+
+1086
+00:38:46,820 --> 00:38:49,230
+because you know here
+we have this platform
+
+1087
+00:38:49,230 --> 00:38:50,063
+we can get to see,
+
+1088
+00:38:50,063 --> 00:38:51,230
+like you said, we're
+part of the Zoomocracy.
+
+1089
+00:38:51,230 --> 00:38:52,090
+Like we can do this,
+
+1090
+00:38:52,090 --> 00:38:53,740
+we can get this information out,
+
+1091
+00:38:53,740 --> 00:38:55,120
+but it doesn't sink in.
+
+1092
+00:38:55,120 --> 00:38:57,690
+And what it does is, I worry
+that it even contributes more
+
+1093
+00:38:57,690 --> 00:38:59,590
+to this polarization
+
+1094
+00:38:59,590 --> 00:39:00,480
+because there are camps
+
+1095
+00:39:00,480 --> 00:39:01,617
+that get so emotional
+
+1096
+00:39:01,617 --> 00:39:04,550
+about the damage we've
+done from our response
+
+1097
+00:39:04,550 --> 00:39:06,350
+and camps that gets so emotional
+
+1098
+00:39:06,350 --> 00:39:10,440
+from The United States' perceived failure
+
+1099
+00:39:10,440 --> 00:39:11,560
+relative to other countries
+
+1100
+00:39:11,560 --> 00:39:13,330
+in terms of mortality per million.
+
+1101
+00:39:13,330 --> 00:39:14,320
+- I'm heartbroken at both.
+
+1102
+00:39:14,320 --> 00:39:18,280
+I mean, I think we in public
+health need to balance
+
+1103
+00:39:18,280 --> 00:39:22,223
+COVID is not the only
+threat to public health.
+
+1104
+00:39:23,740 --> 00:39:24,780
+We need to understand
+
+1105
+00:39:24,780 --> 00:39:26,950
+that there's all kinds of
+public health problems.
+
+1106
+00:39:26,950 --> 00:39:29,670
+- So what do you think you would say
+
+1107
+00:39:29,670 --> 00:39:31,100
+The United States should do?
+
+1108
+00:39:31,100 --> 00:39:31,933
+And then I wanna talk
+
+1109
+00:39:31,933 --> 00:39:33,170
+about Sweden and Europe and Asia too,
+
+1110
+00:39:33,170 --> 00:39:34,780
+but what do you think the
+United States should do?
+
+1111
+00:39:34,780 --> 00:39:35,800
+So here's the problem,
+
+1112
+00:39:35,800 --> 00:39:38,190
+all this disaster from our response
+
+1113
+00:39:39,030 --> 00:39:40,530
+and then the danger of the virus,
+
+1114
+00:39:40,530 --> 00:39:43,320
+which is worse for the elders
+and people with comorbidities.
+
+1115
+00:39:43,320 --> 00:39:45,810
+And it's blessed than
+we thought initially.
+
+1116
+00:39:45,810 --> 00:39:47,300
+And we have a little better treatment now.
+
+1117
+00:39:47,300 --> 00:39:48,700
+So what do you think?
+
+1118
+00:39:48,700 --> 00:39:50,560
+- If I had to characterize
+the American response.
+
+1119
+00:39:50,560 --> 00:39:51,860
+It's exactly backwards.
+
+1120
+00:39:51,860 --> 00:39:52,693
+- [Dr. Z] Yes.
+
+1121
+00:39:52,693 --> 00:39:53,720
+- We have quarantined the healthy
+
+1122
+00:39:53,720 --> 00:39:56,453
+and we've exposed the
+vulnerable to the disease.
+
+1123
+00:39:57,830 --> 00:40:00,220
+- That's it and Monica said yesterday.
+
+1124
+00:40:00,220 --> 00:40:01,170
+- [Dr. Jay] Flip that around.
+
+1125
+00:40:01,170 --> 00:40:03,750
+- Monica said yesterday, we
+were exactly backwards as well.
+
+1126
+00:40:03,750 --> 00:40:08,160
+We've favored the rich
+people who can survive this,
+
+1127
+00:40:08,160 --> 00:40:09,570
+the Zoomocracy like you and I,
+
+1128
+00:40:09,570 --> 00:40:11,470
+and we've punished the poor.
+
+1129
+00:40:11,470 --> 00:40:14,700
+So we've actually told them,
+stay inside, lose your jobs,
+
+1130
+00:40:14,700 --> 00:40:16,800
+get $1,200 a month.
+
+1131
+00:40:16,800 --> 00:40:21,050
+- Yeah, or you go out and expose yourself,
+
+1132
+00:40:21,050 --> 00:40:22,900
+deliver the groceries to
+- Essential worker.
+
+1133
+00:40:22,900 --> 00:40:25,730
+- Yeah, I don't understand it.
+
+1134
+00:40:25,730 --> 00:40:29,490
+I could understand three in a 100 deaths.
+
+1135
+00:40:29,490 --> 00:40:30,399
+- Different story
+
+1136
+00:40:30,399 --> 00:40:31,467
+- You imagine it,
+
+1137
+00:40:31,467 --> 00:40:34,324
+but even there you'd wanna focus response
+
+1138
+00:40:34,324 --> 00:40:36,750
+and figure out who really is
+
+1139
+00:40:36,750 --> 00:40:37,583
+- In that 3%.
+
+1140
+00:40:37,583 --> 00:40:38,877
+- Right, exactly and there may be people
+
+1141
+00:40:38,877 --> 00:40:40,578
+who are less vulnerable.
+
+1142
+00:40:40,578 --> 00:40:43,521
+You tailor your strategy around
+the numbers you're seeing,
+
+1143
+00:40:43,521 --> 00:40:44,865
+but we haven't done that yet.
+
+1144
+00:40:44,865 --> 00:40:46,990
+We've gone the opposite
+route since in many ways,
+
+1145
+00:40:46,990 --> 00:40:49,015
+I think New York is an absolute disaster,
+
+1146
+00:40:49,015 --> 00:40:50,742
+New York, I mean,
+
+1147
+00:40:50,742 --> 00:40:52,620
+the highest death rates in the world
+
+1148
+00:40:52,620 --> 00:40:56,023
+happened in the Northeast
+early map of the United States.
+
+1149
+00:40:56,023 --> 00:40:58,820
+- Yeah and multiple
+reasons for that probably
+
+1150
+00:40:58,820 --> 00:41:01,340
+that will become clear
+also more in retrospect
+
+1151
+00:41:01,340 --> 00:41:02,660
+and our retrospectoscope
+
+1152
+00:41:02,660 --> 00:41:07,660
+is is gonna be highly, highly indicting.
+
+1153
+00:41:08,280 --> 00:41:10,410
+I think of a lot of behavior
+that we had early on.
+
+1154
+00:41:10,410 --> 00:41:14,560
+- Yeah, can we return to,
+you were asking me earlier
+
+1155
+00:41:14,560 --> 00:41:16,860
+about like the scientific
+discussion around this.
+
+1156
+00:41:16,860 --> 00:41:18,610
+- Yeah, I would love to,
+
+1157
+00:41:18,610 --> 00:41:23,090
+- So I've been really concerned
+about censorship in science
+
+1158
+00:41:23,090 --> 00:41:24,100
+around this epidemic.
+
+1159
+00:41:24,100 --> 00:41:24,933
+- As have I.
+
+1160
+00:41:24,933 --> 00:41:25,990
+- Yeah and so like you mentioned,
+
+1161
+00:41:25,990 --> 00:41:29,554
+John Ioannidis is one of the foremost
+physicians in the world,
+
+1162
+00:41:29,554 --> 00:41:32,230
+researchers in the world studying.
+
+1163
+00:41:32,230 --> 00:41:34,060
+I had the honor to be
+able to work with him.
+
+1164
+00:41:34,060 --> 00:41:37,460
+He did an interview
+early on in the epidemic
+
+1165
+00:41:37,460 --> 00:41:39,533
+that was suppressed by YouTube.
+
+1166
+00:41:41,410 --> 00:41:43,628
+- How do you suppress John Ioannidis?
+
+1167
+00:41:43,628 --> 00:41:45,830
+- I don't know, I don't understand it.
+
+1168
+00:41:45,830 --> 00:41:49,691
+My view of science is
+that it's a conversation.
+
+1169
+00:41:49,691 --> 00:41:52,159
+We have to have the ability
+
+1170
+00:41:52,159 --> 00:41:55,030
+to express views that are not popular
+
+1171
+00:41:55,030 --> 00:41:57,100
+or else we can't have a science.
+
+1172
+00:41:57,100 --> 00:41:58,126
+We can't have science.
+
+1173
+00:41:58,126 --> 00:41:59,970
+- I mean.
+
+1174
+00:41:59,970 --> 00:42:02,160
+- So the idea
+
+1175
+00:42:02,160 --> 00:42:05,350
+is that somehow if somebody
+is expressing a view
+
+1176
+00:42:05,350 --> 00:42:08,524
+that is contrary to
+somebody's interpretation
+
+1177
+00:42:08,524 --> 00:42:11,000
+of some public health organization,
+
+1178
+00:42:11,000 --> 00:42:12,450
+World Health Organization or whatever,
+
+1179
+00:42:12,450 --> 00:42:15,680
+it's ipso facto dangerous
+to say those views,
+
+1180
+00:42:15,680 --> 00:42:17,991
+that is a form of population control.
+
+1181
+00:42:17,991 --> 00:42:18,824
+That's what it is, right.
+
+1182
+00:42:18,824 --> 00:42:20,000
+- It really is, yeah.
+
+1183
+00:42:20,000 --> 00:42:23,000
+- It's fine if you know,
+
+1184
+00:42:23,000 --> 00:42:25,950
+with 100% scientific certainty,
+
+1185
+00:42:25,950 --> 00:42:27,240
+that some fact--
+
+1186
+00:42:27,240 --> 00:42:28,073
+- Is wrong.
+
+1187
+00:42:28,073 --> 00:42:28,906
+- Yes.
+
+1188
+00:42:28,906 --> 00:42:30,522
+- Yeah, like vaccines cause autism, right?
+
+1189
+00:42:30,522 --> 00:42:31,391
+- So what's the your response.
+
+1190
+00:42:31,391 --> 00:42:34,190
+You say, look, the vaccines
+don't cause autism, right?
+
+1191
+00:42:34,190 --> 00:42:35,054
+That's the right response.
+
+1192
+00:42:35,054 --> 00:42:35,887
+- [Dr. Z] That's right.
+
+1193
+00:42:35,887 --> 00:42:37,947
+- And here's the evidence.
+- [Dr. Z] That's right.
+
+1194
+00:42:37,947 --> 00:42:41,730
+- If you have a situation of a new virus
+
+1195
+00:42:41,730 --> 00:42:44,030
+where the science is emerging rapidly
+
+1196
+00:42:44,030 --> 00:42:45,130
+and we're learning new things,
+
+1197
+00:42:45,130 --> 00:42:46,590
+I've changed my mind about 15 things
+
+1198
+00:42:46,590 --> 00:42:47,510
+about this virus
+
+1199
+00:42:47,510 --> 00:42:48,980
+as I've read new papers
+- [Dr. Z] Me too.
+
+1200
+00:42:48,980 --> 00:42:49,813
+- over the course,
+
+1201
+00:42:49,813 --> 00:42:50,646
+how could you not?
+
+1202
+00:42:50,646 --> 00:42:53,540
+- Yeah but you know what, read
+the comments in my videos.
+
+1203
+00:42:53,540 --> 00:42:56,148
+You flip-flopped on this five times.
+
+1204
+00:42:56,148 --> 00:42:57,422
+- Got me with this new
+evidence coming up right.
+
+1205
+00:42:57,422 --> 00:42:58,255
+- [Dr. Z] Yeah.
+
+1206
+00:42:58,255 --> 00:42:59,445
+- So in that context,
+
+1207
+00:42:59,445 --> 00:43:01,770
+scientific censorship is criminal.
+
+1208
+00:43:01,770 --> 00:43:02,740
+- Yeah. I agree.
+
+1209
+00:43:02,740 --> 00:43:04,903
+- And so I think,
+
+1210
+00:43:06,030 --> 00:43:07,340
+and we've seen this over and over again,
+
+1211
+00:43:07,340 --> 00:43:09,410
+there's a set of papers
+
+1212
+00:43:09,410 --> 00:43:11,990
+by this scientist, Gabriella Gomez
+
+1213
+00:43:11,990 --> 00:43:13,600
+on the Herd Immunity threshold.
+
+1214
+00:43:13,600 --> 00:43:14,690
+- [Dr. Z] I love her work, yeah.
+
+1215
+00:43:14,690 --> 00:43:18,580
+- And what I've seen her write
+is that she sent her paper
+
+1216
+00:43:18,580 --> 00:43:19,810
+to scientific journals
+
+1217
+00:43:19,810 --> 00:43:22,680
+the editors won't even
+send it out for review
+
+1218
+00:43:22,680 --> 00:43:25,484
+because they're saying
+that it's too dangerous
+
+1219
+00:43:25,484 --> 00:43:28,439
+her findings suggest a lower
+Herd Immunity threshold.
+
+1220
+00:43:28,439 --> 00:43:30,600
+Now I don't know if it's
+right or wrong, I don't--
+
+1221
+00:43:30,600 --> 00:43:31,570
+- Does it matter?
+
+1222
+00:43:31,570 --> 00:43:33,807
+- Well, let's just have a
+scientific conversation about it.
+
+1223
+00:43:33,807 --> 00:43:37,080
+Why is that so dangerous to talk about
+
+1224
+00:43:37,080 --> 00:43:39,090
+that you wouldn't even
+send it out for review?
+
+1225
+00:43:39,090 --> 00:43:40,980
+- I mean, the last time
+we did stuff like this,
+
+1226
+00:43:40,980 --> 00:43:43,065
+it was the inquisition in Galileo.
+
+1227
+00:43:43,065 --> 00:43:44,510
+- I felt a little like that Stanford.
+
+1228
+00:43:44,510 --> 00:43:46,562
+I think the,
+- Tell me about it
+
+1229
+00:43:46,562 --> 00:43:47,721
+- well, we'll talk about
+that in just a bit.
+
+1230
+00:43:47,721 --> 00:43:51,550
+But I think the knee jerk reaction
+
+1231
+00:43:51,550 --> 00:43:52,924
+to censor people that you disagree with
+
+1232
+00:43:52,924 --> 00:43:54,700
+inside the scientific community
+
+1233
+00:43:54,700 --> 00:43:56,350
+has been absolutely terrible.
+
+1234
+00:43:56,350 --> 00:43:57,740
+One of my Stanford colleagues
+
+1235
+00:43:57,740 --> 00:43:59,410
+actually wrote a New York Times article
+
+1236
+00:43:59,410 --> 00:44:01,710
+arguing for essentially a censorship board
+
+1237
+00:44:01,710 --> 00:44:05,953
+for our articles in Nova Science.
+
+1238
+00:44:07,170 --> 00:44:09,610
+- Hey, look, I kind of am an expert
+
+1239
+00:44:09,610 --> 00:44:11,210
+in misinformation management.
+
+1240
+00:44:11,210 --> 00:44:14,540
+I have always, look, remember
+those Bakersfield Docs,
+
+1241
+00:44:14,540 --> 00:44:16,400
+they were proposing some similar ideas
+
+1242
+00:44:16,400 --> 00:44:17,233
+to what you were saying,
+
+1243
+00:44:17,233 --> 00:44:18,710
+but their, their data was
+a little and you know,
+
+1244
+00:44:18,710 --> 00:44:19,620
+they were clearly a little.
+
+1245
+00:44:19,620 --> 00:44:20,453
+- I've talked to them,
+
+1246
+00:44:20,453 --> 00:44:21,860
+look, there's stuff I agree with it,
+
+1247
+00:44:21,860 --> 00:44:23,350
+but there's stuff, I don't
+necessarily agree with them,
+
+1248
+00:44:23,350 --> 00:44:26,120
+but why should they not be
+part of the conversation?
+
+1249
+00:44:26,120 --> 00:44:28,030
+- Exactly, so when that video came out,
+
+1250
+00:44:28,030 --> 00:44:30,010
+a million people sent it to
+me, what do you think of this?
+
+1251
+00:44:30,010 --> 00:44:32,030
+And I said, well, let me
+do a show on what I think.
+
+1252
+00:44:32,030 --> 00:44:33,800
+I agree with them that
+lockdowns are harmful.
+
+1253
+00:44:33,800 --> 00:44:35,530
+I agree with them we're
+overreacting creating fear.
+
+1254
+00:44:35,530 --> 00:44:36,720
+I disagree with their use of the data
+
+1255
+00:44:36,720 --> 00:44:37,928
+on this and this and this.
+
+1256
+00:44:37,928 --> 00:44:41,230
+And I disagree that
+YouTube pulled their clip.
+
+1257
+00:44:41,230 --> 00:44:42,430
+- Yeah it's ridiculous.
+
+1258
+00:44:42,430 --> 00:44:43,820
+- Why would you do that?
+
+1259
+00:44:43,820 --> 00:44:46,330
+All you're gonna do is
+also solidify this idea
+
+1260
+00:44:46,330 --> 00:44:47,560
+that there's a conspiracy.
+
+1261
+00:44:47,560 --> 00:44:51,202
+- I think the idea that media
+organizations or Stanford
+
+1262
+00:44:51,202 --> 00:44:55,840
+has some obligation to
+censor opposing views
+
+1263
+00:44:55,840 --> 00:44:58,010
+is absolutely anathema to science.
+
+1264
+00:44:58,010 --> 00:45:03,010
+- And you know, my wife is
+on a Listserv at Stanford.
+
+1265
+00:45:03,050 --> 00:45:05,100
+So a bunch of people
+that I know at Stanford
+
+1266
+00:45:05,100 --> 00:45:07,700
+got on a Listserv on the
+Stanford listserv email
+
+1267
+00:45:07,700 --> 00:45:10,990
+and said, "we hear by
+disavow Scott Atlas."
+
+1268
+00:45:10,990 --> 00:45:11,860
+- Oh, that's disgusting.
+
+1269
+00:45:11,860 --> 00:45:13,687
+- Yeah so can you tell
+me a little about that?
+
+1270
+00:45:13,687 --> 00:45:17,130
+- Sure, so again one of my
+colleagues sign that letter too.
+
+1271
+00:45:17,130 --> 00:45:17,963
+You know people I respect.
+
+1272
+00:45:17,963 --> 00:45:19,873
+- [Dr. Z] People I respect
+to know are on that.
+
+1273
+00:45:19,873 --> 00:45:20,706
+- People I love are on that list.
+
+1274
+00:45:20,706 --> 00:45:21,939
+I mean like friends,
+
+1275
+00:45:21,939 --> 00:45:23,670
+I mean, I disagree with them
+
+1276
+00:45:23,670 --> 00:45:24,503
+about some of the things.
+
+1277
+00:45:24,503 --> 00:45:25,970
+- Right, but we can
+love people and disagree
+
+1278
+00:45:25,970 --> 00:45:27,710
+without shutting them up.
+
+1279
+00:45:27,710 --> 00:45:31,651
+- So think Dr. Atlas Scott
+
+1280
+00:45:31,651 --> 00:45:35,330
+is the Special Advisor to
+the President on COVID.
+
+1281
+00:45:35,330 --> 00:45:36,620
+He has certain views
+
+1282
+00:45:36,620 --> 00:45:39,870
+about the nature of the epidemic.
+
+1283
+00:45:39,870 --> 00:45:42,623
+They're actually closer to
+my views than by colleagues.
+
+1284
+00:45:43,940 --> 00:45:44,980
+So among those views
+
+1285
+00:45:44,980 --> 00:45:49,980
+are things like the disease
+is less dangerous for kids,
+
+1286
+00:45:50,220 --> 00:45:51,410
+less dangerous than the flu for kids.
+
+1287
+00:45:51,410 --> 00:45:53,340
+That seems like there's
+solid scientific evidence.
+
+1288
+00:45:53,340 --> 00:45:56,920
+And yet the letter it seems
+to like paint this picture
+
+1289
+00:45:56,920 --> 00:45:58,560
+about the danger to kids.
+
+1290
+00:45:58,560 --> 00:45:59,963
+I think my colleagues
+are just wrong on this.
+
+1291
+00:45:59,963 --> 00:46:01,573
+The way they disagree with Scott on this,
+
+1292
+00:46:01,573 --> 00:46:02,900
+- I agree when I read the letter,
+
+1293
+00:46:02,900 --> 00:46:04,060
+I'm like, these guys are just wrong.
+
+1294
+00:46:04,060 --> 00:46:05,130
+They haven't read what Scott is saying.
+
+1295
+00:46:05,130 --> 00:46:06,880
+Now, look, I don't agree
+with Scott on everything.
+
+1296
+00:46:06,880 --> 00:46:09,460
+- So now I think they've
+also mischaracterized
+
+1297
+00:46:09,460 --> 00:46:10,790
+what Scott has said.
+
+1298
+00:46:10,790 --> 00:46:12,350
+So for instance, Scott has repeatedly said
+
+1299
+00:46:12,350 --> 00:46:14,670
+that he's not in favor of
+a Herd Immunity strategy.
+
+1300
+00:46:14,670 --> 00:46:16,114
+Actually, we should talk a
+little bit about Herd Immunity
+
+1301
+00:46:16,114 --> 00:46:16,970
+- Herd Immunity Strategy.
+
+1302
+00:46:16,970 --> 00:46:18,500
+- What does that actually mean?
+
+1303
+00:46:18,500 --> 00:46:20,952
+Herd Immunity means that,
+
+1304
+00:46:20,952 --> 00:46:23,190
+so when we think about Herd Immunity,
+
+1305
+00:46:23,190 --> 00:46:24,680
+if we think about it as a single number,
+
+1306
+00:46:24,680 --> 00:46:26,430
+but it's again, just
+like infection fatality
+
+1307
+00:46:26,430 --> 00:46:27,821
+is not a single number.
+
+1308
+00:46:27,821 --> 00:46:29,240
+What Herd Immunity means
+
+1309
+00:46:29,240 --> 00:46:31,520
+is that when a new
+person gets the disease,
+
+1310
+00:46:31,520 --> 00:46:33,330
+how many people are
+they gonna spread it to?
+
+1311
+00:46:33,330 --> 00:46:36,053
+If it's less than one, then
+you reached Herd Immunity.
+
+1312
+00:46:37,130 --> 00:46:37,963
+- It's gonna be squashed.
+
+1313
+00:46:37,963 --> 00:46:39,620
+- Exactly, if there's more than one,
+
+1314
+00:46:39,620 --> 00:46:41,940
+then you get more sort of
+this exponential growth right.
+
+1315
+00:46:41,940 --> 00:46:42,773
+- [Dr. Z] Right.
+
+1316
+00:46:44,220 --> 00:46:45,267
+- That happens with every disease
+
+1317
+00:46:45,267 --> 00:46:46,920
+where immunity actually happens,
+
+1318
+00:46:46,920 --> 00:46:48,133
+that's just normal.
+
+1319
+00:46:48,970 --> 00:46:53,970
+The number is a function of
+how people interact in society.
+
+1320
+00:46:54,200 --> 00:46:55,597
+So if I interact with a lot of people
+
+1321
+00:46:55,597 --> 00:46:57,063
+and I get it, I will spread it.
+
+1322
+00:46:57,063 --> 00:47:00,127
+If I'm sort of more
+fearful about the disease
+
+1323
+00:47:00,127 --> 00:47:01,213
+and I spreading it,
+
+1324
+00:47:02,168 --> 00:47:04,210
+then then social distancing happens
+
+1325
+00:47:04,210 --> 00:47:08,110
+then Herd Immunity, could get
+lower to meet the thresholds.
+
+1326
+00:47:08,110 --> 00:47:09,100
+'Cause one person getting it,
+
+1327
+00:47:09,100 --> 00:47:10,440
+doesn't spread to a lot of people.
+
+1328
+00:47:10,440 --> 00:47:12,696
+So it's a function of
+the behavior of people,
+
+1329
+00:47:12,696 --> 00:47:15,480
+as well as again, the virus itself,
+
+1330
+00:47:15,480 --> 00:47:16,313
+it's not a single number
+
+1331
+00:47:16,313 --> 00:47:18,590
+where you say, okay,
+here's, we've reached it.
+
+1332
+00:47:18,590 --> 00:47:20,390
+And ironically, you can reach it
+
+1333
+00:47:20,390 --> 00:47:21,330
+cases are declining
+
+1334
+00:47:21,330 --> 00:47:23,280
+and people stop taking those precautions.
+
+1335
+00:47:23,280 --> 00:47:24,430
+and it goes back up again.
+
+1336
+00:47:24,430 --> 00:47:26,030
+We can go in and out of Herd Immunity.
+
+1337
+00:47:26,030 --> 00:47:28,130
+- Right, autoregulation homeostasis
+
+1338
+00:47:28,130 --> 00:47:29,240
+of the population's behavior.
+
+1339
+00:47:29,240 --> 00:47:31,072
+- Yeah, exactly so that's actually,
+
+1340
+00:47:31,072 --> 00:47:32,993
+it's more complicated than that.
+
+1341
+00:47:34,200 --> 00:47:35,250
+Personally Scott has told me,
+
+1342
+00:47:35,250 --> 00:47:36,556
+I've never told the president
+
+1343
+00:47:36,556 --> 00:47:40,480
+that he's in favor of
+Herd Immunity strategy.
+
+1344
+00:47:40,480 --> 00:47:41,313
+He is not.
+
+1345
+00:47:41,313 --> 00:47:43,443
+He specifically said that the
+letter my colleagues wrote
+
+1346
+00:47:43,443 --> 00:47:46,210
+accused him of that, just falsely.
+
+1347
+00:47:46,210 --> 00:47:48,210
+It's just, if you set up the straw, man,
+
+1348
+00:47:49,690 --> 00:47:51,180
+I mean, I just, I don't understand it.
+
+1349
+00:47:51,180 --> 00:47:52,830
+It's like they weren't listening
+
+1350
+00:47:52,830 --> 00:47:54,240
+and partly it's the press's fault.
+
+1351
+00:47:54,240 --> 00:47:56,180
+Like the press has
+mischaracterized him as well.
+
+1352
+00:47:56,180 --> 00:47:58,620
+- For sure, this is what I think happened.
+
+1353
+00:47:58,620 --> 00:48:00,210
+And honestly, and you can correct me.
+
+1354
+00:48:00,210 --> 00:48:03,360
+They read the press,
+they read some CNN, MSNBC
+
+1355
+00:48:03,360 --> 00:48:05,700
+Scott, Atlas doesn't knows
+nothing about science.
+
+1356
+00:48:05,700 --> 00:48:07,630
+And he's got president's ear.
+
+1357
+00:48:07,630 --> 00:48:10,183
+- He was the Chair of Neuroradiology
+at Stanford for years.
+
+1358
+00:48:10,183 --> 00:48:12,260
+I mean, I just don't,
+
+1359
+00:48:12,260 --> 00:48:13,250
+- My wife worked with him right.
+
+1360
+00:48:13,250 --> 00:48:16,940
+And the thing is, if you hear him talk
+
+1361
+00:48:16,940 --> 00:48:20,320
+again, he's reiterating some
+of the concerns that we have.
+
+1362
+00:48:20,320 --> 00:48:21,360
+He's never said,
+
+1363
+00:48:21,360 --> 00:48:23,940
+let it rip through the
+population and develop.
+
+1364
+00:48:23,940 --> 00:48:25,940
+- That's that's the
+exact opposite strategy.
+
+1365
+00:48:25,940 --> 00:48:27,610
+I know he's been telling the president.
+
+1366
+00:48:27,610 --> 00:48:30,330
+- Right, right and the thing
+is, you've talked to him,
+
+1367
+00:48:30,330 --> 00:48:32,580
+have these colleagues talk to him, no.
+
+1368
+00:48:32,580 --> 00:48:33,610
+And this is what happens.
+
+1369
+00:48:33,610 --> 00:48:34,970
+You have in-group.
+
+1370
+00:48:34,970 --> 00:48:37,020
+This is his tribe of people.
+
+1371
+00:48:37,020 --> 00:48:39,970
+Now excommunicating him
+
+1372
+00:48:39,970 --> 00:48:41,580
+and which hunting him
+
+1373
+00:48:41,580 --> 00:48:44,250
+because that's what's
+happening on social media.
+
+1374
+00:48:44,250 --> 00:48:47,780
+That's what's happening
+in the halls of academia.
+
+1375
+00:48:47,780 --> 00:48:49,000
+Is this how you met him?
+
+1376
+00:48:49,000 --> 00:48:51,290
+Okay just play with this for a second.
+
+1377
+00:48:51,290 --> 00:48:54,643
+What if your right and Neeraj is right.
+
+1378
+00:48:54,643 --> 00:48:57,180
+And in retrospect we realize
+
+1379
+00:48:57,180 --> 00:48:59,400
+you guys were actually
+banging the right drum
+
+1380
+00:48:59,400 --> 00:49:01,940
+and these people who
+censored, you were wrong.
+
+1381
+00:49:01,940 --> 00:49:06,010
+Okay, that is gonna be a
+criminal act that they did.
+
+1382
+00:49:06,010 --> 00:49:06,950
+That costs lives.
+
+1383
+00:49:06,950 --> 00:49:08,733
+- Yeah, I think there was an
+attempt to cancel me right.
+
+1384
+00:49:08,733 --> 00:49:09,893
+- [Dr. Z] Oh, for sure.
+
+1385
+00:49:11,910 --> 00:49:13,480
+- I don't actually care I get canceled.
+
+1386
+00:49:13,480 --> 00:49:17,256
+What I really want is the
+data to drive the policy.
+
+1387
+00:49:17,256 --> 00:49:18,880
+That's what I really want.
+
+1388
+00:49:18,880 --> 00:49:21,150
+And I think Scott would
+say the same thing.
+
+1389
+00:49:21,150 --> 00:49:22,720
+I mean, it's just not personal for him.
+
+1390
+00:49:22,720 --> 00:49:24,790
+It's like, let's let the
+data drive the policy.
+
+1391
+00:49:24,790 --> 00:49:27,150
+Cause the cost on lies are high
+
+1392
+00:49:27,150 --> 00:49:28,610
+on both sides of this decision.
+
+1393
+00:49:28,610 --> 00:49:30,820
+There's no riskless option here.
+
+1394
+00:49:30,820 --> 00:49:31,653
+- [Dr. Z] Right.
+
+1395
+00:49:31,653 --> 00:49:34,240
+- So whether you lock
+down or don't lock down
+
+1396
+00:49:34,240 --> 00:49:37,530
+is not a, okay, let's
+just stay safe on one side
+
+1397
+00:49:37,530 --> 00:49:39,380
+so my colleagues started the letter
+
+1398
+00:49:39,380 --> 00:49:41,250
+with the principle of do no harm.
+
+1399
+00:49:41,250 --> 00:49:43,250
+How do you do no harm in this situation?
+
+1400
+00:49:44,860 --> 00:49:47,960
+- There's plenty of ways to
+do harm sensor a colleague.
+
+1401
+00:49:47,960 --> 00:49:48,830
+- [Dr. Jay] For instance.
+
+1402
+00:49:48,830 --> 00:49:50,650
+- On insufficient information.
+
+1403
+00:49:50,650 --> 00:49:51,740
+Now, I imagine,
+
+1404
+00:49:51,740 --> 00:49:53,450
+okay, so let's dig into
+that a little more,
+
+1405
+00:49:53,450 --> 00:49:55,400
+and you can refuse to
+answer this if you like.
+
+1406
+00:49:55,400 --> 00:49:58,850
+Your own paper was attacked internally
+
+1407
+00:49:58,850 --> 00:50:00,450
+in a almost politicized way.
+
+1408
+00:50:00,450 --> 00:50:02,850
+It wasn't so much about the science.
+
+1409
+00:50:02,850 --> 00:50:04,120
+And I was reading these things
+
+1410
+00:50:04,120 --> 00:50:08,034
+about the internecine
+drama at Stanford.
+
+1411
+00:50:08,034 --> 00:50:10,803
+And I'm like, I know these
+people, what are they doing?
+
+1412
+00:50:11,640 --> 00:50:14,190
+- It was absolutely shocking to me.
+
+1413
+00:50:14,190 --> 00:50:16,260
+I feel like my academic
+freedom was attacked
+
+1414
+00:50:16,260 --> 00:50:20,150
+and I've been at the university
+for 30 plus years actually
+
+1415
+00:50:21,330 --> 00:50:22,340
+the motto of the university
+
+1416
+00:50:22,340 --> 00:50:23,440
+is "Let The Winds of Freedom Blow."
+
+1417
+00:50:23,440 --> 00:50:25,000
+I don't think that they acted,
+
+1418
+00:50:25,000 --> 00:50:26,780
+the leaders of the university
+have acted in that way
+
+1419
+00:50:26,780 --> 00:50:28,510
+toward my study.
+
+1420
+00:50:28,510 --> 00:50:31,600
+And it's been absolutely shocking to me.
+
+1421
+00:50:31,600 --> 00:50:32,560
+- Are you tenured?
+
+1422
+00:50:32,560 --> 00:50:33,393
+- I am.
+
+1423
+00:50:33,393 --> 00:50:34,280
+- Okay, so you can say this kind of thing.
+
+1424
+00:50:34,280 --> 00:50:36,090
+- Well, I don't care if I lose my job.
+
+1425
+00:50:36,090 --> 00:50:37,590
+- You know what I'll hire you.
+
+1426
+00:50:38,750 --> 00:50:40,067
+We could be like ,
+
+1427
+00:50:40,067 --> 00:50:42,630
+you know, we could have one
+of these like Sunday mornings
+
+1428
+00:50:42,630 --> 00:50:43,850
+- It's been really
+enjoyable talking to you
+
+1429
+00:50:43,850 --> 00:50:45,454
+- Bhattacharya that would be really fun.
+
+1430
+00:50:45,454 --> 00:50:50,454
+So to this thing, I was shocked when I saw
+
+1431
+00:50:50,570 --> 00:50:53,210
+how this thing was played out.
+
+1432
+00:50:53,210 --> 00:50:55,420
+And I knew that what
+the press was reporting,
+
+1433
+00:50:55,420 --> 00:50:57,100
+wasn't the full story.
+
+1434
+00:50:57,100 --> 00:50:57,933
+It was still concerning.
+
+1435
+00:50:57,933 --> 00:50:59,251
+I was like, well, is
+there a lot of bias here
+
+1436
+00:50:59,251 --> 00:51:00,880
+is this thing, you know?
+
+1437
+00:51:00,880 --> 00:51:04,340
+And so I was waiting to
+talk to you about this.
+
+1438
+00:51:04,340 --> 00:51:06,443
+And you know, at some point
+I'll have one of the colleagues
+
+1439
+00:51:06,443 --> 00:51:08,170
+that's attacking you guys on the show
+
+1440
+00:51:08,170 --> 00:51:09,010
+and see what they think.
+
+1441
+00:51:09,010 --> 00:51:10,181
+'Cause it'd be interesting, right.
+
+1442
+00:51:10,181 --> 00:51:11,014
+- [Dr. Jay] Yeah.
+
+1443
+00:51:11,014 --> 00:51:12,530
+- But I would love to see that play out
+
+1444
+00:51:12,530 --> 00:51:13,799
+in a way that isn't just politicized.
+
+1445
+00:51:13,799 --> 00:51:14,960
+Cause it's this.
+
+1446
+00:51:14,960 --> 00:51:19,790
+- Yeah I got to do a
+debate with Stan Vermund.
+
+1447
+00:51:19,790 --> 00:51:21,080
+- Oh yeah I know Stan.
+
+1448
+00:51:21,080 --> 00:51:21,920
+I know of Stan.
+
+1449
+00:51:21,920 --> 00:51:25,590
+- Yeah, so it was really interesting.
+
+1450
+00:51:25,590 --> 00:51:27,912
+Like he's a Yale,
+
+1451
+00:51:27,912 --> 00:51:29,890
+the Head of the Public
+Health Department at Yale.
+
+1452
+00:51:29,890 --> 00:51:30,723
+- [Dr. Z] Yeah.
+
+1453
+00:51:30,723 --> 00:51:31,556
+- Really sweet guy.
+
+1454
+00:51:31,556 --> 00:51:32,893
+- Talked really slow
+
+1455
+00:51:32,893 --> 00:51:35,210
+I was listening to
+debate going , oh my God
+
+1456
+00:51:35,210 --> 00:51:37,180
+I got to put it up to three X.
+
+1457
+00:51:37,180 --> 00:51:39,466
+Except when you talk, then
+I had to slow it down.
+
+1458
+00:51:39,466 --> 00:51:40,520
+- [Dr. Jay] I'm sorry.
+
+1459
+00:51:40,520 --> 00:51:42,431
+- No, no I love fast talkers.
+
+1460
+00:51:42,431 --> 00:51:45,190
+- I bet but I think is that he's open.
+
+1461
+00:51:45,190 --> 00:51:46,023
+He wants to talk.
+
+1462
+00:51:46,023 --> 00:51:46,970
+He wants to have a conversation.
+
+1463
+00:51:46,970 --> 00:51:48,640
+I wish we had that spirit of Stanford.
+
+1464
+00:51:48,640 --> 00:51:50,080
+- [Dr. Z] Yeah.
+
+1465
+00:51:50,080 --> 00:51:52,880
+- I think in some ways we have lost that
+
+1466
+00:51:52,880 --> 00:51:55,030
+and it's been dispiriting for me.
+
+1467
+00:51:55,030 --> 00:51:56,010
+- Yeah. I agree.
+
+1468
+00:51:56,010 --> 00:51:56,890
+Well, you know, the two folks
+
+1469
+00:51:56,890 --> 00:51:59,653
+that I interviewed from
+UCSF, Monica and Vinay
+
+1470
+00:51:59,653 --> 00:52:02,920
+are deeply embodied that spirit
+
+1471
+00:52:02,920 --> 00:52:04,220
+of open discourse.
+
+1472
+00:52:04,220 --> 00:52:06,680
+They may politically disagree.
+
+1473
+00:52:06,680 --> 00:52:07,650
+It doesn't matter.
+
+1474
+00:52:07,650 --> 00:52:09,770
+They only wanna have the conversation
+
+1475
+00:52:09,770 --> 00:52:11,880
+in a polite and civil way.
+
+1476
+00:52:11,880 --> 00:52:13,553
+- Yeah, I mean, I that's the thing,
+
+1477
+00:52:14,720 --> 00:52:16,483
+Internally I don't think,
+
+1478
+00:52:18,950 --> 00:52:21,230
+I don't know what joining
+these politics are.
+
+1479
+00:52:21,230 --> 00:52:22,670
+I have literally no idea.
+
+1480
+00:52:22,670 --> 00:52:25,973
+I don't and I'm pretty sure
+if I were to talk with Eran
+
+1481
+00:52:25,973 --> 00:52:27,762
+that we would disagree about politics.
+
+1482
+00:52:27,762 --> 00:52:30,000
+It doesn't matter, we're doing science,
+
+1483
+00:52:30,000 --> 00:52:30,833
+- [Dr. Z] Right.
+
+1484
+00:52:30,833 --> 00:52:32,910
+- Like we move to what the data tell us.
+
+1485
+00:52:32,910 --> 00:52:35,540
+- Eran Bendavid who was also a resident
+
+1486
+00:52:35,540 --> 00:52:36,390
+when I was an attending there.
+
+1487
+00:52:36,390 --> 00:52:37,980
+I'm gonna try to have
+him on the show later.
+
+1488
+00:52:37,980 --> 00:52:40,053
+- Yeah he was the lead author
+on the Santa Clara Study.
+
+1489
+00:52:40,053 --> 00:52:42,160
+- Yeah so I can dig in a
+little more with him, yeah.
+
+1490
+00:52:42,160 --> 00:52:45,030
+It's great to be next to all
+these smart people, you know.
+
+1491
+00:52:45,030 --> 00:52:47,910
+But so it's been just a mess.
+
+1492
+00:52:47,910 --> 00:52:49,990
+It's been hard I imagine.
+
+1493
+00:52:49,990 --> 00:52:52,030
+Forget, it's been hard on you
+clearly, you and your family,
+
+1494
+00:52:52,030 --> 00:52:54,720
+but secondary thing that has been hard
+
+1495
+00:52:54,720 --> 00:52:56,480
+on our scientific advancement
+
+1496
+00:52:56,480 --> 00:52:58,060
+and understanding this virus
+
+1497
+00:52:58,060 --> 00:53:00,120
+because when you suppress these ideas,
+
+1498
+00:53:00,120 --> 00:53:00,953
+what happens?
+
+1499
+00:53:00,953 --> 00:53:04,381
+They pop up on Twitter
+in a weaponized form.
+
+1500
+00:53:04,381 --> 00:53:07,090
+So now you have frank anti maskers
+
+1501
+00:53:07,090 --> 00:53:09,940
+that are taking masks and
+ripping out the lining
+
+1502
+00:53:09,940 --> 00:53:11,970
+so that they can do the hygiene theater
+
+1503
+00:53:11,970 --> 00:53:13,890
+without the actual filter.
+
+1504
+00:53:13,890 --> 00:53:15,470
+You know, I mean this crazy stuff,
+
+1505
+00:53:15,470 --> 00:53:16,370
+none of that would have happened
+
+1506
+00:53:16,370 --> 00:53:17,960
+if we'd just been open and honest.
+
+1507
+00:53:17,960 --> 00:53:19,600
+- Yeah, I think it's the same thing
+
+1508
+00:53:19,600 --> 00:53:20,660
+with the anti-vaxxers right.
+
+1509
+00:53:20,660 --> 00:53:22,367
+So like
+- [Dr. Z] Same thing.
+
+1510
+00:53:22,367 --> 00:53:24,640
+- Actually, the funny thing is like
+
+1511
+00:53:26,290 --> 00:53:27,400
+we should talk about the vaccines.
+
+1512
+00:53:27,400 --> 00:53:28,950
+- Let's just say that, yeah.
+
+1513
+00:53:28,950 --> 00:53:32,180
+- But I think if a vaccine does
+come out and it's effective.
+
+1514
+00:53:32,180 --> 00:53:34,756
+The fact that the scientific
+community is acting this way
+
+1515
+00:53:34,756 --> 00:53:37,810
+will create doubt around the vaccine.
+
+1516
+00:53:37,810 --> 00:53:38,643
+- Who's gonna get it?
+
+1517
+00:53:38,643 --> 00:53:40,250
+40% of Americans don't want to get it now.
+
+1518
+00:53:40,250 --> 00:53:41,799
+- Yeah and because the
+scientific community
+
+1519
+00:53:41,799 --> 00:53:46,020
+is very, very clearly seems
+politicized around this.
+
+1520
+00:53:46,020 --> 00:53:49,810
+- 1000% and remember in
+the early days of fear,
+
+1521
+00:53:49,810 --> 00:53:52,690
+when we were in the Imperial
+college sphere of influence,
+
+1522
+00:53:52,690 --> 00:53:55,480
+and we thought 3 million
+Americans were gonna die,
+
+1523
+00:53:55,480 --> 00:53:58,400
+there was not an anti-vaxx
+voice to be heard.
+
+1524
+00:53:58,400 --> 00:53:59,830
+They were terrified.
+
+1525
+00:53:59,830 --> 00:54:01,290
+They wouldn't open their mouth.
+
+1526
+00:54:01,290 --> 00:54:04,440
+They saw, oh, 'cause
+when push comes to shove,
+
+1527
+00:54:04,440 --> 00:54:05,680
+if there's a vaccine,
+
+1528
+00:54:05,680 --> 00:54:07,270
+they're gonna be first in line to get it
+
+1529
+00:54:07,270 --> 00:54:09,279
+when you're afraid for your life.
+
+1530
+00:54:09,279 --> 00:54:11,220
+But then as this thing spun out now,
+
+1531
+00:54:11,220 --> 00:54:13,090
+they've actually been empowered in a way
+
+1532
+00:54:13,090 --> 00:54:14,690
+that we haven't remembered in recent.
+
+1533
+00:54:14,690 --> 00:54:17,260
+- It's because the scientific
+community is screwed up.
+
+1534
+00:54:17,260 --> 00:54:18,671
+- [Dr. Z] They've made
+idiots of themselves.
+
+1535
+00:54:18,671 --> 00:54:19,770
+- Yeah.
+
+1536
+00:54:19,770 --> 00:54:22,120
+- Does it make you want to
+hit stuff and throw stuff.
+
+1537
+00:54:22,120 --> 00:54:23,720
+'cause I get emotional about it.
+
+1538
+00:54:24,631 --> 00:54:25,881
+- I'm not built that way.
+
+1539
+00:54:28,260 --> 00:54:29,200
+- I forget sometimes
+
+1540
+00:54:29,200 --> 00:54:30,750
+that I'm talking to scientific introverts
+
+1541
+00:54:30,750 --> 00:54:33,070
+who have like spock like controls,
+
+1542
+00:54:33,070 --> 00:54:34,080
+whereas I'm the opposite.
+
+1543
+00:54:34,080 --> 00:54:36,740
+I'm just like throw the table
+over and kill everybody.
+
+1544
+00:54:36,740 --> 00:54:37,893
+- Well, when, when they
+were talking to my wife,
+
+1545
+00:54:37,893 --> 00:54:39,545
+you know that means--
+
+1546
+00:54:39,545 --> 00:54:40,397
+- [Dr. Z] That's too much.
+
+1547
+00:54:40,397 --> 00:54:43,840
+- But other than that I
+still just want to know
+
+1548
+00:54:43,840 --> 00:54:44,930
+what the right thing to do is.
+
+1549
+00:54:44,930 --> 00:54:49,930
+- Right, there've been things
+where I've gone back and forth
+
+1550
+00:54:49,930 --> 00:54:51,647
+because I'm not convinced
+one way or the other.
+
+1551
+00:54:51,647 --> 00:54:53,690
+And I will literally sit up at night
+
+1552
+00:54:53,690 --> 00:54:57,530
+going I put out a video today saying this
+
+1553
+00:54:57,530 --> 00:55:01,107
+and is it really a 100% right?
+
+1554
+00:55:01,107 --> 00:55:03,050
+No, it can't be a 100% right
+
+1555
+00:55:03,050 --> 00:55:04,250
+'cause we don't know yet.
+
+1556
+00:55:04,250 --> 00:55:06,524
+So am I doing more harm
+than good saying it,
+
+1557
+00:55:06,524 --> 00:55:08,190
+what's the harm reduction.
+
+1558
+00:55:08,190 --> 00:55:10,320
+- You have to say what
+you currently believe.
+
+1559
+00:55:10,320 --> 00:55:12,806
+And then when you find new
+evidence you change your mind
+
+1560
+00:55:12,806 --> 00:55:14,116
+you say it.
+
+1561
+00:55:14,116 --> 00:55:15,810
+- That's the thing.
+
+1562
+00:55:15,810 --> 00:55:17,530
+So that's what it is.
+
+1563
+00:55:17,530 --> 00:55:18,950
+But, but it's hard.
+
+1564
+00:55:18,950 --> 00:55:20,360
+For me it's emotionally difficult
+
+1565
+00:55:20,360 --> 00:55:25,060
+because I tend to
+involute this emotionally.
+
+1566
+00:55:25,060 --> 00:55:27,160
+Whereas again, that's
+why I'm not a researcher.
+
+1567
+00:55:27,160 --> 00:55:31,000
+So a researcher I could have
+a little more equanimity.
+
+1568
+00:55:31,000 --> 00:55:32,890
+- I mean,
+- [Dr. Z] It's meditation,
+
+1569
+00:55:32,890 --> 00:55:34,350
+- it's hard to admit
+that you're wrong right.
+
+1570
+00:55:34,350 --> 00:55:37,253
+That's just, but look, you
+can't do science without that,
+
+1571
+00:55:38,450 --> 00:55:40,680
+'cause new data come out
+and you change your mind.
+
+1572
+00:55:40,680 --> 00:55:41,803
+- So let me ask you a
+question, speaking of data.
+
+1573
+00:55:41,803 --> 00:55:44,145
+So, and I've been meaning
+to ask this of you.
+
+1574
+00:55:44,145 --> 00:55:46,700
+So you read an Atlantic
+article, all right.
+
+1575
+00:55:46,700 --> 00:55:50,640
+And it says, here's all
+the cognitive distortions
+
+1576
+00:55:53,326 --> 00:55:55,550
+that we've shown in this thing.
+
+1577
+00:55:55,550 --> 00:55:57,340
+And it was the actually
+the opposite version
+
+1578
+00:55:57,340 --> 00:55:58,220
+of what I've been saying,
+
+1579
+00:55:58,220 --> 00:55:59,700
+which is here are the
+cognitive distortions
+
+1580
+00:55:59,700 --> 00:56:00,630
+that we've are showing
+
+1581
+00:56:00,630 --> 00:56:03,000
+that cause us to catastrophize
+and misunderstand
+
+1582
+00:56:03,000 --> 00:56:03,833
+the science on this.
+
+1583
+00:56:03,833 --> 00:56:05,520
+They were saying, well,
+here's all the reasons
+
+1584
+00:56:05,520 --> 00:56:06,610
+that America screwed it up
+
+1585
+00:56:06,610 --> 00:56:08,177
+and not taking it seriously and so on.
+
+1586
+00:56:08,177 --> 00:56:09,847
+And we have this terrible mortality rate
+
+1587
+00:56:09,847 --> 00:56:11,600
+and the high case rate and all that.
+
+1588
+00:56:11,600 --> 00:56:13,980
+And they would say things in
+there just throw away things
+
+1589
+00:56:13,980 --> 00:56:15,990
+like, and then they're Sweden's policy,
+
+1590
+00:56:15,990 --> 00:56:17,970
+which is folly and they put a link
+
+1591
+00:56:17,970 --> 00:56:20,070
+and they wished they hadn't done.
+
+1592
+00:56:20,070 --> 00:56:21,130
+How do you respond to that?
+
+1593
+00:56:21,130 --> 00:56:23,870
+- I mean, U.S has higher death
+rate than Sweden right now.
+
+1594
+00:56:23,870 --> 00:56:24,730
+- [Dr. Z] Yeah.
+
+1595
+00:56:24,730 --> 00:56:28,083
+- More cases per million in
+the United States than Sweden.
+
+1596
+00:56:29,800 --> 00:56:31,100
+To characterize Sweden as a failure
+
+1597
+00:56:31,100 --> 00:56:33,120
+seems like, I mean they've made mistakes.
+
+1598
+00:56:33,120 --> 00:56:34,120
+It's in the early days, I think
+
+1599
+00:56:34,120 --> 00:56:35,780
+- Not protecting the elderly.
+
+1600
+00:56:35,780 --> 00:56:37,780
+- Yeah, they wait until early April
+
+1601
+00:56:38,660 --> 00:56:41,380
+to essentially protect the
+nursing homes in a serious way.
+
+1602
+00:56:41,380 --> 00:56:43,300
+And I think that led to
+some of their higher deaths,
+
+1603
+00:56:43,300 --> 00:56:44,457
+but that's the same way
+U.S made the same mistake.
+
+1604
+00:56:44,457 --> 00:56:45,610
+- We did the same thing.
+
+1605
+00:56:45,610 --> 00:56:47,967
+45% of deaths were nursing home patients
+
+1606
+00:56:47,967 --> 00:56:49,325
+0.6% of the population.
+
+1607
+00:56:49,325 --> 00:56:54,325
+So Sweden actually took a
+very different approach.
+
+1608
+00:56:54,988 --> 00:56:58,610
+- I think it's more consistent
+with what a democracy does
+
+1609
+00:56:58,610 --> 00:57:00,250
+in the context of these
+kinds of things, right?
+
+1610
+00:57:00,250 --> 00:57:03,153
+So the idea of the
+lockdown we were copying,
+
+1611
+00:57:04,320 --> 00:57:06,760
+what Japan, oh, sorry not
+Japan, what China did.
+
+1612
+00:57:06,760 --> 00:57:07,593
+- Right.
+
+1613
+00:57:07,593 --> 00:57:08,426
+- I like this idea
+
+1614
+00:57:08,426 --> 00:57:12,410
+but the idea that we could
+do this militarized lockdown,
+
+1615
+00:57:12,410 --> 00:57:15,520
+I don't think is consistent
+with a constitutional democracy.
+
+1616
+00:57:15,520 --> 00:57:16,353
+- [Dr. Z] I agree.
+
+1617
+00:57:16,353 --> 00:57:17,780
+- And you're seeing this play out
+
+1618
+00:57:17,780 --> 00:57:19,780
+in places like Australia or Victoria,
+
+1619
+00:57:19,780 --> 00:57:23,930
+where they have essentially
+a very draconian lockdown.
+
+1620
+00:57:23,930 --> 00:57:25,530
+You can only go out for an hour.
+
+1621
+00:57:26,700 --> 00:57:29,660
+If you're gonna go to a
+park, you have to walk alone.
+
+1622
+00:57:29,660 --> 00:57:32,640
+You know, I don't think that's consistent.
+
+1623
+00:57:32,640 --> 00:57:34,694
+I mean, people will play
+with that for a while
+
+1624
+00:57:34,694 --> 00:57:36,750
+if it's a 3% mortality rate.
+
+1625
+00:57:36,750 --> 00:57:37,583
+- [Dr. Z] Sure.
+
+1626
+00:57:37,583 --> 00:57:39,060
+- But they won't put up with it forever.
+
+1627
+00:57:39,060 --> 00:57:44,050
+And that's a constraint on
+public health in a democracy.
+
+1628
+00:57:44,050 --> 00:57:45,560
+You have to take that into account.
+
+1629
+00:57:45,560 --> 00:57:46,400
+You can't pretend
+
+1630
+00:57:46,400 --> 00:57:48,450
+like, oh, it's really unfortunate
+
+1631
+00:57:48,450 --> 00:57:50,060
+that people won't put
+up with this forever.
+
+1632
+00:57:50,060 --> 00:57:54,130
+- I said that in February.
+
+1633
+00:57:54,130 --> 00:57:55,370
+I said, what we're seeing in Wuhan
+
+1634
+00:57:55,370 --> 00:58:00,050
+is absolutely never going to
+be feasible in this democracy.
+
+1635
+00:58:00,050 --> 00:58:01,470
+It's just not.
+
+1636
+00:58:01,470 --> 00:58:03,306
+And you could just say,
+well, then people will die
+
+1637
+00:58:03,306 --> 00:58:04,370
+because of that.
+
+1638
+00:58:04,370 --> 00:58:07,750
+Then that's the cost of living
+in a constitutional democracy
+
+1639
+00:58:07,750 --> 00:58:09,780
+that you will not have
+that kind of control.
+
+1640
+00:58:09,780 --> 00:58:11,100
+And one thing I would say to that
+
+1641
+00:58:11,100 --> 00:58:14,600
+is life is to be lived
+
+1642
+00:58:14,600 --> 00:58:17,430
+we don't live in fear of
+death or dismemberment
+
+1643
+00:58:17,430 --> 00:58:19,390
+every single second we're awake.
+
+1644
+00:58:19,390 --> 00:58:22,160
+And that's an ethos that I
+think is worth supporting.
+
+1645
+00:58:22,160 --> 00:58:23,920
+And again, that's a
+personal thing I mandatory.
+
+1646
+00:58:23,920 --> 00:58:26,650
+- Yeah, but I think
+that's completely right.
+
+1647
+00:58:26,650 --> 00:58:30,130
+I think one of the unfortunate
+outcomes of this pandemic
+
+1648
+00:58:30,130 --> 00:58:31,190
+has been to train people,
+
+1649
+00:58:31,190 --> 00:58:32,510
+to think of other human beings
+
+1650
+00:58:32,510 --> 00:58:35,730
+as just bags of germs to be avoided.
+
+1651
+00:58:35,730 --> 00:58:36,577
+- You're right.
+
+1652
+00:58:36,577 --> 00:58:38,519
+- It's going to take a long time
+
+1653
+00:58:38,519 --> 00:58:40,060
+to repair the damage from that
+
+1654
+00:58:40,060 --> 00:58:43,130
+- It's a social dissolution.
+
+1655
+00:58:43,130 --> 00:58:44,300
+And then what happens now
+
+1656
+00:58:44,300 --> 00:58:48,180
+we have, you know, unrest
+on a massive level.
+
+1657
+00:58:48,180 --> 00:58:50,230
+I'm not saying they're
+directly correlated,
+
+1658
+00:58:50,230 --> 00:58:52,380
+but I'm saying they're
+directly correlated.
+
+1659
+00:58:54,777 --> 00:58:55,610
+- It wouldn't surprise me.
+
+1660
+00:58:55,610 --> 00:58:59,070
+I think that people are
+psychologically frayed.
+
+1661
+00:58:59,070 --> 00:59:00,418
+- Yeah, I am.
+
+1662
+00:59:00,418 --> 00:59:02,812
+Monica, when she came yesterday,
+
+1663
+00:59:02,812 --> 00:59:04,530
+like I said, you don't know me.
+
+1664
+00:59:04,530 --> 00:59:06,630
+The reason she came
+
+1665
+00:59:06,630 --> 00:59:09,200
+was she wanted to talk to
+another human being face to face
+
+1666
+00:59:09,200 --> 00:59:10,540
+about things she cares about.
+
+1667
+00:59:10,540 --> 00:59:11,600
+And she has been able to do that.
+
+1668
+00:59:11,600 --> 00:59:14,710
+Zoom is, listen, Zoom is great
+from a technological level,
+
+1669
+00:59:14,710 --> 00:59:16,540
+what a wonderful tool, right.
+
+1670
+00:59:16,540 --> 00:59:19,230
+I hate it, it makes me wanna die.
+
+1671
+00:59:19,230 --> 00:59:20,780
+And the reason is I'm an extrovert
+
+1672
+00:59:20,780 --> 00:59:22,790
+and being in the room with someone,
+
+1673
+00:59:22,790 --> 00:59:23,870
+like you and I right now
+
+1674
+00:59:23,870 --> 00:59:25,760
+could not have the same conversation.
+
+1675
+00:59:25,760 --> 00:59:27,860
+I'm reading your body
+language in real time.
+
+1676
+00:59:27,860 --> 00:59:31,000
+It's a 2000 frame per second refresh rate.
+
+1677
+00:59:31,000 --> 00:59:33,330
+You know we're able to
+talk over each other.
+
+1678
+00:59:33,330 --> 00:59:35,950
+It's a beautiful thing that humans do.
+
+1679
+00:59:35,950 --> 00:59:38,020
+- Yeah and we're built
+for this kind of community
+
+1680
+00:59:38,020 --> 00:59:39,610
+we're built for this
+kind of communication.
+
+1681
+00:59:39,610 --> 00:59:41,684
+And we're not built to be alone,
+
+1682
+00:59:41,684 --> 00:59:44,800
+which is essentially what
+this epidemic has done.
+
+1683
+00:59:44,800 --> 00:59:46,020
+And the public health community
+
+1684
+00:59:46,020 --> 00:59:47,970
+said, look, that's what you need to do.
+
+1685
+00:59:48,950 --> 00:59:49,830
+- That's what you need to
+
+1686
+00:59:49,830 --> 00:59:51,160
+They're telling you be inhuman.
+
+1687
+00:59:51,160 --> 00:59:51,993
+- [Dr. Jay] Yeah.
+
+1688
+00:59:51,993 --> 00:59:53,980
+- And also now we changed our mind
+
+1689
+00:59:53,980 --> 00:59:57,850
+being human in this way,
+instead of out there.
+
+1690
+00:59:57,850 --> 00:59:58,683
+Let me ask you something.
+
+1691
+00:59:58,683 --> 01:00:00,199
+So you look at the Asian countries
+
+1692
+01:00:00,199 --> 01:00:01,040
+cause you can look
+
+1693
+01:00:01,040 --> 01:00:04,100
+okay, okay U.S, Sweden,
+
+1694
+01:00:04,100 --> 01:00:07,334
+U.K, deaths, deaths.
+
+1695
+01:00:07,334 --> 01:00:08,240
+- [Dr. Jay] Yeah.
+
+1696
+01:00:08,240 --> 01:00:11,680
+- Then you get to European Union deaths
+
+1697
+01:00:11,680 --> 01:00:16,680
+and then you get to New
+Zealand, Singapore, Hong Kong,
+
+1698
+01:00:16,710 --> 01:00:19,303
+whoa, actual viral suppression.
+
+1699
+01:00:19,303 --> 01:00:21,230
+- I think there's a few
+lessons to be learned for this.
+
+1700
+01:00:21,230 --> 01:00:23,030
+So New Zealand let's
+come back to New Zealand.
+
+1701
+01:00:23,030 --> 01:00:25,730
+New Zealand is really, it's
+super interesting on this front.
+
+1702
+01:00:25,730 --> 01:00:29,170
+I think that some of the Asian nations
+
+1703
+01:00:29,170 --> 01:00:30,510
+that suppressed the virus,
+
+1704
+01:00:30,510 --> 01:00:32,960
+they caught it very early on
+
+1705
+01:00:32,960 --> 01:00:33,983
+when contact tracing
+
+1706
+01:00:33,983 --> 01:00:35,520
+the kinds of things that we say
+
+1707
+01:00:35,520 --> 01:00:38,880
+are like the mantra of like
+test trace and quarantine
+
+1708
+01:00:38,880 --> 01:00:39,851
+actually can be effective.
+
+1709
+01:00:39,851 --> 01:00:40,890
+- Early
+
+1710
+01:00:40,890 --> 01:00:43,290
+- Early, but by early April,
+
+1711
+01:00:43,290 --> 01:00:45,390
+50,000 cases in Santa Clara alone,
+
+1712
+01:00:45,390 --> 01:00:46,223
+- [Dr. Z] It's out of the bag.
+
+1713
+01:00:46,223 --> 01:00:48,240
+- I don't understand why people thought
+
+1714
+01:00:48,240 --> 01:00:49,073
+that that was go work.
+
+1715
+01:00:49,073 --> 01:00:51,460
+- And how do you contact
+trace asymptomatic cases.
+
+1716
+01:00:51,460 --> 01:00:52,700
+You'd have to test everyone
+
+1717
+01:00:52,700 --> 01:00:55,150
+hope there aren't a bunch
+of false positives yeah.
+
+1718
+01:00:55,150 --> 01:00:58,199
+- Yeah so I think that
+was a thinking mistake
+
+1719
+01:00:58,199 --> 01:01:00,420
+that the virus wasn't so widespread,
+
+1720
+01:01:00,420 --> 01:01:01,610
+we could use this strategy
+
+1721
+01:01:01,610 --> 01:01:04,430
+that seems like it was
+working in Asian countries,
+
+1722
+01:01:04,430 --> 01:01:05,840
+but even in the Asian countries,
+
+1723
+01:01:05,840 --> 01:01:07,290
+I think there's some evidence that the,
+
+1724
+01:01:07,290 --> 01:01:08,780
+we talk about cross-reactive immunity.
+
+1725
+01:01:08,780 --> 01:01:11,507
+Like there were other
+Corona Virus like infections
+
+1726
+01:01:11,507 --> 01:01:13,720
+that they've had,
+
+1727
+01:01:13,720 --> 01:01:14,590
+they may have had
+
+1728
+01:01:14,590 --> 01:01:17,740
+some more extensive
+cross-reactive immunity
+
+1729
+01:01:18,647 --> 01:01:20,547
+more prevalent cross-reactive immunity
+
+1730
+01:01:20,547 --> 01:01:22,967
+than European countries and the U.S had.
+
+1731
+01:01:22,967 --> 01:01:23,800
+- [Dr. Z] Right.
+
+1732
+01:01:23,800 --> 01:01:26,950
+- So I mean, I don't know.
+- SARS-ish, yeah.
+
+1733
+01:01:26,950 --> 01:01:27,783
+- Who knows?
+- Who knows right?
+
+1734
+01:01:27,783 --> 01:01:30,400
+- So I think we don't know fully
+
+1735
+01:01:30,400 --> 01:01:32,449
+why it didn't hit the
+Asian countries as hard
+
+1736
+01:01:32,449 --> 01:01:34,679
+I think it's important to think about
+
+1737
+01:01:34,679 --> 01:01:37,060
+New Zealand is a really
+super interesting example.
+
+1738
+01:01:37,060 --> 01:01:39,430
+They famously suppressed the disease
+
+1739
+01:01:39,430 --> 01:01:41,950
+at zero cases for 120 days.
+
+1740
+01:01:41,950 --> 01:01:45,363
+And then out of nowhere, the
+cases start rising again.
+
+1741
+01:01:46,500 --> 01:01:48,280
+Okay, well, what did they do?
+
+1742
+01:01:48,280 --> 01:01:49,490
+They locked down again.
+
+1743
+01:01:49,490 --> 01:01:54,490
+The problem is like that
+lockdown is now repeated forever.
+
+1744
+01:01:55,080 --> 01:01:57,343
+They have to keep repeating the lockdown
+
+1745
+01:01:57,343 --> 01:01:58,310
+over and over again.
+
+1746
+01:01:58,310 --> 01:01:59,590
+- Or they'll just go through
+what we went through.
+
+1747
+01:01:59,590 --> 01:02:03,050
+- And they're an Island nation
+that depends on tourism.
+
+1748
+01:02:03,050 --> 01:02:06,230
+I mean fully, I think just like 10% of,
+
+1749
+01:02:06,230 --> 01:02:07,480
+very large fraction of GDP.
+
+1750
+01:02:07,480 --> 01:02:08,440
+Don't quote me on the number,
+
+1751
+01:02:08,440 --> 01:02:13,170
+but that large fraction of GDP
+is gone basically permanently
+
+1752
+01:02:13,170 --> 01:02:15,230
+because who wants to
+sit on 14 day quarantine
+
+1753
+01:02:15,230 --> 01:02:16,063
+to visit someplace.
+
+1754
+01:02:16,063 --> 01:02:21,010
+And people leaving the
+Island are also gone already,
+
+1755
+01:02:21,010 --> 01:02:22,100
+so there's just the traffic
+
+1756
+01:02:22,100 --> 01:02:23,090
+in and out of the islands out
+
+1757
+01:02:23,090 --> 01:02:26,475
+So what you have is a continuous,
+
+1758
+01:02:26,475 --> 01:02:29,240
+and they've had like a
+seven to 10% decrease
+
+1759
+01:02:29,240 --> 01:02:31,823
+in their GDP rate just this year.
+
+1760
+01:02:32,940 --> 01:02:33,963
+You don't keep that.
+
+1761
+01:02:35,626 --> 01:02:38,750
+If you wanna isolate yourself
+from the rest of the world,
+
+1762
+01:02:38,750 --> 01:02:40,330
+you can do it, but it's
+gonna take you enormous.
+
+1763
+01:02:40,330 --> 01:02:41,180
+It's gonna be enormous cost.
+
+1764
+01:02:41,180 --> 01:02:43,290
+And that is not an option
+available in the United States.
+
+1765
+01:02:43,290 --> 01:02:47,490
+- Yeah absolutely, so the
+New Zealand experience
+
+1766
+01:02:47,490 --> 01:02:50,430
+is interesting because they
+are relying on something
+
+1767
+01:02:50,430 --> 01:02:51,710
+that may or may not happen,
+
+1768
+01:02:51,710 --> 01:02:55,050
+which is a safe and effective
+vaccine as their savior,
+
+1769
+01:02:55,050 --> 01:02:56,982
+because what else could
+they be waiting for?
+
+1770
+01:02:56,982 --> 01:02:59,420
+It's always gonna exist in the community
+
+1771
+01:02:59,420 --> 01:03:00,730
+at some level otherwise
+
+1772
+01:03:00,730 --> 01:03:02,217
+we have to learn to live with it.
+
+1773
+01:03:02,217 --> 01:03:03,640
+And their way of living with it
+
+1774
+01:03:03,640 --> 01:03:06,090
+is shutting down their
+entire Island forever.
+
+1775
+01:03:06,090 --> 01:03:08,250
+But they're probably waiting
+for this finish line, right.
+
+1776
+01:03:08,250 --> 01:03:09,083
+- [Dr.  Jay] They're
+waiting for the vaccine.
+
+1777
+01:03:09,083 --> 01:03:10,740
+- Now what's the risk of that?
+
+1778
+01:03:10,740 --> 01:03:13,610
+- Well, so the vaccine is,
+
+1779
+01:03:13,610 --> 01:03:15,010
+I have to say that more progress
+
+1780
+01:03:15,010 --> 01:03:17,330
+and rapid progress has
+been made on the vaccine
+
+1781
+01:03:17,330 --> 01:03:18,570
+than I anticipated.
+
+1782
+01:03:18,570 --> 01:03:19,610
+If you'd asked me in April,
+
+1783
+01:03:19,610 --> 01:03:22,070
+that we'd be be here with Phase 3 trials,
+
+1784
+01:03:22,070 --> 01:03:24,884
+actually ongoing for
+several vaccine candidates.
+
+1785
+01:03:24,884 --> 01:03:26,684
+I would have said there's no chance.
+
+1786
+01:03:27,610 --> 01:03:30,590
+I mean, there aren't any
+human Corona Virus vaccines.
+
+1787
+01:03:30,590 --> 01:03:32,470
+- Yeah, often said that Paul
+Offit had the same thing
+
+1788
+01:03:32,470 --> 01:03:33,730
+on my show vaccine expert.
+
+1789
+01:03:33,730 --> 01:03:35,530
+So at that time.
+
+1790
+01:03:35,530 --> 01:03:38,539
+- Okay, but now here's the situation
+
+1791
+01:03:38,539 --> 01:03:41,062
+we have these vaccine camps
+that many and look promising
+
+1792
+01:03:41,062 --> 01:03:43,020
+in the Phase 2 trials.
+
+1793
+01:03:43,020 --> 01:03:44,140
+The Phase 3 trials
+
+1794
+01:03:44,140 --> 01:03:46,343
+need to be on large populations of people.
+
+1795
+01:03:47,580 --> 01:03:48,413
+Why?
+
+1796
+01:03:48,413 --> 01:03:51,280
+Partly because the cases
+and deaths are declining,
+
+1797
+01:03:51,280 --> 01:03:53,260
+ironically, that makes it more difficult
+
+1798
+01:03:53,260 --> 01:03:54,930
+to show that the vaccine is efficacious
+
+1799
+01:03:54,930 --> 01:03:55,763
+because you just,
+
+1800
+01:03:55,763 --> 01:04:00,160
+let's say you had the COVID vaccine
+
+1801
+01:04:00,160 --> 01:04:02,720
+before Corona Virus came along at all.
+
+1802
+01:04:02,720 --> 01:04:05,120
+Well, you'd never find it efficacious
+
+1803
+01:04:05,120 --> 01:04:05,953
+in preventing death
+
+1804
+01:04:05,953 --> 01:04:06,930
+because there was no risk of Corona Virus.
+
+1805
+01:04:06,930 --> 01:04:10,920
+- Exactly, right, we're
+making it harder now.
+
+1806
+01:04:10,920 --> 01:04:13,690
+- So the decline of the cases
+and the decline in deaths
+
+1807
+01:04:13,690 --> 01:04:15,530
+makes it harder to show the vaccine works.
+
+1808
+01:04:15,530 --> 01:04:17,810
+- Yeah, yeah and that's
+gonna make it more difficult
+
+1809
+01:04:17,810 --> 01:04:19,560
+to show efficacy.
+
+1810
+01:04:19,560 --> 01:04:21,380
+Safety we could still study.
+
+1811
+01:04:21,380 --> 01:04:22,502
+- Yeah safety we could study.
+
+1812
+01:04:22,502 --> 01:04:25,110
+And there've been some
+good news and bad news.
+
+1813
+01:04:25,110 --> 01:04:27,760
+Like many of the vaccine
+candidates have been safe.
+
+1814
+01:04:27,760 --> 01:04:28,593
+In Phase 1 and phase,
+
+1815
+01:04:28,593 --> 01:04:30,833
+but they're reports now
+there's a Transverse Myelitis.
+
+1816
+01:04:30,833 --> 01:04:34,390
+- Transverse Myelitis case
+in the UK, Astra Zeneca,
+
+1817
+01:04:34,390 --> 01:04:36,480
+now that's a different
+a viral model, right.
+
+1818
+01:04:36,480 --> 01:04:38,476
+Adenovirus, yeah.
+
+1819
+01:04:38,476 --> 01:04:40,977
+So it's a different than the mRNA vehicle.
+
+1820
+01:04:40,977 --> 01:04:42,553
+- The mRNA vehicle hasn't really been used
+
+1821
+01:04:42,553 --> 01:04:43,414
+in human vaccines before
+
+1822
+01:04:43,414 --> 01:04:46,140
+- Ever, exactly, so it's totally novel.
+
+1823
+01:04:46,140 --> 01:04:48,728
+- So I mean, it could work.
+
+1824
+01:04:48,728 --> 01:04:51,410
+It could still work, I think I'm waiting.
+
+1825
+01:04:51,410 --> 01:04:53,800
+I mean, if the data show
+that it's safe and effective,
+
+1826
+01:04:53,800 --> 01:04:54,633
+I'll be first.
+
+1827
+01:04:54,633 --> 01:04:56,278
+- I'll first in line I
+have to look at that data.
+
+1828
+01:04:56,278 --> 01:04:57,480
+People have asked me,
+
+1829
+01:04:57,480 --> 01:04:58,920
+what will you and your
+kids get this thing?
+
+1830
+01:04:58,920 --> 01:04:59,753
+Well, I'll tell you what,
+
+1831
+01:04:59,753 --> 01:05:02,143
+as soon as I am convinced
+that the data looks good,
+
+1832
+01:05:02,143 --> 01:05:06,310
+I'll go do it because I
+would like to get on a plane
+
+1833
+01:05:06,310 --> 01:05:08,560
+and go do things without thinking,
+
+1834
+01:05:08,560 --> 01:05:11,600
+well, I'm 47 so my risk profile is X.
+
+1835
+01:05:11,600 --> 01:05:13,660
+I have genetic clotting disorders
+
+1836
+01:05:13,660 --> 01:05:15,070
+and so endothelial dysfunction.
+
+1837
+01:05:15,070 --> 01:05:16,991
+So my risk is somewhere in the X.
+
+1838
+01:05:16,991 --> 01:05:18,620
+That's how I calculate my own risk.
+
+1839
+01:05:18,620 --> 01:05:20,410
+So I take reasonable precautions,
+
+1840
+01:05:20,410 --> 01:05:21,260
+but I'm not crazy
+
+1841
+01:05:21,260 --> 01:05:23,586
+because I desperately
+seek human connection
+
+1842
+01:05:23,586 --> 01:05:26,773
+and I'm willing to die rather than.
+
+1843
+01:05:27,620 --> 01:05:31,070
+- It's probably two to
+three in 1,000 for me.
+
+1844
+01:05:31,070 --> 01:05:32,883
+Yeah I would rather live my life
+
+1845
+01:05:32,883 --> 01:05:34,670
+with that two to three in 1,000 risks.
+
+1846
+01:05:34,670 --> 01:05:36,857
+If I happen to get it than not.
+
+1847
+01:05:36,857 --> 01:05:38,160
+- But you're going to kill grandma
+
+1848
+01:05:38,160 --> 01:05:40,392
+by asymptomatically spreading it to her.
+
+1849
+01:05:40,392 --> 01:05:44,040
+- When I visited my 80 year
+old mom, I wore a mask.
+
+1850
+01:05:44,040 --> 01:05:44,992
+- There you go.
+
+1851
+01:05:44,992 --> 01:05:46,150
+And that's what I would
+do with my parents.
+
+1852
+01:05:46,150 --> 01:05:47,520
+So let me think here.
+
+1853
+01:05:47,520 --> 01:05:49,348
+What you just said is be rational.
+
+1854
+01:05:49,348 --> 01:05:53,300
+Take risk personally and
+decide based on open data.
+
+1855
+01:05:53,300 --> 01:05:57,030
+Don't sensor people, let's have
+actual scientific discourse
+
+1856
+01:05:57,030 --> 01:05:59,650
+instead of name calling
+and politicization.
+
+1857
+01:05:59,650 --> 01:06:01,439
+And let's look at this
+thing with clear, open eyes
+
+1858
+01:06:01,439 --> 01:06:03,000
+and listen to all viewpoints.
+
+1859
+01:06:03,000 --> 01:06:04,526
+Is that about right?
+
+1860
+01:06:04,526 --> 01:06:06,903
+- I mean, I've tried to be controversial.
+
+1861
+01:06:10,530 --> 01:06:13,590
+- Well, you've done a good
+job by proxy in person
+
+1862
+01:06:13,590 --> 01:06:15,280
+and I haven't heard
+anything that you've said
+
+1863
+01:06:15,280 --> 01:06:16,550
+that makes me go,
+
+1864
+01:06:16,550 --> 01:06:18,860
+oh my gosh, that's so controversial.
+
+1865
+01:06:18,860 --> 01:06:19,920
+It's called being rational.
+
+1866
+01:06:19,920 --> 01:06:20,753
+Now the thing is,
+
+1867
+01:06:20,753 --> 01:06:22,694
+I'll get criticism even
+on during this interview
+
+1868
+01:06:22,694 --> 01:06:25,200
+that, oh, did you really
+pound them on this
+
+1869
+01:06:25,200 --> 01:06:26,033
+and pound him on that?
+
+1870
+01:06:26,033 --> 01:06:26,866
+That's not my job.
+
+1871
+01:06:26,866 --> 01:06:27,950
+My job is to say,
+
+1872
+01:06:27,950 --> 01:06:32,600
+here is a guy who has a
+certain experience set
+
+1873
+01:06:32,600 --> 01:06:33,950
+that's very valuable.
+
+1874
+01:06:33,950 --> 01:06:37,320
+Let him talk about what he thinks
+
+1875
+01:06:37,320 --> 01:06:40,350
+and you guys can then debate
+it in the comments openly.
+
+1876
+01:06:40,350 --> 01:06:42,120
+That's called scientific discourse.
+
+1877
+01:06:42,120 --> 01:06:43,560
+It's actually just discourse.
+
+1878
+01:06:43,560 --> 01:06:44,670
+And sometimes I wonder,
+
+1879
+01:06:44,670 --> 01:06:46,170
+because anything I post,
+
+1880
+01:06:46,170 --> 01:06:47,880
+you know, if I look at
+Facebook, for example,
+
+1881
+01:06:47,880 --> 01:06:50,000
+which is our biggest platform,
+
+1882
+01:06:50,000 --> 01:06:51,247
+2 million people follow us there.
+
+1883
+01:06:51,247 --> 01:06:55,030
+If I put something there and
+you start reading the comments,
+
+1884
+01:06:55,030 --> 01:06:57,110
+sometimes you wanna die a little
+
+1885
+01:06:57,110 --> 01:07:00,440
+because it's like the movie
+"Idiocracy" actually came true
+
+1886
+01:07:00,440 --> 01:07:04,360
+and you just go, oh,
+and it's on all sides.
+
+1887
+01:07:04,360 --> 01:07:05,200
+It's all sides.
+
+1888
+01:07:05,200 --> 01:07:07,270
+- I get referee reports
+all the time for my papers.
+
+1889
+01:07:07,270 --> 01:07:08,110
+So I'm used to that.
+
+1890
+01:07:08,110 --> 01:07:08,970
+- You're used to it right.
+
+1891
+01:07:08,970 --> 01:07:09,870
+You're used to it.
+
+1892
+01:07:11,830 --> 01:07:15,850
+So, we talked about Sweden a bit.
+
+1893
+01:07:15,850 --> 01:07:17,018
+We talked about New Zealand
+
+1894
+01:07:17,018 --> 01:07:18,627
+and we talked about Asian countries
+
+1895
+01:07:18,627 --> 01:07:20,360
+and why they were different than us.
+
+1896
+01:07:20,360 --> 01:07:23,170
+We talked about the U.S.
+
+1897
+01:07:23,170 --> 01:07:26,090
+We talked about what we might
+wanna do moving forward.
+
+1898
+01:07:26,090 --> 01:07:28,157
+So do you think cases are
+just gonna continue to decline
+
+1899
+01:07:28,157 --> 01:07:30,490
+and deaths are going to
+continue to decline here.
+
+1900
+01:07:30,490 --> 01:07:31,710
+- I mean, there's two
+points of view, right?
+
+1901
+01:07:31,710 --> 01:07:34,820
+So one is that there's
+gonna be a second wave.
+
+1902
+01:07:34,820 --> 01:07:38,573
+That seems to be the Fowchee
+point of view right now.
+
+1903
+01:07:39,560 --> 01:07:41,366
+I don't see much evidence of that.
+
+1904
+01:07:41,366 --> 01:07:44,290
+Like we haven't started, in
+the United States for instance,
+
+1905
+01:07:44,290 --> 01:07:45,710
+we talk about if we had a second wave,
+
+1906
+01:07:45,710 --> 01:07:47,080
+in New York and then the second wave,
+
+1907
+01:07:47,080 --> 01:07:48,110
+we hadn't had a second wave,
+
+1908
+01:07:48,110 --> 01:07:50,459
+we had is a regional epidemic.
+
+1909
+01:07:50,459 --> 01:07:52,680
+Each place has had a first wave.
+
+1910
+01:07:52,680 --> 01:07:54,556
+That's what it looks like everywhere.
+
+1911
+01:07:54,556 --> 01:07:56,090
+Now, it's possible
+
+1912
+01:07:56,090 --> 01:07:56,923
+I mean, we don't know
+
+1913
+01:07:56,923 --> 01:07:58,710
+the thing has only been
+around a few months
+
+1914
+01:07:58,710 --> 01:07:59,920
+that there could be one,
+
+1915
+01:07:59,920 --> 01:08:03,220
+but it's looking
+increasingly unlikely to me,
+
+1916
+01:08:03,220 --> 01:08:04,850
+but we will see.
+
+1917
+01:08:04,850 --> 01:08:06,490
+- I'm with you.
+
+1918
+01:08:06,490 --> 01:08:08,750
+Based on current information,
+I can be proven wrong
+
+1919
+01:08:08,750 --> 01:08:10,520
+and I've said this to my supporters,
+
+1920
+01:08:10,520 --> 01:08:12,680
+who there are people who
+subscribe to the show
+
+1921
+01:08:12,680 --> 01:08:14,403
+and we do private live shows
+
+1922
+01:08:14,403 --> 01:08:16,600
+there's like 7,000 number out of them.
+
+1923
+01:08:16,600 --> 01:08:18,170
+And I'll tell them things
+
+1924
+01:08:18,170 --> 01:08:20,770
+that I'm not comfortable, fully
+vetted out for the public.
+
+1925
+01:08:20,770 --> 01:08:22,910
+So I go this is my feeling
+right now based on data
+
+1926
+01:08:22,910 --> 01:08:24,920
+is that there is not a second wave
+
+1927
+01:08:24,920 --> 01:08:26,010
+in this classic sense,
+
+1928
+01:08:26,010 --> 01:08:28,260
+there may be a second wave casedemic
+
+1929
+01:08:28,260 --> 01:08:29,529
+where we start testing a lot.
+
+1930
+01:08:29,529 --> 01:08:32,948
+And we see a lot of asymptomatic,
+positive PCR fragments.
+
+1931
+01:08:32,948 --> 01:08:35,769
+The second thing is what
+people don't seem to understand
+
+1932
+01:08:35,770 --> 01:08:39,880
+is that the first wave, like you said,
+
+1933
+01:08:39,880 --> 01:08:41,990
+was a geographic thing
+
+1934
+01:08:41,990 --> 01:08:44,510
+where in a cooler climates
+like the Northeast,
+
+1935
+01:08:44,510 --> 01:08:47,109
+you saw massive rise and then a fall.
+
+1936
+01:08:47,109 --> 01:08:49,209
+In more Southern temperate climates
+
+1937
+01:08:49,210 --> 01:08:50,720
+is what you see what
+kind of with influenza,
+
+1938
+01:08:50,720 --> 01:08:54,090
+which is a slower delayed
+rise and a low, long hump.
+
+1939
+01:08:54,090 --> 01:08:55,729
+And they're calling that second wave.
+
+1940
+01:08:55,729 --> 01:08:58,509
+That's still all part of
+the infectious pattern.
+
+1941
+01:08:58,510 --> 01:09:00,460
+And I think in the winter,
+
+1942
+01:09:00,460 --> 01:09:03,300
+it'll be interesting to see also schools.
+
+1943
+01:09:03,300 --> 01:09:05,009
+Tell me your thoughts on school.
+
+1944
+01:09:05,009 --> 01:09:07,229
+- I think it's criminal
+not to open schools.
+
+1945
+01:09:07,229 --> 01:09:08,349
+- [Dr. Z] I agree with you.
+
+1946
+01:09:08,350 --> 01:09:11,529
+- Yeah, we talk about safety.
+
+1947
+01:09:11,529 --> 01:09:15,739
+It is more unsafe to not
+let kids go back to school
+
+1948
+01:09:15,740 --> 01:09:17,750
+than to open up for schools.
+
+1949
+01:09:17,750 --> 01:09:18,582
+- Absolutely.
+
+1950
+01:09:18,582 --> 01:09:19,629
+- We are harming kids
+
+1951
+01:09:19,630 --> 01:09:21,970
+in a way that is irreparable and immoral.
+
+1952
+01:09:21,970 --> 01:09:23,340
+- You're gonna get a
+horse's head in your bed
+
+1953
+01:09:23,340 --> 01:09:25,752
+from the teacher's union on that one.
+
+1954
+01:09:25,752 --> 01:09:28,159
+- I think a lot of teachers want to be
+
+1955
+01:09:28,160 --> 01:09:30,252
+that's their vocation is to teach
+
+1956
+01:09:30,252 --> 01:09:33,340
+and they wanna teach in person.
+
+1957
+01:09:33,340 --> 01:09:35,700
+How do you teach a first
+grader to read over Zoom?
+
+1958
+01:09:35,700 --> 01:09:36,910
+- [Dr. Z] No, it's a crime.
+
+1959
+01:09:36,910 --> 01:09:37,743
+- Yeah.
+
+1960
+01:09:37,743 --> 01:09:39,330
+- And the thing is they're
+doing the best they can.
+
+1961
+01:09:39,330 --> 01:09:41,040
+It's very, very hard,
+
+1962
+01:09:41,040 --> 01:09:44,979
+but this is one of the things
+that just gets me so upset
+
+1963
+01:09:44,979 --> 01:09:47,889
+because it's a regressive tax on the poor.
+
+1964
+01:09:47,890 --> 01:09:49,130
+So you're saying basically
+
+1965
+01:09:49,130 --> 01:09:51,560
+that a person who depends
+on school for their meals,
+
+1966
+01:09:51,560 --> 01:09:54,310
+for their social interaction
+for behavior control
+
+1967
+01:09:54,310 --> 01:09:55,993
+mom is a single mom and can't
+
+1968
+01:09:55,993 --> 01:09:59,140
+it's and how is she gonna work
+
+1969
+01:09:59,140 --> 01:10:02,653
+we can hire nannies and
+assistants they can't.
+
+1970
+01:10:02,653 --> 01:10:05,210
+- I saw a picture, I think it
+was in San Jose, Mercury News
+
+1971
+01:10:05,210 --> 01:10:07,970
+of two kids, Hispanic kids,
+
+1972
+01:10:07,970 --> 01:10:09,130
+sitting outside of a 7-Eleven
+
+1973
+01:10:09,130 --> 01:10:11,130
+with their little Google Chromebooks.
+
+1974
+01:10:11,130 --> 01:10:12,690
+- I saw that
+
+1975
+01:10:12,690 --> 01:10:14,930
+Using the 7-Eleven, the taco bell wifi.
+
+1976
+01:10:14,930 --> 01:10:16,770
+- To wifi 'cause they
+don't have wifi at home.
+
+1977
+01:10:16,770 --> 01:10:17,830
+- [Dr. Z] That is disgusting.
+
+1978
+01:10:17,830 --> 01:10:18,663
+- It's terrible.
+
+1979
+01:10:18,663 --> 01:10:19,630
+- It's heartbreaking.
+
+1980
+01:10:19,630 --> 01:10:20,463
+- And you know schools
+
+1981
+01:10:20,463 --> 01:10:22,730
+are not just simply places for teaching,
+
+1982
+01:10:22,730 --> 01:10:25,880
+although that is incredibly important.
+
+1983
+01:10:25,880 --> 01:10:27,295
+- You are Indian I knew it.
+
+1984
+01:10:27,295 --> 01:10:30,300
+It's for teaching only nothing else.
+
+1985
+01:10:30,300 --> 01:10:31,720
+- But there are also places
+
+1986
+01:10:31,720 --> 01:10:34,163
+where kids get their nutrition.
+
+1987
+01:10:35,220 --> 01:10:37,340
+Somewhere I think on the
+order of a third of kids
+
+1988
+01:10:37,340 --> 01:10:40,380
+in the country have
+subsidized school meals
+
+1989
+01:10:40,380 --> 01:10:41,710
+of some sort or another,
+
+1990
+01:10:41,710 --> 01:10:43,920
+like a lot of their calories
+get come from there.
+
+1991
+01:10:43,920 --> 01:10:46,123
+It's places where they learn to socialize.
+
+1992
+01:10:48,517 --> 01:10:51,590
+The long run consequences
+of shutting that down
+
+1993
+01:10:51,590 --> 01:10:52,620
+are absolutely enormous.
+
+1994
+01:10:52,620 --> 01:10:53,600
+Even the short run,
+
+1995
+01:10:53,600 --> 01:10:55,560
+I suspect we'll start to see suicides
+
+1996
+01:10:55,560 --> 01:10:58,030
+jump up among adolescents
+
+1997
+01:10:59,940 --> 01:11:02,640
+School is good for their
+mental health as well.
+
+1998
+01:11:02,640 --> 01:11:06,330
+- I have a close friend who's a physician
+
+1999
+01:11:06,330 --> 01:11:09,282
+whose daughter was 12, 13.
+
+2000
+01:11:09,282 --> 01:11:11,980
+And during the lockdown started to exhibit
+
+2001
+01:11:11,980 --> 01:11:14,790
+just the worst anxiety.
+
+2002
+01:11:14,790 --> 01:11:17,889
+Like he would describe this to me.
+
+2003
+01:11:17,889 --> 01:11:20,120
+And it was heartbreaking.
+
+2004
+01:11:20,120 --> 01:11:23,198
+This kid was beside herself
+
+2005
+01:11:23,198 --> 01:11:25,810
+and to the point where it was medications
+
+2006
+01:11:25,810 --> 01:11:26,867
+and psychotherapy and all that,
+
+2007
+01:11:26,867 --> 01:11:29,860
+and he affluent guy, so
+he can afford all this.
+
+2008
+01:11:29,860 --> 01:11:33,810
+And then school started
+some little bit in person,
+
+2009
+01:11:33,810 --> 01:11:35,270
+some little bit by Zoom
+
+2010
+01:11:35,270 --> 01:11:39,260
+and the anxiety started to evaporate
+
+2011
+01:11:39,260 --> 01:11:43,060
+and we forget that we're
+the social animals.
+
+2012
+01:11:43,060 --> 01:11:44,340
+And especially kids.
+
+2013
+01:11:44,340 --> 01:11:46,910
+I used to look forward
+as much as I love summer,
+
+2014
+01:11:46,910 --> 01:11:48,350
+you look forward to school starting.
+
+2015
+01:11:48,350 --> 01:11:50,790
+'Cause I'm gonna see Joey and Chad
+
+2016
+01:11:50,790 --> 01:11:52,417
+and we're going to hang out
+and cause some crime, man.
+
+2017
+01:11:52,417 --> 01:11:54,730
+I mean, that was what it was like.
+
+2018
+01:11:54,730 --> 01:11:55,700
+- Yeah. I agree.
+
+2019
+01:11:55,700 --> 01:11:58,406
+I mean, I think for kids,
+especially that playtime
+
+2020
+01:11:58,406 --> 01:12:01,153
+is incredibly psychologically important.
+
+2021
+01:12:02,573 --> 01:12:06,080
+To deny them that seems...
+
+2022
+01:12:06,080 --> 01:12:07,010
+Okay it's one thing
+
+2023
+01:12:07,010 --> 01:12:09,490
+if they're really we're facing high risk.
+
+2024
+01:12:09,490 --> 01:12:10,323
+- So tell me about that
+
+2025
+01:12:10,323 --> 01:12:12,060
+because the teachers will push back
+
+2026
+01:12:12,060 --> 01:12:14,330
+and say, but there's
+teachers with chronic disease
+
+2027
+01:12:14,330 --> 01:12:15,200
+who are elderly, who.
+
+2028
+01:12:15,200 --> 01:12:16,846
+- I think we should that into account.
+
+2029
+01:12:16,846 --> 01:12:19,340
+I think like different school districts
+
+2030
+01:12:19,340 --> 01:12:21,150
+should creatively manage that.
+
+2031
+01:12:21,150 --> 01:12:22,900
+So if you're a 62 year old teacher
+
+2032
+01:12:22,900 --> 01:12:24,400
+and you have diabetes,
+
+2033
+01:12:24,400 --> 01:12:26,290
+your school district to make
+some accommodation for you.
+
+2034
+01:12:26,290 --> 01:12:27,123
+So you don't have teaching.
+
+2035
+01:12:27,123 --> 01:12:28,100
+- [Dr. Z] Agree.
+
+2036
+01:12:28,100 --> 01:12:28,933
+- Absolutely.
+
+2037
+01:12:28,933 --> 01:12:29,790
+- Do you think we should
+be paying teachers
+
+2038
+01:12:29,790 --> 01:12:30,623
+more too in general.
+
+2039
+01:12:30,623 --> 01:12:31,456
+- Yeah.
+
+2040
+01:12:31,456 --> 01:12:32,289
+- [Dr. Z] As an economist.
+
+2041
+01:12:32,289 --> 01:12:36,960
+- I think there's some debate in economics
+
+2042
+01:12:36,960 --> 01:12:40,020
+about how much extra pay
+correlates to outcomes.
+
+2043
+01:12:40,020 --> 01:12:41,080
+But as a whole teacher,
+
+2044
+01:12:41,080 --> 01:12:42,670
+I mean, I honor my teachers,
+
+2045
+01:12:42,670 --> 01:12:45,510
+I think they did incredible things for me.
+
+2046
+01:12:45,510 --> 01:12:46,343
+- [Dr. Z] Me too.
+
+2047
+01:12:46,343 --> 01:12:47,460
+- And also for the kids.
+
+2048
+01:12:47,460 --> 01:12:48,880
+So I'm not against that.
+
+2049
+01:12:48,880 --> 01:12:49,822
+I'm fine with that,
+
+2050
+01:12:49,822 --> 01:12:52,200
+But I think we should use the resources,
+
+2051
+01:12:52,200 --> 01:12:54,020
+different school districts
+use the resources they have
+
+2052
+01:12:54,020 --> 01:12:55,150
+to creatively manage
+
+2053
+01:12:55,150 --> 01:12:57,239
+so that kids can actually come in person.
+
+2054
+01:12:57,239 --> 01:12:58,072
+- [Dr. Z] Yeah.
+
+2055
+01:12:58,072 --> 01:12:59,580
+- In some places, maybe
+you can't social distance,
+
+2056
+01:12:59,580 --> 01:13:00,454
+you need more masks
+
+2057
+01:13:00,454 --> 01:13:03,610
+in places where you can social distance,
+
+2058
+01:13:03,610 --> 01:13:04,443
+you can figure it out.
+
+2059
+01:13:04,443 --> 01:13:06,600
+I mean, you have to
+creatively manage that.
+
+2060
+01:13:06,600 --> 01:13:09,670
+Young teachers who face very
+little risk, let them come in.
+
+2061
+01:13:09,670 --> 01:13:11,120
+The older teachers who are at risk,
+
+2062
+01:13:11,120 --> 01:13:14,861
+they can maybe they can
+help the younger teachers
+
+2063
+01:13:14,861 --> 01:13:18,300
+by helping them grade, create
+curriculum, teach online.
+
+2064
+01:13:18,300 --> 01:13:20,210
+I mean, I think there's some mix,
+
+2065
+01:13:20,210 --> 01:13:21,590
+but the absolute must
+
+2066
+01:13:21,590 --> 01:13:23,430
+is you have to have the kids in person.
+
+2067
+01:13:23,430 --> 01:13:25,160
+- [Dr. Z] Yeah, yeah.
+
+2068
+01:13:25,160 --> 01:13:27,580
+- With each other or else you
+can't actually have school.
+
+2069
+01:13:27,580 --> 01:13:29,070
+- Now, you know what I
+think is happening too.
+
+2070
+01:13:29,070 --> 01:13:32,290
+And it's related to this
+is this safety creep.
+
+2071
+01:13:32,290 --> 01:13:34,350
+So in the early days of this thing,
+
+2072
+01:13:34,350 --> 01:13:37,100
+when they talked right here in the Bay
+
+2073
+01:13:37,100 --> 01:13:38,610
+about shutting down schools,
+
+2074
+01:13:38,610 --> 01:13:40,840
+we were thinking it'll
+be two, three weeks.
+
+2075
+01:13:40,840 --> 01:13:42,000
+And then they said,
+
+2076
+01:13:42,000 --> 01:13:43,936
+it's gonna be till the end of the year,
+
+2077
+01:13:43,936 --> 01:13:45,439
+the school year
+
+2078
+01:13:45,439 --> 01:13:48,920
+There was absolute horror and panic
+
+2079
+01:13:48,920 --> 01:13:50,440
+on the part of parents and kids
+
+2080
+01:13:50,440 --> 01:13:52,680
+like what, you're doing what.
+
+2081
+01:13:52,680 --> 01:13:55,670
+Now, when school's supposed
+to reopen it doesn't
+
+2082
+01:13:55,670 --> 01:13:58,210
+and people have just accepted it as well.
+
+2083
+01:13:58,210 --> 01:14:00,269
+All right we're keeping people safe now.
+
+2084
+01:14:00,269 --> 01:14:01,370
+It's the norm.
+
+2085
+01:14:01,370 --> 01:14:03,400
+Our kids are slowly dying a little
+
+2086
+01:14:03,400 --> 01:14:05,220
+we're destroying poor families.
+
+2087
+01:14:05,220 --> 01:14:07,090
+We're creating a cycle of poverty,
+
+2088
+01:14:07,090 --> 01:14:08,500
+violence, substance abuse,
+
+2089
+01:14:08,500 --> 01:14:09,750
+but you know what?
+
+2090
+01:14:09,750 --> 01:14:12,370
+Safety safety first.
+
+2091
+01:14:12,370 --> 01:14:13,203
+- It's not safe.
+
+2092
+01:14:13,203 --> 01:14:14,890
+- [Dr. Z] It's not safe
+it's the opposite of safe.
+
+2093
+01:14:14,890 --> 01:14:16,480
+- Yeah and if you think
+
+2094
+01:14:16,480 --> 01:14:19,230
+about what the scientific
+evidence is saying,
+
+2095
+01:14:19,230 --> 01:14:22,830
+the teachers and staff pose
+more of a risk to each other
+
+2096
+01:14:22,830 --> 01:14:24,581
+than the kids pose to them.
+
+2097
+01:14:24,581 --> 01:14:29,581
+There's a study done by
+this group in Iceland.
+
+2098
+01:14:30,489 --> 01:14:31,970
+It was published in New England Journal.
+
+2099
+01:14:31,970 --> 01:14:33,070
+It's absolutely fascinating.
+
+2100
+01:14:33,070 --> 01:14:36,440
+So what they did is they
+took 12% of random sample
+
+2101
+01:14:36,440 --> 01:14:37,720
+of the Icelandic population.
+
+2102
+01:14:37,720 --> 01:14:40,750
+And they did PCR testing on
+every single one of them.
+
+2103
+01:14:40,750 --> 01:14:42,910
+And they identified the
+virus from every single one
+
+2104
+01:14:42,910 --> 01:14:44,315
+that was positive.
+
+2105
+01:14:44,315 --> 01:14:47,350
+And they sequenced the
+genome of every virus.
+
+2106
+01:14:47,350 --> 01:14:48,183
+Why is that important?
+
+2107
+01:14:48,183 --> 01:14:49,700
+Because the virus has
+these mutations there,
+
+2108
+01:14:49,700 --> 01:14:51,680
+give it like a fingerprint.
+
+2109
+01:14:51,680 --> 01:14:54,440
+And they did this detailed
+contact tracing study where they,
+
+2110
+01:14:54,440 --> 01:14:56,398
+and because they did the genetic analysis,
+
+2111
+01:14:56,398 --> 01:14:59,497
+like let's say, I have
+virus A with mutation
+
+2112
+01:14:59,497 --> 01:15:01,250
+and you have virus A and B.
+
+2113
+01:15:01,250 --> 01:15:02,083
+- [Dr. Z] Yeah.
+
+2114
+01:15:02,083 --> 01:15:03,160
+- With mutation A and B.
+
+2115
+01:15:03,160 --> 01:15:05,320
+Well, it's possible
+that I passed it to you
+
+2116
+01:15:05,320 --> 01:15:07,370
+because you added on mutation B,
+
+2117
+01:15:07,370 --> 01:15:09,510
+but it's unlikely you pass it to me.
+
+2118
+01:15:09,510 --> 01:15:10,343
+- [Dr. Z] Right.
+
+2119
+01:15:10,343 --> 01:15:11,417
+- And if I have just a mutation A
+
+2120
+01:15:11,417 --> 01:15:12,740
+and you have just mutation B,
+
+2121
+01:15:12,740 --> 01:15:13,920
+then we didn't pass it to each other.
+
+2122
+01:15:13,920 --> 01:15:15,970
+- Right separate sources yeah.
+
+2123
+01:15:15,970 --> 01:15:17,700
+- Okay, what they found was that
+
+2124
+01:15:17,700 --> 01:15:19,760
+there was not one single case
+
+2125
+01:15:19,760 --> 01:15:22,310
+of a child passing into an adult.
+
+2126
+01:15:22,310 --> 01:15:24,010
+- Not one case.
+
+2127
+01:15:24,010 --> 01:15:27,030
+- Many, many cases of parents
+passing it to their kids.
+
+2128
+01:15:27,030 --> 01:15:27,863
+- [Dr. Z] Yeah.
+
+2129
+01:15:27,863 --> 01:15:28,730
+- But not one the other way.
+
+2130
+01:15:28,730 --> 01:15:31,130
+- So why are we ignoring this data?
+
+2131
+01:15:31,130 --> 01:15:31,963
+- [Dr. Jay] I don't know.
+
+2132
+01:15:31,963 --> 01:15:34,035
+- And so here's the counter
+
+2133
+01:15:34,035 --> 01:15:35,960
+that the mainstream media will say,
+
+2134
+01:15:35,960 --> 01:15:38,970
+well, look at what's
+happening at Notre-Dame
+
+2135
+01:15:38,970 --> 01:15:41,387
+or wherever there's thousands
+of cases and, oh, my God.
+
+2136
+01:15:41,387 --> 01:15:43,020
+- Not one hospitalization, by the way.
+
+2137
+01:15:43,020 --> 01:15:43,853
+- [Dr. Z] Not a single one.
+
+2138
+01:15:43,853 --> 01:15:45,630
+- Yeah and I mean, talking
+about college kids right.
+
+2139
+01:15:45,630 --> 01:15:48,020
+So there's not one hospitalization.
+
+2140
+01:15:48,020 --> 01:15:50,360
+- Now, but what about these
+it's just these horrible vectors
+
+2141
+01:15:50,360 --> 01:15:51,700
+of disease for the elderly.
+
+2142
+01:15:51,700 --> 01:15:53,944
+- I mean, asymptomatic spread happens.
+
+2143
+01:15:53,944 --> 01:15:55,830
+That's what the evidence says,
+
+2144
+01:15:55,830 --> 01:15:59,070
+but it's much less common
+than symptomatic spread.
+
+2145
+01:15:59,070 --> 01:16:02,130
+So the diseases spread
+by mostly by droplets,
+
+2146
+01:16:02,130 --> 01:16:03,490
+you can have these aerosolization events
+
+2147
+01:16:03,490 --> 01:16:04,323
+it seems like,
+
+2148
+01:16:04,323 --> 01:16:05,700
+but they're relatively rare
+
+2149
+01:16:05,700 --> 01:16:07,030
+compared to the droplet spread,
+
+2150
+01:16:07,030 --> 01:16:08,150
+- [Dr. Z] Right.
+
+2151
+01:16:08,150 --> 01:16:10,873
+- Asymptomatic spread happens,
+but it's much more rare.
+
+2152
+01:16:14,440 --> 01:16:15,850
+Just to give you some sense,
+
+2153
+01:16:15,850 --> 01:16:20,520
+Sweden kept its schools open
+15 and under including daycare
+
+2154
+01:16:20,520 --> 01:16:22,120
+all the way through the epidemic.
+
+2155
+01:16:22,120 --> 01:16:23,290
+Even when cases were rising,
+
+2156
+01:16:23,290 --> 01:16:24,800
+even deaths were rising.
+
+2157
+01:16:24,800 --> 01:16:28,093
+And they did this detailed
+study compared to Finland.
+
+2158
+01:16:30,140 --> 01:16:32,780
+Opening and closing the
+schools does not have
+
+2159
+01:16:32,780 --> 01:16:36,010
+any appreciable effect on
+the spread of the epidemic.
+
+2160
+01:16:36,010 --> 01:16:38,100
+- The what the hell are we doing?
+
+2161
+01:16:38,100 --> 01:16:39,560
+- I don't know, I don't know.
+
+2162
+01:16:39,560 --> 01:16:42,508
+I think the evidence on this is so strong.
+
+2163
+01:16:42,508 --> 01:16:44,650
+And you read it and you just weep
+
+2164
+01:16:44,650 --> 01:16:46,285
+because you're saying, okay, we're making
+
+2165
+01:16:46,285 --> 01:16:48,895
+a scientifically uninformed decision.
+
+2166
+01:16:48,895 --> 01:16:50,420
+- You know what it is.
+
+2167
+01:16:50,420 --> 01:16:52,120
+It is also coming to this thing
+
+2168
+01:16:52,120 --> 01:16:54,700
+of what I call empathy versus compassion.
+
+2169
+01:16:54,700 --> 01:16:58,240
+So empathy is feeling another
+person's pain as your own
+
+2170
+01:16:58,240 --> 01:16:59,630
+and acting from that feeling.
+
+2171
+01:16:59,630 --> 01:17:00,820
+They ask us to do this
+
+2172
+01:17:00,820 --> 01:17:03,550
+in medicine all the time, more empathy.
+
+2173
+01:17:03,550 --> 01:17:05,770
+But what they don't realize
+is empathy is a poison
+
+2174
+01:17:05,770 --> 01:17:06,920
+when it comes to things like this,
+
+2175
+01:17:06,920 --> 01:17:08,490
+because here's what happens,
+
+2176
+01:17:08,490 --> 01:17:10,830
+I read an in some mainstream media piece
+
+2177
+01:17:10,830 --> 01:17:12,991
+about a 28 year old teacher
+
+2178
+01:17:12,991 --> 01:17:15,830
+who died of COVID after school was open
+
+2179
+01:17:15,830 --> 01:17:18,510
+and you go, oh, my God,
+the young teacher died
+
+2180
+01:17:18,510 --> 01:17:19,740
+we should never have opened the school.
+
+2181
+01:17:19,740 --> 01:17:21,740
+I feel for her and her
+family and she's young
+
+2182
+01:17:21,740 --> 01:17:23,570
+and we should just stop everything.
+
+2183
+01:17:23,570 --> 01:17:25,400
+Whereas when you look at the case,
+
+2184
+01:17:25,400 --> 01:17:26,892
+okay, what were the comorbidities?
+
+2185
+01:17:26,892 --> 01:17:27,811
+They were there.
+
+2186
+01:17:27,811 --> 01:17:29,150
+What's going on?
+
+2187
+01:17:29,150 --> 01:17:30,020
+And that's one person.
+
+2188
+01:17:30,020 --> 01:17:31,170
+Did she get it from school?
+
+2189
+01:17:31,170 --> 01:17:33,410
+We don't know, could have
+gotten it somewhere else,
+
+2190
+01:17:33,410 --> 01:17:35,360
+but we're going to now fail to do
+
+2191
+01:17:35,360 --> 01:17:36,260
+what we ought to have done,
+
+2192
+01:17:36,260 --> 01:17:39,450
+which is compassion, which
+is cognitive empathy.
+
+2193
+01:17:39,450 --> 01:17:41,430
+Understand the suffering.
+
+2194
+01:17:41,430 --> 01:17:42,950
+Look at the bigger picture.
+
+2195
+01:17:42,950 --> 01:17:45,700
+What's the most wise thing
+we can do for the most people
+
+2196
+01:17:45,700 --> 01:17:46,960
+to relieve the suffering
+
+2197
+01:17:46,960 --> 01:17:48,040
+and detach a little bit.
+
+2198
+01:17:48,040 --> 01:17:51,050
+Well, if you do that, you
+go, actually that's true.
+
+2199
+01:17:51,050 --> 01:17:52,890
+But we could have provided
+masks to the teachers
+
+2200
+01:17:52,890 --> 01:17:56,070
+and given schools an opening
+
+2201
+01:17:56,070 --> 01:18:00,250
+so that these children who are
+dying of diseases of despair
+
+2202
+01:18:00,250 --> 01:18:02,920
+or are going to, get a chance.
+
+2203
+01:18:02,920 --> 01:18:03,753
+But we don't do that.
+
+2204
+01:18:03,753 --> 01:18:04,653
+- I mean, you're arguing for it.
+
+2205
+01:18:04,653 --> 01:18:06,230
+I mean, that's a really
+nice way to put it.
+
+2206
+01:18:06,230 --> 01:18:07,326
+You're arguing for empathy for everybody.
+
+2207
+01:18:07,326 --> 01:18:10,900
+Not just for like the select few.
+
+2208
+01:18:10,900 --> 01:18:12,270
+- And the trick about empathy
+
+2209
+01:18:12,270 --> 01:18:13,390
+is it doesn't work on everybody.
+
+2210
+01:18:13,390 --> 01:18:15,920
+So Paul Bloom has written
+about this, psychologist.
+
+2211
+01:18:15,920 --> 01:18:18,038
+It is a narrow spotlight,
+
+2212
+01:18:18,038 --> 01:18:20,588
+not just on individual, but on tribe.
+
+2213
+01:18:20,588 --> 01:18:23,840
+So empathy evolved for as an in-group way.
+
+2214
+01:18:23,840 --> 01:18:25,990
+So for your kids, empathy
+is absolutely appropriate.
+
+2215
+01:18:25,990 --> 01:18:28,365
+My God, you better feel their
+pain 'cause they are you,
+
+2216
+01:18:28,365 --> 01:18:32,720
+but for a population you
+don't empathize with them.
+
+2217
+01:18:32,720 --> 01:18:34,770
+And the charities have
+known this for years.
+
+2218
+01:18:34,770 --> 01:18:37,680
+They don't show you a
+population of starving people.
+
+2219
+01:18:37,680 --> 01:18:41,700
+They show your help can help this child,
+
+2220
+01:18:41,700 --> 01:18:44,810
+you know, Sally in Sub Saharan Africa,
+
+2221
+01:18:44,810 --> 01:18:47,290
+look at her and then you go, absolutely.
+
+2222
+01:18:47,290 --> 01:18:48,360
+'Cause that's how we're wired.
+
+2223
+01:18:48,360 --> 01:18:49,193
+- Interesting.
+
+2224
+01:18:49,193 --> 01:18:50,026
+- [Dr. Z] It's really interesting.
+
+2225
+01:18:50,026 --> 01:18:52,020
+- I think that's really right.
+
+2226
+01:18:52,020 --> 01:18:53,700
+But I think compassion in the sense
+
+2227
+01:18:53,700 --> 01:18:55,680
+that you mean it exactly
+the right thing here.
+
+2228
+01:18:55,680 --> 01:18:57,920
+So we have to understand.
+
+2229
+01:18:57,920 --> 01:18:59,580
+So like the scientific evidence
+
+2230
+01:18:59,580 --> 01:19:02,640
+says that the teachers
+face about as much risk
+
+2231
+01:19:02,640 --> 01:19:07,023
+as other professions doing their work,
+
+2232
+01:19:08,010 --> 01:19:10,970
+not from the kids again,
+from other staff members.
+
+2233
+01:19:10,970 --> 01:19:13,057
+But you act on that.
+
+2234
+01:19:13,057 --> 01:19:15,230
+You said, okay, well,
+given that that's the case,
+
+2235
+01:19:15,230 --> 01:19:17,010
+so let's structure the workplace
+
+2236
+01:19:17,010 --> 01:19:19,590
+to reduce that risk as much as we can.
+
+2237
+01:19:19,590 --> 01:19:21,990
+What they're doing is a
+vital function for the kids,
+
+2238
+01:19:21,990 --> 01:19:24,913
+for society at large, they
+are absolutely essential.
+
+2239
+01:19:26,300 --> 01:19:27,770
+So they're, they're taking a risk.
+
+2240
+01:19:27,770 --> 01:19:29,330
+We should honor them for taking that risk.
+
+2241
+01:19:29,330 --> 01:19:31,630
+Just like we honor the
+doctors that have come in
+
+2242
+01:19:31,630 --> 01:19:32,540
+or the nurses that have come in
+
+2243
+01:19:32,540 --> 01:19:34,740
+to come to care for their patients.
+
+2244
+01:19:34,740 --> 01:19:37,760
+They're not doing something
+as less vital than that.
+
+2245
+01:19:37,760 --> 01:19:39,140
+- It's funny 'cause you'll see memes
+
+2246
+01:19:39,140 --> 01:19:40,020
+where it was like,
+
+2247
+01:19:40,020 --> 01:19:42,330
+teachers will say, we
+didn't sign up for this.
+
+2248
+01:19:42,330 --> 01:19:44,560
+And the nurses will say, neither did we.
+
+2249
+01:19:44,560 --> 01:19:46,610
+We didn't sign up to
+put ourselves at risk,
+
+2250
+01:19:46,610 --> 01:19:48,350
+but we do our essential job.
+
+2251
+01:19:48,350 --> 01:19:50,730
+Someone wrote a nurse wrote
+an Op-ed and it shouldn't,
+
+2252
+01:19:50,730 --> 01:19:53,420
+it's not a real contest
+between who's the bigger martyr
+
+2253
+01:19:53,420 --> 01:19:55,670
+it's the idea is that they're both honored
+
+2254
+01:19:55,670 --> 01:19:57,163
+as absolutely essential.
+
+2255
+01:19:58,600 --> 01:20:00,640
+And it's tough because you
+do feel for people too,
+
+2256
+01:20:00,640 --> 01:20:03,520
+who are at risk and
+that's why it's nuanced.
+
+2257
+01:20:03,520 --> 01:20:04,920
+And it's something you
+even opened the show with
+
+2258
+01:20:04,920 --> 01:20:06,340
+where you said you're heartbroken
+
+2259
+01:20:06,340 --> 01:20:07,572
+about the suicide statistics.
+
+2260
+01:20:07,572 --> 01:20:10,160
+That's because what you're showing is love
+
+2261
+01:20:10,160 --> 01:20:11,580
+in the face of suffering.
+
+2262
+01:20:11,580 --> 01:20:13,070
+Love and concern in the face of suffering
+
+2263
+01:20:13,070 --> 01:20:15,310
+will lead you to feel that way, right.
+
+2264
+01:20:15,310 --> 01:20:18,690
+Because you go, I can't, this is terrible.
+
+2265
+01:20:18,690 --> 01:20:21,694
+So let's have the discourse
+from a place of compassion
+
+2266
+01:20:21,694 --> 01:20:23,910
+and the way that you've been treated,
+
+2267
+01:20:23,910 --> 01:20:25,410
+I think is just abhorrent
+
+2268
+01:20:26,420 --> 01:20:28,630
+because that's not a
+compassionate response.
+
+2269
+01:20:28,630 --> 01:20:30,610
+It's let's talk if we
+disagree, that's fine.
+
+2270
+01:20:30,610 --> 01:20:32,050
+And then we can have the argument,
+
+2271
+01:20:32,050 --> 01:20:34,450
+but why are we vilifying people?
+
+2272
+01:20:34,450 --> 01:20:37,470
+- Yeah, I don't have much to complain.
+
+2273
+01:20:37,470 --> 01:20:39,960
+I actually have been
+fortunate in many ways.
+
+2274
+01:20:39,960 --> 01:20:41,160
+And actually it's been interesting
+
+2275
+01:20:41,160 --> 01:20:42,930
+from a professional point of view
+
+2276
+01:20:42,930 --> 01:20:45,268
+to be able to contribute at all to this.
+
+2277
+01:20:45,268 --> 01:20:48,263
+In many ways gratifying that
+I've had something to say,
+
+2278
+01:20:49,500 --> 01:20:52,970
+but I completely agree
+with the spirit of it.
+
+2279
+01:20:52,970 --> 01:20:54,030
+Let's look at the data.
+
+2280
+01:20:54,030 --> 01:20:56,700
+Let's make decisions that understand
+
+2281
+01:20:56,700 --> 01:20:59,570
+that we're making decisions
+
+2282
+01:20:59,570 --> 01:21:02,210
+that affect the lives of everybody,
+
+2283
+01:21:02,210 --> 01:21:03,377
+not just the people with COVID
+
+2284
+01:21:03,377 --> 01:21:08,377
+and COVID is not the only public
+health danger that we face.
+
+2285
+01:21:08,987 --> 01:21:12,670
+And that there are trade offs,
+there's risks on all sides.
+
+2286
+01:21:12,670 --> 01:21:15,370
+There's not a safe
+option where we can say,
+
+2287
+01:21:15,370 --> 01:21:18,330
+and so I think like
+cheap rhetorical tricks,
+
+2288
+01:21:18,330 --> 01:21:20,170
+like, oh, you only care about the economy.
+
+2289
+01:21:20,170 --> 01:21:21,010
+You don't care about lives.
+
+2290
+01:21:21,010 --> 01:21:22,568
+I think for the most part
+
+2291
+01:21:22,568 --> 01:21:24,930
+it's aimed at shutting
+down just conversation
+
+2292
+01:21:24,930 --> 01:21:27,100
+as opposed to having serious conversation.
+
+2293
+01:21:27,100 --> 01:21:28,586
+- Yeah, I agree, I agree.
+
+2294
+01:21:28,586 --> 01:21:31,560
+Man, was there anything
+else you wanna talk about?
+
+2295
+01:21:31,560 --> 01:21:34,240
+- I think we covered it, thank you.
+
+2296
+01:21:34,240 --> 01:21:35,073
+- Oh my gosh,
+
+2297
+01:21:35,073 --> 01:21:37,290
+this was such a enjoyable
+conversation for me
+
+2298
+01:21:37,290 --> 01:21:40,140
+because it allows an airing
+
+2299
+01:21:40,140 --> 01:21:42,180
+of this kind of side of the conversation
+
+2300
+01:21:42,180 --> 01:21:45,230
+that I just don't think we're
+getting in a clear eyed way.
+
+2301
+01:21:45,230 --> 01:21:48,561
+So if mainstream media does
+it, it's politicized by Fox.
+
+2302
+01:21:48,561 --> 01:21:52,990
+If the left does it, it's
+politicized by the media,
+
+2303
+01:21:52,990 --> 01:21:54,610
+I'm trying to create a space here
+
+2304
+01:21:54,610 --> 01:21:57,180
+and hopefully we can
+have more conversations
+
+2305
+01:21:57,180 --> 01:21:59,740
+where we just get out some
+interesting information
+
+2306
+01:21:59,740 --> 01:22:00,630
+in a clear way.
+
+2307
+01:22:00,630 --> 01:22:02,690
+- Well, I'm really honored
+to be able to talk with you.
+
+2308
+01:22:02,690 --> 01:22:04,950
+And actually it's been really interesting
+
+2309
+01:22:04,950 --> 01:22:07,233
+to be able to have this
+conversation as open.
+
+2310
+01:22:07,233 --> 01:22:08,160
+I think there's stuff
+
+2311
+01:22:08,160 --> 01:22:09,900
+we probably disagree on a little,
+
+2312
+01:22:09,900 --> 01:22:11,100
+I don't know what time.
+- Sure.
+
+2313
+01:22:11,100 --> 01:22:14,470
+- But I think having a space
+where you can actually do that,
+
+2314
+01:22:14,470 --> 01:22:15,900
+I think all of science
+should be like that.
+
+2315
+01:22:15,900 --> 01:22:17,160
+- I 100% agree.
+
+2316
+01:22:17,160 --> 01:22:18,280
+So we're gonna try increasingly
+
+2317
+01:22:18,280 --> 01:22:20,230
+to use the space for that kind of good.
+
+2318
+01:22:21,490 --> 01:22:24,490
+Guys like, I mean, this was a conversation
+
+2319
+01:22:24,490 --> 01:22:26,520
+you can disagree I want you to,
+
+2320
+01:22:26,520 --> 01:22:27,780
+I want you to leave comments.
+
+2321
+01:22:27,780 --> 01:22:29,990
+I want you to leave ad
+hominem attacks out of it,
+
+2322
+01:22:29,990 --> 01:22:30,823
+if you can,
+
+2323
+01:22:30,823 --> 01:22:32,380
+let's try to use our critical thinking.
+
+2324
+01:22:32,380 --> 01:22:34,320
+Do me a favor Just share this thing.
+
+2325
+01:22:34,320 --> 01:22:35,820
+It'll be on a podcast.
+
+2326
+01:22:35,820 --> 01:22:37,930
+It'll be on my website zdoggmd.com.
+
+2327
+01:22:37,930 --> 01:22:38,830
+It'll be on YouTube.
+
+2328
+01:22:38,830 --> 01:22:39,850
+It'll be on Facebook.
+
+2329
+01:22:39,850 --> 01:22:40,760
+Ultimately what we do
+
+2330
+01:22:40,760 --> 01:22:42,830
+is we make a little square
+out of it and caption it
+
+2331
+01:22:42,830 --> 01:22:44,742
+and put it on Facebook
+too so you can read along.
+
+2332
+01:22:44,742 --> 01:22:46,759
+The transcript will be
+out in a couple of days.
+
+2333
+01:22:46,759 --> 01:22:48,450
+I love you guys.
+
+2334
+01:22:48,450 --> 01:22:49,283
+Please stay well.
+
+2335
+01:22:49,283 --> 01:22:52,620
+Please let stop stifling
+discussion and having it.
+
+2336
+01:22:52,620 --> 01:22:55,280
+Dr. Bhattacharya I mean,
+what a real thrill,
+
+2337
+01:22:55,280 --> 01:22:56,430
+please come back.
+
+2338
+01:22:56,430 --> 01:22:57,263
+- I'd love to.
+
+2339
+01:22:57,263 --> 01:22:59,483
+- Awesome, awesome and we out peace.
+
