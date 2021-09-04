@@ -1,0 +1,19 @@
+#define  HFreq    100   //100 Hz
+#define  LED_PIN  4 
+
+void setup() {
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() {
+
+  analogWriteRange(10000);
+  analogWriteFreq( HFreq );
+
+  // 5 mp
+  for(int i=0; i<20; i++)
+  {
+    analogWrite(LED_PIN, i);
+    delay(250);
+  }
+}

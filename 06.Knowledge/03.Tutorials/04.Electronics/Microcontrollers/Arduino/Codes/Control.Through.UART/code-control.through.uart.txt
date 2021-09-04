@@ -1,0 +1,22 @@
+int MY_PIN = 13;
+
+void setup() {
+  pinMode(MY_PIN, OUTPUT);
+  digitalWrite(MY_PIN, LOW);
+  Serial.begin(9600);
+}
+
+void loop() {
+
+  if(Serial.available()){
+    char input = Serial.read();   
+
+    if (input == '1'){
+      digitalWrite(MY_PIN, HIGH); 
+      Serial.println("Turned on");
+    }else if (input == '0'){
+      digitalWrite(MY_PIN, LOW);  
+      Serial.println("Turned off");
+    }
+  }
+}

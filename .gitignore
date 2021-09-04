@@ -25,6 +25,7 @@
 **/*.JPEG
 
 **/*.sh
+**/*.bin
 
 !**/image.jpeg
 

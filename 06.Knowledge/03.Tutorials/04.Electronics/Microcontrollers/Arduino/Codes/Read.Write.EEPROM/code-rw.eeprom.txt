@@ -1,0 +1,57 @@
+#include <EEPROM.h>
+
+void setup(){
+  Serial.begin(9600, SERIAL_8N1);
+}
+
+int getNextIntegerToken(int max){
+  char * tok = strtok (NULL, " ");   
+  int int_tok = atoi(tok);
+  if (int_tok >= 0 && int_tok <= max)
+    return int_tok;
+  else
+    return -1;
+}
+
+void loop(){
+  if (Serial.available()){
+    int v;
+    String read_str = Serial.readString();
+    int n = read_str.length(); 
+    char char_array[n + 1];
+  
+    // copying the contents of the string to char array 
+    strcpy(char_array, read_str.c_str());
+    
+    char * op = strtok (char_array, " ");
+    
+    // Check if the first word is "write"
+    v = strcmp(op, "write");
+    if(v == 0){
+      
+      // Need to read 1 more parameter = address
+      int addr = getNextIntegerToken(1023);
+      if (addr >= 0){
+      
+        // Need to read 1 more parameter = value
+        int value = getNextIntegerToken(255);
+        if( value >= 0 ){
+          EEPROM.write(addr,value);
+          Serial.print("Successfully written: ");
+          Serial.println(EEPROM.read(addr));
+        }
+      }        
+    }
+    
+    // Check if the first word is "read"
+    v = strcmp(op, "read");
+    if(v == 0){
+            
+      // Need to read 1 more parameter = address
+      int addr = getNextIntegerToken(1023);
+      if (addr >= 0){
+        Serial.println(EEPROM.read(addr));
+      }
+    }
+  }
+}
