@@ -1,0 +1,29 @@
+import machine, time
+from machine import Pin
+
+trigger = Pin(5, mode=Pin.OUT, pull=None)
+echo = Pin(4, mode=Pin.IN, pull=None)
+echo_timeout_us=500*2*30
+
+def getPulse():
+   trigger.value(0) 
+   time.sleep_us(5)
+   trigger.value(1)
+   time.sleep_us(20)
+   trigger.value(0)
+
+   try:
+      pulse_time = machine.time_pulse_us(echo, 1, echo_timeout_us)
+      return pulse_time
+   except OSError as ex:
+      if ex.args[0] == 110: 
+         raise OSError('Out of range')
+         raise ex
+
+def getDistanceMm():
+    pulse = getPulse()
+    return int(0.1716 * pulse)
+
+while True:
+    time.sleep_ms(1000)
+    print(getDistanceMm() )
