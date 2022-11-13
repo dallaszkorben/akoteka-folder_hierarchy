@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>  </title>
+    
+    <!-- Include CSS -->
+    <link href="https://www.murtazahassan.com/wp-content/plugins/onecom-under-construction/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://www.murtazahassan.com/wp-content/plugins/onecom-under-construction/themes/theme-1/style.css?ver=1.0.6" rel="stylesheet">
+
+    <!-- Include JS -->
+    <script src="https://www.murtazahassan.com/wp-content/plugins/onecom-under-construction/assets/js/jquery.min.js"></script>
+    <script src="https://www.murtazahassan.com/wp-content/plugins/onecom-under-construction/assets/js/script.js?ver=1.0.6"></script>
+
+    <!-- WordPress meta tag generator -->
+    <meta name="generator" content="WordPress 5.8.2">
+    <!-- Design Customization -->
+    <style>
+        body {
+            background:  url('/wp-content/plugins/onecom-under-construction/assets/images/design-1-bg.jpeg') no-repeat top center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        
+        /** Firefox - Mobile only CSS fix for placeholder padding */
+        @-moz-document url-prefix() {
+            .ocuc-page .oc-captcha-wrap .oc-captcha-val {
+                margin: 1px;
+                border: 1px solid #ccc;
+                height: 24px;
+            }
+
+            .ocuc-page .newsletter .form-control.oc-newsletter-input {
+                padding: 0.8rem 1.2rem;
+            }
+        }
+
+            </style>
+
+    <!-- Include ajax, timer js, and analytics js -->
+    <script>
+        var oc_ajax = {
+            ajaxurl: 'https://www.murtazahassan.com/wp-admin/admin-ajax.php'
+        }
+    </script>
+    </head>
+
+<body>
+    <div class="wrapper ocuc-page">
+        <div class="container">
+            <main class="ocuc-content-box">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <!-- Display logo or site title -->
+                        <div class="ocuc-site-title-logo">
+                            <h1>Murtaza Hassan</h1>                        </div>
+
+                        <!-- Display the headline -->
+                                                    <h2 class="ocuc-headline">
+                                The website is shifted to                            </h2>
+                        
+                        
+                        
+                        <div class="ocuc-description">
+                            <em><a href="http://www.computervision.zone">www.computervision.zone</a></em>                        </div>
+
+                                                    <div class="ocuc-copyright">
+                                Copyright © 2021. All rights reserved                            </div>
+                                            </div>
+                </div>
+            </main>
+
+            
+        </div>
+    </div>
+    </body>
+</html>
